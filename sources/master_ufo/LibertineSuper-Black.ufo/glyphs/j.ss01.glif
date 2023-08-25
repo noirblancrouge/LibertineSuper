@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="j.ss01" format="2">
+  <advance width="397"/>
+  <anchor x="287.0" y="814.0" name="top"/>
+  <outline>
+    <component base="jdotless.ss01"/>
+    <component base="dotaccentcomb" xOffset="-93.3" yOffset="114"/>
+  </outline>
+</glyph>

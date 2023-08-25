@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dmacronbelow.ss01" format="2">
+  <advance width="503"/>
+  <anchor x="253" y="-5" name="bottom"/>
+  <anchor x="253" y="284" name="center"/>
+  <anchor x="253" y="806" name="top"/>
+  <anchor x="484" y="806" name="topright"/>
+  <outline>
+    <component base="d.ss01"/>
+    <component base="macronbelowcomb" xOffset="35" yOffset="-5"/>
+  </outline>
+</glyph>

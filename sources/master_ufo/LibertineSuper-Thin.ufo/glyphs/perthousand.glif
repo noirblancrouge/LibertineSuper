@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="perthousand" format="2">
+  <advance width="500"/>
+  <unicode hex="2030"/>
+  <outline>
+    <contour>
+      <point x="22.126" y="142.742" type="curve" smooth="yes"/>
+      <point x="451.612" y="735.671" type="line" smooth="yes"/>
+      <point x="452.808" y="737.318"/>
+      <point x="453.513" y="739.345"/>
+      <point x="453.513" y="741.537" type="curve" smooth="yes"/>
+      <point x="453.513" y="747.06"/>
+      <point x="449.036" y="751.537"/>
+      <point x="443.513" y="751.537" type="curve" smooth="yes"/>
+      <point x="440.182" y="751.537"/>
+      <point x="437.231" y="749.908"/>
+      <point x="435.414" y="747.403" type="curve" smooth="yes"/>
+      <point x="5.928" y="154.474" type="line" smooth="yes"/>
+      <point x="4.732" y="152.827"/>
+      <point x="4.027" y="150.8"/>
+      <point x="4.027" y="148.608" type="curve" smooth="yes"/>
+      <point x="4.027" y="143.085"/>
+      <point x="8.504" y="138.608"/>
+      <point x="14.027" y="138.608" type="curve" smooth="yes"/>
+      <point x="17.358" y="138.608"/>
+      <point x="20.309" y="140.237"/>
+    </contour>
+    <component base="zero.dnom" xScale="0.8667" yScale="0.8667" xOffset="156" yOffset="1"/>
+    <component base="zero.dnom" xScale="0.8667" yScale="0.8667" xOffset="244" yOffset="1"/>
+    <component base="zero.dnom" xScale="0.8667" yScale="0.8667" xOffset="-5" yOffset="454"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CCCP</string>
+    </dict>
+  </lib>
+</glyph>

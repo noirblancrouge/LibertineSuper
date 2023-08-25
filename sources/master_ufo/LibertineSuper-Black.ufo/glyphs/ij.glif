@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ij" format="2">
+  <advance width="688.26"/>
+  <unicode hex="0133"/>
+  <anchor x="256" y="-1" name="bottom"/>
+  <anchor x="256.0" y="52.184" name="ogonek"/>
+  <anchor x="256.0" y="814.0" name="top_1"/>
+  <anchor x="567.441" y="814.0" name="top_2"/>
+  <outline>
+    <component base="i"/>
+    <component base="j" xOffset="280.441"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>j</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

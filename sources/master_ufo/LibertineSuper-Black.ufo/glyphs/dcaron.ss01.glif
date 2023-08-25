@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dcaron.ss01" format="2">
+  <advance width="780.14"/>
+  <anchor x="314" y="0" name="bottom"/>
+  <anchor x="314" y="285" name="center"/>
+  <anchor x="518.0" y="651.935" name="top"/>
+  <anchor x="561" y="800" name="topright"/>
+  <outline>
+    <component base="d.ss01"/>
+    <component base="caroncomb.alt" xOffset="226.99" yOffset="-48.065"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>d.ss01</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>caroncomb.alt</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

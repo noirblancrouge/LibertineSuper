@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="napostrophe.ss01" format="2">
+  <advance width="815.86"/>
+  <anchor x="533.86" y="0" name="bottom"/>
+  <anchor x="533.86" y="570" name="top"/>
+  <outline>
+    <component base="n.ss01" xOffset="231.86"/>
+    <component base="quoteright" xOffset="1" yOffset="-57"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>n.ss01</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

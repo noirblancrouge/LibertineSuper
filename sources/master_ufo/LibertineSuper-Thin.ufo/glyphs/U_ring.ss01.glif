@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Uring.ss01" format="2">
+  <advance width="539"/>
+  <anchor x="269" y="-5" name="bottom"/>
+  <anchor x="282" y="2" name="ogonek"/>
+  <anchor x="269" y="1016" name="top"/>
+  <anchor x="518" y="753" name="topright"/>
+  <outline>
+    <component base="U.ss01"/>
+    <component base="ringcomb" xOffset="-58" yOffset="210"/>
+  </outline>
+</glyph>

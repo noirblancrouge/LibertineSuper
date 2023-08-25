@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Tbar" format="2">
+  <advance width="570"/>
+  <unicode hex="0166"/>
+  <anchor x="285" y="0" name="bottom"/>
+  <anchor x="285.0" y="373.5" name="center"/>
+  <anchor x="285" y="747" name="top"/>
+  <outline>
+    <contour>
+      <point x="479.87" y="415" type="curve" smooth="yes"/>
+      <point x="79.87" y="415" type="line" smooth="yes"/>
+      <point x="46.733" y="415"/>
+      <point x="19.87" y="388.137"/>
+      <point x="19.87" y="355" type="curve" smooth="yes"/>
+      <point x="19.87" y="321.863"/>
+      <point x="46.733" y="295"/>
+      <point x="79.87" y="295" type="curve" smooth="yes"/>
+      <point x="479.87" y="295" type="line" smooth="yes"/>
+      <point x="513.007" y="295"/>
+      <point x="539.87" y="321.863"/>
+      <point x="539.87" y="355" type="curve" smooth="yes"/>
+      <point x="539.87" y="388.137"/>
+      <point x="513.007" y="415"/>
+    </contour>
+    <component base="T"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
+</glyph>

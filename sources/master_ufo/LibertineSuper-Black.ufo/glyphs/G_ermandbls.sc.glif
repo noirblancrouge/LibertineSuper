@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Germandbls.sc" format="2">
+  <advance width="723"/>
+  <anchor x="323.0" y="35.098" name="bottom"/>
+  <anchor x="323.0" y="569.198" name="top"/>
+  <outline>
+    <component base="Germandbls" yScale="0.763"/>
+  </outline>
+</glyph>

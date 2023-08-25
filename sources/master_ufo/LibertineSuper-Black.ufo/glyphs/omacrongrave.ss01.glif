@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="omacrongrave.ss01" format="2">
+  <advance width="618"/>
+  <anchor x="309" y="0" name="bottom"/>
+  <anchor x="309" y="285" name="center"/>
+  <anchor x="360" y="7" name="ogonek"/>
+  <anchor x="309.0" y="1092.0" name="top"/>
+  <anchor x="551" y="570" name="topright"/>
+  <outline>
+    <component base="o.ss01"/>
+    <component base="macroncomb" xOffset="-100" yOffset="115"/>
+    <component base="gravecomb" xOffset="-21.87" yOffset="345"/>
+  </outline>
+</glyph>

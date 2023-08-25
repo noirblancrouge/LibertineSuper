@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="igrave.ss01" format="2">
+  <advance width="257"/>
+  <anchor x="197" y="-5" name="bottom"/>
+  <anchor x="197" y="779" name="top"/>
+  <outline>
+    <component base="idotless.ss01"/>
+    <component base="gravecomb" xOffset="-56" yOffset="32"/>
+  </outline>
+</glyph>

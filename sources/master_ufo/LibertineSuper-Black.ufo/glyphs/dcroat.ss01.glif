@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dcroat.ss01" format="2">
+  <advance width="619"/>
+  <anchor x="314" y="0" name="bottom"/>
+  <anchor x="314" y="285" name="center"/>
+  <anchor x="314" y="800" name="top"/>
+  <anchor x="561" y="800" name="topright"/>
+  <outline>
+    <contour>
+      <point x="395" y="594" type="curve" smooth="yes"/>
+      <point x="552" y="594" type="line" smooth="yes"/>
+      <point x="585.137" y="594"/>
+      <point x="612" y="620.863"/>
+      <point x="612" y="654" type="curve" smooth="yes"/>
+      <point x="612" y="687.137"/>
+      <point x="585.137" y="714"/>
+      <point x="552" y="714" type="curve" smooth="yes"/>
+      <point x="395" y="714" type="line" smooth="yes"/>
+      <point x="361.863" y="714"/>
+      <point x="335" y="687.137"/>
+      <point x="335" y="654" type="curve" smooth="yes"/>
+      <point x="335" y="620.863"/>
+      <point x="361.863" y="594"/>
+    </contour>
+    <component base="d.ss01"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="5.0">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="100" maximum="900" default="100">
+      <map input="100" output="10"/>
+      <map input="200" output="55"/>
+      <map input="300" output="90"/>
+      <map input="400" output="125"/>
+      <map input="500" output="160"/>
+      <map input="700" output="195"/>
+      <map input="900" output="220"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="LibertineSuper-Thin.ufo" name="Libertine Super Thin" familyname="Libertine Super" stylename="Thin">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="10"/>
+      </location>
+    </source>
+    <source filename="LibertineSuper-Black.ufo" name="Libertine Super Black" familyname="Libertine Super" stylename="Black">
+      <location>
+        <dimension name="Weight" xvalue="220"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Libertine Super Thin" familyname="Libertine Super" stylename="Thin" filename="../instance_ufo/LibertineSuper-Thin.ufo" stylemapfamilyname="Libertine Super Thin" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="10"/>
+      </location>
+    </instance>
+    <instance name="Libertine Super ExtraLight" familyname="Libertine Super" stylename="ExtraLight" filename="../instance_ufo/LibertineSuper-ExtraLight.ufo" stylemapfamilyname="Libertine Super ExtraLight" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="55"/>
+      </location>
+    </instance>
+    <instance name="Libertine Super Light" familyname="Libertine Super" stylename="Light" filename="../instance_ufo/LibertineSuper-Light.ufo" stylemapfamilyname="Libertine Super Light" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+      </location>
+    </instance>
+    <instance name="Libertine Super Regular" familyname="Libertine Super" stylename="Regular" filename="../instance_ufo/LibertineSuper-Regular.ufo" stylemapfamilyname="Libertine Super" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="125"/>
+      </location>
+    </instance>
+    <instance name="Libertine Super Medium" familyname="Libertine Super" stylename="Medium" filename="../instance_ufo/LibertineSuper-Medium.ufo" stylemapfamilyname="Libertine Super Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="160"/>
+      </location>
+    </instance>
+    <instance name="Libertine Super Bold" familyname="Libertine Super" stylename="Bold" filename="../instance_ufo/LibertineSuper-Bold.ufo" stylemapfamilyname="Libertine Super Bold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="195"/>
+      </location>
+    </instance>
+    <instance name="Libertine Super Black" familyname="Libertine Super" stylename="Black" filename="../instance_ufo/LibertineSuper-Black.ufo" stylemapfamilyname="Libertine Super Black" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="220"/>
+      </location>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>public.skipExportGlyphs</key>
+      <array>
+        <string>A.sc</string>
+        <string>AE.sc</string>
+        <string>AEacute.sc</string>
+        <string>Aacute.sc</string>
+        <string>Abreve.sc</string>
+        <string>Acircumflex.sc</string>
+        <string>Adieresis.sc</string>
+        <string>Adotbelow.sc</string>
+        <string>Agrave.sc</string>
+        <string>Amacron.sc</string>
+        <string>Aogonek.sc</string>
+        <string>Aring.sc</string>
+        <string>Aringacute.sc</string>
+        <string>Atilde.sc</string>
+        <string>B.sc</string>
+        <string>C.sc</string>
+        <string>Cacute.sc</string>
+        <string>Ccaron.sc</string>
+        <string>Ccedilla.sc</string>
+        <string>Ccircumflex.sc</string>
+        <string>Cdotaccent.sc</string>
+        <string>D.sc</string>
+        <string>Dcaron.sc</string>
+        <string>Dcroat.sc</string>
+        <string>E.sc</string>
+        <string>Eacute.sc</string>
+        <string>Ebreve.sc</string>
+        <string>Ecaron.sc</string>
+        <string>Ecircumflex.sc</string>
+        <string>Edieresis.sc</string>
+        <string>Edotaccent.sc</string>
+        <string>Edotbelow.sc</string>
+        <string>Egrave.sc</string>
+        <string>Emacron.sc</string>
+        <string>Eng.sc</string>
+        <string>Eogonek.sc</string>
+        <string>Eth.sc</string>
+        <string>Etilde.sc</string>
+        <string>F.sc</string>
+        <string>G.sc</string>
+        <string>Gbreve.sc</string>
+        <string>Gcaron.sc</string>
+        <string>Gcircumflex.sc</string>
+        <string>Gcommaaccent.sc</string>
+        <string>Gdotaccent.sc</string>
+        <string>Germandbls.sc</string>
+        <string>H.sc</string>
+        <string>Hbar.sc</string>
+        <string>Hcircumflex.sc</string>
+        <string>I.sc</string>
+        <string>IJ.sc</string>
+        <string>Iacute.sc</string>
+        <string>Ibreve.sc</string>
+        <string>Icircumflex.sc</string>
+        <string>Idieresis.sc</string>
+        <string>Idotaccent.sc</string>
+        <string>Igrave.sc</string>
+        <string>Imacron.sc</string>
+        <string>Iogonek.sc</string>
+        <string>Itilde.sc</string>
+        <string>J.sc</string>
+        <string>K.sc</string>
+        <string>Kcommaaccent.sc</string>
+        <string>L.sc</string>
+        <string>Lacute.sc</string>
+        <string>Lcaron.sc</string>
+        <string>Lcommaaccent.sc</string>
+        <string>Ldot.sc</string>
+        <string>Lslash.sc</string>
+        <string>M.sc</string>
+        <string>N.sc</string>
+        <string>Nacute.sc</string>
+        <string>Ncaron.sc</string>
+        <string>Ncommaaccent.sc</string>
+        <string>Nhookleft.sc</string>
+        <string>Ntilde.sc</string>
+        <string>O.sc</string>
+        <string>OE.sc</string>
+        <string>Oacute.sc</string>
+        <string>Obreve.sc</string>
+        <string>Ocircumflex.sc</string>
+        <string>Odieresis.sc</string>
+        <string>Odotbelow.sc</string>
+        <string>Ograve.sc</string>
+        <string>Ohungarumlaut.sc</string>
+        <string>Omacron.sc</string>
+        <string>Oogonek.sc</string>
+        <string>Oslash.sc</string>
+        <string>Oslashacute.sc</string>
+        <string>Otilde.sc</string>
+        <string>P.sc</string>
+        <string>Q.sc</string>
+        <string>R.sc</string>
+        <string>Racute.sc</string>
+        <string>Rcaron.sc</string>
+        <string>Rcommaaccent.sc</string>
+        <string>S.sc</string>
+        <string>Sacute.sc</string>
+        <string>Scaron.sc</string>
+        <string>Scedilla.sc</string>
+        <string>Scircumflex.sc</string>
+        <string>Scommaaccent.sc</string>
+        <string>T.sc</string>
+        <string>Tbar.sc</string>
+        <string>Tcedilla.sc</string>
+        <string>Tcommaaccent.sc</string>
+        <string>Thorn.sc</string>
+        <string>U.sc</string>
+        <string>Uacute.sc</string>
+        <string>Ubreve.sc</string>
+        <string>Ucircumflex.sc</string>
+        <string>Udieresis.sc</string>
+        <string>Udotbelow.sc</string>
+        <string>Ugrave.sc</string>
+        <string>Uhungarumlaut.sc</string>
+        <string>Umacron.sc</string>
+        <string>Uogonek.sc</string>
+        <string>Uring.sc</string>
+        <string>Utilde.sc</string>
+        <string>V.sc</string>
+        <string>W.sc</string>
+        <string>Wacute.sc</string>
+        <string>Wcircumflex.sc</string>
+        <string>Wdieresis.sc</string>
+        <string>Wgrave.sc</string>
+        <string>X.sc</string>
+        <string>Y.sc</string>
+        <string>Yacute.sc</string>
+        <string>Ycircumflex.sc</string>
+        <string>Ydieresis.sc</string>
+        <string>Ygrave.sc</string>
+        <string>Ymacron.sc</string>
+        <string>Ytilde.sc</string>
+        <string>Z.sc</string>
+        <string>Zacute.sc</string>
+        <string>Zcaron.sc</string>
+        <string>Zdotaccent.sc</string>
+      </array>
+    </dict>
+  </lib>
+</designspace>

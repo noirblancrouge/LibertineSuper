@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="brokenbar" format="2">
+  <advance width="241"/>
+  <unicode hex="00A6"/>
+  <outline>
+    <contour>
+      <point x="109" y="474" type="curve" smooth="yes"/>
+      <point x="109" y="792" type="line" smooth="yes"/>
+      <point x="109" y="797"/>
+      <point x="105" y="801"/>
+      <point x="99" y="801" type="curve" smooth="yes"/>
+      <point x="93" y="801"/>
+      <point x="89" y="797"/>
+      <point x="89" y="792" type="curve" smooth="yes"/>
+      <point x="89" y="474" type="line" smooth="yes"/>
+      <point x="89" y="468"/>
+      <point x="93" y="464"/>
+      <point x="99" y="464" type="curve" smooth="yes"/>
+      <point x="105" y="464"/>
+      <point x="109" y="468"/>
+    </contour>
+    <contour>
+      <point x="89" y="297" type="curve" smooth="yes"/>
+      <point x="89" y="-21" type="line" smooth="yes"/>
+      <point x="89" y="-27"/>
+      <point x="93" y="-31"/>
+      <point x="99" y="-31" type="curve" smooth="yes"/>
+      <point x="105" y="-31"/>
+      <point x="109" y="-27"/>
+      <point x="109" y="-21" type="curve" smooth="yes"/>
+      <point x="109" y="297" type="line" smooth="yes"/>
+      <point x="109" y="303"/>
+      <point x="105" y="307"/>
+      <point x="99" y="307" type="curve" smooth="yes"/>
+      <point x="93" y="307"/>
+      <point x="89" y="303"/>
+    </contour>
+  </outline>
+</glyph>

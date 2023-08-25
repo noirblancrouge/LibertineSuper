@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Sdotbelowdotaccent" format="2">
+  <advance width="445"/>
+  <unicode hex="1E68"/>
+  <anchor x="222" y="-5" name="bottom"/>
+  <anchor x="222" y="932" name="top"/>
+  <outline>
+    <component base="S"/>
+    <component base="dotbelowcomb" xOffset="16.29" yOffset="-5"/>
+    <component base="dotaccentcomb" xOffset="-104" yOffset="179"/>
+  </outline>
+</glyph>

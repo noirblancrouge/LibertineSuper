@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Nacute.ss01" format="2">
+  <advance width="568"/>
+  <anchor x="284" y="0" name="bottom"/>
+  <anchor x="284" y="991" name="top"/>
+  <outline>
+    <component base="N.ss01"/>
+    <component base="acutecomb" xOffset="-27" yOffset="291"/>
+  </outline>
+</glyph>

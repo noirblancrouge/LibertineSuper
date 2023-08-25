@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Hbar.ss01" format="2">
+  <advance width="697"/>
+  <anchor x="369.1" y="0.0" name="bottom"/>
+  <anchor x="369.1" y="373.5" name="center"/>
+  <anchor x="369.1" y="747.0" name="top"/>
+  <anchor x="145.1" y="747.0" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="607" y="625" type="curve" smooth="yes"/>
+      <point x="130" y="625" type="line" smooth="yes"/>
+      <point x="96.863" y="625"/>
+      <point x="70" y="598.137"/>
+      <point x="70" y="565" type="curve" smooth="yes"/>
+      <point x="70" y="531.863"/>
+      <point x="96.863" y="505"/>
+      <point x="130" y="505" type="curve" smooth="yes"/>
+      <point x="607" y="505" type="line" smooth="yes"/>
+      <point x="640.137" y="505"/>
+      <point x="667" y="531.863"/>
+      <point x="667" y="565" type="curve" smooth="yes"/>
+      <point x="667" y="598.137"/>
+      <point x="640.137" y="625"/>
+    </contour>
+    <component base="H.ss01" xOffset="78.3"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
+</glyph>

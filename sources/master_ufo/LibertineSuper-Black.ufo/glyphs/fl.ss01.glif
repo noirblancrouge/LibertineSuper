@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fl.ss01" format="2">
+  <advance width="774.27"/>
+  <anchor x="224" y="0" name="bottom_1"/>
+  <anchor x="654.2719999999999" y="-1" name="bottom_2"/>
+  <anchor x="586.2719999999999" y="400" name="center"/>
+  <anchor x="224" y="800" name="top_1"/>
+  <anchor x="654.2719999999999" y="800" name="top_2"/>
+  <anchor x="707.2719999999999" y="800" name="topright"/>
+  <outline>
+    <component base="f.ss01"/>
+    <component base="l.ss01" xOffset="398.272"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>l.ss01</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

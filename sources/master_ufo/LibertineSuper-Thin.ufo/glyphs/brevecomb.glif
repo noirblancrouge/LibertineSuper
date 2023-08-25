@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="brevecomb" format="2">
+  <unicode hex="0306"/>
+  <anchor x="297" y="543" name="_top"/>
+  <anchor x="297" y="806" name="top"/>
+  <outline>
+    <contour>
+      <point x="393" y="750" type="curve" smooth="yes"/>
+      <point x="395" y="741"/>
+      <point x="397" y="730"/>
+      <point x="397" y="722" type="curve" smooth="yes"/>
+      <point x="397" y="664"/>
+      <point x="353" y="620"/>
+      <point x="297" y="620" type="curve" smooth="yes"/>
+      <point x="241" y="620"/>
+      <point x="196" y="663"/>
+      <point x="196" y="722" type="curve" smooth="yes"/>
+      <point x="196" y="730"/>
+      <point x="198" y="741"/>
+      <point x="200" y="750" type="curve" smooth="yes"/>
+      <point x="200.062" y="750.37"/>
+      <point x="200.101" y="750.741"/>
+      <point x="200.118" y="751.109" type="curve" smooth="yes"/>
+      <point x="200.379" y="756.718"/>
+      <point x="195.63" y="762"/>
+      <point x="190" y="762" type="curve" smooth="yes"/>
+      <point x="186" y="762"/>
+      <point x="182" y="759"/>
+      <point x="181" y="754" type="curve" smooth="yes"/>
+      <point x="179" y="745"/>
+      <point x="177" y="732"/>
+      <point x="177" y="722" type="curve" smooth="yes"/>
+      <point x="177" y="654"/>
+      <point x="232" y="600"/>
+      <point x="297" y="600" type="curve" smooth="yes"/>
+      <point x="362" y="600"/>
+      <point x="417" y="655"/>
+      <point x="417" y="722" type="curve" smooth="yes"/>
+      <point x="417" y="732"/>
+      <point x="415" y="745"/>
+      <point x="413" y="754" type="curve" smooth="yes"/>
+      <point x="412" y="759"/>
+      <point x="408" y="762"/>
+      <point x="403" y="762" type="curve" smooth="yes"/>
+      <point x="397.519" y="762"/>
+      <point x="392.872" y="756.993"/>
+      <point x="392.872" y="751.552" type="curve" smooth="yes"/>
+      <point x="392.872" y="751.037"/>
+      <point x="392.914" y="750.519"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>592</integer>
+    </dict>
+  </lib>
+</glyph>

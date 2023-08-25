@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ecedillabreve" format="2">
+  <advance width="469"/>
+  <unicode hex="1E1D"/>
+  <anchor x="235" y="-5" name="bottom"/>
+  <anchor x="270" y="3" name="ogonek"/>
+  <anchor x="245" y="836" name="top"/>
+  <outline>
+    <component base="e"/>
+    <component base="cedillacomb" xOffset="-101"/>
+    <component base="brevecomb" xOffset="-52" yOffset="30"/>
+  </outline>
+</glyph>

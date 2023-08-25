@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="nhookleft.ss01" format="2">
+  <advance width="472.00001"/>
+  <anchor x="242" y="-5" name="bottom"/>
+  <anchor x="242" y="573" name="top"/>
+  <outline>
+    <contour>
+      <point x="60" y="16" type="curve" smooth="yes"/>
+      <point x="60" y="-144" type="line" smooth="yes"/>
+      <point x="60" y="-197.123"/>
+      <point x="-10.085" y="-214.011"/>
+      <point x="-57.146" y="-169.718" type="curve" smooth="yes"/>
+      <point x="-58.936" y="-168.033"/>
+      <point x="-61.348" y="-167"/>
+      <point x="-64" y="-167" type="curve" smooth="yes"/>
+      <point x="-69.523" y="-167"/>
+      <point x="-74" y="-171.477"/>
+      <point x="-74" y="-177" type="curve" smooth="yes"/>
+      <point x="-74" y="-179.87"/>
+      <point x="-72.791" y="-182.458"/>
+      <point x="-70.854" y="-184.282" type="curve" smooth="yes"/>
+      <point x="-14.168" y="-237.634"/>
+      <point x="80" y="-214.877"/>
+      <point x="80" y="-144" type="curve" smooth="yes"/>
+      <point x="80" y="16" type="line" smooth="yes"/>
+      <point x="80" y="21.523"/>
+      <point x="75.523" y="26"/>
+      <point x="70" y="26" type="curve" smooth="yes"/>
+      <point x="64.477" y="26"/>
+      <point x="60" y="21.523"/>
+    </contour>
+    <component base="n.ss01"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
+</glyph>

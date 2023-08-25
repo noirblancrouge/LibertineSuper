@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="AE" format="2">
+  <advance width="773.21"/>
+  <unicode hex="00C6"/>
+  <anchor x="509.21" y="747" name="top"/>
+  <anchor x="560.21" y="-5" name="bottom"/>
+  <anchor x="689.21" y="5" name="ogonek"/>
+  <anchor x="363.21" y="753" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="413.35" y="741.639" type="curve" smooth="yes"/>
+      <point x="31.049" y="14.639" type="line" smooth="yes"/>
+      <point x="30.375" y="13.354"/>
+      <point x="30.035" y="11.908"/>
+      <point x="30.006" y="10.437" type="curve" smooth="yes"/>
+      <point x="29.906" y="5.364"/>
+      <point x="33.511" y="0"/>
+      <point x="39.91" y="0" type="curve" smooth="yes"/>
+      <point x="43.758" y="0"/>
+      <point x="47.099" y="2.174"/>
+      <point x="48.77" y="5.361" type="curve" smooth="yes"/>
+      <point x="431.07" y="732.361" type="line" smooth="yes"/>
+      <point x="431.803" y="733.754"/>
+      <point x="432.142" y="745.401"/>
+      <point x="432.116" y="747" type="curve"/>
+      <point x="422.21" y="747" type="line"/>
+      <point x="418.361" y="747"/>
+      <point x="415.025" y="744.824"/>
+    </contour>
+    <contour>
+      <point x="161.21" y="227" type="curve" smooth="yes"/>
+      <point x="416.21" y="227" type="line" smooth="yes"/>
+      <point x="421.733" y="227"/>
+      <point x="426.21" y="231.477"/>
+      <point x="426.21" y="237" type="curve" smooth="yes"/>
+      <point x="426.21" y="242.523"/>
+      <point x="421.733" y="247"/>
+      <point x="416.21" y="247" type="curve" smooth="yes"/>
+      <point x="161.21" y="247" type="line" smooth="yes"/>
+      <point x="155.687" y="247"/>
+      <point x="151.21" y="242.523"/>
+      <point x="151.21" y="237" type="curve" smooth="yes"/>
+      <point x="151.21" y="231.477"/>
+      <point x="155.687" y="227"/>
+    </contour>
+    <contour>
+      <point x="205.21" y="311" type="curve" smooth="yes"/>
+      <point x="417.21" y="311" type="line" smooth="yes"/>
+      <point x="422.733" y="311"/>
+      <point x="427.21" y="315.477"/>
+      <point x="427.21" y="321" type="curve" smooth="yes"/>
+      <point x="427.21" y="326.523"/>
+      <point x="422.733" y="331"/>
+      <point x="417.21" y="331" type="curve" smooth="yes"/>
+      <point x="205.21" y="331" type="line" smooth="yes"/>
+      <point x="199.687" y="331"/>
+      <point x="195.21" y="326.523"/>
+      <point x="195.21" y="321" type="curve" smooth="yes"/>
+      <point x="195.21" y="315.477"/>
+      <point x="199.687" y="311"/>
+    </contour>
+    <component base="E" xOffset="342.21"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>E</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PPPC</string>
+    </dict>
+  </lib>
+</glyph>
