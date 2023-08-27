@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<glyph name="uni0000" format="2">
+<glyph name="logo_ls" format="2">
   <advance width="1001"/>
   <outline>
     <contour>
@@ -172,7 +172,7 @@
           <key>place</key>
           <array>
             <integer>6</integer>
-            <integer>34</integer>
+            <integer>36</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -188,8 +188,8 @@
           <integer>0</integer>
           <key>place</key>
           <array>
-            <integer>164</integer>
-            <integer>21</integer>
+            <integer>175</integer>
+            <integer>22</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -205,42 +205,42 @@
           <integer>0</integer>
           <key>place</key>
           <array>
-            <integer>507</integer>
+            <integer>539</integer>
+            <integer>28</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>732</integer>
+            <integer>22</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>839</integer>
             <integer>26</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>name</key>
-          <string></string>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>688</integer>
-            <integer>21</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>name</key>
-          <string></string>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>789</integer>
-            <integer>25</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -256,7 +256,41 @@
           <integer>0</integer>
           <key>place</key>
           <array>
-            <integer>35</integer>
+            <integer>36</integer>
+            <integer>49</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>536</integer>
+            <integer>83</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>696</integer>
             <integer>46</integer>
           </array>
           <key>stem</key>
@@ -273,24 +307,7 @@
           <integer>0</integer>
           <key>place</key>
           <array>
-            <integer>503</integer>
-            <integer>78</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>name</key>
-          <string></string>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>653</integer>
+            <integer>953</integer>
             <integer>42</integer>
           </array>
           <key>stem</key>
@@ -300,23 +317,6 @@
         </dict>
         <dict>
           <key>horizontal</key>
-          <false/>
-          <key>name</key>
-          <string></string>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>896</integer>
-            <integer>39</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
           <true/>
           <key>name</key>
           <string></string>
@@ -324,8 +324,8 @@
           <integer>0</integer>
           <key>place</key>
           <array>
-            <integer>194</integer>
-            <integer>23</integer>
+            <integer>207</integer>
+            <integer>24</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -342,7 +342,7 @@
           <key>place</key>
           <array>
             <integer>2</integer>
-            <integer>77</integer>
+            <integer>82</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -358,8 +358,8 @@
           <integer>0</integer>
           <key>place</key>
           <array>
-            <integer>721</integer>
-            <integer>77</integer>
+            <integer>768</integer>
+            <integer>82</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -376,7 +376,7 @@
           <key>place</key>
           <array>
             <integer>2</integer>
-            <integer>183</integer>
+            <integer>195</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -392,8 +392,8 @@
           <integer>0</integer>
           <key>place</key>
           <array>
-            <integer>485</integer>
-            <integer>77</integer>
+            <integer>516</integer>
+            <integer>82</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

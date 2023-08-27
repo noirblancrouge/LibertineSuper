@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<glyph name="uni0002" format="2">
+<glyph name="logo_full" format="2">
   <advance width="3852"/>
-  <unicode hex="0002"/>
   <outline>
     <contour>
       <point x="2009" y="251" type="curve" smooth="yes"/>
@@ -979,8 +978,8 @@
           <integer>0</integer>
           <key>place</key>
           <array>
-            <integer>-160</integer>
-            <integer>15</integer>
+            <integer>-152</integer>
+            <integer>14</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -997,7 +996,7 @@
           <key>place</key>
           <array>
             <integer>2</integer>
-            <integer>261</integer>
+            <integer>249</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -1013,8 +1012,8 @@
           <integer>0</integer>
           <key>place</key>
           <array>
-            <integer>2040</integer>
-            <integer>41</integer>
+            <integer>1943</integer>
+            <integer>39</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -1030,688 +1029,8 @@
           <integer>0</integer>
           <key>place</key>
           <array>
-            <integer>18</integer>
-            <integer>25</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>name</key>
-          <string></string>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>222</integer>
-            <integer>129</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>name</key>
-          <string></string>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>686</integer>
-            <integer>53</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>name</key>
-          <string></string>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>222</integer>
-            <integer>265</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>name</key>
-          <string></string>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>505</integer>
-            <integer>48</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>name</key>
-          <string></string>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>-3</integer>
-            <integer>46</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>name</key>
-          <string></string>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>344</integer>
-            <integer>18</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>name</key>
-          <string></string>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>30</integer>
-            <integer>55</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>name</key>
-          <string></string>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>-170</integer>
-            <integer>208</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>name</key>
-          <string></string>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>2141</integer>
-            <integer>42</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>name</key>
-          <string></string>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>121</integer>
-            <integer>26</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>name</key>
-          <string></string>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>333</integer>
-            <integer>12</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>name</key>
-          <string></string>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>2114</integer>
             <integer>17</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>name</key>
-          <string></string>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>2205</integer>
-            <integer>21</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>name</key>
-          <string></string>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>116</integer>
-            <integer>51</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>name</key>
-          <string></string>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>611</integer>
-            <integer>30</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>name</key>
-          <string></string>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>1110</integer>
-            <integer>11</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>name</key>
-          <string></string>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>229</integer>
-            <integer>35</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>name</key>
-          <string></string>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>981</integer>
-            <integer>34</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>name</key>
-          <string></string>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>0</integer>
-            <integer>264</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>name</key>
-          <string></string>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>1200</integer>
-            <integer>45</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>name</key>
-          <string></string>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>134</integer>
-            <integer>130</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>name</key>
-          <string></string>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>-1</integer>
-            <integer>264</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>name</key>
-          <string></string>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>1362</integer>
-            <integer>49</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>name</key>
-          <string></string>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>1617</integer>
-            <integer>45</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>name</key>
-          <string></string>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>237</integer>
-            <integer>27</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>name</key>
-          <string></string>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>1681</integer>
-            <integer>55</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>name</key>
-          <string></string>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>0</integer>
-            <integer>12</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>name</key>
-          <string></string>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>128</integer>
-            <integer>12</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>name</key>
-          <string></string>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>248</integer>
-            <integer>11</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>name</key>
-          <string></string>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>1739</integer>
-            <integer>39</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>name</key>
-          <string></string>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>1879</integer>
-            <integer>35</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>name</key>
-          <string></string>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>1607</integer>
-            <integer>11</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>name</key>
-          <string></string>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>-3</integer>
-            <integer>22</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>name</key>
-          <string></string>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>1440</integer>
-            <integer>76</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>name</key>
-          <string></string>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>365</integer>
-            <integer>20</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>name</key>
-          <string></string>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>307</integer>
-            <integer>55</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>name</key>
-          <string></string>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>910</integer>
-            <integer>39</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>name</key>
-          <string></string>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>222</integer>
-            <integer>37</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>name</key>
-          <string></string>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>519</integer>
-            <integer>100</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>name</key>
-          <string></string>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
             <integer>24</integer>
-            <integer>239</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -1727,8 +1046,8 @@
           <integer>0</integer>
           <key>place</key>
           <array>
-            <integer>-1</integer>
-            <integer>264</integer>
+            <integer>211</integer>
+            <integer>123</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -1744,24 +1063,7 @@
           <integer>0</integer>
           <key>place</key>
           <array>
-            <integer>646</integer>
-            <integer>39</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>name</key>
-          <string></string>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>788</integer>
+            <integer>653</integer>
             <integer>50</integer>
           </array>
           <key>stem</key>
@@ -1778,8 +1080,25 @@
           <integer>0</integer>
           <key>place</key>
           <array>
-            <integer>195</integer>
-            <integer>17</integer>
+            <integer>211</integer>
+            <integer>252</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>481</integer>
+            <integer>46</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -1795,7 +1114,670 @@
           <integer>0</integer>
           <key>place</key>
           <array>
-            <integer>465</integer>
+            <integer>-3</integer>
+            <integer>44</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>328</integer>
+            <integer>17</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>29</integer>
+            <integer>52</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>-162</integer>
+            <integer>198</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>2039</integer>
+            <integer>40</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>115</integer>
+            <integer>25</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>317</integer>
+            <integer>11</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>2013</integer>
+            <integer>16</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>2100</integer>
+            <integer>20</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>110</integer>
+            <integer>49</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>582</integer>
+            <integer>29</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>1057</integer>
+            <integer>10</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>218</integer>
+            <integer>33</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>934</integer>
+            <integer>33</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>0</integer>
+            <integer>251</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>1143</integer>
+            <integer>43</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>128</integer>
+            <integer>124</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>-1</integer>
+            <integer>252</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>1298</integer>
+            <integer>46</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>1540</integer>
+            <integer>43</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>225</integer>
+            <integer>26</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>1601</integer>
+            <integer>52</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>0</integer>
+            <integer>11</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>122</integer>
+            <integer>11</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>236</integer>
+            <integer>10</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>1656</integer>
+            <integer>37</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>1790</integer>
+            <integer>33</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>1530</integer>
+            <integer>11</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>-3</integer>
+            <integer>21</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>1371</integer>
+            <integer>72</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>348</integer>
+            <integer>19</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>293</integer>
+            <integer>52</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>867</integer>
+            <integer>37</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>211</integer>
+            <integer>35</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>494</integer>
+            <integer>95</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>23</integer>
+            <integer>228</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>-1</integer>
+            <integer>252</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>615</integer>
+            <integer>37</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>750</integer>
+            <integer>48</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>186</integer>
             <integer>16</integer>
           </array>
           <key>stem</key>
@@ -1812,8 +1794,42 @@
           <integer>0</integer>
           <key>place</key>
           <array>
-            <integer>-170</integer>
-            <integer>433</integer>
+            <integer>443</integer>
+            <integer>15</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>-162</integer>
+            <integer>413</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>2130</integer>
+            <integer>40</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -1830,7 +1846,7 @@
           <key>place</key>
           <array>
             <integer>2237</integer>
-            <integer>42</integer>
+            <integer>40</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -1846,8 +1862,8 @@
           <integer>0</integer>
           <key>place</key>
           <array>
-            <integer>2349</integer>
-            <integer>42</integer>
+            <integer>2330</integer>
+            <integer>39</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -1863,25 +1879,8 @@
           <integer>0</integer>
           <key>place</key>
           <array>
-            <integer>2447</integer>
-            <integer>41</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>name</key>
-          <string></string>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>2540</integer>
-            <integer>41</integer>
+            <integer>2419</integer>
+            <integer>39</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -1897,8 +1896,8 @@
           <integer>0</integer>
           <key>place</key>
           <array>
-            <integer>111</integer>
-            <integer>41</integer>
+            <integer>106</integer>
+            <integer>39</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -1914,8 +1913,8 @@
           <integer>0</integer>
           <key>place</key>
           <array>
-            <integer>2624</integer>
-            <integer>42</integer>
+            <integer>2499</integer>
+            <integer>40</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -1931,8 +1930,8 @@
           <integer>0</integer>
           <key>place</key>
           <array>
-            <integer>2814</integer>
-            <integer>41</integer>
+            <integer>2680</integer>
+            <integer>39</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -1948,8 +1947,8 @@
           <integer>0</integer>
           <key>place</key>
           <array>
-            <integer>116</integer>
-            <integer>41</integer>
+            <integer>110</integer>
+            <integer>39</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -1965,8 +1964,8 @@
           <integer>0</integer>
           <key>place</key>
           <array>
-            <integer>2915</integer>
-            <integer>42</integer>
+            <integer>2776</integer>
+            <integer>40</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -1982,8 +1981,8 @@
           <integer>0</integer>
           <key>place</key>
           <array>
-            <integer>3003</integer>
-            <integer>42</integer>
+            <integer>2860</integer>
+            <integer>40</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -1999,8 +1998,8 @@
           <integer>0</integer>
           <key>place</key>
           <array>
-            <integer>3105</integer>
-            <integer>42</integer>
+            <integer>2957</integer>
+            <integer>40</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -2016,8 +2015,8 @@
           <integer>0</integer>
           <key>place</key>
           <array>
-            <integer>3204</integer>
-            <integer>41</integer>
+            <integer>3051</integer>
+            <integer>39</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -2033,8 +2032,8 @@
           <integer>0</integer>
           <key>place</key>
           <array>
-            <integer>18</integer>
-            <integer>236</integer>
+            <integer>17</integer>
+            <integer>225</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -2050,8 +2049,8 @@
           <integer>0</integer>
           <key>place</key>
           <array>
-            <integer>3297</integer>
-            <integer>41</integer>
+            <integer>3140</integer>
+            <integer>39</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -2067,8 +2066,8 @@
           <integer>0</integer>
           <key>place</key>
           <array>
-            <integer>3373</integer>
-            <integer>41</integer>
+            <integer>3212</integer>
+            <integer>39</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -2084,8 +2083,8 @@
           <integer>0</integer>
           <key>place</key>
           <array>
-            <integer>3502</integer>
-            <integer>41</integer>
+            <integer>3335</integer>
+            <integer>39</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -2102,7 +2101,7 @@
           <key>place</key>
           <array>
             <integer>-4</integer>
-            <integer>20</integer>
+            <integer>19</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -2118,8 +2117,8 @@
           <integer>0</integer>
           <key>place</key>
           <array>
-            <integer>3599</integer>
-            <integer>42</integer>
+            <integer>3428</integer>
+            <integer>40</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -2135,8 +2134,8 @@
           <integer>0</integer>
           <key>place</key>
           <array>
-            <integer>3700</integer>
-            <integer>42</integer>
+            <integer>3524</integer>
+            <integer>40</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -2152,8 +2151,8 @@
           <integer>0</integer>
           <key>place</key>
           <array>
-            <integer>3827</integer>
-            <integer>42</integer>
+            <integer>3645</integer>
+            <integer>40</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -2169,8 +2168,8 @@
           <integer>0</integer>
           <key>place</key>
           <array>
-            <integer>837</integer>
-            <integer>42</integer>
+            <integer>797</integer>
+            <integer>40</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fiveinferior.ss01" format="2">
+  <advance width="352.21077"/>
+  <outline>
+    <component base="five.dnom.ss01"/>
+  </outline>
+</glyph>

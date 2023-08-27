@@ -1222,12 +1222,22 @@
     <string>eight.glif</string>
     <key>eight.dnom</key>
     <string>eight.dnom.glif</string>
+    <key>eight.dnom.ss01</key>
+    <string>eight.dnom.ss01.glif</string>
     <key>eight.numr</key>
     <string>eight.numr.glif</string>
+    <key>eight.numr.ss01</key>
+    <string>eight.numr.ss01.glif</string>
+    <key>eight.ss01</key>
+    <string>eight.ss01.glif</string>
     <key>eightinferior</key>
     <string>eightinferior.glif</string>
+    <key>eightinferior.ss01</key>
+    <string>eightinferior.ss01.glif</string>
     <key>eightsuperior</key>
     <string>eightsuperior.glif</string>
+    <key>eightsuperior.ss01</key>
+    <string>eightsuperior.ss01.glif</string>
     <key>ellipsis</key>
     <string>ellipsis.glif</string>
     <key>emacron</key>
@@ -1280,12 +1290,22 @@
     <string>five.glif</string>
     <key>five.dnom</key>
     <string>five.dnom.glif</string>
+    <key>five.dnom.ss01</key>
+    <string>five.dnom.ss01.glif</string>
     <key>five.numr</key>
     <string>five.numr.glif</string>
+    <key>five.numr.ss01</key>
+    <string>five.numr.ss01.glif</string>
+    <key>five.ss01</key>
+    <string>five.ss01.glif</string>
     <key>fiveinferior</key>
     <string>fiveinferior.glif</string>
+    <key>fiveinferior.ss01</key>
+    <string>fiveinferior.ss01.glif</string>
     <key>fivesuperior</key>
     <string>fivesuperior.glif</string>
+    <key>fivesuperior.ss01</key>
+    <string>fivesuperior.ss01.glif</string>
     <key>fl</key>
     <string>fl.glif</string>
     <key>fl.ss01</key>
@@ -1296,12 +1316,22 @@
     <string>four.glif</string>
     <key>four.dnom</key>
     <string>four.dnom.glif</string>
+    <key>four.dnom.ss01</key>
+    <string>four.dnom.ss01.glif</string>
     <key>four.numr</key>
     <string>four.numr.glif</string>
+    <key>four.numr.ss01</key>
+    <string>four.numr.ss01.glif</string>
+    <key>four.ss01</key>
+    <string>four.ss01.glif</string>
     <key>fourinferior</key>
     <string>fourinferior.glif</string>
+    <key>fourinferior.ss01</key>
+    <string>fourinferior.ss01.glif</string>
     <key>foursuperior</key>
     <string>foursuperior.glif</string>
+    <key>foursuperior.ss01</key>
+    <string>foursuperior.ss01.glif</string>
     <key>fraction</key>
     <string>fraction.glif</string>
     <key>g</key>
@@ -1492,6 +1522,12 @@
     <string>lmacronbelow.ss01.glif</string>
     <key>logicalnot</key>
     <string>logicalnot.glif</string>
+    <key>logo</key>
+    <string>logo.glif</string>
+    <key>logo_full</key>
+    <string>logo_full.glif</string>
+    <key>logo_ls</key>
+    <string>logo_ls.glif</string>
     <key>lozenge</key>
     <string>lozenge.glif</string>
     <key>lslash</key>
@@ -1558,12 +1594,22 @@
     <string>nine.glif</string>
     <key>nine.dnom</key>
     <string>nine.dnom.glif</string>
+    <key>nine.dnom.ss01</key>
+    <string>nine.dnom.ss01.glif</string>
     <key>nine.numr</key>
     <string>nine.numr.glif</string>
+    <key>nine.numr.ss01</key>
+    <string>nine.numr.ss01.glif</string>
+    <key>nine.ss01</key>
+    <string>nine.ss01.glif</string>
     <key>nineinferior</key>
     <string>nineinferior.glif</string>
+    <key>nineinferior.ss01</key>
+    <string>nineinferior.ss01.glif</string>
     <key>ninesuperior</key>
     <string>ninesuperior.glif</string>
+    <key>ninesuperior.ss01</key>
+    <string>ninesuperior.ss01.glif</string>
     <key>nmacronbelow</key>
     <string>nmacronbelow.glif</string>
     <key>nmacronbelow.ss01</key>
@@ -1634,16 +1680,30 @@
     <string>one.glif</string>
     <key>one.dnom</key>
     <string>one.dnom.glif</string>
+    <key>one.dnom.ss01</key>
+    <string>one.dnom.ss01.glif</string>
     <key>one.numr</key>
     <string>one.numr.glif</string>
+    <key>one.numr.ss01</key>
+    <string>one.numr.ss01.glif</string>
+    <key>one.ss01</key>
+    <string>one.ss01.glif</string>
     <key>onehalf</key>
     <string>onehalf.glif</string>
+    <key>onehalf.ss01</key>
+    <string>onehalf.ss01.glif</string>
     <key>oneinferior</key>
     <string>oneinferior.glif</string>
+    <key>oneinferior.ss01</key>
+    <string>oneinferior.ss01.glif</string>
     <key>onequarter</key>
     <string>onequarter.glif</string>
+    <key>onequarter.ss01</key>
+    <string>onequarter.ss01.glif</string>
     <key>onesuperior</key>
     <string>onesuperior.glif</string>
+    <key>onesuperior.ss01</key>
+    <string>onesuperior.ss01.glif</string>
     <key>oogonek</key>
     <string>oogonek.glif</string>
     <key>oogonek.ss01</key>
@@ -1812,22 +1872,42 @@
     <string>seven.glif</string>
     <key>seven.dnom</key>
     <string>seven.dnom.glif</string>
+    <key>seven.dnom.ss01</key>
+    <string>seven.dnom.ss01.glif</string>
     <key>seven.numr</key>
     <string>seven.numr.glif</string>
+    <key>seven.numr.ss01</key>
+    <string>seven.numr.ss01.glif</string>
+    <key>seven.ss01</key>
+    <string>seven.ss01.glif</string>
     <key>seveninferior</key>
     <string>seveninferior.glif</string>
+    <key>seveninferior.ss01</key>
+    <string>seveninferior.ss01.glif</string>
     <key>sevensuperior</key>
     <string>sevensuperior.glif</string>
+    <key>sevensuperior.ss01</key>
+    <string>sevensuperior.ss01.glif</string>
     <key>six</key>
     <string>six.glif</string>
     <key>six.dnom</key>
     <string>six.dnom.glif</string>
+    <key>six.dnom.ss01</key>
+    <string>six.dnom.ss01.glif</string>
     <key>six.numr</key>
     <string>six.numr.glif</string>
+    <key>six.numr.ss01</key>
+    <string>six.numr.ss01.glif</string>
+    <key>six.ss01</key>
+    <string>six.ss01.glif</string>
     <key>sixinferior</key>
     <string>sixinferior.glif</string>
+    <key>sixinferior.ss01</key>
+    <string>sixinferior.ss01.glif</string>
     <key>sixsuperior</key>
     <string>sixsuperior.glif</string>
+    <key>sixsuperior.ss01</key>
+    <string>sixsuperior.ss01.glif</string>
     <key>slash</key>
     <string>slash.glif</string>
     <key>softhyphen</key>
@@ -1874,14 +1954,26 @@
     <string>three.glif</string>
     <key>three.dnom</key>
     <string>three.dnom.glif</string>
+    <key>three.dnom.ss01</key>
+    <string>three.dnom.ss01.glif</string>
     <key>three.numr</key>
     <string>three.numr.glif</string>
+    <key>three.numr.ss01</key>
+    <string>three.numr.ss01.glif</string>
+    <key>three.ss01</key>
+    <string>three.ss01.glif</string>
     <key>threeinferior</key>
     <string>threeinferior.glif</string>
+    <key>threeinferior.ss01</key>
+    <string>threeinferior.ss01.glif</string>
     <key>threequarters</key>
     <string>threequarters.glif</string>
+    <key>threequarters.ss01</key>
+    <string>threequarters.ss01.glif</string>
     <key>threesuperior</key>
     <string>threesuperior.glif</string>
+    <key>threesuperior.ss01</key>
+    <string>threesuperior.ss01.glif</string>
     <key>tilde</key>
     <string>tilde.glif</string>
     <key>tildecomb</key>
@@ -1896,12 +1988,22 @@
     <string>two.glif</string>
     <key>two.dnom</key>
     <string>two.dnom.glif</string>
+    <key>two.dnom.ss01</key>
+    <string>two.dnom.ss01.glif</string>
     <key>two.numr</key>
     <string>two.numr.glif</string>
+    <key>two.numr.ss01</key>
+    <string>two.numr.ss01.glif</string>
+    <key>two.ss01</key>
+    <string>two.ss01.glif</string>
     <key>twoinferior</key>
     <string>twoinferior.glif</string>
+    <key>twoinferior.ss01</key>
+    <string>twoinferior.ss01.glif</string>
     <key>twosuperior</key>
     <string>twosuperior.glif</string>
+    <key>twosuperior.ss01</key>
+    <string>twosuperior.ss01.glif</string>
     <key>u</key>
     <string>u.glif</string>
     <key>u.ss01</key>
@@ -1944,12 +2046,6 @@
     <string>umacrondieresis.ss01.glif</string>
     <key>underscore</key>
     <string>underscore.glif</string>
-    <key>uni0000</key>
-    <string>uni0000.glif</string>
-    <key>uni0001</key>
-    <string>uni0001.glif</string>
-    <key>uni0002</key>
-    <string>uni0002.glif</string>
     <key>uogonek</key>
     <string>uogonek.glif</string>
     <key>uogonek.ss01</key>
@@ -2052,11 +2148,21 @@
     <string>zero.glif</string>
     <key>zero.dnom</key>
     <string>zero.dnom.glif</string>
+    <key>zero.dnom.ss01</key>
+    <string>zero.dnom.ss01.glif</string>
     <key>zero.numr</key>
     <string>zero.numr.glif</string>
+    <key>zero.numr.ss01</key>
+    <string>zero.numr.ss01.glif</string>
+    <key>zero.ss01</key>
+    <string>zero.ss01.glif</string>
     <key>zeroinferior</key>
     <string>zeroinferior.glif</string>
+    <key>zeroinferior.ss01</key>
+    <string>zeroinferior.ss01.glif</string>
     <key>zerosuperior</key>
     <string>zerosuperior.glif</string>
+    <key>zerosuperior.ss01</key>
+    <string>zerosuperior.ss01.glif</string>
   </dict>
 </plist>

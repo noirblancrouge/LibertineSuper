@@ -506,12 +506,16 @@
     <key>public.kern1.eight.dnom</key>
     <array>
       <string>eight.dnom</string>
+      <string>eight.dnom.ss01</string>
       <string>eightinferior</string>
+      <string>eightinferior.ss01</string>
     </array>
     <key>public.kern1.eight.numr</key>
     <array>
       <string>eight.numr</string>
+      <string>eight.numr.ss01</string>
       <string>eightsuperior</string>
+      <string>eightsuperior.ss01</string>
     </array>
     <key>public.kern1.f</key>
     <array>
@@ -525,22 +529,30 @@
     <key>public.kern1.five.dnom</key>
     <array>
       <string>five.dnom</string>
+      <string>five.dnom.ss01</string>
       <string>fiveinferior</string>
+      <string>fiveinferior.ss01</string>
     </array>
     <key>public.kern1.five.numr</key>
     <array>
       <string>five.numr</string>
+      <string>five.numr.ss01</string>
       <string>fivesuperior</string>
+      <string>fivesuperior.ss01</string>
     </array>
     <key>public.kern1.four.dnom</key>
     <array>
       <string>four.dnom</string>
+      <string>four.dnom.ss01</string>
       <string>fourinferior</string>
+      <string>fourinferior.ss01</string>
     </array>
     <key>public.kern1.four.numr</key>
     <array>
       <string>four.numr</string>
+      <string>four.numr.ss01</string>
       <string>foursuperior</string>
+      <string>foursuperior.ss01</string>
     </array>
     <key>public.kern1.g</key>
     <array>
@@ -674,12 +686,16 @@
     <key>public.kern1.nine.dnom</key>
     <array>
       <string>nine.dnom</string>
+      <string>nine.dnom.ss01</string>
       <string>nineinferior</string>
+      <string>nineinferior.ss01</string>
     </array>
     <key>public.kern1.nine.numr</key>
     <array>
       <string>nine.numr</string>
+      <string>nine.numr.ss01</string>
       <string>ninesuperior</string>
+      <string>ninesuperior.ss01</string>
     </array>
     <key>public.kern1.o</key>
     <array>
@@ -725,12 +741,16 @@
     <key>public.kern1.one.dnom</key>
     <array>
       <string>one.dnom</string>
+      <string>one.dnom.ss01</string>
       <string>oneinferior</string>
+      <string>oneinferior.ss01</string>
     </array>
     <key>public.kern1.one.numr</key>
     <array>
       <string>one.numr</string>
+      <string>one.numr.ss01</string>
       <string>onesuperior</string>
+      <string>onesuperior.ss01</string>
     </array>
     <key>public.kern1.period</key>
     <array>
@@ -802,22 +822,30 @@
     <key>public.kern1.seven.dnom</key>
     <array>
       <string>seven.dnom</string>
+      <string>seven.dnom.ss01</string>
       <string>seveninferior</string>
+      <string>seveninferior.ss01</string>
     </array>
     <key>public.kern1.seven.numr</key>
     <array>
       <string>seven.numr</string>
+      <string>seven.numr.ss01</string>
       <string>sevensuperior</string>
+      <string>sevensuperior.ss01</string>
     </array>
     <key>public.kern1.six.dnom</key>
     <array>
       <string>six.dnom</string>
+      <string>six.dnom.ss01</string>
       <string>sixinferior</string>
+      <string>sixinferior.ss01</string>
     </array>
     <key>public.kern1.six.numr</key>
     <array>
       <string>six.numr</string>
+      <string>six.numr.ss01</string>
       <string>sixsuperior</string>
+      <string>sixsuperior.ss01</string>
     </array>
     <key>public.kern1.t</key>
     <array>
@@ -841,22 +869,30 @@
     <key>public.kern1.three.dnom</key>
     <array>
       <string>three.dnom</string>
+      <string>three.dnom.ss01</string>
       <string>threeinferior</string>
+      <string>threeinferior.ss01</string>
     </array>
     <key>public.kern1.three.numr</key>
     <array>
       <string>three.numr</string>
+      <string>three.numr.ss01</string>
       <string>threesuperior</string>
+      <string>threesuperior.ss01</string>
     </array>
     <key>public.kern1.two.dnom</key>
     <array>
       <string>two.dnom</string>
+      <string>two.dnom.ss01</string>
       <string>twoinferior</string>
+      <string>twoinferior.ss01</string>
     </array>
     <key>public.kern1.two.numr</key>
     <array>
       <string>two.numr</string>
+      <string>two.numr.ss01</string>
       <string>twosuperior</string>
+      <string>twosuperior.ss01</string>
     </array>
     <key>public.kern1.u</key>
     <array>
@@ -944,12 +980,16 @@
     <key>public.kern1.zero.dnom</key>
     <array>
       <string>zero.dnom</string>
+      <string>zero.dnom.ss01</string>
       <string>zeroinferior</string>
+      <string>zeroinferior.ss01</string>
     </array>
     <key>public.kern1.zero.numr</key>
     <array>
       <string>zero.numr</string>
+      <string>zero.numr.ss01</string>
       <string>zerosuperior</string>
+      <string>zerosuperior.ss01</string>
     </array>
     <key>public.kern2.A</key>
     <array>
@@ -1383,12 +1423,16 @@
     <key>public.kern2.eight.dnom</key>
     <array>
       <string>eight.dnom</string>
+      <string>eight.dnom.ss01</string>
       <string>eightinferior</string>
+      <string>eightinferior.ss01</string>
     </array>
     <key>public.kern2.eight.numr</key>
     <array>
       <string>eight.numr</string>
+      <string>eight.numr.ss01</string>
       <string>eightsuperior</string>
+      <string>eightsuperior.ss01</string>
     </array>
     <key>public.kern2.f</key>
     <array>
@@ -1402,22 +1446,30 @@
     <key>public.kern2.five.dnom</key>
     <array>
       <string>five.dnom</string>
+      <string>five.dnom.ss01</string>
       <string>fiveinferior</string>
+      <string>fiveinferior.ss01</string>
     </array>
     <key>public.kern2.five.numr</key>
     <array>
       <string>five.numr</string>
+      <string>five.numr.ss01</string>
       <string>fivesuperior</string>
+      <string>fivesuperior.ss01</string>
     </array>
     <key>public.kern2.four.dnom</key>
     <array>
       <string>four.dnom</string>
+      <string>four.dnom.ss01</string>
       <string>fourinferior</string>
+      <string>fourinferior.ss01</string>
     </array>
     <key>public.kern2.four.numr</key>
     <array>
       <string>four.numr</string>
+      <string>four.numr.ss01</string>
       <string>foursuperior</string>
+      <string>foursuperior.ss01</string>
     </array>
     <key>public.kern2.germandbls</key>
     <array>
@@ -1548,12 +1600,16 @@
     <key>public.kern2.nine.dnom</key>
     <array>
       <string>nine.dnom</string>
+      <string>nine.dnom.ss01</string>
       <string>nineinferior</string>
+      <string>nineinferior.ss01</string>
     </array>
     <key>public.kern2.nine.numr</key>
     <array>
       <string>nine.numr</string>
+      <string>nine.numr.ss01</string>
       <string>ninesuperior</string>
+      <string>ninesuperior.ss01</string>
     </array>
     <key>public.kern2.o</key>
     <array>
@@ -1669,12 +1725,16 @@
     <key>public.kern2.one.dnom</key>
     <array>
       <string>one.dnom</string>
+      <string>one.dnom.ss01</string>
       <string>oneinferior</string>
+      <string>oneinferior.ss01</string>
     </array>
     <key>public.kern2.one.numr</key>
     <array>
       <string>one.numr</string>
+      <string>one.numr.ss01</string>
       <string>onesuperior</string>
+      <string>onesuperior.ss01</string>
     </array>
     <key>public.kern2.p</key>
     <array>
@@ -1729,22 +1789,30 @@
     <key>public.kern2.seven.dnom</key>
     <array>
       <string>seven.dnom</string>
+      <string>seven.dnom.ss01</string>
       <string>seveninferior</string>
+      <string>seveninferior.ss01</string>
     </array>
     <key>public.kern2.seven.numr</key>
     <array>
       <string>seven.numr</string>
+      <string>seven.numr.ss01</string>
       <string>sevensuperior</string>
+      <string>sevensuperior.ss01</string>
     </array>
     <key>public.kern2.six.dnom</key>
     <array>
       <string>six.dnom</string>
+      <string>six.dnom.ss01</string>
       <string>sixinferior</string>
+      <string>sixinferior.ss01</string>
     </array>
     <key>public.kern2.six.numr</key>
     <array>
       <string>six.numr</string>
+      <string>six.numr.ss01</string>
       <string>sixsuperior</string>
+      <string>sixsuperior.ss01</string>
     </array>
     <key>public.kern2.t</key>
     <array>
@@ -1768,22 +1836,30 @@
     <key>public.kern2.three.dnom</key>
     <array>
       <string>three.dnom</string>
+      <string>three.dnom.ss01</string>
       <string>threeinferior</string>
+      <string>threeinferior.ss01</string>
     </array>
     <key>public.kern2.three.numr</key>
     <array>
       <string>three.numr</string>
+      <string>three.numr.ss01</string>
       <string>threesuperior</string>
+      <string>threesuperior.ss01</string>
     </array>
     <key>public.kern2.two.dnom</key>
     <array>
       <string>two.dnom</string>
+      <string>two.dnom.ss01</string>
       <string>twoinferior</string>
+      <string>twoinferior.ss01</string>
     </array>
     <key>public.kern2.two.numr</key>
     <array>
       <string>two.numr</string>
+      <string>two.numr.ss01</string>
       <string>twosuperior</string>
+      <string>twosuperior.ss01</string>
     </array>
     <key>public.kern2.u</key>
     <array>
@@ -1871,12 +1947,16 @@
     <key>public.kern2.zero.dnom</key>
     <array>
       <string>zero.dnom</string>
+      <string>zero.dnom.ss01</string>
       <string>zeroinferior</string>
+      <string>zeroinferior.ss01</string>
     </array>
     <key>public.kern2.zero.numr</key>
     <array>
       <string>zero.numr</string>
+      <string>zero.numr.ss01</string>
       <string>zerosuperior</string>
+      <string>zerosuperior.ss01</string>
     </array>
   </dict>
 </plist>

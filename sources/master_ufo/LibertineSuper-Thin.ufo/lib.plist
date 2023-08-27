@@ -921,6 +921,16 @@
       <string>seven</string>
       <string>eight</string>
       <string>nine</string>
+      <string>zero.ss01</string>
+      <string>one.ss01</string>
+      <string>two.ss01</string>
+      <string>three.ss01</string>
+      <string>four.ss01</string>
+      <string>five.ss01</string>
+      <string>six.ss01</string>
+      <string>seven.ss01</string>
+      <string>eight.ss01</string>
+      <string>nine.ss01</string>
       <string>zero.dnom</string>
       <string>one.dnom</string>
       <string>two.dnom</string>
@@ -945,6 +955,29 @@
       <string>onehalf</string>
       <string>onequarter</string>
       <string>threequarters</string>
+      <string>zero.dnom.ss01</string>
+      <string>one.dnom.ss01</string>
+      <string>two.dnom.ss01</string>
+      <string>three.dnom.ss01</string>
+      <string>four.dnom.ss01</string>
+      <string>five.dnom.ss01</string>
+      <string>six.dnom.ss01</string>
+      <string>seven.dnom.ss01</string>
+      <string>eight.dnom.ss01</string>
+      <string>nine.dnom.ss01</string>
+      <string>zero.numr.ss01</string>
+      <string>one.numr.ss01</string>
+      <string>two.numr.ss01</string>
+      <string>three.numr.ss01</string>
+      <string>four.numr.ss01</string>
+      <string>five.numr.ss01</string>
+      <string>six.numr.ss01</string>
+      <string>seven.numr.ss01</string>
+      <string>eight.numr.ss01</string>
+      <string>nine.numr.ss01</string>
+      <string>onehalf.ss01</string>
+      <string>onequarter.ss01</string>
+      <string>threequarters.ss01</string>
       <string>zeroinferior</string>
       <string>oneinferior</string>
       <string>twoinferior</string>
@@ -965,7 +998,26 @@
       <string>sevensuperior</string>
       <string>eightsuperior</string>
       <string>ninesuperior</string>
-      <string>uni0000</string>
+      <string>zeroinferior.ss01</string>
+      <string>oneinferior.ss01</string>
+      <string>twoinferior.ss01</string>
+      <string>threeinferior.ss01</string>
+      <string>fourinferior.ss01</string>
+      <string>fiveinferior.ss01</string>
+      <string>sixinferior.ss01</string>
+      <string>seveninferior.ss01</string>
+      <string>eightinferior.ss01</string>
+      <string>nineinferior.ss01</string>
+      <string>zerosuperior.ss01</string>
+      <string>onesuperior.ss01</string>
+      <string>twosuperior.ss01</string>
+      <string>threesuperior.ss01</string>
+      <string>foursuperior.ss01</string>
+      <string>fivesuperior.ss01</string>
+      <string>sixsuperior.ss01</string>
+      <string>sevensuperior.ss01</string>
+      <string>eightsuperior.ss01</string>
+      <string>ninesuperior.ss01</string>
       <string>.notdef</string>
       <string>space</string>
       <string>nbspace</string>
@@ -1084,9 +1136,10 @@
       <string>macron</string>
       <string>cedilla</string>
       <string>ogonek</string>
-      <string>uni0001</string>
-      <string>uni0002</string>
       <string>IJacute</string>
+      <string>logo</string>
+      <string>logo_full</string>
+      <string>logo_ls</string>
       <string>IJacute.ss01</string>
     </array>
     <key>public.openTypeCategories</key>
@@ -2243,11 +2296,21 @@
       <string>base</string>
       <key>eight.dnom</key>
       <string>base</string>
+      <key>eight.dnom.ss01</key>
+      <string>base</string>
       <key>eight.numr</key>
+      <string>base</string>
+      <key>eight.numr.ss01</key>
+      <string>base</string>
+      <key>eight.ss01</key>
       <string>base</string>
       <key>eightinferior</key>
       <string>base</string>
+      <key>eightinferior.ss01</key>
+      <string>base</string>
       <key>eightsuperior</key>
+      <string>base</string>
+      <key>eightsuperior.ss01</key>
       <string>base</string>
       <key>emacron</key>
       <string>base</string>
@@ -3110,8 +3173,12 @@
       <string>uni1EB9.ss01</string>
       <key>eightinferior</key>
       <string>uni2088</string>
+      <key>eightinferior.ss01</key>
+      <string>uni2088.ss01</string>
       <key>eightsuperior</key>
       <string>uni2078</string>
+      <key>eightsuperior.ss01</key>
+      <string>uni2078.ss01</string>
       <key>emacronacute</key>
       <string>uni1E17</string>
       <key>emacronacute.ss01</key>
@@ -3126,12 +3193,20 @@
       <string>uni1EBD.ss01</string>
       <key>fiveinferior</key>
       <string>uni2085</string>
+      <key>fiveinferior.ss01</key>
+      <string>uni2085.ss01</string>
       <key>fivesuperior</key>
       <string>uni2075</string>
+      <key>fivesuperior.ss01</key>
+      <string>uni2075.ss01</string>
       <key>fourinferior</key>
       <string>uni2084</string>
+      <key>fourinferior.ss01</key>
+      <string>uni2084.ss01</string>
       <key>foursuperior</key>
       <string>uni2074</string>
+      <key>foursuperior.ss01</key>
+      <string>uni2074.ss01</string>
       <key>gcommaaccent</key>
       <string>uni0123</string>
       <key>gcommaaccent.ss01</key>
@@ -3210,8 +3285,12 @@
       <string>uni0272.ss01</string>
       <key>nineinferior</key>
       <string>uni2089</string>
+      <key>nineinferior.ss01</key>
+      <string>uni2089.ss01</string>
       <key>ninesuperior</key>
       <string>uni2079</string>
+      <key>ninesuperior.ss01</key>
+      <string>uni2079.ss01</string>
       <key>numero</key>
       <string>uni2116</string>
       <key>odotbelow</key>
@@ -3230,8 +3309,12 @@
       <string>uni1E51.ss01</string>
       <key>oneinferior</key>
       <string>uni2081</string>
+      <key>oneinferior.ss01</key>
+      <string>uni2081.ss01</string>
       <key>onesuperior</key>
       <string>uni00B9</string>
+      <key>onesuperior.ss01</key>
+      <string>uni00B9.ss01</string>
       <key>oogonek</key>
       <string>uni01EB</string>
       <key>oogonek.ss01</key>
@@ -3284,12 +3367,20 @@
       <string>uni1E69.ss01</string>
       <key>seveninferior</key>
       <string>uni2087</string>
+      <key>seveninferior.ss01</key>
+      <string>uni2087.ss01</string>
       <key>sevensuperior</key>
       <string>uni2077</string>
+      <key>sevensuperior.ss01</key>
+      <string>uni2077.ss01</string>
       <key>sixinferior</key>
       <string>uni2086</string>
+      <key>sixinferior.ss01</key>
+      <string>uni2086.ss01</string>
       <key>sixsuperior</key>
       <string>uni2076</string>
+      <key>sixsuperior.ss01</key>
+      <string>uni2076.ss01</string>
       <key>softhyphen</key>
       <string>uni00AD</string>
       <key>tcedilla</key>
@@ -3310,12 +3401,20 @@
       <string>uni1E6D.ss01</string>
       <key>threeinferior</key>
       <string>uni2083</string>
+      <key>threeinferior.ss01</key>
+      <string>uni2083.ss01</string>
       <key>threesuperior</key>
       <string>uni00B3</string>
+      <key>threesuperior.ss01</key>
+      <string>uni00B3.ss01</string>
       <key>twoinferior</key>
       <string>uni2082</string>
+      <key>twoinferior.ss01</key>
+      <string>uni2082.ss01</string>
       <key>twosuperior</key>
       <string>uni00B2</string>
+      <key>twosuperior.ss01</key>
+      <string>uni00B2.ss01</string>
       <key>udotbelow</key>
       <string>uni1EE5</string>
       <key>udotbelow.ss01</key>
@@ -3346,8 +3445,12 @@
       <string>uni1E93.ss01</string>
       <key>zeroinferior</key>
       <string>uni2080</string>
+      <key>zeroinferior.ss01</key>
+      <string>uni2080.ss01</string>
       <key>zerosuperior</key>
       <string>uni2070</string>
+      <key>zerosuperior.ss01</key>
+      <string>uni2070.ss01</string>
     </dict>
     <key>public.skipExportGlyphs</key>
     <array>
