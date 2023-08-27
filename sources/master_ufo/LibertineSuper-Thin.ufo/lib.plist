@@ -1073,6 +1073,7 @@
       <string>dagger</string>
       <string>daggerdbl</string>
       <string>numero</string>
+      <string>ampersand.ss01</string>
       <string>Euro</string>
       <string>cent</string>
       <string>currency</string>
@@ -1136,8 +1137,8 @@
       <string>macron</string>
       <string>cedilla</string>
       <string>ogonek</string>
-      <string>IJacute</string>
       <string>logo</string>
+      <string>IJacute</string>
       <string>logo_full</string>
       <string>logo_ls</string>
       <string>IJacute.ss01</string>

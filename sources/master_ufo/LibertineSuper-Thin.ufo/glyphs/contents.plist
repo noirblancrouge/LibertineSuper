@@ -1026,6 +1026,8 @@
     <string>amacron.ss01.glif</string>
     <key>ampersand</key>
     <string>ampersand.glif</string>
+    <key>ampersand.ss01</key>
+    <string>ampersand.ss01.glif</string>
     <key>aogonek</key>
     <string>aogonek.glif</string>
     <key>aogonek.ss01</key>
