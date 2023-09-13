@@ -1,0 +1,21 @@
+# Rules
+
+rule proofing
+  command = _diffbrowsers proof $fonts -s $styles -o $out -pt $pt_size -ch $
+      "$characters" --filter-styles "$filters"
+
+# Build rules
+build docs/proof/Light-Regular-Thin: proofing
+  fonts = $
+      "/home/runner/work/LibertineSuper/LibertineSuper/fonts/ttf/LibertineSuper-Bold.ttf" $
+      "/home/runner/work/LibertineSuper/LibertineSuper/fonts/ttf/LibertineSuper-Black.ttf" $
+      "/home/runner/work/LibertineSuper/LibertineSuper/fonts/ttf/LibertineSuper-Medium.ttf" $
+      "/home/runner/work/LibertineSuper/LibertineSuper/fonts/ttf/LibertineSuper-ExtraLight.ttf" $
+      "/home/runner/work/LibertineSuper/LibertineSuper/fonts/ttf/LibertineSuper-Light.ttf" $
+      "/home/runner/work/LibertineSuper/LibertineSuper/fonts/ttf/LibertineSuper-Regular.ttf" $
+      "/home/runner/work/LibertineSuper/LibertineSuper/fonts/ttf/LibertineSuper-Thin.ttf"
+  styles = instances
+  out = out/diffbrowsers
+  pt_size = 20
+  characters = .*
+  filters = Light|Regular|Thin
