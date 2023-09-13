@@ -663,6 +663,12 @@ value = "";
 }
 );
 tag = ss01;
+},
+{
+automatic = 1;
+code = "pos @Uppercase <5 0 10 0>;
+";
+tag = cpsp;
 }
 );
 fontMaster = (
@@ -672,12 +678,21 @@ axesValues = (
 );
 customParameters = (
 {
+name = "Alignment Zones";
+value = (
+{
+pos = "-220";
+size = 10;
+}
+);
+},
+{
 name = typoAscender;
-value = 1000;
+value = 1328;
 },
 {
 name = typoDescender;
-value = -200;
+value = -355;
 },
 {
 name = typoLineGap;
@@ -685,19 +700,19 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1000;
+value = 1328;
 },
 {
 name = winDescent;
-value = 200;
+value = 355;
 },
 {
 name = hheaAscender;
-value = 1000;
+value = 1328;
 },
 {
 name = hheaDescender;
-value = -200;
+value = -355;
 },
 {
 name = strikeoutPosition;
@@ -710,15 +725,6 @@ value = 50;
 {
 name = underlinePosition;
 value = -150;
-},
-{
-name = "Alignment Zones";
-value = (
-{
-pos = "-220";
-size = 10;
-}
-);
 }
 );
 id = m01;
@@ -761,11 +767,11 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 1000;
+value = 1328;
 },
 {
 name = typoDescender;
-value = -200;
+value = -355;
 },
 {
 name = typoLineGap;
@@ -773,19 +779,19 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1000;
+value = 1328;
 },
 {
 name = winDescent;
-value = 200;
+value = 355;
 },
 {
 name = hheaAscender;
-value = 1000;
+value = 1328;
 },
 {
 name = hheaDescender;
-value = -200;
+value = -355;
 },
 {
 name = strikeoutPosition;
@@ -180635,9 +180641,15 @@ width = 570;
 glyphname = fi;
 kernLeft = f;
 kernRight = f;
-lastChange = "2023-08-25 13:37:12 +0000";
+lastChange = "2023-09-13 16:17:35 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+pos = (260,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -180652,6 +180664,12 @@ ref = i;
 width = 520;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (348.305,0);
+}
+);
 layerId = m002;
 shapes = (
 {
@@ -180690,9 +180708,15 @@ unicode = 64257;
 glyphname = fl;
 kernLeft = f;
 kernRight = f;
-lastChange = "2023-08-25 13:37:12 +0000";
+lastChange = "2023-09-13 16:17:35 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+pos = (276.5,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -180707,6 +180731,12 @@ ref = l;
 width = 553;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (387.135,0);
+}
+);
 layerId = m002;
 shapes = (
 {
@@ -180745,9 +180775,15 @@ unicode = 64258;
 glyphname = fi.ss01;
 kernLeft = f;
 kernRight = f;
-lastChange = "2023-08-25 13:37:12 +0000";
+lastChange = "2023-09-13 16:17:35 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+pos = (260,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -180762,6 +180798,12 @@ ref = i.ss01;
 width = 520;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (348.305,0);
+}
+);
 layerId = m002;
 shapes = (
 {
@@ -180799,9 +180841,15 @@ metricRight = i;
 glyphname = fl.ss01;
 kernLeft = f;
 kernRight = f;
-lastChange = "2023-08-25 13:37:12 +0000";
+lastChange = "2023-09-13 16:17:35 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+pos = (276.5,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -180816,6 +180864,12 @@ ref = l.ss01;
 width = 553;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (387.135,0);
+}
+);
 layerId = m002;
 shapes = (
 {
@@ -273466,10 +273520,51 @@ customParameters = (
 {
 name = "Variable Font Origin";
 value = m01;
+},
+{
+name = typoAscender;
+value = 1328;
+},
+{
+name = typoDescender;
+value = -355;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1328;
+},
+{
+name = winDescent;
+value = 355;
+},
+{
+name = hheaAscender;
+value = 1328;
+},
+{
+name = hheaDescender;
+value = -355;
+},
+{
+name = strikeoutPosition;
+value = 342;
+},
+{
+name = strikeoutSize;
+value = 50;
+},
+{
+name = underlinePosition;
+value = -150;
 }
 );
 instanceInterpolations = {
-m01 = 1;
+m002 = -0.125;
+m01 = 1.125;
 };
 name = Regular;
 properties = (
@@ -273631,6 +273726,8 @@ instanceInterpolations = {
 m002 = 0.75;
 m01 = 0.25;
 };
+isBold = 1;
+linkStyle = Regular;
 name = Bold;
 properties = (
 {
@@ -274141,7 +274238,7 @@ value = "Copyright (c) 2011 by BSozoo. All rights reserved.<3";
 },
 {
 key = licenseURL;
-value = "http://scripts.sil.org/OFL";
+value = "https://scripts.sil.org/OFL";
 },
 {
 key = designerURL;
