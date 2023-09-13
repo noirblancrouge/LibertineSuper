@@ -2,14 +2,10 @@
 
 fontbakery version: 0.9.0
 
-<details><summary><b>[23] LibertineSuper-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+<details><summary><b>[19] LibertineSuper-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
@@ -23,19 +19,11 @@ fontbakery version: 0.9.0
 | Poscript Name | LibertineSuper-Bold | LibertineSuper-Bold |
 | Typographic Family Name | Libertine Super | N/A |
 | Typographic Subfamily Name | Bold | N/A | [code: bad-names]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.sTypoLineGap is "200" it should be 0 [code: bad-OS/2.sTypoLineGap]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1327, but got 1000 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 354, but got 200 instead [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2 sTypoLineGap (200) and hhea lineGap (0) must be equal. [code: lineGap]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
 
 
@@ -49,11 +37,10 @@ fontbakery version: 0.9.0
 
 * 🔥 **FAIL** OS/2 fsSelection REGULAR bit should be unset. [code: bad-REGULAR]
 * 🔥 **FAIL** OS/2 fsSelection BOLD bit should be set. [code: bad-BOLD]
-</div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
- [code: unknown]
+* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -933,389 +920,416 @@ The following glyphs do not have the recommended number of contours:
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
-* ⚠ **WARN** The most common width is 605 among a set of 5 math glyphs.
+* ⚠ **WARN** The most common width is 588 among a set of 5 math glyphs.
 The following math glyphs have a different width, though:
 
-Width = 665:
-less, greater
+Width = 639:
+greater, less
 
-Width = 612:
-plusminus, notequal
+Width = 595:
+notequal, plusminus
 
-Width = 598:
+Width = 582:
 multiply
 
-Width = 611:
+Width = 594:
 approxequal
 
-Width = 652:
+Width = 630:
 lessequal
 
-Width = 645:
+Width = 623:
 greaterequal
  [code: width-outliers]
-</div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
-
-
-* ⚠ **WARN** OS/2 sTypoLineGap is not equal to 0. [code: OS/2]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* A (U+0041): L<<281.0,751.0>--<281.0,751.0>> -> L<<281.0,751.0>--<281.0,751.0>>
+	* A (U+0041): L<<273.0,751.0>--<273.0,751.0>> -> L<<273.0,751.0>--<273.0,751.0>>
 
-	* Aacute (U+00C1): L<<281.0,751.0>--<281.0,751.0>> -> L<<281.0,751.0>--<281.0,751.0>>
+	* Aacute (U+00C1): L<<273.0,751.0>--<273.0,751.0>> -> L<<273.0,751.0>--<273.0,751.0>>
 
-	* Abreve (U+0102): L<<281.0,751.0>--<281.0,751.0>> -> L<<281.0,751.0>--<281.0,751.0>>
+	* Abreve (U+0102): L<<273.0,751.0>--<273.0,751.0>> -> L<<273.0,751.0>--<273.0,751.0>>
 
-	* Acircumflex (U+00C2): L<<281.0,751.0>--<281.0,751.0>> -> L<<281.0,751.0>--<281.0,751.0>>
+	* Acircumflex (U+00C2): L<<273.0,751.0>--<273.0,751.0>> -> L<<273.0,751.0>--<273.0,751.0>>
 
-	* Adieresis (U+00C4): L<<281.0,751.0>--<281.0,751.0>> -> L<<281.0,751.0>--<281.0,751.0>>
+	* Adieresis (U+00C4): L<<273.0,751.0>--<273.0,751.0>> -> L<<273.0,751.0>--<273.0,751.0>>
 
-	* Agrave (U+00C0): L<<281.0,751.0>--<281.0,751.0>> -> L<<281.0,751.0>--<281.0,751.0>>
+	* Agrave (U+00C0): L<<273.0,751.0>--<273.0,751.0>> -> L<<273.0,751.0>--<273.0,751.0>>
 
-	* Amacron (U+0100): L<<281.0,751.0>--<281.0,751.0>> -> L<<281.0,751.0>--<281.0,751.0>>
+	* Amacron (U+0100): L<<273.0,751.0>--<273.0,751.0>> -> L<<273.0,751.0>--<273.0,751.0>>
 
-	* Aogonek (U+0104): L<<281.0,751.0>--<281.0,751.0>> -> L<<281.0,751.0>--<281.0,751.0>>
+	* Aogonek (U+0104): L<<273.0,751.0>--<273.0,751.0>> -> L<<273.0,751.0>--<273.0,751.0>>
 
-	* Aring (U+00C5): L<<281.0,751.0>--<281.0,751.0>> -> L<<281.0,751.0>--<281.0,751.0>>
+	* Aring (U+00C5): L<<273.0,751.0>--<273.0,751.0>> -> L<<273.0,751.0>--<273.0,751.0>>
 
-	* Aringacute (U+01FA): L<<281.0,751.0>--<281.0,751.0>> -> L<<281.0,751.0>--<281.0,751.0>>
+	* Aringacute (U+01FA): L<<273.0,751.0>--<273.0,751.0>> -> L<<273.0,751.0>--<273.0,751.0>>
 
-	* Atilde (U+00C3): L<<281.0,751.0>--<281.0,751.0>> -> L<<281.0,751.0>--<281.0,751.0>>
+	* Atilde (U+00C3): L<<273.0,751.0>--<273.0,751.0>> -> L<<273.0,751.0>--<273.0,751.0>>
 
-	* Eng (U+014A): L<<173.0,716.0>--<173.0,716.0>> -> L<<173.0,716.0>--<173.0,716.0>>
+	* C (U+0043): L<<309.0,90.0>--<314.0,90.0>> -> L<<314.0,90.0>--<328.0,90.0>>
 
-	* IJ (U+0132): L<<424.0,103.0>--<438.0,103.0>> -> L<<438.0,103.0>--<440.0,103.0>>
+	* C (U+0043): L<<328.0,657.0>--<314.0,657.0>> -> L<<314.0,657.0>--<309.0,657.0>>
 
-	* J (U+004A): L<<222.0,103.0>--<236.0,103.0>> -> L<<236.0,103.0>--<238.0,103.0>>
+	* Cacute (U+0106): L<<309.0,90.0>--<314.0,90.0>> -> L<<314.0,90.0>--<328.0,90.0>>
 
-	* Jcircumflex (U+0134): L<<222.0,103.0>--<236.0,103.0>> -> L<<236.0,103.0>--<238.0,103.0>>
+	* Cacute (U+0106): L<<328.0,657.0>--<314.0,657.0>> -> L<<314.0,657.0>--<309.0,657.0>>
 
-	* N (U+004E): L<<173.0,716.0>--<173.0,716.0>> -> L<<173.0,716.0>--<173.0,716.0>>
+	* Ccaron (U+010C): L<<309.0,90.0>--<314.0,90.0>> -> L<<314.0,90.0>--<328.0,90.0>>
 
-	* Nacute (U+0143): L<<173.0,716.0>--<173.0,716.0>> -> L<<173.0,716.0>--<173.0,716.0>>
+	* Ccaron (U+010C): L<<328.0,657.0>--<314.0,657.0>> -> L<<314.0,657.0>--<309.0,657.0>>
 
-	* Ncaron (U+0147): L<<173.0,716.0>--<173.0,716.0>> -> L<<173.0,716.0>--<173.0,716.0>>
+	* Ccedilla (U+00C7): L<<309.0,90.0>--<314.0,90.0>> -> L<<314.0,90.0>--<328.0,90.0>>
 
-	* Nmacronbelow (U+1E48): L<<173.0,716.0>--<173.0,716.0>> -> L<<173.0,716.0>--<173.0,716.0>>
+	* Ccedilla (U+00C7): L<<328.0,657.0>--<314.0,657.0>> -> L<<314.0,657.0>--<309.0,657.0>>
 
-	* Ntilde (U+00D1): L<<173.0,716.0>--<173.0,716.0>> -> L<<173.0,716.0>--<173.0,716.0>>
+	* Ccircumflex (U+0108): L<<309.0,90.0>--<314.0,90.0>> -> L<<314.0,90.0>--<328.0,90.0>>
 
-	* Y (U+0059): L<<227.0,359.0>--<218.0,374.0>> -> L<<218.0,374.0>--<38.0,664.0>>
+	* Ccircumflex (U+0108): L<<328.0,657.0>--<314.0,657.0>> -> L<<314.0,657.0>--<309.0,657.0>>
 
-	* Y (U+0059): L<<527.0,664.0>--<347.0,374.0>> -> L<<347.0,374.0>--<335.0,355.0>>
+	* Cdotaccent (U+010A): L<<309.0,90.0>--<314.0,90.0>> -> L<<314.0,90.0>--<328.0,90.0>>
 
-	* Yacute (U+00DD): L<<227.0,359.0>--<218.0,374.0>> -> L<<218.0,374.0>--<38.0,664.0>>
+	* Cdotaccent (U+010A): L<<328.0,657.0>--<314.0,657.0>> -> L<<314.0,657.0>--<309.0,657.0>>
 
-	* Yacute (U+00DD): L<<527.0,664.0>--<347.0,374.0>> -> L<<347.0,374.0>--<335.0,355.0>>
+	* R (U+0052): L<<327.0,188.0>--<322.0,188.0>> -> L<<322.0,188.0>--<165.0,188.0>>
 
-	* Ycircumflex (U+0176): L<<227.0,359.0>--<218.0,374.0>> -> L<<218.0,374.0>--<38.0,664.0>>
+	* Racute (U+0154): L<<327.0,188.0>--<322.0,188.0>> -> L<<322.0,188.0>--<165.0,188.0>>
 
-	* Ycircumflex (U+0176): L<<527.0,664.0>--<347.0,374.0>> -> L<<347.0,374.0>--<335.0,355.0>>
+	* Rcaron (U+0158): L<<327.0,188.0>--<322.0,188.0>> -> L<<322.0,188.0>--<165.0,188.0>>
 
-	* Ydieresis (U+0178): L<<227.0,359.0>--<218.0,374.0>> -> L<<218.0,374.0>--<38.0,664.0>>
+	* Rmacronbelow (U+1E5E): L<<327.0,188.0>--<322.0,188.0>> -> L<<322.0,188.0>--<165.0,188.0>>
 
-	* Ydieresis (U+0178): L<<527.0,664.0>--<347.0,374.0>> -> L<<347.0,374.0>--<335.0,355.0>>
+	* Y (U+0059): L<<226.0,361.0>--<218.0,374.0>> -> L<<218.0,374.0>--<37.0,674.0>>
 
-	* Ygrave (U+1EF2): L<<227.0,359.0>--<218.0,374.0>> -> L<<218.0,374.0>--<38.0,664.0>>
+	* Y (U+0059): L<<512.0,674.0>--<331.0,374.0>> -> L<<331.0,374.0>--<321.0,358.0>>
 
-	* Ygrave (U+1EF2): L<<527.0,664.0>--<347.0,374.0>> -> L<<347.0,374.0>--<335.0,355.0>>
+	* Yacute (U+00DD): L<<226.0,361.0>--<218.0,374.0>> -> L<<218.0,374.0>--<37.0,674.0>>
 
-	* comma (U+002C): L<<187.0,63.0>--<187.0,63.0>> -> L<<187.0,63.0>--<187.0,63.0>>
+	* Yacute (U+00DD): L<<512.0,674.0>--<331.0,374.0>> -> L<<331.0,374.0>--<321.0,358.0>>
 
-	* eng (U+014B): L<<421.0,-144.0>--<421.0,62.0>> -> L<<421.0,62.0>--<421.0,278.0>>
+	* Ycircumflex (U+0176): L<<226.0,361.0>--<218.0,374.0>> -> L<<218.0,374.0>--<37.0,674.0>>
 
-	* eng (U+014B): L<<528.0,401.0>--<529.0,70.0>> -> L<<529.0,70.0>--<529.0,69.0>>
+	* Ycircumflex (U+0176): L<<512.0,674.0>--<331.0,374.0>> -> L<<331.0,374.0>--<321.0,358.0>>
 
-	* eng (U+014B): L<<529.0,53.0>--<529.0,52.0>> -> L<<529.0,52.0>--<529.0,-144.0>>
+	* Ydieresis (U+0178): L<<226.0,361.0>--<218.0,374.0>> -> L<<218.0,374.0>--<37.0,674.0>>
 
-	* eng (U+014B): L<<529.0,62.0>--<529.0,53.0>> -> L<<529.0,53.0>--<529.0,52.0>>
+	* Ydieresis (U+0178): L<<512.0,674.0>--<331.0,374.0>> -> L<<331.0,374.0>--<321.0,358.0>>
 
-	* eng (U+014B): L<<529.0,69.0>--<529.0,62.0>> -> L<<529.0,62.0>--<529.0,53.0>>
+	* Ygrave (U+1EF2): L<<226.0,361.0>--<218.0,374.0>> -> L<<218.0,374.0>--<37.0,674.0>>
 
-	* eng (U+014B): L<<529.0,70.0>--<529.0,69.0>> -> L<<529.0,69.0>--<529.0,62.0>>
+	* Ygrave (U+1EF2): L<<512.0,674.0>--<331.0,374.0>> -> L<<331.0,374.0>--<321.0,358.0>>
 
-	* k (U+006B): L<<168.0,589.0>--<367.0,589.0>> -> L<<367.0,589.0>--<368.0,589.0>>
+	* comma (U+002C): L<<174.0,57.0>--<174.0,57.0>> -> L<<174.0,57.0>--<174.0,57.0>>
 
-	* k (U+006B): L<<367.0,589.0>--<368.0,589.0>> -> L<<368.0,589.0>--<368.0,589.0>>
+	* eng (U+014B): L<<418.0,-144.0>--<419.0,55.0>> -> L<<419.0,55.0>--<418.0,291.0>>
 
-	* semicolon (U+003B): L<<187.0,63.0>--<187.0,63.0>> -> L<<187.0,63.0>--<187.0,63.0>>
+	* semicolon (U+003B): L<<174.0,57.0>--<174.0,57.0>> -> L<<174.0,57.0>--<174.0,57.0>>
 
-	* trademark (U+2122): L<<678.0,759.0>--<678.0,759.0>> -> L<<678.0,759.0>--<678.0,759.0>>
+	* trademark (U+2122): L<<654.0,760.0>--<654.0,760.0>> -> L<<654.0,760.0>--<654.0,760.0>>
 
-	* uni00B5 (U+00B5): L<<60.0,-126.0>--<60.0,187.0>> -> L<<60.0,187.0>--<59.0,535.0>>
+	* u (U+0075): L<<419.0,260.0>--<419.0,265.0>> -> L<<419.0,265.0>--<419.0,539.0>>
 
-	* uni0137 (U+0137): L<<168.0,589.0>--<367.0,589.0>> -> L<<367.0,589.0>--<368.0,589.0>>
+	* uacute (U+00FA): L<<419.0,260.0>--<419.0,265.0>> -> L<<419.0,265.0>--<419.0,539.0>>
 
-	* uni0137 (U+0137): L<<367.0,589.0>--<368.0,589.0>> -> L<<368.0,589.0>--<368.0,589.0>>
+	* ubreve (U+016D): L<<419.0,260.0>--<419.0,265.0>> -> L<<419.0,265.0>--<419.0,539.0>>
 
-	* uni0145 (U+0145): L<<173.0,716.0>--<173.0,716.0>> -> L<<173.0,716.0>--<173.0,716.0>>
+	* ucircumflex (U+00FB): L<<419.0,260.0>--<419.0,265.0>> -> L<<419.0,265.0>--<419.0,539.0>>
 
-	* uni019D (U+019D): L<<212.0,716.0>--<212.0,716.0>> -> L<<212.0,716.0>--<212.0,716.0>>
+	* udieresis (U+00FC): L<<419.0,260.0>--<419.0,265.0>> -> L<<419.0,265.0>--<419.0,539.0>>
 
-	* uni0232 (U+0232): L<<227.0,359.0>--<218.0,374.0>> -> L<<218.0,374.0>--<38.0,664.0>>
+	* ugrave (U+00F9): L<<419.0,260.0>--<419.0,265.0>> -> L<<419.0,265.0>--<419.0,539.0>>
 
-	* uni0232 (U+0232): L<<527.0,664.0>--<347.0,374.0>> -> L<<347.0,374.0>--<335.0,355.0>>
+	* uhungarumlaut (U+0171): L<<419.0,260.0>--<419.0,265.0>> -> L<<419.0,265.0>--<419.0,539.0>>
 
-	* uni0272 (U+0272): L<<168.0,278.0>--<168.0,53.0>> -> L<<168.0,53.0>--<168.0,51.0>>
+	* umacron (U+016B): L<<419.0,260.0>--<419.0,265.0>> -> L<<419.0,265.0>--<419.0,539.0>>
 
-	* uni0272 (U+0272): L<<168.0,53.0>--<168.0,51.0>> -> L<<168.0,51.0>--<168.0,-144.0>>
+	* uni00B5 (U+00B5): L<<60.0,-136.0>--<60.0,183.0>> -> L<<60.0,183.0>--<59.0,539.0>>
 
-	* uni0272 (U+0272): L<<60.0,-144.0>--<60.0,56.0>> -> L<<60.0,56.0>--<60.0,58.0>>
+	* uni0156 (U+0156): L<<327.0,188.0>--<322.0,188.0>> -> L<<322.0,188.0>--<165.0,188.0>>
 
-	* uni0272 (U+0272): L<<60.0,56.0>--<60.0,58.0>> -> L<<60.0,58.0>--<60.0,535.0>>
+	* uni0232 (U+0232): L<<226.0,361.0>--<218.0,374.0>> -> L<<218.0,374.0>--<37.0,674.0>>
 
-	* uni03BC (U+03BC): L<<100.0,-126.0>--<100.0,187.0>> -> L<<100.0,187.0>--<99.0,535.0>>
+	* uni0232 (U+0232): L<<512.0,674.0>--<331.0,374.0>> -> L<<331.0,374.0>--<321.0,358.0>>
 
-	* uni1E44 (U+1E44): L<<173.0,716.0>--<173.0,716.0>> -> L<<173.0,716.0>--<173.0,716.0>>
+	* uni03BC (U+03BC): L<<94.0,-136.0>--<94.0,183.0>> -> L<<94.0,183.0>--<93.0,539.0>>
 
-	* uni1E46 (U+1E46): L<<173.0,716.0>--<173.0,716.0>> -> L<<173.0,716.0>--<173.0,716.0>>
+	* uni1E08 (U+1E08): L<<309.0,90.0>--<314.0,90.0>> -> L<<314.0,90.0>--<328.0,90.0>>
 
-	* uni1E8E (U+1E8E): L<<227.0,359.0>--<218.0,374.0>> -> L<<218.0,374.0>--<38.0,664.0>>
+	* uni1E08 (U+1E08): L<<328.0,657.0>--<314.0,657.0>> -> L<<314.0,657.0>--<309.0,657.0>>
 
-	* uni1E8E (U+1E8E): L<<527.0,664.0>--<347.0,374.0>> -> L<<347.0,374.0>--<335.0,355.0>>
+	* uni1E5A (U+1E5A): L<<327.0,188.0>--<322.0,188.0>> -> L<<322.0,188.0>--<165.0,188.0>>
 
-	* uni1EA0 (U+1EA0): L<<281.0,751.0>--<281.0,751.0>> -> L<<281.0,751.0>--<281.0,751.0>>
+	* uni1E79 (U+1E79): L<<419.0,260.0>--<419.0,265.0>> -> L<<419.0,265.0>--<419.0,539.0>>
 
-	* uni1EF8 (U+1EF8): L<<227.0,359.0>--<218.0,374.0>> -> L<<218.0,374.0>--<38.0,664.0>>
+	* uni1E7B (U+1E7B): L<<419.0,260.0>--<419.0,265.0>> -> L<<419.0,265.0>--<419.0,539.0>>
 
-	* uni1EF8 (U+1EF8): L<<527.0,664.0>--<347.0,374.0>> -> L<<347.0,374.0>--<335.0,355.0>> [code: found-colinear-vectors]
+	* uni1E8E (U+1E8E): L<<226.0,361.0>--<218.0,374.0>> -> L<<218.0,374.0>--<37.0,674.0>>
+
+	* uni1E8E (U+1E8E): L<<512.0,674.0>--<331.0,374.0>> -> L<<331.0,374.0>--<321.0,358.0>>
+
+	* uni1EA0 (U+1EA0): L<<273.0,751.0>--<273.0,751.0>> -> L<<273.0,751.0>--<273.0,751.0>>
+
+	* uni1EE5 (U+1EE5): L<<419.0,260.0>--<419.0,265.0>> -> L<<419.0,265.0>--<419.0,539.0>>
+
+	* uni1EF8 (U+1EF8): L<<226.0,361.0>--<218.0,374.0>> -> L<<218.0,374.0>--<37.0,674.0>>
+
+	* uni1EF8 (U+1EF8): L<<512.0,674.0>--<331.0,374.0>> -> L<<331.0,374.0>--<321.0,358.0>>
+
+	* uogonek (U+0173): L<<419.0,260.0>--<419.0,265.0>> -> L<<419.0,265.0>--<419.0,539.0>>
+
+	* uring (U+016F): L<<419.0,260.0>--<419.0,265.0>> -> L<<419.0,265.0>--<419.0,539.0>>
+
+	* utilde (U+0169): L<<419.0,260.0>--<419.0,265.0>> -> L<<419.0,265.0>--<419.0,539.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
+	* V (U+0056): B<<223.5,29.0>-<223.0,30.0>-<224.0,28.0>>/B<<224.0,28.0>-<222.0,31.0>-<222.0,34.0>> = 7.125016348901757
+
 	* logo (U+F0000): B<<1065.0,202.5>-<1062.0,185.0>-<1057.0,170.0>>/B<<1057.0,170.0>-<1083.0,213.0>-<1095.5,227.0>> = 12.724355685422335
 
-	* logo (U+F0000): B<<1150.5,90.5>-<1165.0,144.0>-<1187.0,205.0>>/B<<1187.0,205.0>-<1173.0,183.0>-<1160.5,167.0>> = 12.639062440630111 [code: found-jaggy-segments]
+	* logo (U+F0000): B<<1150.5,90.5>-<1165.0,144.0>-<1187.0,205.0>>/B<<1187.0,205.0>-<1173.0,183.0>-<1160.5,167.0>> = 12.639062440630111
+
+	* w (U+0077): B<<63.0,585.5>-<64.0,586.0>-<62.0,585.0>>/B<<62.0,585.0>-<65.0,586.0>-<68.0,586.0>> = 8.13010235415587
+
+	* wacute (U+1E83): B<<63.0,585.5>-<64.0,586.0>-<62.0,585.0>>/B<<62.0,585.0>-<65.0,586.0>-<68.0,586.0>> = 8.13010235415587
+
+	* wcircumflex (U+0175): B<<63.0,585.5>-<64.0,586.0>-<62.0,585.0>>/B<<62.0,585.0>-<65.0,586.0>-<68.0,586.0>> = 8.13010235415587
+
+	* wdieresis (U+1E85): B<<63.0,585.5>-<64.0,586.0>-<62.0,585.0>>/B<<62.0,585.0>-<65.0,586.0>-<68.0,586.0>> = 8.13010235415587
+
+	* wgrave (U+1E81): B<<63.0,585.5>-<64.0,586.0>-<62.0,585.0>>/B<<62.0,585.0>-<65.0,586.0>-<68.0,586.0>> = 8.13010235415587 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* eng (U+014B): L<<528.0,401.0>--<529.0,70.0>>
+	* eng (U+014B): L<<418.0,-144.0>--<419.0,55.0>>
 
-	* h (U+0068): L<<421.0,52.0>--<420.0,401.0>>
+	* eng (U+014B): L<<419.0,55.0>--<418.0,291.0>>
 
-	* h (U+0068): L<<528.0,401.0>--<529.0,52.0>>
+	* h (U+0068): L<<419.0,46.0>--<418.0,402.0>>
 
-	* hbar (U+0127): L<<465.0,52.0>--<464.0,401.0>>
+	* h (U+0068): L<<512.0,402.0>--<513.0,46.0>>
 
-	* hbar (U+0127): L<<572.0,401.0>--<573.0,52.0>>
+	* hbar (U+0127): L<<456.0,46.0>--<455.0,402.0>>
 
-	* hcircumflex (U+0125): L<<421.0,52.0>--<420.0,401.0>>
+	* hbar (U+0127): L<<550.0,402.0>--<551.0,46.0>>
 
-	* hcircumflex (U+0125): L<<528.0,401.0>--<529.0,52.0>>
+	* hcircumflex (U+0125): L<<419.0,46.0>--<418.0,402.0>>
 
-	* m (U+006D): L<<406.0,53.0>--<405.0,278.0>>
+	* hcircumflex (U+0125): L<<512.0,402.0>--<513.0,46.0>>
 
-	* m (U+006D): L<<752.0,53.0>--<751.0,278.0>>
+	* m (U+006D): L<<403.0,47.0>--<402.0,291.0>>
 
-	* m (U+006D): L<<859.0,401.0>--<860.0,53.0>>
+	* m (U+006D): L<<747.0,47.0>--<746.0,291.0>>
 
-	* n (U+006E): L<<422.0,53.0>--<421.0,278.0>>
+	* m (U+006D): L<<841.0,402.0>--<842.0,47.0>>
 
-	* n (U+006E): L<<528.0,401.0>--<529.0,53.0>>
+	* n (U+006E): L<<419.0,47.0>--<418.0,291.0>>
 
-	* nacute (U+0144): L<<422.0,53.0>--<421.0,278.0>>
+	* n (U+006E): L<<513.0,402.0>--<514.0,47.0>>
 
-	* nacute (U+0144): L<<528.0,401.0>--<529.0,53.0>>
+	* nacute (U+0144): L<<419.0,47.0>--<418.0,291.0>>
 
-	* napostrophe (U+0149): L<<642.0,53.0>--<641.0,278.0>>
+	* nacute (U+0144): L<<513.0,402.0>--<514.0,47.0>>
 
-	* napostrophe (U+0149): L<<748.0,401.0>--<749.0,53.0>>
+	* napostrophe (U+0149): L<<626.0,47.0>--<625.0,291.0>>
 
-	* ncaron (U+0148): L<<422.0,53.0>--<421.0,278.0>>
+	* napostrophe (U+0149): L<<720.0,402.0>--<721.0,47.0>>
 
-	* ncaron (U+0148): L<<528.0,401.0>--<529.0,53.0>>
+	* ncaron (U+0148): L<<419.0,47.0>--<418.0,291.0>>
 
-	* nmacronbelow (U+1E49): L<<422.0,53.0>--<421.0,278.0>>
+	* ncaron (U+0148): L<<513.0,402.0>--<514.0,47.0>>
 
-	* nmacronbelow (U+1E49): L<<528.0,401.0>--<529.0,53.0>>
+	* nmacronbelow (U+1E49): L<<419.0,47.0>--<418.0,291.0>>
 
-	* ntilde (U+00F1): L<<422.0,53.0>--<421.0,278.0>>
+	* nmacronbelow (U+1E49): L<<513.0,402.0>--<514.0,47.0>>
 
-	* ntilde (U+00F1): L<<528.0,401.0>--<529.0,53.0>>
+	* ntilde (U+00F1): L<<419.0,47.0>--<418.0,291.0>>
 
-	* t (U+0074): L<<235.0,312.0>--<234.0,167.0>>
+	* ntilde (U+00F1): L<<513.0,402.0>--<514.0,47.0>>
 
-	* tcaron (U+0165): L<<235.0,312.0>--<234.0,167.0>>
+	* t (U+0074): L<<125.0,147.0>--<126.0,330.0>>
 
-	* tmacronbelow (U+1E6F): L<<235.0,312.0>--<234.0,167.0>>
+	* t (U+0074): L<<221.0,330.0>--<220.0,161.0>>
 
-	* u (U+0075): L<<168.0,535.0>--<169.0,269.0>>
+	* tcaron (U+0165): L<<125.0,147.0>--<126.0,330.0>>
 
-	* u (U+0075): L<<61.0,187.0>--<60.0,535.0>>
+	* tcaron (U+0165): L<<221.0,330.0>--<220.0,161.0>>
 
-	* uacute (U+00FA): L<<168.0,535.0>--<169.0,269.0>>
+	* tmacronbelow (U+1E6F): L<<125.0,147.0>--<126.0,330.0>>
 
-	* uacute (U+00FA): L<<61.0,187.0>--<60.0,535.0>>
+	* tmacronbelow (U+1E6F): L<<221.0,330.0>--<220.0,161.0>>
 
-	* ubreve (U+016D): L<<168.0,535.0>--<169.0,269.0>>
+	* u (U+0075): L<<155.0,539.0>--<156.0,260.0>>
 
-	* ubreve (U+016D): L<<61.0,187.0>--<60.0,535.0>>
+	* u (U+0075): L<<61.0,183.0>--<60.0,539.0>>
 
-	* ucircumflex (U+00FB): L<<168.0,535.0>--<169.0,269.0>>
+	* uacute (U+00FA): L<<155.0,539.0>--<156.0,260.0>>
 
-	* ucircumflex (U+00FB): L<<61.0,187.0>--<60.0,535.0>>
+	* uacute (U+00FA): L<<61.0,183.0>--<60.0,539.0>>
 
-	* udieresis (U+00FC): L<<168.0,535.0>--<169.0,269.0>>
+	* ubreve (U+016D): L<<155.0,539.0>--<156.0,260.0>>
 
-	* udieresis (U+00FC): L<<61.0,187.0>--<60.0,535.0>>
+	* ubreve (U+016D): L<<61.0,183.0>--<60.0,539.0>>
 
-	* ugrave (U+00F9): L<<168.0,535.0>--<169.0,269.0>>
+	* ucircumflex (U+00FB): L<<155.0,539.0>--<156.0,260.0>>
 
-	* ugrave (U+00F9): L<<61.0,187.0>--<60.0,535.0>>
+	* ucircumflex (U+00FB): L<<61.0,183.0>--<60.0,539.0>>
 
-	* uhungarumlaut (U+0171): L<<168.0,535.0>--<169.0,269.0>>
+	* udieresis (U+00FC): L<<155.0,539.0>--<156.0,260.0>>
 
-	* uhungarumlaut (U+0171): L<<61.0,187.0>--<60.0,535.0>>
+	* udieresis (U+00FC): L<<61.0,183.0>--<60.0,539.0>>
 
-	* umacron (U+016B): L<<168.0,535.0>--<169.0,269.0>>
+	* ugrave (U+00F9): L<<155.0,539.0>--<156.0,260.0>>
 
-	* umacron (U+016B): L<<61.0,187.0>--<60.0,535.0>>
+	* ugrave (U+00F9): L<<61.0,183.0>--<60.0,539.0>>
 
-	* uni00B5 (U+00B5): L<<167.0,535.0>--<168.0,187.0>>
+	* uhungarumlaut (U+0171): L<<155.0,539.0>--<156.0,260.0>>
 
-	* uni00B5 (U+00B5): L<<60.0,187.0>--<59.0,535.0>>
+	* uhungarumlaut (U+0171): L<<61.0,183.0>--<60.0,539.0>>
 
-	* uni0146 (U+0146): L<<422.0,53.0>--<421.0,278.0>>
+	* umacron (U+016B): L<<155.0,539.0>--<156.0,260.0>>
 
-	* uni0146 (U+0146): L<<528.0,401.0>--<529.0,53.0>>
+	* umacron (U+016B): L<<61.0,183.0>--<60.0,539.0>>
 
-	* uni0163 (U+0163): L<<235.0,312.0>--<234.0,167.0>>
+	* uni00B5 (U+00B5): L<<154.0,539.0>--<155.0,183.0>>
 
-	* uni021B (U+021B): L<<235.0,312.0>--<234.0,167.0>>
+	* uni00B5 (U+00B5): L<<60.0,183.0>--<59.0,539.0>>
 
-	* uni0233 (U+0233): L<<168.0,535.0>--<169.0,187.0>>
+	* uni0146 (U+0146): L<<419.0,47.0>--<418.0,291.0>>
 
-	* uni0233 (U+0233): L<<61.0,187.0>--<60.0,535.0>>
+	* uni0146 (U+0146): L<<513.0,402.0>--<514.0,47.0>>
 
-	* uni0272 (U+0272): L<<422.0,53.0>--<421.0,278.0>>
+	* uni0163 (U+0163): L<<125.0,147.0>--<126.0,330.0>>
 
-	* uni0272 (U+0272): L<<528.0,401.0>--<529.0,53.0>>
+	* uni0163 (U+0163): L<<221.0,330.0>--<220.0,161.0>>
 
-	* uni03BC (U+03BC): L<<100.0,187.0>--<99.0,535.0>>
+	* uni021B (U+021B): L<<125.0,147.0>--<126.0,330.0>>
 
-	* uni03BC (U+03BC): L<<207.0,535.0>--<208.0,187.0>>
+	* uni021B (U+021B): L<<221.0,330.0>--<220.0,161.0>>
 
-	* uni1E25 (U+1E25): L<<421.0,52.0>--<420.0,401.0>>
+	* uni0233 (U+0233): L<<155.0,539.0>--<156.0,183.0>>
 
-	* uni1E25 (U+1E25): L<<528.0,401.0>--<529.0,52.0>>
+	* uni0233 (U+0233): L<<61.0,183.0>--<60.0,539.0>>
 
-	* uni1E2B (U+1E2B): L<<421.0,52.0>--<420.0,401.0>>
+	* uni0272 (U+0272): L<<419.0,47.0>--<418.0,291.0>>
 
-	* uni1E2B (U+1E2B): L<<528.0,401.0>--<529.0,52.0>>
+	* uni0272 (U+0272): L<<513.0,402.0>--<514.0,47.0>>
 
-	* uni1E43 (U+1E43): L<<406.0,53.0>--<405.0,278.0>>
+	* uni03BC (U+03BC): L<<188.0,539.0>--<189.0,183.0>>
 
-	* uni1E43 (U+1E43): L<<752.0,53.0>--<751.0,278.0>>
+	* uni03BC (U+03BC): L<<94.0,183.0>--<93.0,539.0>>
 
-	* uni1E43 (U+1E43): L<<859.0,401.0>--<860.0,53.0>>
+	* uni1E25 (U+1E25): L<<419.0,46.0>--<418.0,402.0>>
 
-	* uni1E45 (U+1E45): L<<422.0,53.0>--<421.0,278.0>>
+	* uni1E25 (U+1E25): L<<512.0,402.0>--<513.0,46.0>>
 
-	* uni1E45 (U+1E45): L<<528.0,401.0>--<529.0,53.0>>
+	* uni1E2B (U+1E2B): L<<419.0,46.0>--<418.0,402.0>>
 
-	* uni1E47 (U+1E47): L<<422.0,53.0>--<421.0,278.0>>
+	* uni1E2B (U+1E2B): L<<512.0,402.0>--<513.0,46.0>>
 
-	* uni1E47 (U+1E47): L<<528.0,401.0>--<529.0,53.0>>
+	* uni1E43 (U+1E43): L<<403.0,47.0>--<402.0,291.0>>
 
-	* uni1E6D (U+1E6D): L<<235.0,312.0>--<234.0,167.0>>
+	* uni1E43 (U+1E43): L<<747.0,47.0>--<746.0,291.0>>
 
-	* uni1E79 (U+1E79): L<<168.0,535.0>--<169.0,269.0>>
+	* uni1E43 (U+1E43): L<<841.0,402.0>--<842.0,47.0>>
 
-	* uni1E79 (U+1E79): L<<61.0,187.0>--<60.0,535.0>>
+	* uni1E45 (U+1E45): L<<419.0,47.0>--<418.0,291.0>>
 
-	* uni1E7B (U+1E7B): L<<168.0,535.0>--<169.0,269.0>>
+	* uni1E45 (U+1E45): L<<513.0,402.0>--<514.0,47.0>>
 
-	* uni1E7B (U+1E7B): L<<61.0,187.0>--<60.0,535.0>>
+	* uni1E47 (U+1E47): L<<419.0,47.0>--<418.0,291.0>>
 
-	* uni1E8F (U+1E8F): L<<168.0,535.0>--<169.0,187.0>>
+	* uni1E47 (U+1E47): L<<513.0,402.0>--<514.0,47.0>>
 
-	* uni1E8F (U+1E8F): L<<61.0,187.0>--<60.0,535.0>>
+	* uni1E6D (U+1E6D): L<<125.0,147.0>--<126.0,330.0>>
 
-	* uni1E97 (U+1E97): L<<235.0,312.0>--<234.0,167.0>>
+	* uni1E6D (U+1E6D): L<<221.0,330.0>--<220.0,161.0>>
 
-	* uni1E9E (U+1E9E): L<<179.0,639.0>--<178.0,54.0>>
+	* uni1E79 (U+1E79): L<<155.0,539.0>--<156.0,260.0>>
 
-	* uni1E9E (U+1E9E): L<<70.0,54.0>--<71.0,693.0>>
+	* uni1E79 (U+1E79): L<<61.0,183.0>--<60.0,539.0>>
 
-	* uni1EE5 (U+1EE5): L<<168.0,535.0>--<169.0,269.0>>
+	* uni1E7B (U+1E7B): L<<155.0,539.0>--<156.0,260.0>>
 
-	* uni1EE5 (U+1EE5): L<<61.0,187.0>--<60.0,535.0>>
+	* uni1E7B (U+1E7B): L<<61.0,183.0>--<60.0,539.0>>
 
-	* uni1EF9 (U+1EF9): L<<168.0,535.0>--<169.0,187.0>>
+	* uni1E8F (U+1E8F): L<<155.0,539.0>--<156.0,183.0>>
 
-	* uni1EF9 (U+1EF9): L<<61.0,187.0>--<60.0,535.0>>
+	* uni1E8F (U+1E8F): L<<61.0,183.0>--<60.0,539.0>>
 
-	* uogonek (U+0173): L<<168.0,535.0>--<169.0,269.0>>
+	* uni1E97 (U+1E97): L<<125.0,147.0>--<126.0,330.0>>
 
-	* uogonek (U+0173): L<<61.0,187.0>--<60.0,535.0>>
+	* uni1E97 (U+1E97): L<<221.0,330.0>--<220.0,161.0>>
 
-	* uring (U+016F): L<<168.0,535.0>--<169.0,269.0>>
+	* uni1E9E (U+1E9E): L<<166.0,652.0>--<165.0,48.0>>
 
-	* uring (U+016F): L<<61.0,187.0>--<60.0,535.0>>
+	* uni1E9E (U+1E9E): L<<70.0,48.0>--<71.0,700.0>>
 
-	* utilde (U+0169): L<<168.0,535.0>--<169.0,269.0>>
+	* uni1EE5 (U+1EE5): L<<155.0,539.0>--<156.0,260.0>>
 
-	* utilde (U+0169): L<<61.0,187.0>--<60.0,535.0>>
+	* uni1EE5 (U+1EE5): L<<61.0,183.0>--<60.0,539.0>>
 
-	* y (U+0079): L<<168.0,535.0>--<169.0,187.0>>
+	* uni1EF9 (U+1EF9): L<<155.0,539.0>--<156.0,183.0>>
 
-	* y (U+0079): L<<61.0,187.0>--<60.0,535.0>>
+	* uni1EF9 (U+1EF9): L<<61.0,183.0>--<60.0,539.0>>
 
-	* yacute (U+00FD): L<<168.0,535.0>--<169.0,187.0>>
+	* uogonek (U+0173): L<<155.0,539.0>--<156.0,260.0>>
 
-	* yacute (U+00FD): L<<61.0,187.0>--<60.0,535.0>>
+	* uogonek (U+0173): L<<61.0,183.0>--<60.0,539.0>>
 
-	* ycircumflex (U+0177): L<<168.0,535.0>--<169.0,187.0>>
+	* uring (U+016F): L<<155.0,539.0>--<156.0,260.0>>
 
-	* ycircumflex (U+0177): L<<61.0,187.0>--<60.0,535.0>>
+	* uring (U+016F): L<<61.0,183.0>--<60.0,539.0>>
 
-	* ydieresis (U+00FF): L<<168.0,535.0>--<169.0,187.0>>
+	* utilde (U+0169): L<<155.0,539.0>--<156.0,260.0>>
 
-	* ydieresis (U+00FF): L<<61.0,187.0>--<60.0,535.0>>
+	* utilde (U+0169): L<<61.0,183.0>--<60.0,539.0>>
 
-	* ygrave (U+1EF3): L<<168.0,535.0>--<169.0,187.0>>
+	* y (U+0079): L<<155.0,539.0>--<156.0,183.0>>
 
-	* ygrave (U+1EF3): L<<61.0,187.0>--<60.0,535.0>> [code: found-semi-vertical]
+	* y (U+0079): L<<61.0,183.0>--<60.0,539.0>>
+
+	* yacute (U+00FD): L<<155.0,539.0>--<156.0,183.0>>
+
+	* yacute (U+00FD): L<<61.0,183.0>--<60.0,539.0>>
+
+	* ycircumflex (U+0177): L<<155.0,539.0>--<156.0,183.0>>
+
+	* ycircumflex (U+0177): L<<61.0,183.0>--<60.0,539.0>>
+
+	* ydieresis (U+00FF): L<<155.0,539.0>--<156.0,183.0>>
+
+	* ydieresis (U+00FF): L<<61.0,183.0>--<60.0,539.0>>
+
+	* ygrave (U+1EF3): L<<155.0,539.0>--<156.0,183.0>>
+
+	* ygrave (U+1EF3): L<<61.0,183.0>--<60.0,539.0>> [code: found-semi-vertical]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><br></div></details><details><summary><b>[21] LibertineSuper-Black.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[17] LibertineSuper-Black.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.sTypoLineGap is "200" it should be 0 [code: bad-OS/2.sTypoLineGap]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1327, but got 1000 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 354, but got 200 instead [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2 sTypoLineGap (200) and hhea lineGap (0) must be equal. [code: lineGap]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
 
 
 * 🔥 **FAIL** name id 256 missing from name table
-</div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
- [code: unknown]
+* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -2206,10 +2220,10 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 688:
-less, greater
+greater, less
 
 Width = 627:
-plusminus, notequal
+notequal, plusminus
 
 Width = 612:
 multiply
@@ -2223,10 +2237,6 @@ lessequal
 Width = 666:
 greaterequal
  [code: width-outliers]
-</div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
-
-
-* ⚠ **WARN** OS/2 sTypoLineGap is not equal to 0. [code: OS/2]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -2509,36 +2519,23 @@ greaterequal
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><br></div></details><details><summary><b>[21] LibertineSuper-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[17] LibertineSuper-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.sTypoLineGap is "200" it should be 0 [code: bad-OS/2.sTypoLineGap]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1327, but got 1000 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 354, but got 200 instead [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2 sTypoLineGap (200) and hhea lineGap (0) must be equal. [code: lineGap]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
 
 
 * 🔥 **FAIL** name id 256 missing from name table
-</div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
- [code: unknown]
+* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -3012,6 +3009,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF9	Contours detected: 3	Expected: 2
 
+	- Glyph name: perthousand	Contours detected: 10	Expected: 6or7
+
 	- Glyph name: A	Contours detected: 3	Expected: 2
 
 	- Glyph name: AE	Contours detected: 3	Expected: 2
@@ -3248,6 +3247,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: percent	Contours detected: 7	Expected: 5
 
+	- Glyph name: perthousand	Contours detected: 10	Expected: 6or7
+
 	- Glyph name: s	Contours detected: 3	Expected: 1
 
 	- Glyph name: sacute	Contours detected: 4	Expected: 2
@@ -3425,165 +3426,129 @@ The following glyphs do not have the recommended number of contours:
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
-* ⚠ **WARN** The most common width is 584 among a set of 5 math glyphs.
+* ⚠ **WARN** The most common width is 557 among a set of 5 math glyphs.
 The following math glyphs have a different width, though:
 
-Width = 632:
-less, greater
-
 Width = 591:
-plusminus, notequal
+greater, less
 
-Width = 578:
+Width = 564:
+notequal, plusminus
+
+Width = 553:
 multiply
 
-Width = 590:
+Width = 563:
 approxequal
 
-Width = 624:
+Width = 587:
 lessequal
 
-Width = 617:
+Width = 580:
 greaterequal
  [code: width-outliers]
-</div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
-
-
-* ⚠ **WARN** OS/2 sTypoLineGap is not equal to 0. [code: OS/2]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* A (U+0041): L<<270.0,751.0>--<270.0,751.0>> -> L<<270.0,751.0>--<271.0,751.0>>
+	* AE (U+00C6): L<<421.0,747.0>--<456.0,747.0>> -> L<<456.0,747.0>--<456.0,747.0>>
 
-	* A (U+0041): L<<270.0,751.0>--<271.0,751.0>> -> L<<271.0,751.0>--<271.0,751.0>>
+	* AE (U+00C6): L<<456.0,747.0>--<456.0,747.0>> -> L<<456.0,747.0>--<462.0,747.0>>
 
-	* Aacute (U+00C1): L<<270.0,751.0>--<270.0,751.0>> -> L<<270.0,751.0>--<271.0,751.0>>
+	* AE (U+00C6): L<<456.0,747.0>--<462.0,747.0>> -> L<<462.0,747.0>--<754.0,747.0>>
 
-	* Aacute (U+00C1): L<<270.0,751.0>--<271.0,751.0>> -> L<<271.0,751.0>--<271.0,751.0>>
+	* AEacute (U+01FC): L<<421.0,747.0>--<456.0,747.0>> -> L<<456.0,747.0>--<456.0,747.0>>
 
-	* Abreve (U+0102): L<<270.0,751.0>--<270.0,751.0>> -> L<<270.0,751.0>--<271.0,751.0>>
+	* AEacute (U+01FC): L<<456.0,747.0>--<456.0,747.0>> -> L<<456.0,747.0>--<462.0,747.0>>
 
-	* Abreve (U+0102): L<<270.0,751.0>--<271.0,751.0>> -> L<<271.0,751.0>--<271.0,751.0>>
+	* AEacute (U+01FC): L<<456.0,747.0>--<462.0,747.0>> -> L<<462.0,747.0>--<754.0,747.0>>
 
-	* Acircumflex (U+00C2): L<<270.0,751.0>--<270.0,751.0>> -> L<<270.0,751.0>--<271.0,751.0>>
+	* Y (U+0059): L<<223.0,365.0>--<218.0,374.0>> -> L<<218.0,374.0>--<35.0,694.0>>
 
-	* Acircumflex (U+00C2): L<<270.0,751.0>--<271.0,751.0>> -> L<<271.0,751.0>--<271.0,751.0>>
+	* Y (U+0059): L<<483.0,694.0>--<301.0,374.0>> -> L<<301.0,374.0>--<293.0,362.0>>
 
-	* Adieresis (U+00C4): L<<270.0,751.0>--<270.0,751.0>> -> L<<270.0,751.0>--<271.0,751.0>>
+	* Yacute (U+00DD): L<<223.0,365.0>--<218.0,374.0>> -> L<<218.0,374.0>--<35.0,694.0>>
 
-	* Adieresis (U+00C4): L<<270.0,751.0>--<271.0,751.0>> -> L<<271.0,751.0>--<271.0,751.0>>
+	* Yacute (U+00DD): L<<483.0,694.0>--<301.0,374.0>> -> L<<301.0,374.0>--<293.0,362.0>>
 
-	* Agrave (U+00C0): L<<270.0,751.0>--<270.0,751.0>> -> L<<270.0,751.0>--<271.0,751.0>>
+	* Ycircumflex (U+0176): L<<223.0,365.0>--<218.0,374.0>> -> L<<218.0,374.0>--<35.0,694.0>>
 
-	* Agrave (U+00C0): L<<270.0,751.0>--<271.0,751.0>> -> L<<271.0,751.0>--<271.0,751.0>>
+	* Ycircumflex (U+0176): L<<483.0,694.0>--<301.0,374.0>> -> L<<301.0,374.0>--<293.0,362.0>>
 
-	* Amacron (U+0100): L<<270.0,751.0>--<270.0,751.0>> -> L<<270.0,751.0>--<271.0,751.0>>
+	* Ydieresis (U+0178): L<<223.0,365.0>--<218.0,374.0>> -> L<<218.0,374.0>--<35.0,694.0>>
 
-	* Amacron (U+0100): L<<270.0,751.0>--<271.0,751.0>> -> L<<271.0,751.0>--<271.0,751.0>>
+	* Ydieresis (U+0178): L<<483.0,694.0>--<301.0,374.0>> -> L<<301.0,374.0>--<293.0,362.0>>
 
-	* Aogonek (U+0104): L<<270.0,751.0>--<270.0,751.0>> -> L<<270.0,751.0>--<271.0,751.0>>
+	* Ygrave (U+1EF2): L<<223.0,365.0>--<218.0,374.0>> -> L<<218.0,374.0>--<35.0,694.0>>
 
-	* Aogonek (U+0104): L<<270.0,751.0>--<271.0,751.0>> -> L<<271.0,751.0>--<271.0,751.0>>
+	* Ygrave (U+1EF2): L<<483.0,694.0>--<301.0,374.0>> -> L<<301.0,374.0>--<293.0,362.0>>
 
-	* Aring (U+00C5): L<<270.0,751.0>--<270.0,751.0>> -> L<<270.0,751.0>--<271.0,751.0>>
+	* eng (U+014B): L<<413.0,-144.0>--<413.0,40.0>> -> L<<413.0,40.0>--<413.0,315.0>>
 
-	* Aring (U+00C5): L<<270.0,751.0>--<271.0,751.0>> -> L<<271.0,751.0>--<271.0,751.0>>
+	* eng (U+014B): L<<483.0,35.0>--<483.0,33.0>> -> L<<483.0,33.0>--<483.0,-144.0>>
 
-	* Aringacute (U+01FA): L<<270.0,751.0>--<270.0,751.0>> -> L<<270.0,751.0>--<271.0,751.0>>
+	* eng (U+014B): L<<483.0,40.0>--<483.0,35.0>> -> L<<483.0,35.0>--<483.0,33.0>>
 
-	* Aringacute (U+01FA): L<<270.0,751.0>--<271.0,751.0>> -> L<<271.0,751.0>--<271.0,751.0>>
+	* eng (U+014B): L<<483.0,46.0>--<483.0,40.0>> -> L<<483.0,40.0>--<483.0,35.0>>
 
-	* Atilde (U+00C3): L<<270.0,751.0>--<270.0,751.0>> -> L<<270.0,751.0>--<271.0,751.0>>
+	* g (U+0067): L<<290.0,-5.0>--<285.0,-5.0>> -> L<<285.0,-5.0>--<272.0,-5.0>>
 
-	* Atilde (U+00C3): L<<270.0,751.0>--<271.0,751.0>> -> L<<271.0,751.0>--<271.0,751.0>>
+	* gbreve (U+011F): L<<290.0,-5.0>--<285.0,-5.0>> -> L<<285.0,-5.0>--<272.0,-5.0>>
 
-	* R (U+0052): L<<324.0,192.0>--<320.0,192.0>> -> L<<320.0,192.0>--<161.0,192.0>>
+	* gcaron (U+01E7): L<<290.0,-5.0>--<285.0,-5.0>> -> L<<285.0,-5.0>--<272.0,-5.0>>
 
-	* Racute (U+0154): L<<324.0,192.0>--<320.0,192.0>> -> L<<320.0,192.0>--<161.0,192.0>>
+	* gcircumflex (U+011D): L<<290.0,-5.0>--<285.0,-5.0>> -> L<<285.0,-5.0>--<272.0,-5.0>>
 
-	* Rcaron (U+0158): L<<324.0,192.0>--<320.0,192.0>> -> L<<320.0,192.0>--<161.0,192.0>>
+	* gdotaccent (U+0121): L<<290.0,-5.0>--<285.0,-5.0>> -> L<<285.0,-5.0>--<272.0,-5.0>>
 
-	* Rmacronbelow (U+1E5E): L<<324.0,192.0>--<320.0,192.0>> -> L<<320.0,192.0>--<161.0,192.0>>
+	* k (U+006B): L<<130.0,580.0>--<343.0,580.0>> -> L<<343.0,580.0>--<343.0,580.0>>
 
-	* Y (U+0059): L<<226.0,362.0>--<218.0,374.0>> -> L<<218.0,374.0>--<37.0,677.0>>
+	* k (U+006B): L<<343.0,580.0>--<343.0,580.0>> -> L<<343.0,580.0>--<344.0,580.0>>
 
-	* Y (U+0059): L<<508.0,677.0>--<327.0,374.0>> -> L<<327.0,374.0>--<317.0,358.0>>
+	* p (U+0070): L<<280.0,65.0>--<282.0,65.0>> -> L<<282.0,65.0>--<295.0,65.0>>
 
-	* Yacute (U+00DD): L<<226.0,362.0>--<218.0,374.0>> -> L<<218.0,374.0>--<37.0,677.0>>
+	* q (U+0071): L<<290.0,-5.0>--<285.0,-5.0>> -> L<<285.0,-5.0>--<272.0,-5.0>>
 
-	* Yacute (U+00DD): L<<508.0,677.0>--<327.0,374.0>> -> L<<327.0,374.0>--<317.0,358.0>>
+	* three (U+0033): L<<413.0,226.0>--<413.0,227.0>> -> L<<413.0,227.0>--<413.0,230.0>>
 
-	* Ycircumflex (U+0176): L<<226.0,362.0>--<218.0,374.0>> -> L<<218.0,374.0>--<37.0,677.0>>
+	* threequarters (U+00BE): L<<256.0,532.0>--<256.0,533.0>> -> L<<256.0,533.0>--<256.0,534.0>>
 
-	* Ycircumflex (U+0176): L<<508.0,677.0>--<327.0,374.0>> -> L<<327.0,374.0>--<317.0,358.0>>
+	* trademark (U+2122): L<<608.0,760.0>--<608.0,760.0>> -> L<<608.0,760.0>--<608.0,760.0>>
 
-	* Ydieresis (U+0178): L<<226.0,362.0>--<218.0,374.0>> -> L<<218.0,374.0>--<37.0,677.0>>
+	* trademark (U+2122): L<<608.0,760.0>--<608.0,760.0>> -> L<<608.0,760.0>--<609.0,760.0>>
 
-	* Ydieresis (U+0178): L<<508.0,677.0>--<327.0,374.0>> -> L<<327.0,374.0>--<317.0,358.0>>
+	* uni00B3 (U+00B3): L<<250.0,532.0>--<250.0,533.0>> -> L<<250.0,533.0>--<250.0,534.0>>
 
-	* Ygrave (U+1EF2): L<<226.0,362.0>--<218.0,374.0>> -> L<<218.0,374.0>--<37.0,677.0>>
+	* uni00B5 (U+00B5): L<<60.0,-154.0>--<60.0,176.0>> -> L<<60.0,176.0>--<59.0,545.0>>
 
-	* Ygrave (U+1EF2): L<<508.0,677.0>--<327.0,374.0>> -> L<<327.0,374.0>--<317.0,358.0>>
+	* uni0123 (U+0123): L<<290.0,-5.0>--<285.0,-5.0>> -> L<<285.0,-5.0>--<272.0,-5.0>>
 
-	* comma (U+002C): L<<171.0,55.0>--<171.0,55.0>> -> L<<171.0,55.0>--<171.0,55.0>>
+	* uni0137 (U+0137): L<<130.0,580.0>--<343.0,580.0>> -> L<<343.0,580.0>--<343.0,580.0>>
 
-	* eng (U+014B): L<<417.0,-144.0>--<418.0,53.0>> -> L<<418.0,53.0>--<417.0,294.0>>
+	* uni0137 (U+0137): L<<343.0,580.0>--<343.0,580.0>> -> L<<343.0,580.0>--<344.0,580.0>>
 
-	* eng (U+014B): L<<508.0,402.0>--<509.0,60.0>> -> L<<509.0,60.0>--<509.0,59.0>>
+	* uni0232 (U+0232): L<<223.0,365.0>--<218.0,374.0>> -> L<<218.0,374.0>--<35.0,694.0>>
 
-	* eng (U+014B): L<<509.0,45.0>--<509.0,43.0>> -> L<<509.0,43.0>--<508.0,-144.0>>
+	* uni0232 (U+0232): L<<483.0,694.0>--<301.0,374.0>> -> L<<301.0,374.0>--<293.0,362.0>>
 
-	* eng (U+014B): L<<509.0,53.0>--<509.0,45.0>> -> L<<509.0,45.0>--<509.0,43.0>>
+	* uni0272 (U+0272): L<<130.0,315.0>--<130.0,35.0>> -> L<<130.0,35.0>--<130.0,32.0>>
 
-	* eng (U+014B): L<<509.0,59.0>--<509.0,53.0>> -> L<<509.0,53.0>--<509.0,45.0>>
+	* uni0272 (U+0272): L<<130.0,35.0>--<130.0,32.0>> -> L<<130.0,32.0>--<130.0,-144.0>>
 
-	* eng (U+014B): L<<509.0,60.0>--<509.0,59.0>> -> L<<509.0,59.0>--<509.0,53.0>>
+	* uni03BC (U+03BC): L<<83.0,-154.0>--<83.0,176.0>> -> L<<83.0,176.0>--<82.0,545.0>>
 
-	* k (U+006B): L<<151.0,585.0>--<356.0,585.0>> -> L<<356.0,585.0>--<357.0,585.0>>
+	* uni1E21 (U+1E21): L<<290.0,-5.0>--<285.0,-5.0>> -> L<<285.0,-5.0>--<272.0,-5.0>>
 
-	* k (U+006B): L<<356.0,585.0>--<357.0,585.0>> -> L<<357.0,585.0>--<357.0,585.0>>
+	* uni1E8E (U+1E8E): L<<223.0,365.0>--<218.0,374.0>> -> L<<218.0,374.0>--<35.0,694.0>>
 
-	* semicolon (U+003B): L<<171.0,55.0>--<171.0,55.0>> -> L<<171.0,55.0>--<171.0,55.0>>
+	* uni1E8E (U+1E8E): L<<483.0,694.0>--<301.0,374.0>> -> L<<301.0,374.0>--<293.0,362.0>>
 
-	* trademark (U+2122): L<<647.0,760.0>--<647.0,760.0>> -> L<<647.0,760.0>--<647.0,760.0>>
+	* uni1EF8 (U+1EF8): L<<223.0,365.0>--<218.0,374.0>> -> L<<218.0,374.0>--<35.0,694.0>>
 
-	* uni00B5 (U+00B5): L<<60.0,-138.0>--<60.0,182.0>> -> L<<60.0,182.0>--<59.0,539.0>>
+	* uni1EF8 (U+1EF8): L<<483.0,694.0>--<301.0,374.0>> -> L<<301.0,374.0>--<293.0,362.0>>
 
-	* uni0137 (U+0137): L<<151.0,585.0>--<356.0,585.0>> -> L<<356.0,585.0>--<357.0,585.0>>
-
-	* uni0137 (U+0137): L<<356.0,585.0>--<357.0,585.0>> -> L<<357.0,585.0>--<357.0,585.0>>
-
-	* uni0156 (U+0156): L<<324.0,192.0>--<320.0,192.0>> -> L<<320.0,192.0>--<161.0,192.0>>
-
-	* uni0232 (U+0232): L<<226.0,362.0>--<218.0,374.0>> -> L<<218.0,374.0>--<37.0,677.0>>
-
-	* uni0232 (U+0232): L<<508.0,677.0>--<327.0,374.0>> -> L<<327.0,374.0>--<317.0,358.0>>
-
-	* uni0272 (U+0272): L<<151.0,294.0>--<151.0,45.0>> -> L<<151.0,45.0>--<151.0,42.0>>
-
-	* uni0272 (U+0272): L<<151.0,45.0>--<151.0,42.0>> -> L<<151.0,42.0>--<151.0,-144.0>>
-
-	* uni0272 (U+0272): L<<60.0,-144.0>--<60.0,48.0>> -> L<<60.0,48.0>--<60.0,51.0>>
-
-	* uni0272 (U+0272): L<<60.0,48.0>--<60.0,51.0>> -> L<<60.0,51.0>--<60.0,539.0>>
-
-	* uni03BC (U+03BC): L<<92.0,-138.0>--<92.0,182.0>> -> L<<92.0,182.0>--<91.0,539.0>>
-
-	* uni1E5A (U+1E5A): L<<324.0,192.0>--<320.0,192.0>> -> L<<320.0,192.0>--<161.0,192.0>>
-
-	* uni1E8E (U+1E8E): L<<226.0,362.0>--<218.0,374.0>> -> L<<218.0,374.0>--<37.0,677.0>>
-
-	* uni1E8E (U+1E8E): L<<508.0,677.0>--<327.0,374.0>> -> L<<327.0,374.0>--<317.0,358.0>>
-
-	* uni1EA0 (U+1EA0): L<<270.0,751.0>--<270.0,751.0>> -> L<<270.0,751.0>--<271.0,751.0>>
-
-	* uni1EA0 (U+1EA0): L<<270.0,751.0>--<271.0,751.0>> -> L<<271.0,751.0>--<271.0,751.0>>
-
-	* uni1EF8 (U+1EF8): L<<226.0,362.0>--<218.0,374.0>> -> L<<218.0,374.0>--<37.0,677.0>>
-
-	* uni1EF8 (U+1EF8): L<<508.0,677.0>--<327.0,374.0>> -> L<<327.0,374.0>--<317.0,358.0>> [code: found-colinear-vectors]
+	* uni2083 (U+2083): L<<250.0,137.0>--<250.0,138.0>> -> L<<250.0,138.0>--<250.0,139.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -3591,231 +3556,252 @@ greaterequal
 
 	* logo (U+F0000): B<<1065.0,202.5>-<1062.0,185.0>-<1057.0,170.0>>/B<<1057.0,170.0>-<1083.0,213.0>-<1095.5,227.0>> = 12.724355685422335
 
-	* logo (U+F0000): B<<1150.5,90.5>-<1165.0,144.0>-<1187.0,205.0>>/B<<1187.0,205.0>-<1173.0,183.0>-<1160.5,167.0>> = 12.639062440630111 [code: found-jaggy-segments]
+	* logo (U+F0000): B<<1150.5,90.5>-<1165.0,144.0>-<1187.0,205.0>>/B<<1187.0,205.0>-<1173.0,183.0>-<1160.5,167.0>> = 12.639062440630111
+
+	* perthousand (U+2030): B<<187.5,276.0>-<193.0,308.0>-<206.0,334.0>>/L<<206.0,334.0>--<57.0,128.0>> = 9.313201082726328
+
+	* perthousand (U+2030): B<<334.0,211.0>-<334.0,240.0>-<339.0,266.0>>/L<<339.0,266.0>--<274.0,41.0>> = 5.227891178430557
+
+	* perthousand (U+2030): B<<424.0,183.0>-<424.0,173.0>-<423.0,164.0>>/L<<423.0,164.0>--<479.0,356.0>> = 9.920012962402067
+
+	* perthousand (U+2030): L<<358.0,333.0>--<356.0,328.0>>/B<<356.0,328.0>-<357.0,330.0>-<358.0,332.0>> = 4.763641690726066
+
+	* perthousand (U+2030): L<<487.0,721.0>--<231.0,368.0>>/B<<231.0,368.0>-<245.0,381.0>-<262.5,388.5>> = 11.1710060933524 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* eng (U+014B): L<<417.0,-144.0>--<418.0,53.0>>
+	* eng (U+014B): L<<482.0,403.0>--<483.0,46.0>>
 
-	* eng (U+014B): L<<418.0,53.0>--<417.0,294.0>>
+	* h (U+0068): L<<413.0,34.0>--<412.0,403.0>>
 
-	* eng (U+014B): L<<508.0,402.0>--<509.0,60.0>>
+	* h (U+0068): L<<482.0,403.0>--<483.0,34.0>>
 
-	* eng (U+014B): L<<509.0,43.0>--<508.0,-144.0>>
+	* hbar (U+0127): L<<438.0,34.0>--<437.0,403.0>>
 
-	* h (U+0068): L<<418.0,44.0>--<417.0,402.0>>
+	* hbar (U+0127): L<<507.0,403.0>--<508.0,34.0>>
 
-	* h (U+0068): L<<508.0,402.0>--<509.0,44.0>>
+	* hcircumflex (U+0125): L<<413.0,34.0>--<412.0,403.0>>
 
-	* hbar (U+0127): L<<453.0,44.0>--<452.0,402.0>>
+	* hcircumflex (U+0125): L<<482.0,403.0>--<483.0,34.0>>
 
-	* hbar (U+0127): L<<544.0,402.0>--<545.0,44.0>>
+	* m (U+006D): L<<398.0,35.0>--<397.0,315.0>>
 
-	* hcircumflex (U+0125): L<<418.0,44.0>--<417.0,402.0>>
+	* m (U+006D): L<<737.0,35.0>--<736.0,315.0>>
 
-	* hcircumflex (U+0125): L<<508.0,402.0>--<509.0,44.0>>
+	* m (U+006D): L<<805.0,403.0>--<806.0,35.0>>
 
-	* m (U+006D): L<<835.0,402.0>--<836.0,45.0>>
+	* n (U+006E): L<<414.0,35.0>--<413.0,315.0>>
 
-	* n (U+006E): L<<418.0,45.0>--<417.0,294.0>>
+	* n (U+006E): L<<482.0,403.0>--<483.0,35.0>>
 
-	* n (U+006E): L<<508.0,402.0>--<509.0,45.0>>
+	* nacute (U+0144): L<<414.0,35.0>--<413.0,315.0>>
 
-	* nacute (U+0144): L<<418.0,45.0>--<417.0,294.0>>
+	* nacute (U+0144): L<<482.0,403.0>--<483.0,35.0>>
 
-	* nacute (U+0144): L<<508.0,402.0>--<509.0,45.0>>
+	* napostrophe (U+0149): L<<595.0,35.0>--<594.0,315.0>>
 
-	* napostrophe (U+0149): L<<621.0,45.0>--<620.0,294.0>>
+	* napostrophe (U+0149): L<<663.0,403.0>--<664.0,35.0>>
 
-	* napostrophe (U+0149): L<<711.0,402.0>--<712.0,45.0>>
+	* ncaron (U+0148): L<<414.0,35.0>--<413.0,315.0>>
 
-	* ncaron (U+0148): L<<418.0,45.0>--<417.0,294.0>>
+	* ncaron (U+0148): L<<482.0,403.0>--<483.0,35.0>>
 
-	* ncaron (U+0148): L<<508.0,402.0>--<509.0,45.0>>
+	* nmacronbelow (U+1E49): L<<414.0,35.0>--<413.0,315.0>>
 
-	* nmacronbelow (U+1E49): L<<418.0,45.0>--<417.0,294.0>>
+	* nmacronbelow (U+1E49): L<<482.0,403.0>--<483.0,35.0>>
 
-	* nmacronbelow (U+1E49): L<<508.0,402.0>--<509.0,45.0>>
+	* ntilde (U+00F1): L<<414.0,35.0>--<413.0,315.0>>
 
-	* ntilde (U+00F1): L<<418.0,45.0>--<417.0,294.0>>
+	* ntilde (U+00F1): L<<482.0,403.0>--<483.0,35.0>>
 
-	* ntilde (U+00F1): L<<508.0,402.0>--<509.0,45.0>>
+	* t (U+0074): L<<124.0,580.0>--<125.0,712.0>>
 
-	* t (U+0074): L<<217.0,335.0>--<216.0,159.0>>
+	* t (U+0074): L<<195.0,712.0>--<194.0,580.0>>
 
-	* tcaron (U+0165): L<<217.0,335.0>--<216.0,159.0>>
+	* tbar (U+0167): L<<124.0,580.0>--<125.0,712.0>>
 
-	* tmacronbelow (U+1E6F): L<<217.0,335.0>--<216.0,159.0>>
+	* tbar (U+0167): L<<195.0,712.0>--<194.0,580.0>>
 
-	* u (U+0075): L<<151.0,539.0>--<152.0,257.0>>
+	* tcaron (U+0165): L<<124.0,580.0>--<125.0,712.0>>
 
-	* u (U+0075): L<<61.0,182.0>--<60.0,539.0>>
+	* tcaron (U+0165): L<<195.0,712.0>--<194.0,580.0>>
 
-	* uacute (U+00FA): L<<151.0,539.0>--<152.0,257.0>>
+	* tmacronbelow (U+1E6F): L<<124.0,580.0>--<125.0,712.0>>
 
-	* uacute (U+00FA): L<<61.0,182.0>--<60.0,539.0>>
+	* tmacronbelow (U+1E6F): L<<195.0,712.0>--<194.0,580.0>>
 
-	* ubreve (U+016D): L<<151.0,539.0>--<152.0,257.0>>
+	* u (U+0075): L<<130.0,545.0>--<131.0,241.0>>
 
-	* ubreve (U+016D): L<<61.0,182.0>--<60.0,539.0>>
+	* u (U+0075): L<<61.0,176.0>--<60.0,545.0>>
 
-	* ucircumflex (U+00FB): L<<151.0,539.0>--<152.0,257.0>>
+	* uacute (U+00FA): L<<130.0,545.0>--<131.0,241.0>>
 
-	* ucircumflex (U+00FB): L<<61.0,182.0>--<60.0,539.0>>
+	* uacute (U+00FA): L<<61.0,176.0>--<60.0,545.0>>
 
-	* udieresis (U+00FC): L<<151.0,539.0>--<152.0,257.0>>
+	* ubreve (U+016D): L<<130.0,545.0>--<131.0,241.0>>
 
-	* udieresis (U+00FC): L<<61.0,182.0>--<60.0,539.0>>
+	* ubreve (U+016D): L<<61.0,176.0>--<60.0,545.0>>
 
-	* ugrave (U+00F9): L<<151.0,539.0>--<152.0,257.0>>
+	* ucircumflex (U+00FB): L<<130.0,545.0>--<131.0,241.0>>
 
-	* ugrave (U+00F9): L<<61.0,182.0>--<60.0,539.0>>
+	* ucircumflex (U+00FB): L<<61.0,176.0>--<60.0,545.0>>
 
-	* uhungarumlaut (U+0171): L<<151.0,539.0>--<152.0,257.0>>
+	* udieresis (U+00FC): L<<130.0,545.0>--<131.0,241.0>>
 
-	* uhungarumlaut (U+0171): L<<61.0,182.0>--<60.0,539.0>>
+	* udieresis (U+00FC): L<<61.0,176.0>--<60.0,545.0>>
 
-	* umacron (U+016B): L<<151.0,539.0>--<152.0,257.0>>
+	* ugrave (U+00F9): L<<130.0,545.0>--<131.0,241.0>>
 
-	* umacron (U+016B): L<<61.0,182.0>--<60.0,539.0>>
+	* ugrave (U+00F9): L<<61.0,176.0>--<60.0,545.0>>
 
-	* uni00B5 (U+00B5): L<<150.0,539.0>--<151.0,182.0>>
+	* uhungarumlaut (U+0171): L<<130.0,545.0>--<131.0,241.0>>
 
-	* uni00B5 (U+00B5): L<<60.0,182.0>--<59.0,539.0>>
+	* uhungarumlaut (U+0171): L<<61.0,176.0>--<60.0,545.0>>
 
-	* uni0146 (U+0146): L<<418.0,45.0>--<417.0,294.0>>
+	* umacron (U+016B): L<<130.0,545.0>--<131.0,241.0>>
 
-	* uni0146 (U+0146): L<<508.0,402.0>--<509.0,45.0>>
+	* umacron (U+016B): L<<61.0,176.0>--<60.0,545.0>>
 
-	* uni0163 (U+0163): L<<217.0,335.0>--<216.0,159.0>>
+	* uni00B5 (U+00B5): L<<129.0,545.0>--<130.0,176.0>>
 
-	* uni021B (U+021B): L<<217.0,335.0>--<216.0,159.0>>
+	* uni00B5 (U+00B5): L<<60.0,176.0>--<59.0,545.0>>
 
-	* uni0233 (U+0233): L<<151.0,539.0>--<152.0,182.0>>
+	* uni0146 (U+0146): L<<414.0,35.0>--<413.0,315.0>>
 
-	* uni0233 (U+0233): L<<61.0,182.0>--<60.0,539.0>>
+	* uni0146 (U+0146): L<<482.0,403.0>--<483.0,35.0>>
 
-	* uni0272 (U+0272): L<<418.0,45.0>--<417.0,294.0>>
+	* uni0163 (U+0163): L<<124.0,580.0>--<125.0,712.0>>
 
-	* uni0272 (U+0272): L<<508.0,402.0>--<509.0,45.0>>
+	* uni0163 (U+0163): L<<195.0,712.0>--<194.0,580.0>>
 
-	* uni03BC (U+03BC): L<<182.0,539.0>--<183.0,182.0>>
+	* uni019D (U+019D): L<<92.0,-144.0>--<91.0,46.0>>
 
-	* uni03BC (U+03BC): L<<92.0,182.0>--<91.0,539.0>>
+	* uni021B (U+021B): L<<124.0,580.0>--<125.0,712.0>>
 
-	* uni1E25 (U+1E25): L<<418.0,44.0>--<417.0,402.0>>
+	* uni021B (U+021B): L<<195.0,712.0>--<194.0,580.0>>
 
-	* uni1E25 (U+1E25): L<<508.0,402.0>--<509.0,44.0>>
+	* uni0233 (U+0233): L<<130.0,545.0>--<131.0,176.0>>
 
-	* uni1E2B (U+1E2B): L<<418.0,44.0>--<417.0,402.0>>
+	* uni0233 (U+0233): L<<61.0,176.0>--<60.0,545.0>>
 
-	* uni1E2B (U+1E2B): L<<508.0,402.0>--<509.0,44.0>>
+	* uni0272 (U+0272): L<<414.0,35.0>--<413.0,315.0>>
 
-	* uni1E43 (U+1E43): L<<835.0,402.0>--<836.0,45.0>>
+	* uni0272 (U+0272): L<<482.0,403.0>--<483.0,35.0>>
 
-	* uni1E45 (U+1E45): L<<418.0,45.0>--<417.0,294.0>>
+	* uni03BC (U+03BC): L<<152.0,545.0>--<153.0,176.0>>
 
-	* uni1E45 (U+1E45): L<<508.0,402.0>--<509.0,45.0>>
+	* uni03BC (U+03BC): L<<83.0,176.0>--<82.0,545.0>>
 
-	* uni1E47 (U+1E47): L<<418.0,45.0>--<417.0,294.0>>
+	* uni1E25 (U+1E25): L<<413.0,34.0>--<412.0,403.0>>
 
-	* uni1E47 (U+1E47): L<<508.0,402.0>--<509.0,45.0>>
+	* uni1E25 (U+1E25): L<<482.0,403.0>--<483.0,34.0>>
 
-	* uni1E6D (U+1E6D): L<<217.0,335.0>--<216.0,159.0>>
+	* uni1E2B (U+1E2B): L<<413.0,34.0>--<412.0,403.0>>
 
-	* uni1E79 (U+1E79): L<<151.0,539.0>--<152.0,257.0>>
+	* uni1E2B (U+1E2B): L<<482.0,403.0>--<483.0,34.0>>
 
-	* uni1E79 (U+1E79): L<<61.0,182.0>--<60.0,539.0>>
+	* uni1E43 (U+1E43): L<<398.0,35.0>--<397.0,315.0>>
 
-	* uni1E7B (U+1E7B): L<<151.0,539.0>--<152.0,257.0>>
+	* uni1E43 (U+1E43): L<<737.0,35.0>--<736.0,315.0>>
 
-	* uni1E7B (U+1E7B): L<<61.0,182.0>--<60.0,539.0>>
+	* uni1E43 (U+1E43): L<<805.0,403.0>--<806.0,35.0>>
 
-	* uni1E8F (U+1E8F): L<<151.0,539.0>--<152.0,182.0>>
+	* uni1E45 (U+1E45): L<<414.0,35.0>--<413.0,315.0>>
 
-	* uni1E8F (U+1E8F): L<<61.0,182.0>--<60.0,539.0>>
+	* uni1E45 (U+1E45): L<<482.0,403.0>--<483.0,35.0>>
 
-	* uni1E97 (U+1E97): L<<217.0,335.0>--<216.0,159.0>>
+	* uni1E47 (U+1E47): L<<414.0,35.0>--<413.0,315.0>>
 
-	* uni1E9E (U+1E9E): L<<162.0,656.0>--<161.0,46.0>>
+	* uni1E47 (U+1E47): L<<482.0,403.0>--<483.0,35.0>>
 
-	* uni1E9E (U+1E9E): L<<70.0,46.0>--<71.0,701.0>>
+	* uni1E6D (U+1E6D): L<<124.0,580.0>--<125.0,712.0>>
 
-	* uni1EE5 (U+1EE5): L<<151.0,539.0>--<152.0,257.0>>
+	* uni1E6D (U+1E6D): L<<195.0,712.0>--<194.0,580.0>>
 
-	* uni1EE5 (U+1EE5): L<<61.0,182.0>--<60.0,539.0>>
+	* uni1E79 (U+1E79): L<<130.0,545.0>--<131.0,241.0>>
 
-	* uni1EF9 (U+1EF9): L<<151.0,539.0>--<152.0,182.0>>
+	* uni1E79 (U+1E79): L<<61.0,176.0>--<60.0,545.0>>
 
-	* uni1EF9 (U+1EF9): L<<61.0,182.0>--<60.0,539.0>>
+	* uni1E7B (U+1E7B): L<<130.0,545.0>--<131.0,241.0>>
 
-	* uogonek (U+0173): L<<151.0,539.0>--<152.0,257.0>>
+	* uni1E7B (U+1E7B): L<<61.0,176.0>--<60.0,545.0>>
 
-	* uogonek (U+0173): L<<61.0,182.0>--<60.0,539.0>>
+	* uni1E8F (U+1E8F): L<<130.0,545.0>--<131.0,176.0>>
 
-	* uring (U+016F): L<<151.0,539.0>--<152.0,257.0>>
+	* uni1E8F (U+1E8F): L<<61.0,176.0>--<60.0,545.0>>
 
-	* uring (U+016F): L<<61.0,182.0>--<60.0,539.0>>
+	* uni1E97 (U+1E97): L<<124.0,580.0>--<125.0,712.0>>
 
-	* utilde (U+0169): L<<151.0,539.0>--<152.0,257.0>>
+	* uni1E97 (U+1E97): L<<195.0,712.0>--<194.0,580.0>>
 
-	* utilde (U+0169): L<<61.0,182.0>--<60.0,539.0>>
+	* uni1E9E (U+1E9E): L<<141.0,677.0>--<140.0,35.0>>
 
-	* y (U+0079): L<<151.0,539.0>--<152.0,182.0>>
+	* uni1E9E (U+1E9E): L<<70.0,35.0>--<71.0,712.0>>
 
-	* y (U+0079): L<<61.0,182.0>--<60.0,539.0>>
+	* uni1EE5 (U+1EE5): L<<130.0,545.0>--<131.0,241.0>>
 
-	* yacute (U+00FD): L<<151.0,539.0>--<152.0,182.0>>
+	* uni1EE5 (U+1EE5): L<<61.0,176.0>--<60.0,545.0>>
 
-	* yacute (U+00FD): L<<61.0,182.0>--<60.0,539.0>>
+	* uni1EF9 (U+1EF9): L<<130.0,545.0>--<131.0,176.0>>
 
-	* ycircumflex (U+0177): L<<151.0,539.0>--<152.0,182.0>>
+	* uni1EF9 (U+1EF9): L<<61.0,176.0>--<60.0,545.0>>
 
-	* ycircumflex (U+0177): L<<61.0,182.0>--<60.0,539.0>>
+	* uogonek (U+0173): L<<130.0,545.0>--<131.0,241.0>>
 
-	* ydieresis (U+00FF): L<<151.0,539.0>--<152.0,182.0>>
+	* uogonek (U+0173): L<<61.0,176.0>--<60.0,545.0>>
 
-	* ydieresis (U+00FF): L<<61.0,182.0>--<60.0,539.0>>
+	* uring (U+016F): L<<130.0,545.0>--<131.0,241.0>>
 
-	* ygrave (U+1EF3): L<<151.0,539.0>--<152.0,182.0>>
+	* uring (U+016F): L<<61.0,176.0>--<60.0,545.0>>
 
-	* ygrave (U+1EF3): L<<61.0,182.0>--<60.0,539.0>> [code: found-semi-vertical]
+	* utilde (U+0169): L<<130.0,545.0>--<131.0,241.0>>
+
+	* utilde (U+0169): L<<61.0,176.0>--<60.0,545.0>>
+
+	* x (U+0078): L<<453.0,-1.0>--<65.0,-2.0>>
+
+	* y (U+0079): L<<130.0,545.0>--<131.0,176.0>>
+
+	* y (U+0079): L<<61.0,176.0>--<60.0,545.0>>
+
+	* yacute (U+00FD): L<<130.0,545.0>--<131.0,176.0>>
+
+	* yacute (U+00FD): L<<61.0,176.0>--<60.0,545.0>>
+
+	* ycircumflex (U+0177): L<<130.0,545.0>--<131.0,176.0>>
+
+	* ycircumflex (U+0177): L<<61.0,176.0>--<60.0,545.0>>
+
+	* ydieresis (U+00FF): L<<130.0,545.0>--<131.0,176.0>>
+
+	* ydieresis (U+00FF): L<<61.0,176.0>--<60.0,545.0>>
+
+	* ygrave (U+1EF3): L<<130.0,545.0>--<131.0,176.0>>
+
+	* ygrave (U+1EF3): L<<61.0,176.0>--<60.0,545.0>> [code: found-semi-vertical]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><br></div></details><details><summary><b>[21] LibertineSuper-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[17] LibertineSuper-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.sTypoLineGap is "200" it should be 0 [code: bad-OS/2.sTypoLineGap]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1327, but got 1000 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 354, but got 200 instead [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2 sTypoLineGap (200) and hhea lineGap (0) must be equal. [code: lineGap]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
 
 
 * 🔥 **FAIL** name id 256 missing from name table
-</div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
- [code: unknown]
+* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -4702,126 +4688,106 @@ The following glyphs do not have the recommended number of contours:
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
-* ⚠ **WARN** The most common width is 520 among a set of 5 math glyphs.
+* ⚠ **WARN** The most common width is 509 among a set of 5 math glyphs.
 The following math glyphs have a different width, though:
 
-Width = 535:
-less, greater
+Width = 517:
+greater, less
 
-Width = 527:
-plusminus, approxequal, notequal
+Width = 516:
+approxequal, notequal, plusminus
 
-Width = 519:
+Width = 508:
 multiply
 
-Width = 537:
+Width = 522:
 lessequal
 
-Width = 530:
+Width = 515:
 greaterequal
  [code: width-outliers]
-</div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
-
-
-* ⚠ **WARN** OS/2 sTypoLineGap is not equal to 0. [code: OS/2]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* A (U+0041): L<<239.0,752.0>--<240.0,752.0>> -> L<<240.0,752.0>--<240.0,752.0>>
+	* A (U+0041): L<<234.0,752.0>--<234.0,752.0>> -> L<<234.0,752.0>--<235.0,752.0>>
 
-	* AE (U+00C6): L<<415.0,300.0>--<222.0,300.0>> -> L<<222.0,300.0>--<221.0,300.0>>
+	* AE (U+00C6): L<<184.0,244.0>--<415.0,244.0>> -> L<<415.0,244.0>--<415.0,244.0>>
 
-	* AE (U+00C6): L<<422.0,747.0>--<442.0,747.0>> -> L<<442.0,747.0>--<442.0,747.0>>
+	* AEacute (U+01FC): L<<184.0,244.0>--<415.0,244.0>> -> L<<415.0,244.0>--<415.0,244.0>>
 
-	* AE (U+00C6): L<<442.0,747.0>--<442.0,747.0>> -> L<<442.0,747.0>--<443.0,747.0>>
+	* Aacute (U+00C1): L<<234.0,752.0>--<234.0,752.0>> -> L<<234.0,752.0>--<235.0,752.0>>
 
-	* AE (U+00C6): L<<442.0,747.0>--<443.0,747.0>> -> L<<443.0,747.0>--<728.0,747.0>>
+	* Abreve (U+0102): L<<234.0,752.0>--<234.0,752.0>> -> L<<234.0,752.0>--<235.0,752.0>>
 
-	* AEacute (U+01FC): L<<415.0,300.0>--<222.0,300.0>> -> L<<222.0,300.0>--<221.0,300.0>>
+	* Acircumflex (U+00C2): L<<234.0,752.0>--<234.0,752.0>> -> L<<234.0,752.0>--<235.0,752.0>>
 
-	* AEacute (U+01FC): L<<422.0,747.0>--<442.0,747.0>> -> L<<442.0,747.0>--<442.0,747.0>>
+	* Adieresis (U+00C4): L<<234.0,752.0>--<234.0,752.0>> -> L<<234.0,752.0>--<235.0,752.0>>
 
-	* AEacute (U+01FC): L<<442.0,747.0>--<442.0,747.0>> -> L<<442.0,747.0>--<443.0,747.0>>
+	* Agrave (U+00C0): L<<234.0,752.0>--<234.0,752.0>> -> L<<234.0,752.0>--<235.0,752.0>>
 
-	* AEacute (U+01FC): L<<442.0,747.0>--<443.0,747.0>> -> L<<443.0,747.0>--<728.0,747.0>>
+	* Amacron (U+0100): L<<234.0,752.0>--<234.0,752.0>> -> L<<234.0,752.0>--<235.0,752.0>>
 
-	* Aacute (U+00C1): L<<239.0,752.0>--<240.0,752.0>> -> L<<240.0,752.0>--<240.0,752.0>>
+	* Aogonek (U+0104): L<<234.0,752.0>--<234.0,752.0>> -> L<<234.0,752.0>--<235.0,752.0>>
 
-	* Abreve (U+0102): L<<239.0,752.0>--<240.0,752.0>> -> L<<240.0,752.0>--<240.0,752.0>>
+	* Aring (U+00C5): L<<234.0,752.0>--<234.0,752.0>> -> L<<234.0,752.0>--<235.0,752.0>>
 
-	* Acircumflex (U+00C2): L<<239.0,752.0>--<240.0,752.0>> -> L<<240.0,752.0>--<240.0,752.0>>
+	* Aringacute (U+01FA): L<<234.0,752.0>--<234.0,752.0>> -> L<<234.0,752.0>--<235.0,752.0>>
 
-	* Adieresis (U+00C4): L<<239.0,752.0>--<240.0,752.0>> -> L<<240.0,752.0>--<240.0,752.0>>
+	* Atilde (U+00C3): L<<234.0,752.0>--<234.0,752.0>> -> L<<234.0,752.0>--<235.0,752.0>>
 
-	* Agrave (U+00C0): L<<239.0,752.0>--<240.0,752.0>> -> L<<240.0,752.0>--<240.0,752.0>>
+	* Y (U+0059): L<<219.0,370.0>--<217.0,374.0>> -> L<<217.0,374.0>--<32.0,722.0>>
 
-	* Amacron (U+0100): L<<239.0,752.0>--<240.0,752.0>> -> L<<240.0,752.0>--<240.0,752.0>>
+	* Y (U+0059): L<<440.0,722.0>--<255.0,374.0>> -> L<<255.0,374.0>--<252.0,368.0>>
 
-	* Aogonek (U+0104): L<<239.0,752.0>--<240.0,752.0>> -> L<<240.0,752.0>--<240.0,752.0>>
+	* Yacute (U+00DD): L<<219.0,370.0>--<217.0,374.0>> -> L<<217.0,374.0>--<32.0,722.0>>
 
-	* Aring (U+00C5): L<<239.0,752.0>--<240.0,752.0>> -> L<<240.0,752.0>--<240.0,752.0>>
+	* Yacute (U+00DD): L<<440.0,722.0>--<255.0,374.0>> -> L<<255.0,374.0>--<252.0,368.0>>
 
-	* Aringacute (U+01FA): L<<239.0,752.0>--<240.0,752.0>> -> L<<240.0,752.0>--<240.0,752.0>>
+	* Ycircumflex (U+0176): L<<219.0,370.0>--<217.0,374.0>> -> L<<217.0,374.0>--<32.0,722.0>>
 
-	* Atilde (U+00C3): L<<239.0,752.0>--<240.0,752.0>> -> L<<240.0,752.0>--<240.0,752.0>>
+	* Ycircumflex (U+0176): L<<440.0,722.0>--<255.0,374.0>> -> L<<255.0,374.0>--<252.0,368.0>>
 
-	* Y (U+0059): L<<220.0,369.0>--<217.0,374.0>> -> L<<217.0,374.0>--<33.0,716.0>>
+	* Ydieresis (U+0178): L<<219.0,370.0>--<217.0,374.0>> -> L<<217.0,374.0>--<32.0,722.0>>
 
-	* Y (U+0059): L<<450.0,716.0>--<266.0,374.0>> -> L<<266.0,374.0>--<262.0,367.0>>
+	* Ydieresis (U+0178): L<<440.0,722.0>--<255.0,374.0>> -> L<<255.0,374.0>--<252.0,368.0>>
 
-	* Yacute (U+00DD): L<<220.0,369.0>--<217.0,374.0>> -> L<<217.0,374.0>--<33.0,716.0>>
+	* Ygrave (U+1EF2): L<<219.0,370.0>--<217.0,374.0>> -> L<<217.0,374.0>--<32.0,722.0>>
 
-	* Yacute (U+00DD): L<<450.0,716.0>--<266.0,374.0>> -> L<<266.0,374.0>--<262.0,367.0>>
+	* Ygrave (U+1EF2): L<<440.0,722.0>--<255.0,374.0>> -> L<<255.0,374.0>--<252.0,368.0>>
 
-	* Ycircumflex (U+0176): L<<220.0,369.0>--<217.0,374.0>> -> L<<217.0,374.0>--<33.0,716.0>>
+	* eng (U+014B): L<<406.0,-144.0>--<406.0,18.0>> -> L<<406.0,18.0>--<405.0,351.0>>
 
-	* Ycircumflex (U+0176): L<<450.0,716.0>--<266.0,374.0>> -> L<<266.0,374.0>--<262.0,367.0>>
+	* eng (U+014B): L<<437.0,24.0>--<437.0,18.0>> -> L<<437.0,18.0>--<437.0,16.0>>
 
-	* Ydieresis (U+0178): L<<220.0,369.0>--<217.0,374.0>> -> L<<217.0,374.0>--<33.0,716.0>>
+	* k (U+006B): L<<318.0,571.0>--<318.0,571.0>> -> L<<318.0,571.0>--<319.0,571.0>>
 
-	* Ydieresis (U+0178): L<<450.0,716.0>--<266.0,374.0>> -> L<<266.0,374.0>--<262.0,367.0>>
+	* k (U+006B): L<<93.0,571.0>--<318.0,571.0>> -> L<<318.0,571.0>--<318.0,571.0>>
 
-	* Ygrave (U+1EF2): L<<220.0,369.0>--<217.0,374.0>> -> L<<217.0,374.0>--<33.0,716.0>>
+	* trademark (U+2122): L<<538.0,762.0>--<538.0,762.0>> -> L<<538.0,762.0>--<538.0,762.0>>
 
-	* Ygrave (U+1EF2): L<<450.0,716.0>--<266.0,374.0>> -> L<<266.0,374.0>--<262.0,367.0>>
+	* uni00B5 (U+00B5): L<<60.0,-183.0>--<60.0,166.0>> -> L<<60.0,166.0>--<59.0,555.0>>
 
-	* comma (U+002C): L<<120.0,30.0>--<120.0,30.0>> -> L<<120.0,30.0>--<120.0,30.0>>
+	* uni0137 (U+0137): L<<318.0,571.0>--<318.0,571.0>> -> L<<318.0,571.0>--<319.0,571.0>>
 
-	* eng (U+014B): L<<407.0,-144.0>--<407.0,23.0>> -> L<<407.0,23.0>--<407.0,342.0>>
+	* uni0137 (U+0137): L<<93.0,571.0>--<318.0,571.0>> -> L<<318.0,571.0>--<318.0,571.0>>
 
-	* eng (U+014B): L<<448.0,29.0>--<448.0,23.0>> -> L<<448.0,23.0>--<448.0,21.0>>
+	* uni0232 (U+0232): L<<219.0,370.0>--<217.0,374.0>> -> L<<217.0,374.0>--<32.0,722.0>>
 
-	* k (U+006B): L<<101.0,573.0>--<324.0,573.0>> -> L<<324.0,573.0>--<325.0,573.0>>
+	* uni0232 (U+0232): L<<440.0,722.0>--<255.0,374.0>> -> L<<255.0,374.0>--<252.0,368.0>>
 
-	* k (U+006B): L<<324.0,573.0>--<325.0,573.0>> -> L<<325.0,573.0>--<325.0,573.0>>
+	* uni03BC (U+03BC): L<<66.0,-183.0>--<66.0,166.0>> -> L<<66.0,166.0>--<65.0,555.0>>
 
-	* semicolon (U+003B): L<<120.0,30.0>--<120.0,30.0>> -> L<<120.0,30.0>--<120.0,30.0>>
+	* uni1E8E (U+1E8E): L<<219.0,370.0>--<217.0,374.0>> -> L<<217.0,374.0>--<32.0,722.0>>
 
-	* trademark (U+2122): L<<555.0,761.0>--<555.0,761.0>> -> L<<555.0,761.0>--<555.0,761.0>>
+	* uni1E8E (U+1E8E): L<<440.0,722.0>--<255.0,374.0>> -> L<<255.0,374.0>--<252.0,368.0>>
 
-	* uni00B5 (U+00B5): L<<60.0,-176.0>--<60.0,168.0>> -> L<<60.0,168.0>--<59.0,552.0>>
+	* uni1EA0 (U+1EA0): L<<234.0,752.0>--<234.0,752.0>> -> L<<234.0,752.0>--<235.0,752.0>>
 
-	* uni0137 (U+0137): L<<101.0,573.0>--<324.0,573.0>> -> L<<324.0,573.0>--<325.0,573.0>>
+	* uni1EF8 (U+1EF8): L<<219.0,370.0>--<217.0,374.0>> -> L<<217.0,374.0>--<32.0,722.0>>
 
-	* uni0137 (U+0137): L<<324.0,573.0>--<325.0,573.0>> -> L<<325.0,573.0>--<325.0,573.0>>
-
-	* uni0232 (U+0232): L<<220.0,369.0>--<217.0,374.0>> -> L<<217.0,374.0>--<33.0,716.0>>
-
-	* uni0232 (U+0232): L<<450.0,716.0>--<266.0,374.0>> -> L<<266.0,374.0>--<262.0,367.0>>
-
-	* uni03BC (U+03BC): L<<70.0,-176.0>--<70.0,168.0>> -> L<<70.0,168.0>--<69.0,552.0>>
-
-	* uni1E8E (U+1E8E): L<<220.0,369.0>--<217.0,374.0>> -> L<<217.0,374.0>--<33.0,716.0>>
-
-	* uni1E8E (U+1E8E): L<<450.0,716.0>--<266.0,374.0>> -> L<<266.0,374.0>--<262.0,367.0>>
-
-	* uni1EA0 (U+1EA0): L<<239.0,752.0>--<240.0,752.0>> -> L<<240.0,752.0>--<240.0,752.0>>
-
-	* uni1EF8 (U+1EF8): L<<220.0,369.0>--<217.0,374.0>> -> L<<217.0,374.0>--<33.0,716.0>>
-
-	* uni1EF8 (U+1EF8): L<<450.0,716.0>--<266.0,374.0>> -> L<<266.0,374.0>--<262.0,367.0>> [code: found-colinear-vectors]
+	* uni1EF8 (U+1EF8): L<<440.0,722.0>--<255.0,374.0>> -> L<<255.0,374.0>--<252.0,368.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -4829,235 +4795,196 @@ greaterequal
 
 	* logo (U+F0000): B<<1065.0,202.5>-<1062.0,185.0>-<1057.0,170.0>>/B<<1057.0,170.0>-<1083.0,213.0>-<1095.5,227.0>> = 12.724355685422335
 
-	* logo (U+F0000): B<<1150.5,90.5>-<1165.0,144.0>-<1187.0,205.0>>/B<<1187.0,205.0>-<1173.0,183.0>-<1160.5,167.0>> = 12.639062440630111 [code: found-jaggy-segments]
+	* logo (U+F0000): B<<1150.5,90.5>-<1165.0,144.0>-<1187.0,205.0>>/B<<1187.0,205.0>-<1173.0,183.0>-<1160.5,167.0>> = 12.639062440630111
+
+	* uni03A9 (U+03A9): B<<272.0,27.0>-<273.0,27.0>-<270.0,26.0>>/L<<270.0,26.0>--<272.0,27.0>> = 8.13010235415587 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* eng (U+014B): L<<447.0,405.0>--<448.0,29.0>>
+	* eng (U+014B): L<<406.0,18.0>--<405.0,351.0>>
 
-	* h (U+0068): L<<407.0,20.0>--<406.0,405.0>>
+	* eng (U+014B): L<<436.0,405.0>--<437.0,24.0>>
 
-	* h (U+0068): L<<446.0,405.0>--<447.0,20.0>>
+	* h (U+0068): L<<405.0,15.0>--<404.0,405.0>>
 
-	* hbar (U+0127): L<<417.0,20.0>--<416.0,405.0>>
+	* h (U+0068): L<<435.0,405.0>--<436.0,15.0>>
 
-	* hbar (U+0127): L<<457.0,405.0>--<458.0,20.0>>
+	* hbar (U+0127): L<<411.0,15.0>--<410.0,405.0>>
 
-	* hcircumflex (U+0125): L<<407.0,20.0>--<406.0,405.0>>
+	* hbar (U+0127): L<<442.0,405.0>--<443.0,15.0>>
 
-	* hcircumflex (U+0125): L<<446.0,405.0>--<447.0,20.0>>
+	* hcircumflex (U+0125): L<<405.0,15.0>--<404.0,405.0>>
 
-	* m (U+006D): L<<392.0,21.0>--<391.0,342.0>>
+	* hcircumflex (U+0125): L<<435.0,405.0>--<436.0,15.0>>
 
-	* m (U+006D): L<<725.0,21.0>--<724.0,342.0>>
+	* m (U+006D): L<<391.0,16.0>--<390.0,351.0>>
 
-	* m (U+006D): L<<764.0,405.0>--<765.0,21.0>>
+	* m (U+006D): L<<721.0,16.0>--<720.0,351.0>>
 
-	* n (U+006E): L<<408.0,21.0>--<407.0,342.0>>
+	* m (U+006D): L<<752.0,405.0>--<753.0,16.0>>
 
-	* n (U+006E): L<<447.0,405.0>--<448.0,21.0>>
+	* n (U+006E): L<<406.0,16.0>--<405.0,351.0>>
 
-	* nacute (U+0144): L<<408.0,21.0>--<407.0,342.0>>
+	* n (U+006E): L<<436.0,405.0>--<437.0,16.0>>
 
-	* nacute (U+0144): L<<447.0,405.0>--<448.0,21.0>>
+	* nacute (U+0144): L<<406.0,16.0>--<405.0,351.0>>
 
-	* napostrophe (U+0149): L<<561.0,21.0>--<560.0,342.0>>
+	* nacute (U+0144): L<<436.0,405.0>--<437.0,16.0>>
 
-	* napostrophe (U+0149): L<<600.0,405.0>--<601.0,21.0>>
+	* napostrophe (U+0149): L<<550.0,16.0>--<549.0,351.0>>
 
-	* ncaron (U+0148): L<<408.0,21.0>--<407.0,342.0>>
+	* napostrophe (U+0149): L<<580.0,405.0>--<581.0,16.0>>
 
-	* ncaron (U+0148): L<<447.0,405.0>--<448.0,21.0>>
+	* ncaron (U+0148): L<<406.0,16.0>--<405.0,351.0>>
 
-	* nmacronbelow (U+1E49): L<<408.0,21.0>--<407.0,342.0>>
+	* ncaron (U+0148): L<<436.0,405.0>--<437.0,16.0>>
 
-	* nmacronbelow (U+1E49): L<<447.0,405.0>--<448.0,21.0>>
+	* nmacronbelow (U+1E49): L<<406.0,16.0>--<405.0,351.0>>
 
-	* ntilde (U+00F1): L<<408.0,21.0>--<407.0,342.0>>
+	* nmacronbelow (U+1E49): L<<436.0,405.0>--<437.0,16.0>>
 
-	* ntilde (U+00F1): L<<447.0,405.0>--<448.0,21.0>>
+	* ntilde (U+00F1): L<<406.0,16.0>--<405.0,351.0>>
 
-	* t (U+0074): L<<122.0,573.0>--<123.0,726.0>>
+	* ntilde (U+00F1): L<<436.0,405.0>--<437.0,16.0>>
 
-	* tbar (U+0167): L<<122.0,573.0>--<123.0,726.0>>
+	* t (U+0074): L<<154.0,414.0>--<153.0,128.0>>
 
-	* tcaron (U+0165): L<<122.0,573.0>--<123.0,726.0>>
+	* tbar (U+0167): L<<154.0,253.0>--<153.0,128.0>>
 
-	* tmacronbelow (U+1E6F): L<<122.0,573.0>--<123.0,726.0>>
+	* tcaron (U+0165): L<<154.0,414.0>--<153.0,128.0>>
 
-	* u (U+0075): L<<101.0,552.0>--<102.0,220.0>>
+	* tmacronbelow (U+1E6F): L<<154.0,414.0>--<153.0,128.0>>
 
-	* u (U+0075): L<<61.0,168.0>--<60.0,552.0>>
+	* u (U+0075): L<<61.0,166.0>--<60.0,555.0>>
 
-	* uacute (U+00FA): L<<101.0,552.0>--<102.0,220.0>>
+	* uacute (U+00FA): L<<61.0,166.0>--<60.0,555.0>>
 
-	* uacute (U+00FA): L<<61.0,168.0>--<60.0,552.0>>
+	* ubreve (U+016D): L<<61.0,166.0>--<60.0,555.0>>
 
-	* ubreve (U+016D): L<<101.0,552.0>--<102.0,220.0>>
+	* ucircumflex (U+00FB): L<<61.0,166.0>--<60.0,555.0>>
 
-	* ubreve (U+016D): L<<61.0,168.0>--<60.0,552.0>>
+	* udieresis (U+00FC): L<<61.0,166.0>--<60.0,555.0>>
 
-	* ucircumflex (U+00FB): L<<101.0,552.0>--<102.0,220.0>>
+	* ugrave (U+00F9): L<<61.0,166.0>--<60.0,555.0>>
 
-	* ucircumflex (U+00FB): L<<61.0,168.0>--<60.0,552.0>>
+	* uhungarumlaut (U+0171): L<<61.0,166.0>--<60.0,555.0>>
 
-	* udieresis (U+00FC): L<<101.0,552.0>--<102.0,220.0>>
+	* umacron (U+016B): L<<61.0,166.0>--<60.0,555.0>>
 
-	* udieresis (U+00FC): L<<61.0,168.0>--<60.0,552.0>>
+	* uni00B5 (U+00B5): L<<60.0,166.0>--<59.0,555.0>>
 
-	* ugrave (U+00F9): L<<101.0,552.0>--<102.0,220.0>>
+	* uni00B5 (U+00B5): L<<92.0,555.0>--<93.0,166.0>>
 
-	* ugrave (U+00F9): L<<61.0,168.0>--<60.0,552.0>>
+	* uni0146 (U+0146): L<<406.0,16.0>--<405.0,351.0>>
 
-	* uhungarumlaut (U+0171): L<<101.0,552.0>--<102.0,220.0>>
+	* uni0146 (U+0146): L<<436.0,405.0>--<437.0,16.0>>
 
-	* uhungarumlaut (U+0171): L<<61.0,168.0>--<60.0,552.0>>
+	* uni0163 (U+0163): L<<154.0,414.0>--<153.0,128.0>>
 
-	* umacron (U+016B): L<<101.0,552.0>--<102.0,220.0>>
+	* uni021B (U+021B): L<<154.0,414.0>--<153.0,128.0>>
 
-	* umacron (U+016B): L<<61.0,168.0>--<60.0,552.0>>
+	* uni0233 (U+0233): L<<61.0,166.0>--<60.0,555.0>>
 
-	* uni00B5 (U+00B5): L<<100.0,552.0>--<101.0,168.0>>
+	* uni0233 (U+0233): L<<93.0,555.0>--<94.0,166.0>>
 
-	* uni00B5 (U+00B5): L<<60.0,168.0>--<59.0,552.0>>
+	* uni0272 (U+0272): L<<406.0,16.0>--<405.0,351.0>>
 
-	* uni0146 (U+0146): L<<408.0,21.0>--<407.0,342.0>>
+	* uni0272 (U+0272): L<<436.0,405.0>--<437.0,16.0>>
 
-	* uni0146 (U+0146): L<<447.0,405.0>--<448.0,21.0>>
+	* uni03BC (U+03BC): L<<66.0,166.0>--<65.0,555.0>>
 
-	* uni0163 (U+0163): L<<122.0,573.0>--<123.0,726.0>>
+	* uni03BC (U+03BC): L<<98.0,555.0>--<99.0,166.0>>
 
-	* uni021B (U+021B): L<<122.0,573.0>--<123.0,726.0>>
+	* uni1E25 (U+1E25): L<<405.0,15.0>--<404.0,405.0>>
 
-	* uni0233 (U+0233): L<<101.0,552.0>--<102.0,168.0>>
+	* uni1E25 (U+1E25): L<<435.0,405.0>--<436.0,15.0>>
 
-	* uni0233 (U+0233): L<<61.0,168.0>--<60.0,552.0>>
+	* uni1E2B (U+1E2B): L<<405.0,15.0>--<404.0,405.0>>
 
-	* uni0272 (U+0272): L<<408.0,21.0>--<407.0,342.0>>
+	* uni1E2B (U+1E2B): L<<435.0,405.0>--<436.0,15.0>>
 
-	* uni0272 (U+0272): L<<447.0,405.0>--<448.0,21.0>>
+	* uni1E43 (U+1E43): L<<391.0,16.0>--<390.0,351.0>>
 
-	* uni03BC (U+03BC): L<<110.0,552.0>--<111.0,168.0>>
+	* uni1E43 (U+1E43): L<<721.0,16.0>--<720.0,351.0>>
 
-	* uni03BC (U+03BC): L<<70.0,168.0>--<69.0,552.0>>
+	* uni1E43 (U+1E43): L<<752.0,405.0>--<753.0,16.0>>
 
-	* uni1E25 (U+1E25): L<<407.0,20.0>--<406.0,405.0>>
+	* uni1E45 (U+1E45): L<<406.0,16.0>--<405.0,351.0>>
 
-	* uni1E25 (U+1E25): L<<446.0,405.0>--<447.0,20.0>>
+	* uni1E45 (U+1E45): L<<436.0,405.0>--<437.0,16.0>>
 
-	* uni1E2B (U+1E2B): L<<407.0,20.0>--<406.0,405.0>>
+	* uni1E47 (U+1E47): L<<406.0,16.0>--<405.0,351.0>>
 
-	* uni1E2B (U+1E2B): L<<446.0,405.0>--<447.0,20.0>>
+	* uni1E47 (U+1E47): L<<436.0,405.0>--<437.0,16.0>>
 
-	* uni1E43 (U+1E43): L<<392.0,21.0>--<391.0,342.0>>
+	* uni1E6D (U+1E6D): L<<154.0,414.0>--<153.0,128.0>>
 
-	* uni1E43 (U+1E43): L<<725.0,21.0>--<724.0,342.0>>
+	* uni1E79 (U+1E79): L<<61.0,166.0>--<60.0,555.0>>
 
-	* uni1E43 (U+1E43): L<<764.0,405.0>--<765.0,21.0>>
+	* uni1E7B (U+1E7B): L<<61.0,166.0>--<60.0,555.0>>
 
-	* uni1E45 (U+1E45): L<<408.0,21.0>--<407.0,342.0>>
+	* uni1E8F (U+1E8F): L<<61.0,166.0>--<60.0,555.0>>
 
-	* uni1E45 (U+1E45): L<<447.0,405.0>--<448.0,21.0>>
+	* uni1E8F (U+1E8F): L<<93.0,555.0>--<94.0,166.0>>
 
-	* uni1E47 (U+1E47): L<<408.0,21.0>--<407.0,342.0>>
+	* uni1E97 (U+1E97): L<<154.0,414.0>--<153.0,128.0>>
 
-	* uni1E47 (U+1E47): L<<447.0,405.0>--<448.0,21.0>>
+	* uni1E9E (U+1E9E): L<<70.0,16.0>--<71.0,731.0>>
 
-	* uni1E6D (U+1E6D): L<<122.0,573.0>--<123.0,726.0>>
+	* uni1EE5 (U+1EE5): L<<61.0,166.0>--<60.0,555.0>>
 
-	* uni1E79 (U+1E79): L<<101.0,552.0>--<102.0,220.0>>
+	* uni1EF9 (U+1EF9): L<<61.0,166.0>--<60.0,555.0>>
 
-	* uni1E79 (U+1E79): L<<61.0,168.0>--<60.0,552.0>>
+	* uni1EF9 (U+1EF9): L<<93.0,555.0>--<94.0,166.0>>
 
-	* uni1E7B (U+1E7B): L<<101.0,552.0>--<102.0,220.0>>
+	* uogonek (U+0173): L<<61.0,166.0>--<60.0,555.0>>
 
-	* uni1E7B (U+1E7B): L<<61.0,168.0>--<60.0,552.0>>
+	* uring (U+016F): L<<61.0,166.0>--<60.0,555.0>>
 
-	* uni1E8F (U+1E8F): L<<101.0,552.0>--<102.0,168.0>>
+	* utilde (U+0169): L<<61.0,166.0>--<60.0,555.0>>
 
-	* uni1E8F (U+1E8F): L<<61.0,168.0>--<60.0,552.0>>
+	* y (U+0079): L<<61.0,166.0>--<60.0,555.0>>
 
-	* uni1E97 (U+1E97): L<<122.0,573.0>--<123.0,726.0>>
+	* y (U+0079): L<<93.0,555.0>--<94.0,166.0>>
 
-	* uni1E9E (U+1E9E): L<<112.0,706.0>--<111.0,21.0>>
+	* yacute (U+00FD): L<<61.0,166.0>--<60.0,555.0>>
 
-	* uni1E9E (U+1E9E): L<<70.0,21.0>--<71.0,726.0>>
+	* yacute (U+00FD): L<<93.0,555.0>--<94.0,166.0>>
 
-	* uni1EE5 (U+1EE5): L<<101.0,552.0>--<102.0,220.0>>
+	* ycircumflex (U+0177): L<<61.0,166.0>--<60.0,555.0>>
 
-	* uni1EE5 (U+1EE5): L<<61.0,168.0>--<60.0,552.0>>
+	* ycircumflex (U+0177): L<<93.0,555.0>--<94.0,166.0>>
 
-	* uni1EF9 (U+1EF9): L<<101.0,552.0>--<102.0,168.0>>
+	* ydieresis (U+00FF): L<<61.0,166.0>--<60.0,555.0>>
 
-	* uni1EF9 (U+1EF9): L<<61.0,168.0>--<60.0,552.0>>
+	* ydieresis (U+00FF): L<<93.0,555.0>--<94.0,166.0>>
 
-	* uogonek (U+0173): L<<101.0,552.0>--<102.0,220.0>>
+	* ygrave (U+1EF3): L<<61.0,166.0>--<60.0,555.0>>
 
-	* uogonek (U+0173): L<<61.0,168.0>--<60.0,552.0>>
-
-	* uring (U+016F): L<<101.0,552.0>--<102.0,220.0>>
-
-	* uring (U+016F): L<<61.0,168.0>--<60.0,552.0>>
-
-	* utilde (U+0169): L<<101.0,552.0>--<102.0,220.0>>
-
-	* utilde (U+0169): L<<61.0,168.0>--<60.0,552.0>>
-
-	* y (U+0079): L<<101.0,552.0>--<102.0,168.0>>
-
-	* y (U+0079): L<<61.0,168.0>--<60.0,552.0>>
-
-	* yacute (U+00FD): L<<101.0,552.0>--<102.0,168.0>>
-
-	* yacute (U+00FD): L<<61.0,168.0>--<60.0,552.0>>
-
-	* ycircumflex (U+0177): L<<101.0,552.0>--<102.0,168.0>>
-
-	* ycircumflex (U+0177): L<<61.0,168.0>--<60.0,552.0>>
-
-	* ydieresis (U+00FF): L<<101.0,552.0>--<102.0,168.0>>
-
-	* ydieresis (U+00FF): L<<61.0,168.0>--<60.0,552.0>>
-
-	* ygrave (U+1EF3): L<<101.0,552.0>--<102.0,168.0>>
-
-	* ygrave (U+1EF3): L<<61.0,168.0>--<60.0,552.0>> [code: found-semi-vertical]
+	* ygrave (U+1EF3): L<<93.0,555.0>--<94.0,166.0>> [code: found-semi-vertical]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><br></div></details><details><summary><b>[21] LibertineSuper-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[17] LibertineSuper-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.sTypoLineGap is "200" it should be 0 [code: bad-OS/2.sTypoLineGap]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1327, but got 1000 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 354, but got 200 instead [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2 sTypoLineGap (200) and hhea lineGap (0) must be equal. [code: lineGap]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
 
 
 * 🔥 **FAIL** name id 256 missing from name table
-</div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
- [code: unknown]
+* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -5077,6 +5004,1295 @@ greaterequal
  FONT_FAMILY_NAME = 'Libertine Super Light' / SUBFAMILY_NAME = 'Regular'
 
 Please take a look at the conversation at https://github.com/fonttools/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
+
+
+* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if uppercase glyphs are vertically centered. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/caps_vertically_centered">com.google.fonts/check/caps_vertically_centered</a>)</summary><div>
+
+
+* ⚠ **WARN** Uppercase glyphs are not vertically centered in the em box. [code: vertical-metrics-not-centered]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- IJacute
+
+	- logo_full
+
+	- logo_ls
+
+	- uni00690307
+ [code: unreachable-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
+
+
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+	- Glyph name: percent	Contours detected: 7	Expected: 5
+
+	- Glyph name: ampersand	Contours detected: 4	Expected: 1, 2or3
+
+	- Glyph name: A	Contours detected: 3	Expected: 2
+
+	- Glyph name: B	Contours detected: 4	Expected: 2or3
+
+	- Glyph name: C	Contours detected: 2	Expected: 1
+
+	- Glyph name: D	Contours detected: 3	Expected: 2
+
+	- Glyph name: H	Contours detected: 2	Expected: 1
+
+	- Glyph name: J	Contours detected: 2	Expected: 1
+
+	- Glyph name: O	Contours detected: 3	Expected: 2
+
+	- Glyph name: P	Contours detected: 3	Expected: 1or2
+
+	- Glyph name: Q	Contours detected: 4	Expected: 2
+
+	- Glyph name: R	Contours detected: 3	Expected: 1or2
+
+	- Glyph name: S	Contours detected: 2	Expected: 1
+
+	- Glyph name: U	Contours detected: 2	Expected: 1
+
+	- Glyph name: W	Contours detected: 3	Expected: 1or2
+
+	- Glyph name: X	Contours detected: 2	Expected: 1
+
+	- Glyph name: Y	Contours detected: 2	Expected: 1
+
+	- Glyph name: a	Contours detected: 3	Expected: 2
+
+	- Glyph name: b	Contours detected: 3	Expected: 2
+
+	- Glyph name: d	Contours detected: 3	Expected: 2
+
+	- Glyph name: e	Contours detected: 3	Expected: 2
+
+	- Glyph name: m	Contours detected: 3	Expected: 1
+
+	- Glyph name: n	Contours detected: 2	Expected: 1
+
+	- Glyph name: o	Contours detected: 3	Expected: 2
+
+	- Glyph name: p	Contours detected: 3	Expected: 2
+
+	- Glyph name: s	Contours detected: 3	Expected: 1
+
+	- Glyph name: u	Contours detected: 2	Expected: 1
+
+	- Glyph name: w	Contours detected: 3	Expected: 1
+
+	- Glyph name: x	Contours detected: 2	Expected: 1
+
+	- Glyph name: y	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+	- Glyph name: Agrave	Contours detected: 4	Expected: 3
+
+	- Glyph name: Aacute	Contours detected: 4	Expected: 3
+
+	- Glyph name: Acircumflex	Contours detected: 4	Expected: 3
+
+	- Glyph name: Atilde	Contours detected: 4	Expected: 3
+
+	- Glyph name: Adieresis	Contours detected: 5	Expected: 4
+
+	- Glyph name: Aring	Contours detected: 5	Expected: 3or4
+
+	- Glyph name: AE	Contours detected: 3	Expected: 2
+
+	- Glyph name: Ccedilla	Contours detected: 3	Expected: 1or2
+
+	- Glyph name: Eth	Contours detected: 3	Expected: 2
+
+	- Glyph name: Ograve	Contours detected: 4	Expected: 3
+
+	- Glyph name: Oacute	Contours detected: 4	Expected: 3
+
+	- Glyph name: Ocircumflex	Contours detected: 4	Expected: 3
+
+	- Glyph name: Otilde	Contours detected: 4	Expected: 3
+
+	- Glyph name: Odieresis	Contours detected: 5	Expected: 4
+
+	- Glyph name: Ugrave	Contours detected: 3	Expected: 2
+
+	- Glyph name: Uacute	Contours detected: 3	Expected: 2
+
+	- Glyph name: Ucircumflex	Contours detected: 3	Expected: 2
+
+	- Glyph name: Udieresis	Contours detected: 4	Expected: 3
+
+	- Glyph name: Yacute	Contours detected: 3	Expected: 2
+
+	- Glyph name: Thorn	Contours detected: 3	Expected: 1or2
+
+	- Glyph name: agrave	Contours detected: 4	Expected: 3
+
+	- Glyph name: aacute	Contours detected: 4	Expected: 3
+
+	- Glyph name: acircumflex	Contours detected: 4	Expected: 3
+
+	- Glyph name: atilde	Contours detected: 4	Expected: 3
+
+	- Glyph name: adieresis	Contours detected: 5	Expected: 4
+
+	- Glyph name: aring	Contours detected: 5	Expected: 4
+
+	- Glyph name: ae	Contours detected: 6	Expected: 3
+
+	- Glyph name: egrave	Contours detected: 4	Expected: 3
+
+	- Glyph name: eacute	Contours detected: 4	Expected: 3
+
+	- Glyph name: ecircumflex	Contours detected: 4	Expected: 3
+
+	- Glyph name: edieresis	Contours detected: 5	Expected: 4
+
+	- Glyph name: ntilde	Contours detected: 3	Expected: 2
+
+	- Glyph name: ograve	Contours detected: 4	Expected: 3
+
+	- Glyph name: oacute	Contours detected: 4	Expected: 3
+
+	- Glyph name: ocircumflex	Contours detected: 4	Expected: 3
+
+	- Glyph name: otilde	Contours detected: 4	Expected: 3
+
+	- Glyph name: odieresis	Contours detected: 5	Expected: 4
+
+	- Glyph name: ugrave	Contours detected: 3	Expected: 2
+
+	- Glyph name: uacute	Contours detected: 3	Expected: 2
+
+	- Glyph name: ucircumflex	Contours detected: 3	Expected: 2
+
+	- Glyph name: udieresis	Contours detected: 4	Expected: 3
+
+	- Glyph name: yacute	Contours detected: 3	Expected: 2
+
+	- Glyph name: thorn	Contours detected: 3	Expected: 2
+
+	- Glyph name: ydieresis	Contours detected: 4	Expected: 3
+
+	- Glyph name: Amacron	Contours detected: 4	Expected: 3
+
+	- Glyph name: amacron	Contours detected: 4	Expected: 3
+
+	- Glyph name: Abreve	Contours detected: 4	Expected: 3
+
+	- Glyph name: abreve	Contours detected: 4	Expected: 3
+
+	- Glyph name: Aogonek	Contours detected: 4	Expected: 2or3
+
+	- Glyph name: aogonek	Contours detected: 4	Expected: 2
+
+	- Glyph name: Cacute	Contours detected: 3	Expected: 2
+
+	- Glyph name: Ccircumflex	Contours detected: 3	Expected: 2
+
+	- Glyph name: Cdotaccent	Contours detected: 3	Expected: 2
+
+	- Glyph name: Ccaron	Contours detected: 3	Expected: 2
+
+	- Glyph name: Dcaron	Contours detected: 4	Expected: 3
+
+	- Glyph name: dcaron	Contours detected: 4	Expected: 3
+
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: emacron	Contours detected: 4	Expected: 3
+
+	- Glyph name: ebreve	Contours detected: 4	Expected: 3
+
+	- Glyph name: edotaccent	Contours detected: 4	Expected: 3
+
+	- Glyph name: eogonek	Contours detected: 4	Expected: 2
+
+	- Glyph name: ecaron	Contours detected: 4	Expected: 3
+
+	- Glyph name: Hcircumflex	Contours detected: 3	Expected: 2
+
+	- Glyph name: Hbar	Contours detected: 3	Expected: 2
+
+	- Glyph name: IJ	Contours detected: 3	Expected: 1or2
+
+	- Glyph name: Jcircumflex	Contours detected: 3	Expected: 2
+
+	- Glyph name: jcircumflex	Contours detected: 1	Expected: 2
+
+	- Glyph name: nacute	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni0146	Contours detected: 3	Expected: 2
+
+	- Glyph name: ncaron	Contours detected: 3	Expected: 2
+
+	- Glyph name: napostrophe	Contours detected: 3	Expected: 2
+
+	- Glyph name: eng	Contours detected: 2	Expected: 1
+
+	- Glyph name: Omacron	Contours detected: 4	Expected: 3
+
+	- Glyph name: omacron	Contours detected: 4	Expected: 3
+
+	- Glyph name: Obreve	Contours detected: 4	Expected: 3
+
+	- Glyph name: obreve	Contours detected: 4	Expected: 3
+
+	- Glyph name: Ohungarumlaut	Contours detected: 5	Expected: 4
+
+	- Glyph name: ohungarumlaut	Contours detected: 5	Expected: 4
+
+	- Glyph name: OE	Contours detected: 4	Expected: 2
+
+	- Glyph name: oe	Contours detected: 6	Expected: 3
+
+	- Glyph name: Racute	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni0156	Contours detected: 4	Expected: 3
+
+	- Glyph name: Rcaron	Contours detected: 4	Expected: 3
+
+	- Glyph name: Sacute	Contours detected: 3	Expected: 2
+
+	- Glyph name: sacute	Contours detected: 4	Expected: 2
+
+	- Glyph name: Scircumflex	Contours detected: 3	Expected: 2
+
+	- Glyph name: scircumflex	Contours detected: 4	Expected: 2
+
+	- Glyph name: Scedilla	Contours detected: 3	Expected: 1or2
+
+	- Glyph name: scedilla	Contours detected: 4	Expected: 1or2
+
+	- Glyph name: Scaron	Contours detected: 3	Expected: 2
+
+	- Glyph name: scaron	Contours detected: 4	Expected: 2
+
+	- Glyph name: Utilde	Contours detected: 3	Expected: 2
+
+	- Glyph name: utilde	Contours detected: 3	Expected: 2
+
+	- Glyph name: Umacron	Contours detected: 3	Expected: 2
+
+	- Glyph name: umacron	Contours detected: 3	Expected: 2
+
+	- Glyph name: Ubreve	Contours detected: 3	Expected: 2
+
+	- Glyph name: ubreve	Contours detected: 3	Expected: 2
+
+	- Glyph name: Uring	Contours detected: 4	Expected: 3
+
+	- Glyph name: uring	Contours detected: 4	Expected: 3
+
+	- Glyph name: Uhungarumlaut	Contours detected: 4	Expected: 3
+
+	- Glyph name: uhungarumlaut	Contours detected: 4	Expected: 3
+
+	- Glyph name: Uogonek	Contours detected: 3	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 3	Expected: 1
+
+	- Glyph name: Wcircumflex	Contours detected: 4	Expected: 2
+
+	- Glyph name: wcircumflex	Contours detected: 4	Expected: 2
+
+	- Glyph name: Ycircumflex	Contours detected: 3	Expected: 2
+
+	- Glyph name: ycircumflex	Contours detected: 3	Expected: 2
+
+	- Glyph name: Ydieresis	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni01EA	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni01EB	Contours detected: 4	Expected: 2
+
+	- Glyph name: Aringacute	Contours detected: 6	Expected: 3, 4or5
+
+	- Glyph name: aringacute	Contours detected: 6	Expected: 4or5
+
+	- Glyph name: AEacute	Contours detected: 4	Expected: 3
+
+	- Glyph name: aeacute	Contours detected: 7	Expected: 4
+
+	- Glyph name: uni0218	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni0219	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni0232	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni0233	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni0259	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni0272	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni1E08	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E0C	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1E0D	Contours detected: 4	Expected: 3
+
+	- Glyph name: Dmacronbelow	Contours detected: 4	Expected: 3
+
+	- Glyph name: dmacronbelow	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1E15	Contours detected: 5	Expected: 4
+
+	- Glyph name: uni1E17	Contours detected: 5	Expected: 4
+
+	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1D	Contours detected: 5	Expected: 3
+
+	- Glyph name: uni1E24	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E2A	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E43	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni1E45	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E47	Contours detected: 3	Expected: 2
+
+	- Glyph name: nmacronbelow	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E4C	Contours detected: 5	Expected: 4
+
+	- Glyph name: uni1E4D	Contours detected: 5	Expected: 4
+
+	- Glyph name: uni1E4E	Contours detected: 6	Expected: 5
+
+	- Glyph name: uni1E4F	Contours detected: 6	Expected: 5
+
+	- Glyph name: uni1E50	Contours detected: 5	Expected: 4
+
+	- Glyph name: uni1E51	Contours detected: 5	Expected: 4
+
+	- Glyph name: uni1E52	Contours detected: 5	Expected: 4
+
+	- Glyph name: uni1E53	Contours detected: 5	Expected: 4
+
+	- Glyph name: uni1E5A	Contours detected: 4	Expected: 3
+
+	- Glyph name: Rmacronbelow	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1E60	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E61	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni1E62	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E63	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni1E64	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1E65	Contours detected: 5	Expected: 3
+
+	- Glyph name: uni1E66	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1E67	Contours detected: 5	Expected: 3
+
+	- Glyph name: uni1E68	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1E69	Contours detected: 5	Expected: 3
+
+	- Glyph name: uni1E78	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1E79	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1E7A	Contours detected: 5	Expected: 4
+
+	- Glyph name: uni1E7B	Contours detected: 5	Expected: 4
+
+	- Glyph name: Wgrave	Contours detected: 4	Expected: 2
+
+	- Glyph name: wgrave	Contours detected: 4	Expected: 2
+
+	- Glyph name: Wacute	Contours detected: 4	Expected: 2
+
+	- Glyph name: wacute	Contours detected: 4	Expected: 2
+
+	- Glyph name: Wdieresis	Contours detected: 5	Expected: 3
+
+	- Glyph name: wdieresis	Contours detected: 5	Expected: 3
+
+	- Glyph name: uni1E8E	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E8F	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EA0	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EA1	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EB9	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EBD	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1ECC	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1ECD	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE4	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EE5	Contours detected: 3	Expected: 2
+
+	- Glyph name: Ygrave	Contours detected: 3	Expected: 2
+
+	- Glyph name: ygrave	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EF8	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EF9	Contours detected: 3	Expected: 2
+
+	- Glyph name: perthousand	Contours detected: 10	Expected: 6or7
+
+	- Glyph name: A	Contours detected: 3	Expected: 2
+
+	- Glyph name: AE	Contours detected: 3	Expected: 2
+
+	- Glyph name: AEacute	Contours detected: 4	Expected: 3
+
+	- Glyph name: Aacute	Contours detected: 4	Expected: 3
+
+	- Glyph name: Abreve	Contours detected: 4	Expected: 3
+
+	- Glyph name: Acircumflex	Contours detected: 4	Expected: 3
+
+	- Glyph name: Adieresis	Contours detected: 5	Expected: 4
+
+	- Glyph name: Agrave	Contours detected: 4	Expected: 3
+
+	- Glyph name: Amacron	Contours detected: 4	Expected: 3
+
+	- Glyph name: Aogonek	Contours detected: 4	Expected: 2or3
+
+	- Glyph name: Aring	Contours detected: 5	Expected: 3or4
+
+	- Glyph name: Aringacute	Contours detected: 6	Expected: 3, 4or5
+
+	- Glyph name: Atilde	Contours detected: 4	Expected: 3
+
+	- Glyph name: B	Contours detected: 4	Expected: 2or3
+
+	- Glyph name: C	Contours detected: 2	Expected: 1
+
+	- Glyph name: Cacute	Contours detected: 3	Expected: 2
+
+	- Glyph name: Ccaron	Contours detected: 3	Expected: 2
+
+	- Glyph name: Ccedilla	Contours detected: 3	Expected: 1or2
+
+	- Glyph name: Ccircumflex	Contours detected: 3	Expected: 2
+
+	- Glyph name: Cdotaccent	Contours detected: 3	Expected: 2
+
+	- Glyph name: D	Contours detected: 3	Expected: 2
+
+	- Glyph name: Dcaron	Contours detected: 4	Expected: 3
+
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: Eth	Contours detected: 3	Expected: 2
+
+	- Glyph name: H	Contours detected: 2	Expected: 1
+
+	- Glyph name: Hbar	Contours detected: 3	Expected: 2
+
+	- Glyph name: Hcircumflex	Contours detected: 3	Expected: 2
+
+	- Glyph name: IJ	Contours detected: 3	Expected: 1or2
+
+	- Glyph name: J	Contours detected: 2	Expected: 1
+
+	- Glyph name: Jcircumflex	Contours detected: 3	Expected: 2
+
+	- Glyph name: O	Contours detected: 3	Expected: 2
+
+	- Glyph name: OE	Contours detected: 4	Expected: 2
+
+	- Glyph name: Oacute	Contours detected: 4	Expected: 3
+
+	- Glyph name: Ocircumflex	Contours detected: 4	Expected: 3
+
+	- Glyph name: Odieresis	Contours detected: 5	Expected: 4
+
+	- Glyph name: Ograve	Contours detected: 4	Expected: 3
+
+	- Glyph name: Ohungarumlaut	Contours detected: 5	Expected: 4
+
+	- Glyph name: Omacron	Contours detected: 4	Expected: 3
+
+	- Glyph name: Otilde	Contours detected: 4	Expected: 3
+
+	- Glyph name: P	Contours detected: 3	Expected: 1or2
+
+	- Glyph name: Q	Contours detected: 4	Expected: 2
+
+	- Glyph name: R	Contours detected: 3	Expected: 1or2
+
+	- Glyph name: Racute	Contours detected: 4	Expected: 3
+
+	- Glyph name: Rcaron	Contours detected: 4	Expected: 3
+
+	- Glyph name: S	Contours detected: 2	Expected: 1
+
+	- Glyph name: Sacute	Contours detected: 3	Expected: 2
+
+	- Glyph name: Scaron	Contours detected: 3	Expected: 2
+
+	- Glyph name: Scircumflex	Contours detected: 3	Expected: 2
+
+	- Glyph name: Thorn	Contours detected: 3	Expected: 1or2
+
+	- Glyph name: U	Contours detected: 2	Expected: 1
+
+	- Glyph name: Uacute	Contours detected: 3	Expected: 2
+
+	- Glyph name: Ubreve	Contours detected: 3	Expected: 2
+
+	- Glyph name: Ucircumflex	Contours detected: 3	Expected: 2
+
+	- Glyph name: Udieresis	Contours detected: 4	Expected: 3
+
+	- Glyph name: Ugrave	Contours detected: 3	Expected: 2
+
+	- Glyph name: Uhungarumlaut	Contours detected: 4	Expected: 3
+
+	- Glyph name: Umacron	Contours detected: 3	Expected: 2
+
+	- Glyph name: Uogonek	Contours detected: 3	Expected: 1
+
+	- Glyph name: Uring	Contours detected: 4	Expected: 3
+
+	- Glyph name: Utilde	Contours detected: 3	Expected: 2
+
+	- Glyph name: W	Contours detected: 3	Expected: 1or2
+
+	- Glyph name: Wacute	Contours detected: 4	Expected: 2
+
+	- Glyph name: Wcircumflex	Contours detected: 4	Expected: 2
+
+	- Glyph name: Wdieresis	Contours detected: 5	Expected: 3
+
+	- Glyph name: Wgrave	Contours detected: 4	Expected: 2
+
+	- Glyph name: X	Contours detected: 2	Expected: 1
+
+	- Glyph name: Y	Contours detected: 2	Expected: 1
+
+	- Glyph name: Yacute	Contours detected: 3	Expected: 2
+
+	- Glyph name: Ycircumflex	Contours detected: 3	Expected: 2
+
+	- Glyph name: Ydieresis	Contours detected: 4	Expected: 3
+
+	- Glyph name: Ygrave	Contours detected: 3	Expected: 2
+
+	- Glyph name: a	Contours detected: 3	Expected: 2
+
+	- Glyph name: aacute	Contours detected: 4	Expected: 3
+
+	- Glyph name: abreve	Contours detected: 4	Expected: 3
+
+	- Glyph name: acircumflex	Contours detected: 4	Expected: 3
+
+	- Glyph name: adieresis	Contours detected: 5	Expected: 4
+
+	- Glyph name: ae	Contours detected: 6	Expected: 3
+
+	- Glyph name: aeacute	Contours detected: 7	Expected: 4
+
+	- Glyph name: agrave	Contours detected: 4	Expected: 3
+
+	- Glyph name: amacron	Contours detected: 4	Expected: 3
+
+	- Glyph name: ampersand	Contours detected: 4	Expected: 1, 2or3
+
+	- Glyph name: aogonek	Contours detected: 4	Expected: 2
+
+	- Glyph name: aring	Contours detected: 5	Expected: 4
+
+	- Glyph name: aringacute	Contours detected: 6	Expected: 4or5
+
+	- Glyph name: atilde	Contours detected: 4	Expected: 3
+
+	- Glyph name: b	Contours detected: 3	Expected: 2
+
+	- Glyph name: d	Contours detected: 3	Expected: 2
+
+	- Glyph name: dcaron	Contours detected: 4	Expected: 3
+
+	- Glyph name: dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: e	Contours detected: 3	Expected: 2
+
+	- Glyph name: eacute	Contours detected: 4	Expected: 3
+
+	- Glyph name: ebreve	Contours detected: 4	Expected: 3
+
+	- Glyph name: ecaron	Contours detected: 4	Expected: 3
+
+	- Glyph name: ecircumflex	Contours detected: 4	Expected: 3
+
+	- Glyph name: edieresis	Contours detected: 5	Expected: 4
+
+	- Glyph name: edotaccent	Contours detected: 4	Expected: 3
+
+	- Glyph name: egrave	Contours detected: 4	Expected: 3
+
+	- Glyph name: emacron	Contours detected: 4	Expected: 3
+
+	- Glyph name: eng	Contours detected: 2	Expected: 1
+
+	- Glyph name: eogonek	Contours detected: 4	Expected: 2
+
+	- Glyph name: jcircumflex	Contours detected: 1	Expected: 2
+
+	- Glyph name: m	Contours detected: 3	Expected: 1
+
+	- Glyph name: n	Contours detected: 2	Expected: 1
+
+	- Glyph name: nacute	Contours detected: 3	Expected: 2
+
+	- Glyph name: napostrophe	Contours detected: 3	Expected: 2
+
+	- Glyph name: ncaron	Contours detected: 3	Expected: 2
+
+	- Glyph name: ntilde	Contours detected: 3	Expected: 2
+
+	- Glyph name: o	Contours detected: 3	Expected: 2
+
+	- Glyph name: oacute	Contours detected: 4	Expected: 3
+
+	- Glyph name: ocircumflex	Contours detected: 4	Expected: 3
+
+	- Glyph name: odieresis	Contours detected: 5	Expected: 4
+
+	- Glyph name: oe	Contours detected: 6	Expected: 3
+
+	- Glyph name: ograve	Contours detected: 4	Expected: 3
+
+	- Glyph name: ohungarumlaut	Contours detected: 5	Expected: 4
+
+	- Glyph name: omacron	Contours detected: 4	Expected: 3
+
+	- Glyph name: otilde	Contours detected: 4	Expected: 3
+
+	- Glyph name: p	Contours detected: 3	Expected: 2
+
+	- Glyph name: percent	Contours detected: 7	Expected: 5
+
+	- Glyph name: perthousand	Contours detected: 10	Expected: 6or7
+
+	- Glyph name: s	Contours detected: 3	Expected: 1
+
+	- Glyph name: sacute	Contours detected: 4	Expected: 2
+
+	- Glyph name: scaron	Contours detected: 4	Expected: 2
+
+	- Glyph name: scircumflex	Contours detected: 4	Expected: 2
+
+	- Glyph name: thorn	Contours detected: 3	Expected: 2
+
+	- Glyph name: u	Contours detected: 2	Expected: 1
+
+	- Glyph name: uacute	Contours detected: 3	Expected: 2
+
+	- Glyph name: ubreve	Contours detected: 3	Expected: 2
+
+	- Glyph name: ucircumflex	Contours detected: 3	Expected: 2
+
+	- Glyph name: udieresis	Contours detected: 4	Expected: 3
+
+	- Glyph name: ugrave	Contours detected: 3	Expected: 2
+
+	- Glyph name: uhungarumlaut	Contours detected: 4	Expected: 3
+
+	- Glyph name: umacron	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+	- Glyph name: uni0146	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni0156	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni0218	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni0219	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni0232	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni0233	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni0259	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni0272	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni1E08	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E0C	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1E0D	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1E15	Contours detected: 5	Expected: 4
+
+	- Glyph name: uni1E17	Contours detected: 5	Expected: 4
+
+	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1D	Contours detected: 5	Expected: 3
+
+	- Glyph name: uni1E24	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E2A	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E43	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni1E45	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E47	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E4C	Contours detected: 5	Expected: 4
+
+	- Glyph name: uni1E4D	Contours detected: 5	Expected: 4
+
+	- Glyph name: uni1E4E	Contours detected: 6	Expected: 5
+
+	- Glyph name: uni1E4F	Contours detected: 6	Expected: 5
+
+	- Glyph name: uni1E50	Contours detected: 5	Expected: 4
+
+	- Glyph name: uni1E51	Contours detected: 5	Expected: 4
+
+	- Glyph name: uni1E52	Contours detected: 5	Expected: 4
+
+	- Glyph name: uni1E53	Contours detected: 5	Expected: 4
+
+	- Glyph name: uni1E5A	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1E60	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E61	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni1E62	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E63	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni1E64	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1E65	Contours detected: 5	Expected: 3
+
+	- Glyph name: uni1E66	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1E67	Contours detected: 5	Expected: 3
+
+	- Glyph name: uni1E68	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1E69	Contours detected: 5	Expected: 3
+
+	- Glyph name: uni1E78	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1E79	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1E7A	Contours detected: 5	Expected: 4
+
+	- Glyph name: uni1E7B	Contours detected: 5	Expected: 4
+
+	- Glyph name: uni1E8E	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E8F	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EA0	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EA1	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EB9	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EBD	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1ECC	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1ECD	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1EE4	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EE5	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EF8	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EF9	Contours detected: 3	Expected: 2
+
+	- Glyph name: uogonek	Contours detected: 3	Expected: 1
+
+	- Glyph name: uring	Contours detected: 4	Expected: 3
+
+	- Glyph name: utilde	Contours detected: 3	Expected: 2
+
+	- Glyph name: w	Contours detected: 3	Expected: 1
+
+	- Glyph name: wacute	Contours detected: 4	Expected: 2
+
+	- Glyph name: wcircumflex	Contours detected: 4	Expected: 2
+
+	- Glyph name: wdieresis	Contours detected: 5	Expected: 3
+
+	- Glyph name: wgrave	Contours detected: 4	Expected: 2
+
+	- Glyph name: x	Contours detected: 2	Expected: 1
+
+	- Glyph name: y	Contours detected: 2	Expected: 1
+
+	- Glyph name: yacute	Contours detected: 3	Expected: 2
+
+	- Glyph name: ycircumflex	Contours detected: 3	Expected: 2
+
+	- Glyph name: ydieresis	Contours detected: 4	Expected: 3
+
+	- Glyph name: ygrave	Contours detected: 3	Expected: 2
+ [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
+
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
+</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
+
+
+* ⚠ **WARN** The most common width is 525 among a set of 5 math glyphs.
+The following math glyphs have a different width, though:
+
+Width = 542:
+greater, less
+
+Width = 532:
+notequal, plusminus
+
+Width = 523:
+multiply
+
+Width = 531:
+approxequal
+
+Width = 543:
+lessequal
+
+Width = 536:
+greaterequal
+ [code: width-outliers]
+</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have colinear vectors:
+
+	* A (U+0041): L<<242.0,752.0>--<242.0,752.0>> -> L<<242.0,752.0>--<242.0,752.0>>
+
+	* AE (U+00C6): L<<415.0,299.0>--<224.0,299.0>> -> L<<224.0,299.0>--<223.0,299.0>>
+
+	* AE (U+00C6): L<<418.0,196.0>--<414.0,196.0>> -> L<<414.0,196.0>--<169.0,196.0>>
+
+	* AE (U+00C6): L<<418.0,299.0>--<415.0,299.0>> -> L<<415.0,299.0>--<224.0,299.0>>
+
+	* AE (U+00C6): L<<422.0,747.0>--<444.0,747.0>> -> L<<444.0,747.0>--<444.0,747.0>>
+
+	* AE (U+00C6): L<<444.0,747.0>--<444.0,747.0>> -> L<<444.0,747.0>--<446.0,747.0>>
+
+	* AE (U+00C6): L<<444.0,747.0>--<446.0,747.0>> -> L<<446.0,747.0>--<731.0,747.0>>
+
+	* AEacute (U+01FC): L<<415.0,299.0>--<224.0,299.0>> -> L<<224.0,299.0>--<223.0,299.0>>
+
+	* AEacute (U+01FC): L<<418.0,196.0>--<414.0,196.0>> -> L<<414.0,196.0>--<169.0,196.0>>
+
+	* AEacute (U+01FC): L<<418.0,299.0>--<415.0,299.0>> -> L<<415.0,299.0>--<224.0,299.0>>
+
+	* AEacute (U+01FC): L<<422.0,747.0>--<444.0,747.0>> -> L<<444.0,747.0>--<444.0,747.0>>
+
+	* AEacute (U+01FC): L<<444.0,747.0>--<444.0,747.0>> -> L<<444.0,747.0>--<446.0,747.0>>
+
+	* AEacute (U+01FC): L<<444.0,747.0>--<446.0,747.0>> -> L<<446.0,747.0>--<731.0,747.0>>
+
+	* Aacute (U+00C1): L<<242.0,752.0>--<242.0,752.0>> -> L<<242.0,752.0>--<242.0,752.0>>
+
+	* Abreve (U+0102): L<<242.0,752.0>--<242.0,752.0>> -> L<<242.0,752.0>--<242.0,752.0>>
+
+	* Acircumflex (U+00C2): L<<242.0,752.0>--<242.0,752.0>> -> L<<242.0,752.0>--<242.0,752.0>>
+
+	* Adieresis (U+00C4): L<<242.0,752.0>--<242.0,752.0>> -> L<<242.0,752.0>--<242.0,752.0>>
+
+	* Agrave (U+00C0): L<<242.0,752.0>--<242.0,752.0>> -> L<<242.0,752.0>--<242.0,752.0>>
+
+	* Amacron (U+0100): L<<242.0,752.0>--<242.0,752.0>> -> L<<242.0,752.0>--<242.0,752.0>>
+
+	* Aogonek (U+0104): L<<242.0,752.0>--<242.0,752.0>> -> L<<242.0,752.0>--<242.0,752.0>>
+
+	* Aring (U+00C5): L<<242.0,752.0>--<242.0,752.0>> -> L<<242.0,752.0>--<242.0,752.0>>
+
+	* Aringacute (U+01FA): L<<242.0,752.0>--<242.0,752.0>> -> L<<242.0,752.0>--<242.0,752.0>>
+
+	* Atilde (U+00C3): L<<242.0,752.0>--<242.0,752.0>> -> L<<242.0,752.0>--<242.0,752.0>>
+
+	* Y (U+0059): L<<221.0,368.0>--<217.0,374.0>> -> L<<217.0,374.0>--<33.0,713.0>>
+
+	* Y (U+0059): L<<454.0,713.0>--<270.0,374.0>> -> L<<270.0,374.0>--<266.0,366.0>>
+
+	* Yacute (U+00DD): L<<221.0,368.0>--<217.0,374.0>> -> L<<217.0,374.0>--<33.0,713.0>>
+
+	* Yacute (U+00DD): L<<454.0,713.0>--<270.0,374.0>> -> L<<270.0,374.0>--<266.0,366.0>>
+
+	* Ycircumflex (U+0176): L<<221.0,368.0>--<217.0,374.0>> -> L<<217.0,374.0>--<33.0,713.0>>
+
+	* Ycircumflex (U+0176): L<<454.0,713.0>--<270.0,374.0>> -> L<<270.0,374.0>--<266.0,366.0>>
+
+	* Ydieresis (U+0178): L<<221.0,368.0>--<217.0,374.0>> -> L<<217.0,374.0>--<33.0,713.0>>
+
+	* Ydieresis (U+0178): L<<454.0,713.0>--<270.0,374.0>> -> L<<270.0,374.0>--<266.0,366.0>>
+
+	* Ygrave (U+1EF2): L<<221.0,368.0>--<217.0,374.0>> -> L<<217.0,374.0>--<33.0,713.0>>
+
+	* Ygrave (U+1EF2): L<<454.0,713.0>--<270.0,374.0>> -> L<<270.0,374.0>--<266.0,366.0>>
+
+	* ae (U+00E6): L<<584.0,534.0>--<580.0,534.0>> -> L<<580.0,534.0>--<570.0,534.0>>
+
+	* aeacute (U+01FD): L<<584.0,534.0>--<580.0,534.0>> -> L<<580.0,534.0>--<570.0,534.0>>
+
+	* comma (U+002C): L<<124.0,32.0>--<124.0,32.0>> -> L<<124.0,32.0>--<124.0,32.0>>
+
+	* e (U+0065): L<<272.0,534.0>--<268.0,534.0>> -> L<<268.0,534.0>--<258.0,534.0>>
+
+	* eacute (U+00E9): L<<272.0,534.0>--<268.0,534.0>> -> L<<268.0,534.0>--<258.0,534.0>>
+
+	* ebreve (U+0115): L<<272.0,534.0>--<268.0,534.0>> -> L<<268.0,534.0>--<258.0,534.0>>
+
+	* ecaron (U+011B): L<<272.0,534.0>--<268.0,534.0>> -> L<<268.0,534.0>--<258.0,534.0>>
+
+	* ecircumflex (U+00EA): L<<272.0,534.0>--<268.0,534.0>> -> L<<268.0,534.0>--<258.0,534.0>>
+
+	* edieresis (U+00EB): L<<272.0,534.0>--<268.0,534.0>> -> L<<268.0,534.0>--<258.0,534.0>>
+
+	* edotaccent (U+0117): L<<272.0,534.0>--<268.0,534.0>> -> L<<268.0,534.0>--<258.0,534.0>>
+
+	* egrave (U+00E8): L<<272.0,534.0>--<268.0,534.0>> -> L<<268.0,534.0>--<258.0,534.0>>
+
+	* emacron (U+0113): L<<272.0,534.0>--<268.0,534.0>> -> L<<268.0,534.0>--<258.0,534.0>>
+
+	* eng (U+014B): L<<408.0,-144.0>--<408.0,25.0>> -> L<<408.0,25.0>--<407.0,339.0>>
+
+	* eogonek (U+0119): L<<272.0,534.0>--<268.0,534.0>> -> L<<268.0,534.0>--<258.0,534.0>>
+
+	* k (U+006B): L<<105.0,574.0>--<326.0,574.0>> -> L<<326.0,574.0>--<327.0,574.0>>
+
+	* k (U+006B): L<<326.0,574.0>--<327.0,574.0>> -> L<<327.0,574.0>--<327.0,574.0>>
+
+	* oe (U+0153): L<<652.0,534.0>--<648.0,534.0>> -> L<<648.0,534.0>--<638.0,534.0>>
+
+	* semicolon (U+003B): L<<124.0,32.0>--<124.0,32.0>> -> L<<124.0,32.0>--<124.0,32.0>>
+
+	* trademark (U+2122): L<<561.0,761.0>--<562.0,761.0>> -> L<<562.0,761.0>--<562.0,761.0>>
+
+	* trademark (U+2122): L<<562.0,761.0>--<562.0,761.0>> -> L<<562.0,761.0>--<562.0,761.0>>
+
+	* uni00B5 (U+00B5): L<<60.0,-173.0>--<60.0,169.0>> -> L<<60.0,169.0>--<59.0,552.0>>
+
+	* uni0137 (U+0137): L<<105.0,574.0>--<326.0,574.0>> -> L<<326.0,574.0>--<327.0,574.0>>
+
+	* uni0137 (U+0137): L<<326.0,574.0>--<327.0,574.0>> -> L<<327.0,574.0>--<327.0,574.0>>
+
+	* uni0232 (U+0232): L<<221.0,368.0>--<217.0,374.0>> -> L<<217.0,374.0>--<33.0,713.0>>
+
+	* uni0232 (U+0232): L<<454.0,713.0>--<270.0,374.0>> -> L<<270.0,374.0>--<266.0,366.0>>
+
+	* uni0259 (U+0259): L<<228.0,36.0>--<231.0,36.0>> -> L<<231.0,36.0>--<242.0,36.0>>
+
+	* uni0272 (U+0272): L<<60.0,-144.0>--<60.0,27.0>> -> L<<60.0,27.0>--<60.0,28.0>>
+
+	* uni0272 (U+0272): L<<60.0,27.0>--<60.0,28.0>> -> L<<60.0,28.0>--<60.0,552.0>>
+
+	* uni03BC (U+03BC): L<<71.0,-173.0>--<71.0,169.0>> -> L<<71.0,169.0>--<70.0,552.0>>
+
+	* uni1E15 (U+1E15): L<<272.0,534.0>--<268.0,534.0>> -> L<<268.0,534.0>--<258.0,534.0>>
+
+	* uni1E17 (U+1E17): L<<272.0,534.0>--<268.0,534.0>> -> L<<268.0,534.0>--<258.0,534.0>>
+
+	* uni1E1D (U+1E1D): L<<272.0,534.0>--<268.0,534.0>> -> L<<268.0,534.0>--<258.0,534.0>>
+
+	* uni1E8E (U+1E8E): L<<221.0,368.0>--<217.0,374.0>> -> L<<217.0,374.0>--<33.0,713.0>>
+
+	* uni1E8E (U+1E8E): L<<454.0,713.0>--<270.0,374.0>> -> L<<270.0,374.0>--<266.0,366.0>>
+
+	* uni1E9E (U+1E9E): L<<220.0,411.0>--<222.0,414.0>> -> L<<222.0,414.0>--<450.0,702.0>>
+
+	* uni1EA0 (U+1EA0): L<<242.0,752.0>--<242.0,752.0>> -> L<<242.0,752.0>--<242.0,752.0>>
+
+	* uni1EB9 (U+1EB9): L<<272.0,534.0>--<268.0,534.0>> -> L<<268.0,534.0>--<258.0,534.0>>
+
+	* uni1EBD (U+1EBD): L<<272.0,534.0>--<268.0,534.0>> -> L<<268.0,534.0>--<258.0,534.0>>
+
+	* uni1EF8 (U+1EF8): L<<221.0,368.0>--<217.0,374.0>> -> L<<217.0,374.0>--<33.0,713.0>>
+
+	* uni1EF8 (U+1EF8): L<<454.0,713.0>--<270.0,374.0>> -> L<<270.0,374.0>--<266.0,366.0>> [code: found-colinear-vectors]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have jaggy segments:
+
+	* logo (U+F0000): B<<1065.0,202.5>-<1062.0,185.0>-<1057.0,170.0>>/B<<1057.0,170.0>-<1083.0,213.0>-<1095.5,227.0>> = 12.724355685422335
+
+	* logo (U+F0000): B<<1150.5,90.5>-<1165.0,144.0>-<1187.0,205.0>>/B<<1187.0,205.0>-<1173.0,183.0>-<1160.5,167.0>> = 12.639062440630111 [code: found-jaggy-segments]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+
+	* eng (U+014B): L<<408.0,25.0>--<407.0,339.0>>
+
+	* h (U+0068): L<<408.0,21.0>--<407.0,405.0>>
+
+	* h (U+0068): L<<451.0,405.0>--<452.0,21.0>>
+
+	* hbar (U+0127): L<<420.0,21.0>--<419.0,405.0>>
+
+	* hbar (U+0127): L<<463.0,405.0>--<464.0,21.0>>
+
+	* hcircumflex (U+0125): L<<408.0,21.0>--<407.0,405.0>>
+
+	* hcircumflex (U+0125): L<<451.0,405.0>--<452.0,21.0>>
+
+	* m (U+006D): L<<393.0,22.0>--<392.0,339.0>>
+
+	* m (U+006D): L<<726.0,22.0>--<725.0,339.0>>
+
+	* m (U+006D): L<<770.0,405.0>--<771.0,22.0>>
+
+	* n (U+006E): L<<408.0,22.0>--<407.0,339.0>>
+
+	* n (U+006E): L<<452.0,405.0>--<453.0,22.0>>
+
+	* nacute (U+0144): L<<408.0,22.0>--<407.0,339.0>>
+
+	* nacute (U+0144): L<<452.0,405.0>--<453.0,22.0>>
+
+	* napostrophe (U+0149): L<<564.0,22.0>--<563.0,339.0>>
+
+	* napostrophe (U+0149): L<<608.0,405.0>--<609.0,22.0>>
+
+	* ncaron (U+0148): L<<408.0,22.0>--<407.0,339.0>>
+
+	* ncaron (U+0148): L<<452.0,405.0>--<453.0,22.0>>
+
+	* nmacronbelow (U+1E49): L<<408.0,22.0>--<407.0,339.0>>
+
+	* nmacronbelow (U+1E49): L<<452.0,405.0>--<453.0,22.0>>
+
+	* ntilde (U+00F1): L<<408.0,22.0>--<407.0,339.0>>
+
+	* ntilde (U+00F1): L<<452.0,405.0>--<453.0,22.0>>
+
+	* t (U+0074): L<<122.0,574.0>--<123.0,725.0>>
+
+	* t (U+0074): L<<168.0,725.0>--<167.0,574.0>>
+
+	* tbar (U+0167): L<<122.0,574.0>--<123.0,725.0>>
+
+	* tbar (U+0167): L<<168.0,725.0>--<167.0,574.0>>
+
+	* tcaron (U+0165): L<<122.0,574.0>--<123.0,725.0>>
+
+	* tcaron (U+0165): L<<168.0,725.0>--<167.0,574.0>>
+
+	* tmacronbelow (U+1E6F): L<<122.0,574.0>--<123.0,725.0>>
+
+	* tmacronbelow (U+1E6F): L<<168.0,725.0>--<167.0,574.0>>
+
+	* u (U+0075): L<<105.0,552.0>--<106.0,223.0>>
+
+	* u (U+0075): L<<61.0,169.0>--<60.0,552.0>>
+
+	* uacute (U+00FA): L<<105.0,552.0>--<106.0,223.0>>
+
+	* uacute (U+00FA): L<<61.0,169.0>--<60.0,552.0>>
+
+	* ubreve (U+016D): L<<105.0,552.0>--<106.0,223.0>>
+
+	* ubreve (U+016D): L<<61.0,169.0>--<60.0,552.0>>
+
+	* ucircumflex (U+00FB): L<<105.0,552.0>--<106.0,223.0>>
+
+	* ucircumflex (U+00FB): L<<61.0,169.0>--<60.0,552.0>>
+
+	* udieresis (U+00FC): L<<105.0,552.0>--<106.0,223.0>>
+
+	* udieresis (U+00FC): L<<61.0,169.0>--<60.0,552.0>>
+
+	* ugrave (U+00F9): L<<105.0,552.0>--<106.0,223.0>>
+
+	* ugrave (U+00F9): L<<61.0,169.0>--<60.0,552.0>>
+
+	* uhungarumlaut (U+0171): L<<105.0,552.0>--<106.0,223.0>>
+
+	* uhungarumlaut (U+0171): L<<61.0,169.0>--<60.0,552.0>>
+
+	* umacron (U+016B): L<<105.0,552.0>--<106.0,223.0>>
+
+	* umacron (U+016B): L<<61.0,169.0>--<60.0,552.0>>
+
+	* uni00B5 (U+00B5): L<<104.0,552.0>--<105.0,169.0>>
+
+	* uni00B5 (U+00B5): L<<60.0,169.0>--<59.0,552.0>>
+
+	* uni0146 (U+0146): L<<408.0,22.0>--<407.0,339.0>>
+
+	* uni0146 (U+0146): L<<452.0,405.0>--<453.0,22.0>>
+
+	* uni0163 (U+0163): L<<122.0,574.0>--<123.0,725.0>>
+
+	* uni0163 (U+0163): L<<168.0,725.0>--<167.0,574.0>>
+
+	* uni021B (U+021B): L<<122.0,574.0>--<123.0,725.0>>
+
+	* uni021B (U+021B): L<<168.0,725.0>--<167.0,574.0>>
+
+	* uni0233 (U+0233): L<<105.0,552.0>--<106.0,169.0>>
+
+	* uni0233 (U+0233): L<<61.0,169.0>--<60.0,552.0>>
+
+	* uni0272 (U+0272): L<<408.0,22.0>--<407.0,339.0>>
+
+	* uni0272 (U+0272): L<<452.0,405.0>--<453.0,22.0>>
+
+	* uni03BC (U+03BC): L<<115.0,552.0>--<116.0,169.0>>
+
+	* uni03BC (U+03BC): L<<71.0,169.0>--<70.0,552.0>>
+
+	* uni1E25 (U+1E25): L<<408.0,21.0>--<407.0,405.0>>
+
+	* uni1E25 (U+1E25): L<<451.0,405.0>--<452.0,21.0>>
+
+	* uni1E2B (U+1E2B): L<<408.0,21.0>--<407.0,405.0>>
+
+	* uni1E2B (U+1E2B): L<<451.0,405.0>--<452.0,21.0>>
+
+	* uni1E43 (U+1E43): L<<393.0,22.0>--<392.0,339.0>>
+
+	* uni1E43 (U+1E43): L<<726.0,22.0>--<725.0,339.0>>
+
+	* uni1E43 (U+1E43): L<<770.0,405.0>--<771.0,22.0>>
+
+	* uni1E45 (U+1E45): L<<408.0,22.0>--<407.0,339.0>>
+
+	* uni1E45 (U+1E45): L<<452.0,405.0>--<453.0,22.0>>
+
+	* uni1E47 (U+1E47): L<<408.0,22.0>--<407.0,339.0>>
+
+	* uni1E47 (U+1E47): L<<452.0,405.0>--<453.0,22.0>>
+
+	* uni1E6D (U+1E6D): L<<122.0,574.0>--<123.0,725.0>>
+
+	* uni1E6D (U+1E6D): L<<168.0,725.0>--<167.0,574.0>>
+
+	* uni1E79 (U+1E79): L<<105.0,552.0>--<106.0,223.0>>
+
+	* uni1E79 (U+1E79): L<<61.0,169.0>--<60.0,552.0>>
+
+	* uni1E7B (U+1E7B): L<<105.0,552.0>--<106.0,223.0>>
+
+	* uni1E7B (U+1E7B): L<<61.0,169.0>--<60.0,552.0>>
+
+	* uni1E8F (U+1E8F): L<<105.0,552.0>--<106.0,169.0>>
+
+	* uni1E8F (U+1E8F): L<<61.0,169.0>--<60.0,552.0>>
+
+	* uni1E97 (U+1E97): L<<122.0,574.0>--<123.0,725.0>>
+
+	* uni1E97 (U+1E97): L<<168.0,725.0>--<167.0,574.0>>
+
+	* uni1E9E (U+1E9E): L<<116.0,702.0>--<115.0,23.0>>
+
+	* uni1E9E (U+1E9E): L<<70.0,23.0>--<71.0,725.0>>
+
+	* uni1EE5 (U+1EE5): L<<105.0,552.0>--<106.0,223.0>>
+
+	* uni1EE5 (U+1EE5): L<<61.0,169.0>--<60.0,552.0>>
+
+	* uni1EF9 (U+1EF9): L<<105.0,552.0>--<106.0,169.0>>
+
+	* uni1EF9 (U+1EF9): L<<61.0,169.0>--<60.0,552.0>>
+
+	* uogonek (U+0173): L<<105.0,552.0>--<106.0,223.0>>
+
+	* uogonek (U+0173): L<<61.0,169.0>--<60.0,552.0>>
+
+	* uring (U+016F): L<<105.0,552.0>--<106.0,223.0>>
+
+	* uring (U+016F): L<<61.0,169.0>--<60.0,552.0>>
+
+	* utilde (U+0169): L<<105.0,552.0>--<106.0,223.0>>
+
+	* utilde (U+0169): L<<61.0,169.0>--<60.0,552.0>>
+
+	* y (U+0079): L<<105.0,552.0>--<106.0,169.0>>
+
+	* y (U+0079): L<<61.0,169.0>--<60.0,552.0>>
+
+	* yacute (U+00FD): L<<105.0,552.0>--<106.0,169.0>>
+
+	* yacute (U+00FD): L<<61.0,169.0>--<60.0,552.0>>
+
+	* ycircumflex (U+0177): L<<105.0,552.0>--<106.0,169.0>>
+
+	* ycircumflex (U+0177): L<<61.0,169.0>--<60.0,552.0>>
+
+	* ydieresis (U+00FF): L<<105.0,552.0>--<106.0,169.0>>
+
+	* ydieresis (U+00FF): L<<61.0,169.0>--<60.0,552.0>>
+
+	* ygrave (U+1EF3): L<<105.0,552.0>--<106.0,169.0>>
+
+	* ygrave (U+1EF3): L<<61.0,169.0>--<60.0,552.0>> [code: found-semi-vertical]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
+
+
+* ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
+</div></details><br></div></details><details><summary><b>[16] LibertineSuper-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+
+
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1327, but got 1000 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 354, but got 200 instead [code: descent]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
+
+
+* 🔥 **FAIL** name id 256 missing from name table
+</div></details><details><summary>⚠ <b>WARN:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
+
+
+* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
+
+
+* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
+</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
+
+	- f + i
+
+	- i + l [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -5951,299 +7167,302 @@ The following glyphs do not have the recommended number of contours:
 * ⚠ **WARN** The most common width is 541 among a set of 5 math glyphs.
 The following math glyphs have a different width, though:
 
-Width = 567:
-less, greater
+Width = 566:
+greater, less
 
 Width = 548:
-plusminus, approxequal, notequal
+notequal, plusminus
 
 Width = 538:
 multiply
 
-Width = 566:
+Width = 547:
+approxequal
+
+Width = 565:
 lessequal
 
-Width = 559:
+Width = 558:
 greaterequal
  [code: width-outliers]
-</div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
-
-
-* ⚠ **WARN** OS/2 sTypoLineGap is not equal to 0. [code: OS/2]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
+	* A (U+0041): L<<249.0,752.0>--<250.0,752.0>> -> L<<250.0,752.0>--<250.0,752.0>>
+
 	* A (U+0041): L<<250.0,752.0>--<250.0,752.0>> -> L<<250.0,752.0>--<250.0,752.0>>
-
-	* AE (U+00C6): L<<421.0,747.0>--<450.0,747.0>> -> L<<450.0,747.0>--<450.0,747.0>>
-
-	* AE (U+00C6): L<<450.0,747.0>--<450.0,747.0>> -> L<<450.0,747.0>--<454.0,747.0>>
 
 	* AE (U+00C6): L<<450.0,747.0>--<454.0,747.0>> -> L<<454.0,747.0>--<743.0,747.0>>
 
-	* AEacute (U+01FC): L<<421.0,747.0>--<450.0,747.0>> -> L<<450.0,747.0>--<450.0,747.0>>
-
-	* AEacute (U+01FC): L<<450.0,747.0>--<450.0,747.0>> -> L<<450.0,747.0>--<454.0,747.0>>
-
 	* AEacute (U+01FC): L<<450.0,747.0>--<454.0,747.0>> -> L<<454.0,747.0>--<743.0,747.0>>
+
+	* Aacute (U+00C1): L<<249.0,752.0>--<250.0,752.0>> -> L<<250.0,752.0>--<250.0,752.0>>
 
 	* Aacute (U+00C1): L<<250.0,752.0>--<250.0,752.0>> -> L<<250.0,752.0>--<250.0,752.0>>
 
+	* Abreve (U+0102): L<<249.0,752.0>--<250.0,752.0>> -> L<<250.0,752.0>--<250.0,752.0>>
+
 	* Abreve (U+0102): L<<250.0,752.0>--<250.0,752.0>> -> L<<250.0,752.0>--<250.0,752.0>>
+
+	* Acircumflex (U+00C2): L<<249.0,752.0>--<250.0,752.0>> -> L<<250.0,752.0>--<250.0,752.0>>
 
 	* Acircumflex (U+00C2): L<<250.0,752.0>--<250.0,752.0>> -> L<<250.0,752.0>--<250.0,752.0>>
 
+	* Adieresis (U+00C4): L<<249.0,752.0>--<250.0,752.0>> -> L<<250.0,752.0>--<250.0,752.0>>
+
 	* Adieresis (U+00C4): L<<250.0,752.0>--<250.0,752.0>> -> L<<250.0,752.0>--<250.0,752.0>>
+
+	* Agrave (U+00C0): L<<249.0,752.0>--<250.0,752.0>> -> L<<250.0,752.0>--<250.0,752.0>>
 
 	* Agrave (U+00C0): L<<250.0,752.0>--<250.0,752.0>> -> L<<250.0,752.0>--<250.0,752.0>>
 
+	* Amacron (U+0100): L<<249.0,752.0>--<250.0,752.0>> -> L<<250.0,752.0>--<250.0,752.0>>
+
 	* Amacron (U+0100): L<<250.0,752.0>--<250.0,752.0>> -> L<<250.0,752.0>--<250.0,752.0>>
+
+	* Aogonek (U+0104): L<<249.0,752.0>--<250.0,752.0>> -> L<<250.0,752.0>--<250.0,752.0>>
 
 	* Aogonek (U+0104): L<<250.0,752.0>--<250.0,752.0>> -> L<<250.0,752.0>--<250.0,752.0>>
 
+	* Aring (U+00C5): L<<249.0,752.0>--<250.0,752.0>> -> L<<250.0,752.0>--<250.0,752.0>>
+
 	* Aring (U+00C5): L<<250.0,752.0>--<250.0,752.0>> -> L<<250.0,752.0>--<250.0,752.0>>
 
+	* Aringacute (U+01FA): L<<249.0,752.0>--<250.0,752.0>> -> L<<250.0,752.0>--<250.0,752.0>>
+
 	* Aringacute (U+01FA): L<<250.0,752.0>--<250.0,752.0>> -> L<<250.0,752.0>--<250.0,752.0>>
+
+	* Atilde (U+00C3): L<<249.0,752.0>--<250.0,752.0>> -> L<<250.0,752.0>--<250.0,752.0>>
 
 	* Atilde (U+00C3): L<<250.0,752.0>--<250.0,752.0>> -> L<<250.0,752.0>--<250.0,752.0>>
 
 	* Y (U+0059): L<<222.0,366.0>--<218.0,374.0>> -> L<<218.0,374.0>--<34.0,703.0>>
 
-	* Y (U+0059): L<<469.0,703.0>--<286.0,374.0>> -> L<<286.0,374.0>--<280.0,364.0>>
+	* Y (U+0059): L<<469.0,703.0>--<285.0,374.0>> -> L<<285.0,374.0>--<279.0,364.0>>
 
 	* Yacute (U+00DD): L<<222.0,366.0>--<218.0,374.0>> -> L<<218.0,374.0>--<34.0,703.0>>
 
-	* Yacute (U+00DD): L<<469.0,703.0>--<286.0,374.0>> -> L<<286.0,374.0>--<280.0,364.0>>
+	* Yacute (U+00DD): L<<469.0,703.0>--<285.0,374.0>> -> L<<285.0,374.0>--<279.0,364.0>>
 
 	* Ycircumflex (U+0176): L<<222.0,366.0>--<218.0,374.0>> -> L<<218.0,374.0>--<34.0,703.0>>
 
-	* Ycircumflex (U+0176): L<<469.0,703.0>--<286.0,374.0>> -> L<<286.0,374.0>--<280.0,364.0>>
+	* Ycircumflex (U+0176): L<<469.0,703.0>--<285.0,374.0>> -> L<<285.0,374.0>--<279.0,364.0>>
 
 	* Ydieresis (U+0178): L<<222.0,366.0>--<218.0,374.0>> -> L<<218.0,374.0>--<34.0,703.0>>
 
-	* Ydieresis (U+0178): L<<469.0,703.0>--<286.0,374.0>> -> L<<286.0,374.0>--<280.0,364.0>>
+	* Ydieresis (U+0178): L<<469.0,703.0>--<285.0,374.0>> -> L<<285.0,374.0>--<279.0,364.0>>
 
 	* Ygrave (U+1EF2): L<<222.0,366.0>--<218.0,374.0>> -> L<<218.0,374.0>--<34.0,703.0>>
 
-	* Ygrave (U+1EF2): L<<469.0,703.0>--<286.0,374.0>> -> L<<286.0,374.0>--<280.0,364.0>>
+	* Ygrave (U+1EF2): L<<469.0,703.0>--<285.0,374.0>> -> L<<285.0,374.0>--<279.0,364.0>>
 
-	* comma (U+002C): L<<137.0,39.0>--<137.0,39.0>> -> L<<137.0,39.0>--<137.0,39.0>>
+	* comma (U+002C): L<<137.0,38.0>--<137.0,38.0>> -> L<<137.0,38.0>--<137.0,38.0>>
 
-	* eng (U+014B): L<<411.0,-144.0>--<411.0,33.0>> -> L<<411.0,33.0>--<410.0,326.0>>
+	* eng (U+014B): L<<411.0,-144.0>--<411.0,33.0>> -> L<<411.0,33.0>--<410.0,327.0>>
 
-	* eng (U+014B): L<<468.0,29.0>--<468.0,28.0>> -> L<<468.0,28.0>--<468.0,-144.0>>
+	* eng (U+014B): L<<468.0,39.0>--<468.0,33.0>> -> L<<468.0,33.0>--<468.0,28.0>>
 
-	* eng (U+014B): L<<468.0,33.0>--<468.0,29.0>> -> L<<468.0,29.0>--<468.0,28.0>>
+	* k (U+006B): L<<118.0,577.0>--<334.0,577.0>> -> L<<334.0,577.0>--<335.0,577.0>>
 
-	* eng (U+014B): L<<468.0,39.0>--<468.0,33.0>> -> L<<468.0,33.0>--<468.0,29.0>>
+	* k (U+006B): L<<334.0,577.0>--<335.0,577.0>> -> L<<335.0,577.0>--<335.0,577.0>>
 
-	* k (U+006B): L<<118.0,577.0>--<335.0,577.0>> -> L<<335.0,577.0>--<335.0,577.0>>
+	* s (U+0073): L<<373.0,479.0>--<370.0,475.0>> -> L<<370.0,475.0>--<254.0,311.0>>
 
-	* k (U+006B): L<<335.0,577.0>--<335.0,577.0>> -> L<<335.0,577.0>--<336.0,577.0>>
+	* sacute (U+015B): L<<373.0,479.0>--<370.0,475.0>> -> L<<370.0,475.0>--<254.0,311.0>>
 
-	* semicolon (U+003B): L<<137.0,39.0>--<137.0,39.0>> -> L<<137.0,39.0>--<137.0,39.0>>
+	* scaron (U+0161): L<<373.0,479.0>--<370.0,475.0>> -> L<<370.0,475.0>--<254.0,311.0>>
 
-	* thorn (U+00FE): L<<270.0,53.0>--<274.0,53.0>> -> L<<274.0,53.0>--<287.0,53.0>>
+	* scedilla (U+015F): L<<373.0,479.0>--<370.0,475.0>> -> L<<370.0,475.0>--<254.0,311.0>>
 
-	* trademark (U+2122): L<<586.0,761.0>--<586.0,761.0>> -> L<<586.0,761.0>--<586.0,761.0>>
+	* scircumflex (U+015D): L<<373.0,479.0>--<370.0,475.0>> -> L<<370.0,475.0>--<254.0,311.0>>
 
-	* uni00B5 (U+00B5): L<<60.0,-163.0>--<60.0,173.0>> -> L<<60.0,173.0>--<59.0,548.0>>
+	* semicolon (U+003B): L<<137.0,38.0>--<137.0,38.0>> -> L<<137.0,38.0>--<137.0,38.0>>
 
-	* uni0137 (U+0137): L<<118.0,577.0>--<335.0,577.0>> -> L<<335.0,577.0>--<335.0,577.0>>
+	* thorn (U+00FE): L<<269.0,52.0>--<274.0,52.0>> -> L<<274.0,52.0>--<287.0,52.0>>
 
-	* uni0137 (U+0137): L<<335.0,577.0>--<335.0,577.0>> -> L<<335.0,577.0>--<336.0,577.0>>
+	* trademark (U+2122): L<<585.0,761.0>--<585.0,761.0>> -> L<<585.0,761.0>--<585.0,761.0>>
+
+	* uni00B5 (U+00B5): L<<60.0,-164.0>--<60.0,173.0>> -> L<<60.0,173.0>--<59.0,548.0>>
+
+	* uni0137 (U+0137): L<<118.0,577.0>--<334.0,577.0>> -> L<<334.0,577.0>--<335.0,577.0>>
+
+	* uni0137 (U+0137): L<<334.0,577.0>--<335.0,577.0>> -> L<<335.0,577.0>--<335.0,577.0>>
+
+	* uni0219 (U+0219): L<<373.0,479.0>--<370.0,475.0>> -> L<<370.0,475.0>--<254.0,311.0>>
 
 	* uni0232 (U+0232): L<<222.0,366.0>--<218.0,374.0>> -> L<<218.0,374.0>--<34.0,703.0>>
 
-	* uni0232 (U+0232): L<<469.0,703.0>--<286.0,374.0>> -> L<<286.0,374.0>--<280.0,364.0>>
-
-	* uni0272 (U+0272): L<<118.0,29.0>--<118.0,28.0>> -> L<<118.0,28.0>--<118.0,-144.0>>
-
-	* uni0272 (U+0272): L<<118.0,317.0>--<118.0,29.0>> -> L<<118.0,29.0>--<118.0,28.0>>
+	* uni0232 (U+0232): L<<469.0,703.0>--<285.0,374.0>> -> L<<285.0,374.0>--<279.0,364.0>>
 
 	* uni0272 (U+0272): L<<60.0,-144.0>--<60.0,33.0>> -> L<<60.0,33.0>--<60.0,34.0>>
 
 	* uni0272 (U+0272): L<<60.0,33.0>--<60.0,34.0>> -> L<<60.0,34.0>--<60.0,548.0>>
 
-	* uni03BC (U+03BC): L<<77.0,-163.0>--<77.0,173.0>> -> L<<77.0,173.0>--<76.0,548.0>>
+	* uni03A9 (U+03A9): L<<293.0,-5.0>--<292.0,-5.0>> -> L<<292.0,-5.0>--<291.0,-5.0>>
+
+	* uni03BC (U+03BC): L<<77.0,-164.0>--<77.0,173.0>> -> L<<77.0,173.0>--<76.0,548.0>>
+
+	* uni1E61 (U+1E61): L<<373.0,479.0>--<370.0,475.0>> -> L<<370.0,475.0>--<254.0,311.0>>
+
+	* uni1E63 (U+1E63): L<<373.0,479.0>--<370.0,475.0>> -> L<<370.0,475.0>--<254.0,311.0>>
+
+	* uni1E65 (U+1E65): L<<373.0,479.0>--<370.0,475.0>> -> L<<370.0,475.0>--<254.0,311.0>>
+
+	* uni1E67 (U+1E67): L<<373.0,479.0>--<370.0,475.0>> -> L<<370.0,475.0>--<254.0,311.0>>
+
+	* uni1E69 (U+1E69): L<<373.0,479.0>--<370.0,475.0>> -> L<<370.0,475.0>--<254.0,311.0>>
 
 	* uni1E8E (U+1E8E): L<<222.0,366.0>--<218.0,374.0>> -> L<<218.0,374.0>--<34.0,703.0>>
 
-	* uni1E8E (U+1E8E): L<<469.0,703.0>--<286.0,374.0>> -> L<<286.0,374.0>--<280.0,364.0>>
+	* uni1E8E (U+1E8E): L<<469.0,703.0>--<285.0,374.0>> -> L<<285.0,374.0>--<279.0,364.0>>
+
+	* uni1EA0 (U+1EA0): L<<249.0,752.0>--<250.0,752.0>> -> L<<250.0,752.0>--<250.0,752.0>>
 
 	* uni1EA0 (U+1EA0): L<<250.0,752.0>--<250.0,752.0>> -> L<<250.0,752.0>--<250.0,752.0>>
 
 	* uni1EF8 (U+1EF8): L<<222.0,366.0>--<218.0,374.0>> -> L<<218.0,374.0>--<34.0,703.0>>
 
-	* uni1EF8 (U+1EF8): L<<469.0,703.0>--<286.0,374.0>> -> L<<286.0,374.0>--<280.0,364.0>> [code: found-colinear-vectors]
+	* uni1EF8 (U+1EF8): L<<469.0,703.0>--<285.0,374.0>> -> L<<285.0,374.0>--<279.0,364.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* Acircumflex (U+00C2): B<<274.0,972.5>-<274.0,972.0>-<273.0,974.0>>/B<<273.0,974.0>-<275.0,971.0>-<277.0,967.0>> = 7.125016348901757
+	* Ccaron (U+010C): B<<297.0,828.0>-<295.0,824.0>-<293.0,821.0>>/B<<293.0,821.0>-<294.0,823.0>-<294.0,822.5>> = 7.125016348901757
 
-	* Ccaron (U+010C): B<<298.0,828.0>-<296.0,824.0>-<294.0,821.0>>/B<<294.0,821.0>-<295.0,823.0>-<294.5,822.5>> = 7.125016348901757
+	* Ecaron (U+011A): B<<265.0,828.0>-<263.0,824.0>-<261.0,821.0>>/B<<261.0,821.0>-<262.0,823.0>-<261.5,822.5>> = 7.125016348901757
 
-	* Ccircumflex (U+0108): B<<297.0,972.5>-<297.0,972.0>-<296.0,974.0>>/B<<296.0,974.0>-<298.0,971.0>-<300.0,967.0>> = 7.125016348901757
+	* Gcaron (U+01E6): B<<309.0,828.0>-<308.0,824.0>-<306.0,821.0>>/B<<306.0,821.0>-<307.0,823.0>-<306.5,822.5>> = 7.125016348901757
 
-	* Dcaron (U+010E): B<<274.0,828.0>-<272.0,824.0>-<270.0,821.0>>/B<<270.0,821.0>-<271.0,823.0>-<270.5,822.5>> = 7.125016348901757
+	* Ncaron (U+0147): B<<271.0,828.0>-<270.0,824.0>-<268.0,821.0>>/B<<268.0,821.0>-<269.0,823.0>-<268.5,822.5>> = 7.125016348901757
 
-	* Ecircumflex (U+00CA): B<<265.0,972.5>-<265.0,972.0>-<264.0,974.0>>/B<<264.0,974.0>-<266.0,971.0>-<268.0,967.0>> = 7.125016348901757
+	* Rcaron (U+0158): B<<271.0,828.0>-<269.0,824.0>-<267.0,821.0>>/B<<267.0,821.0>-<268.0,823.0>-<267.5,822.5>> = 7.125016348901757
 
-	* Gcircumflex (U+011C): B<<310.0,972.5>-<310.0,972.0>-<309.0,974.0>>/B<<309.0,974.0>-<311.0,971.0>-<313.0,967.0>> = 7.125016348901757
+	* Zcaron (U+017D): B<<282.0,828.0>-<281.0,824.0>-<279.0,821.0>>/B<<279.0,821.0>-<280.0,823.0>-<279.5,822.5>> = 7.125016348901757
 
-	* Hcircumflex (U+0124): B<<279.0,972.5>-<279.0,972.0>-<278.0,974.0>>/B<<278.0,974.0>-<280.0,971.0>-<282.0,967.0>> = 7.125016348901757
+	* caron (U+02C7): B<<356.0,594.0>-<354.0,591.0>-<352.0,588.0>>/B<<352.0,588.0>-<353.0,590.0>-<352.5,589.0>> = 7.125016348901757
 
-	* Icircumflex (U+00CE): B<<123.0,972.5>-<123.0,972.0>-<122.0,974.0>>/B<<122.0,974.0>-<124.0,971.0>-<126.0,967.0>> = 7.125016348901757
+	* ccaron (U+010D): B<<271.0,649.0>-<270.0,645.0>-<268.0,642.0>>/B<<268.0,642.0>-<269.0,644.0>-<268.5,643.5>> = 7.125016348901757
 
-	* Jcircumflex (U+0134): B<<278.0,972.5>-<278.0,972.0>-<277.0,974.0>>/B<<277.0,974.0>-<279.0,971.0>-<281.0,967.0>> = 7.125016348901757
+	* ecaron (U+011B): B<<289.0,649.0>-<287.0,645.0>-<285.0,642.0>>/B<<285.0,642.0>-<286.0,644.0>-<285.5,643.5>> = 7.125016348901757
 
-	* Ocircumflex (U+00D4): B<<322.0,972.5>-<322.0,972.0>-<321.0,974.0>>/B<<321.0,974.0>-<323.0,971.0>-<325.0,967.0>> = 7.125016348901757
-
-	* Scaron (U+0160): B<<271.0,828.0>-<269.0,824.0>-<267.0,821.0>>/B<<267.0,821.0>-<268.0,823.0>-<267.5,822.5>> = 7.125016348901757
-
-	* Scircumflex (U+015C): B<<270.0,972.5>-<270.0,972.0>-<269.0,974.0>>/B<<269.0,974.0>-<271.0,971.0>-<273.0,967.0>> = 7.125016348901757
-
-	* Tcaron (U+0164): B<<271.0,828.0>-<269.0,824.0>-<267.0,821.0>>/B<<267.0,821.0>-<268.0,823.0>-<268.0,822.5>> = 7.125016348901757
-
-	* Ucircumflex (U+00DB): B<<317.0,972.5>-<317.0,972.0>-<316.0,974.0>>/B<<316.0,974.0>-<318.0,971.0>-<320.0,967.0>> = 7.125016348901757
-
-	* Wcircumflex (U+0174): B<<311.0,972.5>-<311.0,972.0>-<310.0,974.0>>/B<<310.0,974.0>-<312.0,971.0>-<314.0,967.0>> = 7.125016348901757
-
-	* Ycircumflex (U+0176): B<<270.0,972.5>-<270.0,972.0>-<269.0,974.0>>/B<<269.0,974.0>-<271.0,971.0>-<273.0,967.0>> = 7.125016348901757
-
-	* acircumflex (U+00E2): B<<266.0,793.5>-<266.0,793.0>-<265.0,795.0>>/B<<265.0,795.0>-<267.0,792.0>-<269.0,788.0>> = 7.125016348901757
-
-	* ccircumflex (U+0109): B<<271.0,793.5>-<271.0,793.0>-<270.0,795.0>>/B<<270.0,795.0>-<272.0,792.0>-<274.0,788.0>> = 7.125016348901757
-
-	* circumflex (U+02C6): B<<374.0,731.5>-<374.0,731.0>-<373.0,733.0>>/B<<373.0,733.0>-<375.0,730.0>-<377.0,726.0>> = 7.125016348901757
-
-	* ecircumflex (U+00EA): B<<289.0,793.5>-<289.0,793.0>-<288.0,795.0>>/B<<288.0,795.0>-<290.0,792.0>-<292.0,788.0>> = 7.125016348901757
-
-	* gcircumflex (U+011D): B<<300.0,793.5>-<300.0,793.0>-<299.0,795.0>>/B<<299.0,795.0>-<301.0,792.0>-<303.0,788.0>> = 7.125016348901757
-
-	* hcircumflex (U+0125): B<<283.0,1005.5>-<283.0,1005.0>-<282.0,1007.0>>/B<<282.0,1007.0>-<284.0,1004.0>-<286.0,1000.0>> = 7.125016348901757
-
-	* icircumflex (U+00EE): B<<244.0,793.5>-<244.0,793.0>-<243.0,795.0>>/B<<243.0,795.0>-<245.0,792.0>-<247.0,788.0>> = 7.125016348901757
+	* gcaron (U+01E7): B<<300.0,649.0>-<299.0,645.0>-<297.0,642.0>>/B<<297.0,642.0>-<298.0,644.0>-<297.5,643.5>> = 7.125016348901757
 
 	* logo (U+F0000): B<<1065.0,202.5>-<1062.0,185.0>-<1057.0,170.0>>/B<<1057.0,170.0>-<1083.0,213.0>-<1095.5,227.0>> = 12.724355685422335
 
 	* logo (U+F0000): B<<1150.5,90.5>-<1165.0,144.0>-<1187.0,205.0>>/B<<1187.0,205.0>-<1173.0,183.0>-<1160.5,167.0>> = 12.639062440630111
 
-	* ncaron (U+0148): B<<290.0,649.0>-<288.0,645.0>-<286.0,642.0>>/B<<286.0,642.0>-<287.0,644.0>-<286.5,643.5>> = 7.125016348901757
+	* ncaron (U+0148): B<<289.0,649.0>-<287.0,645.0>-<285.0,642.0>>/B<<285.0,642.0>-<286.0,644.0>-<286.0,643.5>> = 7.125016348901757
 
-	* ocircumflex (U+00F4): B<<295.0,793.5>-<295.0,793.0>-<294.0,795.0>>/B<<294.0,795.0>-<296.0,792.0>-<298.0,788.0>> = 7.125016348901757
+	* rcaron (U+0159): B<<232.0,649.0>-<230.0,645.0>-<228.0,642.0>>/B<<228.0,642.0>-<229.0,644.0>-<229.0,643.5>> = 7.125016348901757
 
-	* rcaron (U+0159): B<<232.0,649.0>-<231.0,645.0>-<229.0,642.0>>/B<<229.0,642.0>-<230.0,644.0>-<229.5,643.5>> = 7.125016348901757
+	* uni030C (U+030C): B<<356.0,594.0>-<354.0,591.0>-<352.0,588.0>>/B<<352.0,588.0>-<353.0,590.0>-<352.5,589.0>> = 7.125016348901757
 
-	* scaron (U+0161): B<<239.0,649.0>-<237.0,645.0>-<235.0,642.0>>/B<<235.0,642.0>-<236.0,644.0>-<235.5,643.5>> = 7.125016348901757
-
-	* scircumflex (U+015D): B<<238.0,793.5>-<238.0,793.0>-<237.0,795.0>>/B<<237.0,795.0>-<239.0,792.0>-<241.0,788.0>> = 7.125016348901757
-
-	* ucircumflex (U+00FB): B<<289.0,793.5>-<289.0,793.0>-<288.0,795.0>>/B<<288.0,795.0>-<290.0,792.0>-<292.0,788.0>> = 7.125016348901757
-
-	* uni0302 (U+0302): B<<374.0,731.5>-<374.0,731.0>-<373.0,733.0>>/B<<373.0,733.0>-<375.0,730.0>-<377.0,726.0>> = 7.125016348901757
-
-	* uni1E66 (U+1E66): B<<271.0,828.0>-<269.0,824.0>-<267.0,821.0>>/B<<267.0,821.0>-<268.0,823.0>-<267.5,822.5>> = 7.125016348901757
-
-	* uni1E67 (U+1E67): B<<239.0,649.0>-<237.0,645.0>-<235.0,642.0>>/B<<235.0,642.0>-<236.0,644.0>-<235.5,643.5>> = 7.125016348901757
-
-	* wcircumflex (U+0175): B<<374.0,793.5>-<374.0,793.0>-<373.0,795.0>>/B<<373.0,795.0>-<375.0,792.0>-<377.0,788.0>> = 7.125016348901757
-
-	* ycircumflex (U+0177): B<<289.0,793.5>-<289.0,793.0>-<288.0,795.0>>/B<<288.0,795.0>-<290.0,792.0>-<292.0,788.0>> = 7.125016348901757
-
-	* zcaron (U+017E): B<<271.0,649.0>-<270.0,645.0>-<268.0,642.0>>/B<<268.0,642.0>-<269.0,644.0>-<268.5,643.5>> = 7.125016348901757 [code: found-jaggy-segments]
+	* zcaron (U+017E): B<<271.0,649.0>-<269.0,645.0>-<267.0,642.0>>/B<<267.0,642.0>-<268.0,644.0>-<267.5,643.5>> = 7.125016348901757 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* eng (U+014B): L<<411.0,33.0>--<410.0,326.0>>
+	* O (U+004F): L<<118.0,473.0>--<117.0,273.0>>
+
+	* OE (U+0152): L<<118.0,473.0>--<117.0,273.0>>
+
+	* Oacute (U+00D3): L<<118.0,473.0>--<117.0,273.0>>
+
+	* Obreve (U+014E): L<<118.0,473.0>--<117.0,273.0>>
+
+	* Ocircumflex (U+00D4): L<<118.0,473.0>--<117.0,273.0>>
+
+	* Odieresis (U+00D6): L<<118.0,473.0>--<117.0,273.0>>
+
+	* Ograve (U+00D2): L<<118.0,473.0>--<117.0,273.0>>
+
+	* Ohungarumlaut (U+0150): L<<118.0,473.0>--<117.0,273.0>>
+
+	* Omacron (U+014C): L<<118.0,473.0>--<117.0,273.0>>
+
+	* Otilde (U+00D5): L<<118.0,473.0>--<117.0,273.0>>
+
+	* Q (U+0051): L<<118.0,473.0>--<117.0,273.0>>
+
+	* b (U+0062): L<<118.0,316.0>--<117.0,111.0>>
+
+	* eng (U+014B): L<<411.0,33.0>--<410.0,327.0>>
 
 	* eng (U+014B): L<<467.0,404.0>--<468.0,39.0>>
 
-	* h (U+0068): L<<410.0,28.0>--<409.0,404.0>>
+	* eng (U+014B): L<<468.0,28.0>--<467.0,-144.0>>
 
-	* h (U+0068): L<<467.0,404.0>--<468.0,28.0>>
+	* h (U+0068): L<<410.0,27.0>--<409.0,404.0>>
 
-	* hbar (U+0127): L<<429.0,28.0>--<428.0,404.0>>
+	* h (U+0068): L<<466.0,404.0>--<467.0,27.0>>
 
-	* hbar (U+0127): L<<486.0,404.0>--<487.0,28.0>>
+	* hbar (U+0127): L<<429.0,27.0>--<428.0,404.0>>
 
-	* hcircumflex (U+0125): L<<410.0,28.0>--<409.0,404.0>>
+	* hbar (U+0127): L<<485.0,404.0>--<486.0,27.0>>
 
-	* hcircumflex (U+0125): L<<467.0,404.0>--<468.0,28.0>>
+	* hcircumflex (U+0125): L<<410.0,27.0>--<409.0,404.0>>
 
-	* m (U+006D): L<<396.0,29.0>--<395.0,326.0>>
+	* hcircumflex (U+0125): L<<466.0,404.0>--<467.0,27.0>>
 
-	* m (U+006D): L<<732.0,29.0>--<731.0,326.0>>
+	* m (U+006D): L<<396.0,28.0>--<395.0,327.0>>
 
-	* m (U+006D): L<<788.0,404.0>--<789.0,29.0>>
+	* m (U+006D): L<<787.0,404.0>--<788.0,28.0>>
 
-	* n (U+006E): L<<411.0,29.0>--<410.0,326.0>>
+	* n (U+006E): L<<411.0,28.0>--<410.0,327.0>>
 
-	* n (U+006E): L<<467.0,404.0>--<468.0,29.0>>
+	* n (U+006E): L<<467.0,404.0>--<468.0,28.0>>
 
-	* nacute (U+0144): L<<411.0,29.0>--<410.0,326.0>>
+	* nacute (U+0144): L<<411.0,28.0>--<410.0,327.0>>
 
-	* nacute (U+0144): L<<467.0,404.0>--<468.0,29.0>>
+	* nacute (U+0144): L<<467.0,404.0>--<468.0,28.0>>
 
-	* napostrophe (U+0149): L<<580.0,29.0>--<579.0,326.0>>
+	* napostrophe (U+0149): L<<580.0,28.0>--<579.0,327.0>>
 
-	* napostrophe (U+0149): L<<636.0,404.0>--<637.0,29.0>>
+	* napostrophe (U+0149): L<<636.0,404.0>--<637.0,28.0>>
 
-	* ncaron (U+0148): L<<411.0,29.0>--<410.0,326.0>>
+	* ncaron (U+0148): L<<411.0,28.0>--<410.0,327.0>>
 
-	* ncaron (U+0148): L<<467.0,404.0>--<468.0,29.0>>
+	* ncaron (U+0148): L<<467.0,404.0>--<468.0,28.0>>
 
-	* nmacronbelow (U+1E49): L<<411.0,29.0>--<410.0,326.0>>
+	* nmacronbelow (U+1E49): L<<411.0,28.0>--<410.0,327.0>>
 
-	* nmacronbelow (U+1E49): L<<467.0,404.0>--<468.0,29.0>>
+	* nmacronbelow (U+1E49): L<<467.0,404.0>--<468.0,28.0>>
 
-	* ntilde (U+00F1): L<<411.0,29.0>--<410.0,326.0>>
+	* ntilde (U+00F1): L<<411.0,28.0>--<410.0,327.0>>
 
-	* ntilde (U+00F1): L<<467.0,404.0>--<468.0,29.0>>
+	* ntilde (U+00F1): L<<467.0,404.0>--<468.0,28.0>>
 
 	* t (U+0074): L<<123.0,577.0>--<124.0,718.0>>
+
+	* t (U+0074): L<<181.0,380.0>--<180.0,141.0>>
 
 	* tbar (U+0167): L<<123.0,577.0>--<124.0,718.0>>
 
 	* tcaron (U+0165): L<<123.0,577.0>--<124.0,718.0>>
 
+	* tcaron (U+0165): L<<181.0,380.0>--<180.0,141.0>>
+
 	* tmacronbelow (U+1E6F): L<<123.0,577.0>--<124.0,718.0>>
 
-	* u (U+0075): L<<118.0,548.0>--<119.0,232.0>>
+	* tmacronbelow (U+1E6F): L<<181.0,380.0>--<180.0,141.0>>
 
 	* u (U+0075): L<<61.0,173.0>--<60.0,548.0>>
 
-	* uacute (U+00FA): L<<118.0,548.0>--<119.0,232.0>>
-
 	* uacute (U+00FA): L<<61.0,173.0>--<60.0,548.0>>
-
-	* ubreve (U+016D): L<<118.0,548.0>--<119.0,232.0>>
 
 	* ubreve (U+016D): L<<61.0,173.0>--<60.0,548.0>>
 
-	* ucircumflex (U+00FB): L<<118.0,548.0>--<119.0,232.0>>
-
 	* ucircumflex (U+00FB): L<<61.0,173.0>--<60.0,548.0>>
-
-	* udieresis (U+00FC): L<<118.0,548.0>--<119.0,232.0>>
 
 	* udieresis (U+00FC): L<<61.0,173.0>--<60.0,548.0>>
 
-	* ugrave (U+00F9): L<<118.0,548.0>--<119.0,232.0>>
-
 	* ugrave (U+00F9): L<<61.0,173.0>--<60.0,548.0>>
 
-	* uhungarumlaut (U+0171): L<<118.0,548.0>--<119.0,232.0>>
-
 	* uhungarumlaut (U+0171): L<<61.0,173.0>--<60.0,548.0>>
-
-	* umacron (U+016B): L<<118.0,548.0>--<119.0,232.0>>
 
 	* umacron (U+016B): L<<61.0,173.0>--<60.0,548.0>>
 
@@ -6251,55 +7470,65 @@ greaterequal
 
 	* uni00B5 (U+00B5): L<<60.0,173.0>--<59.0,548.0>>
 
-	* uni0146 (U+0146): L<<411.0,29.0>--<410.0,326.0>>
+	* uni0146 (U+0146): L<<411.0,28.0>--<410.0,327.0>>
 
-	* uni0146 (U+0146): L<<467.0,404.0>--<468.0,29.0>>
+	* uni0146 (U+0146): L<<467.0,404.0>--<468.0,28.0>>
 
 	* uni0163 (U+0163): L<<123.0,577.0>--<124.0,718.0>>
 
+	* uni0163 (U+0163): L<<181.0,380.0>--<180.0,141.0>>
+
+	* uni01EA (U+01EA): L<<118.0,473.0>--<117.0,273.0>>
+
 	* uni021B (U+021B): L<<123.0,577.0>--<124.0,718.0>>
+
+	* uni021B (U+021B): L<<181.0,380.0>--<180.0,141.0>>
 
 	* uni0233 (U+0233): L<<118.0,548.0>--<119.0,173.0>>
 
 	* uni0233 (U+0233): L<<61.0,173.0>--<60.0,548.0>>
 
-	* uni0272 (U+0272): L<<411.0,29.0>--<410.0,326.0>>
+	* uni0272 (U+0272): L<<411.0,28.0>--<410.0,327.0>>
 
-	* uni0272 (U+0272): L<<467.0,404.0>--<468.0,29.0>>
+	* uni0272 (U+0272): L<<467.0,404.0>--<468.0,28.0>>
 
 	* uni03BC (U+03BC): L<<134.0,548.0>--<135.0,173.0>>
 
 	* uni03BC (U+03BC): L<<77.0,173.0>--<76.0,548.0>>
 
-	* uni1E25 (U+1E25): L<<410.0,28.0>--<409.0,404.0>>
+	* uni1E25 (U+1E25): L<<410.0,27.0>--<409.0,404.0>>
 
-	* uni1E25 (U+1E25): L<<467.0,404.0>--<468.0,28.0>>
+	* uni1E25 (U+1E25): L<<466.0,404.0>--<467.0,27.0>>
 
-	* uni1E2B (U+1E2B): L<<410.0,28.0>--<409.0,404.0>>
+	* uni1E2B (U+1E2B): L<<410.0,27.0>--<409.0,404.0>>
 
-	* uni1E2B (U+1E2B): L<<467.0,404.0>--<468.0,28.0>>
+	* uni1E2B (U+1E2B): L<<466.0,404.0>--<467.0,27.0>>
 
-	* uni1E43 (U+1E43): L<<396.0,29.0>--<395.0,326.0>>
+	* uni1E43 (U+1E43): L<<396.0,28.0>--<395.0,327.0>>
 
-	* uni1E43 (U+1E43): L<<732.0,29.0>--<731.0,326.0>>
+	* uni1E43 (U+1E43): L<<787.0,404.0>--<788.0,28.0>>
 
-	* uni1E43 (U+1E43): L<<788.0,404.0>--<789.0,29.0>>
+	* uni1E45 (U+1E45): L<<411.0,28.0>--<410.0,327.0>>
 
-	* uni1E45 (U+1E45): L<<411.0,29.0>--<410.0,326.0>>
+	* uni1E45 (U+1E45): L<<467.0,404.0>--<468.0,28.0>>
 
-	* uni1E45 (U+1E45): L<<467.0,404.0>--<468.0,29.0>>
+	* uni1E47 (U+1E47): L<<411.0,28.0>--<410.0,327.0>>
 
-	* uni1E47 (U+1E47): L<<411.0,29.0>--<410.0,326.0>>
+	* uni1E47 (U+1E47): L<<467.0,404.0>--<468.0,28.0>>
 
-	* uni1E47 (U+1E47): L<<467.0,404.0>--<468.0,29.0>>
+	* uni1E4C (U+1E4C): L<<118.0,473.0>--<117.0,273.0>>
+
+	* uni1E4E (U+1E4E): L<<118.0,473.0>--<117.0,273.0>>
+
+	* uni1E50 (U+1E50): L<<118.0,473.0>--<117.0,273.0>>
+
+	* uni1E52 (U+1E52): L<<118.0,473.0>--<117.0,273.0>>
 
 	* uni1E6D (U+1E6D): L<<123.0,577.0>--<124.0,718.0>>
 
-	* uni1E79 (U+1E79): L<<118.0,548.0>--<119.0,232.0>>
+	* uni1E6D (U+1E6D): L<<181.0,380.0>--<180.0,141.0>>
 
 	* uni1E79 (U+1E79): L<<61.0,173.0>--<60.0,548.0>>
-
-	* uni1E7B (U+1E7B): L<<118.0,548.0>--<119.0,232.0>>
 
 	* uni1E7B (U+1E7B): L<<61.0,173.0>--<60.0,548.0>>
 
@@ -6309,11 +7538,11 @@ greaterequal
 
 	* uni1E97 (U+1E97): L<<123.0,577.0>--<124.0,718.0>>
 
-	* uni1E9E (U+1E9E): L<<129.0,689.0>--<128.0,29.0>>
+	* uni1E97 (U+1E97): L<<181.0,380.0>--<180.0,141.0>>
 
 	* uni1E9E (U+1E9E): L<<70.0,29.0>--<71.0,718.0>>
 
-	* uni1EE5 (U+1EE5): L<<118.0,548.0>--<119.0,232.0>>
+	* uni1ECC (U+1ECC): L<<118.0,473.0>--<117.0,273.0>>
 
 	* uni1EE5 (U+1EE5): L<<61.0,173.0>--<60.0,548.0>>
 
@@ -6321,15 +7550,9 @@ greaterequal
 
 	* uni1EF9 (U+1EF9): L<<61.0,173.0>--<60.0,548.0>>
 
-	* uogonek (U+0173): L<<118.0,548.0>--<119.0,232.0>>
-
 	* uogonek (U+0173): L<<61.0,173.0>--<60.0,548.0>>
 
-	* uring (U+016F): L<<118.0,548.0>--<119.0,232.0>>
-
 	* uring (U+016F): L<<61.0,173.0>--<60.0,548.0>>
-
-	* utilde (U+0169): L<<118.0,548.0>--<119.0,232.0>>
 
 	* utilde (U+0169): L<<61.0,173.0>--<60.0,548.0>>
 
@@ -6356,1302 +7579,23 @@ greaterequal
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><br></div></details><details><summary><b>[20] LibertineSuper-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[16] LibertineSuper-Thin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.sTypoLineGap is "200" it should be 0 [code: bad-OS/2.sTypoLineGap]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1327, but got 1000 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 354, but got 200 instead [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2 sTypoLineGap (200) and hhea lineGap (0) must be equal. [code: lineGap]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
 
 
 * 🔥 **FAIL** name id 256 missing from name table
-</div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
- [code: unknown]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
-
-
-* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- f + i
-
-	- i + l [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
-
-
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if uppercase glyphs are vertically centered. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/caps_vertically_centered">com.google.fonts/check/caps_vertically_centered</a>)</summary><div>
-
-
-* ⚠ **WARN** Uppercase glyphs are not vertically centered in the em box. [code: vertical-metrics-not-centered]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- IJacute
-
-	- logo_full
-
-	- logo_ls
-
-	- uni00690307
- [code: unreachable-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
-
-
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: percent	Contours detected: 7	Expected: 5
-
-	- Glyph name: ampersand	Contours detected: 4	Expected: 1, 2or3
-
-	- Glyph name: A	Contours detected: 3	Expected: 2
-
-	- Glyph name: B	Contours detected: 4	Expected: 2or3
-
-	- Glyph name: C	Contours detected: 2	Expected: 1
-
-	- Glyph name: D	Contours detected: 3	Expected: 2
-
-	- Glyph name: H	Contours detected: 2	Expected: 1
-
-	- Glyph name: J	Contours detected: 2	Expected: 1
-
-	- Glyph name: O	Contours detected: 3	Expected: 2
-
-	- Glyph name: P	Contours detected: 3	Expected: 1or2
-
-	- Glyph name: Q	Contours detected: 3	Expected: 2
-
-	- Glyph name: R	Contours detected: 3	Expected: 1or2
-
-	- Glyph name: S	Contours detected: 2	Expected: 1
-
-	- Glyph name: U	Contours detected: 2	Expected: 1
-
-	- Glyph name: W	Contours detected: 3	Expected: 1or2
-
-	- Glyph name: X	Contours detected: 2	Expected: 1
-
-	- Glyph name: Y	Contours detected: 2	Expected: 1
-
-	- Glyph name: a	Contours detected: 3	Expected: 2
-
-	- Glyph name: b	Contours detected: 3	Expected: 2
-
-	- Glyph name: d	Contours detected: 3	Expected: 2
-
-	- Glyph name: e	Contours detected: 3	Expected: 2
-
-	- Glyph name: m	Contours detected: 3	Expected: 1
-
-	- Glyph name: n	Contours detected: 2	Expected: 1
-
-	- Glyph name: o	Contours detected: 3	Expected: 2
-
-	- Glyph name: p	Contours detected: 3	Expected: 2
-
-	- Glyph name: s	Contours detected: 3	Expected: 1
-
-	- Glyph name: u	Contours detected: 2	Expected: 1
-
-	- Glyph name: w	Contours detected: 3	Expected: 1
-
-	- Glyph name: x	Contours detected: 2	Expected: 1
-
-	- Glyph name: y	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-	- Glyph name: Agrave	Contours detected: 4	Expected: 3
-
-	- Glyph name: Aacute	Contours detected: 4	Expected: 3
-
-	- Glyph name: Acircumflex	Contours detected: 4	Expected: 3
-
-	- Glyph name: Atilde	Contours detected: 4	Expected: 3
-
-	- Glyph name: Adieresis	Contours detected: 5	Expected: 4
-
-	- Glyph name: Aring	Contours detected: 5	Expected: 3or4
-
-	- Glyph name: AE	Contours detected: 3	Expected: 2
-
-	- Glyph name: Ccedilla	Contours detected: 3	Expected: 1or2
-
-	- Glyph name: Eth	Contours detected: 3	Expected: 2
-
-	- Glyph name: Ograve	Contours detected: 4	Expected: 3
-
-	- Glyph name: Oacute	Contours detected: 4	Expected: 3
-
-	- Glyph name: Ocircumflex	Contours detected: 4	Expected: 3
-
-	- Glyph name: Otilde	Contours detected: 4	Expected: 3
-
-	- Glyph name: Odieresis	Contours detected: 5	Expected: 4
-
-	- Glyph name: Ugrave	Contours detected: 3	Expected: 2
-
-	- Glyph name: Uacute	Contours detected: 3	Expected: 2
-
-	- Glyph name: Ucircumflex	Contours detected: 3	Expected: 2
-
-	- Glyph name: Udieresis	Contours detected: 4	Expected: 3
-
-	- Glyph name: Yacute	Contours detected: 3	Expected: 2
-
-	- Glyph name: Thorn	Contours detected: 3	Expected: 1or2
-
-	- Glyph name: agrave	Contours detected: 4	Expected: 3
-
-	- Glyph name: aacute	Contours detected: 4	Expected: 3
-
-	- Glyph name: acircumflex	Contours detected: 4	Expected: 3
-
-	- Glyph name: atilde	Contours detected: 4	Expected: 3
-
-	- Glyph name: adieresis	Contours detected: 5	Expected: 4
-
-	- Glyph name: aring	Contours detected: 5	Expected: 4
-
-	- Glyph name: ae	Contours detected: 6	Expected: 3
-
-	- Glyph name: egrave	Contours detected: 4	Expected: 3
-
-	- Glyph name: eacute	Contours detected: 4	Expected: 3
-
-	- Glyph name: ecircumflex	Contours detected: 4	Expected: 3
-
-	- Glyph name: edieresis	Contours detected: 5	Expected: 4
-
-	- Glyph name: ntilde	Contours detected: 3	Expected: 2
-
-	- Glyph name: ograve	Contours detected: 4	Expected: 3
-
-	- Glyph name: oacute	Contours detected: 4	Expected: 3
-
-	- Glyph name: ocircumflex	Contours detected: 4	Expected: 3
-
-	- Glyph name: otilde	Contours detected: 4	Expected: 3
-
-	- Glyph name: odieresis	Contours detected: 5	Expected: 4
-
-	- Glyph name: ugrave	Contours detected: 3	Expected: 2
-
-	- Glyph name: uacute	Contours detected: 3	Expected: 2
-
-	- Glyph name: ucircumflex	Contours detected: 3	Expected: 2
-
-	- Glyph name: udieresis	Contours detected: 4	Expected: 3
-
-	- Glyph name: yacute	Contours detected: 3	Expected: 2
-
-	- Glyph name: thorn	Contours detected: 3	Expected: 2
-
-	- Glyph name: ydieresis	Contours detected: 4	Expected: 3
-
-	- Glyph name: Amacron	Contours detected: 4	Expected: 3
-
-	- Glyph name: amacron	Contours detected: 4	Expected: 3
-
-	- Glyph name: Abreve	Contours detected: 4	Expected: 3
-
-	- Glyph name: abreve	Contours detected: 4	Expected: 3
-
-	- Glyph name: Aogonek	Contours detected: 4	Expected: 2or3
-
-	- Glyph name: aogonek	Contours detected: 4	Expected: 2
-
-	- Glyph name: Cacute	Contours detected: 3	Expected: 2
-
-	- Glyph name: Ccircumflex	Contours detected: 3	Expected: 2
-
-	- Glyph name: Cdotaccent	Contours detected: 3	Expected: 2
-
-	- Glyph name: Ccaron	Contours detected: 3	Expected: 2
-
-	- Glyph name: Dcaron	Contours detected: 4	Expected: 3
-
-	- Glyph name: dcaron	Contours detected: 4	Expected: 3
-
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: emacron	Contours detected: 4	Expected: 3
-
-	- Glyph name: ebreve	Contours detected: 4	Expected: 3
-
-	- Glyph name: edotaccent	Contours detected: 4	Expected: 3
-
-	- Glyph name: eogonek	Contours detected: 4	Expected: 2
-
-	- Glyph name: ecaron	Contours detected: 4	Expected: 3
-
-	- Glyph name: Hcircumflex	Contours detected: 3	Expected: 2
-
-	- Glyph name: Hbar	Contours detected: 3	Expected: 2
-
-	- Glyph name: IJ	Contours detected: 3	Expected: 1or2
-
-	- Glyph name: Jcircumflex	Contours detected: 3	Expected: 2
-
-	- Glyph name: jcircumflex	Contours detected: 1	Expected: 2
-
-	- Glyph name: nacute	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni0146	Contours detected: 3	Expected: 2
-
-	- Glyph name: ncaron	Contours detected: 3	Expected: 2
-
-	- Glyph name: napostrophe	Contours detected: 3	Expected: 2
-
-	- Glyph name: eng	Contours detected: 2	Expected: 1
-
-	- Glyph name: Omacron	Contours detected: 4	Expected: 3
-
-	- Glyph name: omacron	Contours detected: 4	Expected: 3
-
-	- Glyph name: Obreve	Contours detected: 4	Expected: 3
-
-	- Glyph name: obreve	Contours detected: 4	Expected: 3
-
-	- Glyph name: Ohungarumlaut	Contours detected: 5	Expected: 4
-
-	- Glyph name: ohungarumlaut	Contours detected: 5	Expected: 4
-
-	- Glyph name: OE	Contours detected: 4	Expected: 2
-
-	- Glyph name: oe	Contours detected: 6	Expected: 3
-
-	- Glyph name: Racute	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni0156	Contours detected: 4	Expected: 3
-
-	- Glyph name: Rcaron	Contours detected: 4	Expected: 3
-
-	- Glyph name: Sacute	Contours detected: 3	Expected: 2
-
-	- Glyph name: sacute	Contours detected: 4	Expected: 2
-
-	- Glyph name: Scircumflex	Contours detected: 3	Expected: 2
-
-	- Glyph name: scircumflex	Contours detected: 4	Expected: 2
-
-	- Glyph name: Scedilla	Contours detected: 3	Expected: 1or2
-
-	- Glyph name: scedilla	Contours detected: 4	Expected: 1or2
-
-	- Glyph name: Scaron	Contours detected: 3	Expected: 2
-
-	- Glyph name: scaron	Contours detected: 4	Expected: 2
-
-	- Glyph name: Utilde	Contours detected: 3	Expected: 2
-
-	- Glyph name: utilde	Contours detected: 3	Expected: 2
-
-	- Glyph name: Umacron	Contours detected: 3	Expected: 2
-
-	- Glyph name: umacron	Contours detected: 3	Expected: 2
-
-	- Glyph name: Ubreve	Contours detected: 3	Expected: 2
-
-	- Glyph name: ubreve	Contours detected: 3	Expected: 2
-
-	- Glyph name: Uring	Contours detected: 4	Expected: 3
-
-	- Glyph name: uring	Contours detected: 4	Expected: 3
-
-	- Glyph name: Uhungarumlaut	Contours detected: 4	Expected: 3
-
-	- Glyph name: uhungarumlaut	Contours detected: 4	Expected: 3
-
-	- Glyph name: Uogonek	Contours detected: 3	Expected: 1
-
-	- Glyph name: uogonek	Contours detected: 3	Expected: 1
-
-	- Glyph name: Wcircumflex	Contours detected: 4	Expected: 2
-
-	- Glyph name: wcircumflex	Contours detected: 4	Expected: 2
-
-	- Glyph name: Ycircumflex	Contours detected: 3	Expected: 2
-
-	- Glyph name: ycircumflex	Contours detected: 3	Expected: 2
-
-	- Glyph name: Ydieresis	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni01EA	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni01EB	Contours detected: 4	Expected: 2
-
-	- Glyph name: Aringacute	Contours detected: 6	Expected: 3, 4or5
-
-	- Glyph name: aringacute	Contours detected: 6	Expected: 4or5
-
-	- Glyph name: AEacute	Contours detected: 4	Expected: 3
-
-	- Glyph name: aeacute	Contours detected: 7	Expected: 4
-
-	- Glyph name: uni0218	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni0219	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni0232	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni0233	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni0259	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni0272	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni03A9	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni1E08	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E0C	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1E0D	Contours detected: 4	Expected: 3
-
-	- Glyph name: Dmacronbelow	Contours detected: 4	Expected: 3
-
-	- Glyph name: dmacronbelow	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1E15	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E17	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E1D	Contours detected: 5	Expected: 3
-
-	- Glyph name: uni1E24	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E2A	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E43	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni1E45	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E47	Contours detected: 3	Expected: 2
-
-	- Glyph name: nmacronbelow	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E4C	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E4D	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E4E	Contours detected: 6	Expected: 5
-
-	- Glyph name: uni1E4F	Contours detected: 6	Expected: 5
-
-	- Glyph name: uni1E50	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E51	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E52	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E53	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E5A	Contours detected: 4	Expected: 3
-
-	- Glyph name: Rmacronbelow	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1E60	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E61	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni1E62	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E63	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni1E64	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1E65	Contours detected: 5	Expected: 3
-
-	- Glyph name: uni1E66	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1E67	Contours detected: 5	Expected: 3
-
-	- Glyph name: uni1E68	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1E69	Contours detected: 5	Expected: 3
-
-	- Glyph name: uni1E78	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1E79	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1E7A	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E7B	Contours detected: 5	Expected: 4
-
-	- Glyph name: Wgrave	Contours detected: 4	Expected: 2
-
-	- Glyph name: wgrave	Contours detected: 4	Expected: 2
-
-	- Glyph name: Wacute	Contours detected: 4	Expected: 2
-
-	- Glyph name: wacute	Contours detected: 4	Expected: 2
-
-	- Glyph name: Wdieresis	Contours detected: 5	Expected: 3
-
-	- Glyph name: wdieresis	Contours detected: 5	Expected: 3
-
-	- Glyph name: uni1E8E	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E8F	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1EA0	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1EA1	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1EB9	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1EBD	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1ECC	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1ECD	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1EE4	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1EE5	Contours detected: 3	Expected: 2
-
-	- Glyph name: Ygrave	Contours detected: 3	Expected: 2
-
-	- Glyph name: ygrave	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1EF8	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1EF9	Contours detected: 3	Expected: 2
-
-	- Glyph name: perthousand	Contours detected: 9	Expected: 6or7
-
-	- Glyph name: A	Contours detected: 3	Expected: 2
-
-	- Glyph name: AE	Contours detected: 3	Expected: 2
-
-	- Glyph name: AEacute	Contours detected: 4	Expected: 3
-
-	- Glyph name: Aacute	Contours detected: 4	Expected: 3
-
-	- Glyph name: Abreve	Contours detected: 4	Expected: 3
-
-	- Glyph name: Acircumflex	Contours detected: 4	Expected: 3
-
-	- Glyph name: Adieresis	Contours detected: 5	Expected: 4
-
-	- Glyph name: Agrave	Contours detected: 4	Expected: 3
-
-	- Glyph name: Amacron	Contours detected: 4	Expected: 3
-
-	- Glyph name: Aogonek	Contours detected: 4	Expected: 2or3
-
-	- Glyph name: Aring	Contours detected: 5	Expected: 3or4
-
-	- Glyph name: Aringacute	Contours detected: 6	Expected: 3, 4or5
-
-	- Glyph name: Atilde	Contours detected: 4	Expected: 3
-
-	- Glyph name: B	Contours detected: 4	Expected: 2or3
-
-	- Glyph name: C	Contours detected: 2	Expected: 1
-
-	- Glyph name: Cacute	Contours detected: 3	Expected: 2
-
-	- Glyph name: Ccaron	Contours detected: 3	Expected: 2
-
-	- Glyph name: Ccedilla	Contours detected: 3	Expected: 1or2
-
-	- Glyph name: Ccircumflex	Contours detected: 3	Expected: 2
-
-	- Glyph name: Cdotaccent	Contours detected: 3	Expected: 2
-
-	- Glyph name: D	Contours detected: 3	Expected: 2
-
-	- Glyph name: Dcaron	Contours detected: 4	Expected: 3
-
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: Eth	Contours detected: 3	Expected: 2
-
-	- Glyph name: H	Contours detected: 2	Expected: 1
-
-	- Glyph name: Hbar	Contours detected: 3	Expected: 2
-
-	- Glyph name: Hcircumflex	Contours detected: 3	Expected: 2
-
-	- Glyph name: IJ	Contours detected: 3	Expected: 1or2
-
-	- Glyph name: J	Contours detected: 2	Expected: 1
-
-	- Glyph name: Jcircumflex	Contours detected: 3	Expected: 2
-
-	- Glyph name: O	Contours detected: 3	Expected: 2
-
-	- Glyph name: OE	Contours detected: 4	Expected: 2
-
-	- Glyph name: Oacute	Contours detected: 4	Expected: 3
-
-	- Glyph name: Ocircumflex	Contours detected: 4	Expected: 3
-
-	- Glyph name: Odieresis	Contours detected: 5	Expected: 4
-
-	- Glyph name: Ograve	Contours detected: 4	Expected: 3
-
-	- Glyph name: Ohungarumlaut	Contours detected: 5	Expected: 4
-
-	- Glyph name: Omacron	Contours detected: 4	Expected: 3
-
-	- Glyph name: Otilde	Contours detected: 4	Expected: 3
-
-	- Glyph name: P	Contours detected: 3	Expected: 1or2
-
-	- Glyph name: Q	Contours detected: 3	Expected: 2
-
-	- Glyph name: R	Contours detected: 3	Expected: 1or2
-
-	- Glyph name: Racute	Contours detected: 4	Expected: 3
-
-	- Glyph name: Rcaron	Contours detected: 4	Expected: 3
-
-	- Glyph name: S	Contours detected: 2	Expected: 1
-
-	- Glyph name: Sacute	Contours detected: 3	Expected: 2
-
-	- Glyph name: Scaron	Contours detected: 3	Expected: 2
-
-	- Glyph name: Scircumflex	Contours detected: 3	Expected: 2
-
-	- Glyph name: Thorn	Contours detected: 3	Expected: 1or2
-
-	- Glyph name: U	Contours detected: 2	Expected: 1
-
-	- Glyph name: Uacute	Contours detected: 3	Expected: 2
-
-	- Glyph name: Ubreve	Contours detected: 3	Expected: 2
-
-	- Glyph name: Ucircumflex	Contours detected: 3	Expected: 2
-
-	- Glyph name: Udieresis	Contours detected: 4	Expected: 3
-
-	- Glyph name: Ugrave	Contours detected: 3	Expected: 2
-
-	- Glyph name: Uhungarumlaut	Contours detected: 4	Expected: 3
-
-	- Glyph name: Umacron	Contours detected: 3	Expected: 2
-
-	- Glyph name: Uogonek	Contours detected: 3	Expected: 1
-
-	- Glyph name: Uring	Contours detected: 4	Expected: 3
-
-	- Glyph name: Utilde	Contours detected: 3	Expected: 2
-
-	- Glyph name: W	Contours detected: 3	Expected: 1or2
-
-	- Glyph name: Wacute	Contours detected: 4	Expected: 2
-
-	- Glyph name: Wcircumflex	Contours detected: 4	Expected: 2
-
-	- Glyph name: Wdieresis	Contours detected: 5	Expected: 3
-
-	- Glyph name: Wgrave	Contours detected: 4	Expected: 2
-
-	- Glyph name: X	Contours detected: 2	Expected: 1
-
-	- Glyph name: Y	Contours detected: 2	Expected: 1
-
-	- Glyph name: Yacute	Contours detected: 3	Expected: 2
-
-	- Glyph name: Ycircumflex	Contours detected: 3	Expected: 2
-
-	- Glyph name: Ydieresis	Contours detected: 4	Expected: 3
-
-	- Glyph name: Ygrave	Contours detected: 3	Expected: 2
-
-	- Glyph name: a	Contours detected: 3	Expected: 2
-
-	- Glyph name: aacute	Contours detected: 4	Expected: 3
-
-	- Glyph name: abreve	Contours detected: 4	Expected: 3
-
-	- Glyph name: acircumflex	Contours detected: 4	Expected: 3
-
-	- Glyph name: adieresis	Contours detected: 5	Expected: 4
-
-	- Glyph name: ae	Contours detected: 6	Expected: 3
-
-	- Glyph name: aeacute	Contours detected: 7	Expected: 4
-
-	- Glyph name: agrave	Contours detected: 4	Expected: 3
-
-	- Glyph name: amacron	Contours detected: 4	Expected: 3
-
-	- Glyph name: ampersand	Contours detected: 4	Expected: 1, 2or3
-
-	- Glyph name: aogonek	Contours detected: 4	Expected: 2
-
-	- Glyph name: aring	Contours detected: 5	Expected: 4
-
-	- Glyph name: aringacute	Contours detected: 6	Expected: 4or5
-
-	- Glyph name: atilde	Contours detected: 4	Expected: 3
-
-	- Glyph name: b	Contours detected: 3	Expected: 2
-
-	- Glyph name: d	Contours detected: 3	Expected: 2
-
-	- Glyph name: dcaron	Contours detected: 4	Expected: 3
-
-	- Glyph name: dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: e	Contours detected: 3	Expected: 2
-
-	- Glyph name: eacute	Contours detected: 4	Expected: 3
-
-	- Glyph name: ebreve	Contours detected: 4	Expected: 3
-
-	- Glyph name: ecaron	Contours detected: 4	Expected: 3
-
-	- Glyph name: ecircumflex	Contours detected: 4	Expected: 3
-
-	- Glyph name: edieresis	Contours detected: 5	Expected: 4
-
-	- Glyph name: edotaccent	Contours detected: 4	Expected: 3
-
-	- Glyph name: egrave	Contours detected: 4	Expected: 3
-
-	- Glyph name: emacron	Contours detected: 4	Expected: 3
-
-	- Glyph name: eng	Contours detected: 2	Expected: 1
-
-	- Glyph name: eogonek	Contours detected: 4	Expected: 2
-
-	- Glyph name: jcircumflex	Contours detected: 1	Expected: 2
-
-	- Glyph name: m	Contours detected: 3	Expected: 1
-
-	- Glyph name: n	Contours detected: 2	Expected: 1
-
-	- Glyph name: nacute	Contours detected: 3	Expected: 2
-
-	- Glyph name: napostrophe	Contours detected: 3	Expected: 2
-
-	- Glyph name: ncaron	Contours detected: 3	Expected: 2
-
-	- Glyph name: ntilde	Contours detected: 3	Expected: 2
-
-	- Glyph name: o	Contours detected: 3	Expected: 2
-
-	- Glyph name: oacute	Contours detected: 4	Expected: 3
-
-	- Glyph name: ocircumflex	Contours detected: 4	Expected: 3
-
-	- Glyph name: odieresis	Contours detected: 5	Expected: 4
-
-	- Glyph name: oe	Contours detected: 6	Expected: 3
-
-	- Glyph name: ograve	Contours detected: 4	Expected: 3
-
-	- Glyph name: ohungarumlaut	Contours detected: 5	Expected: 4
-
-	- Glyph name: omacron	Contours detected: 4	Expected: 3
-
-	- Glyph name: otilde	Contours detected: 4	Expected: 3
-
-	- Glyph name: p	Contours detected: 3	Expected: 2
-
-	- Glyph name: percent	Contours detected: 7	Expected: 5
-
-	- Glyph name: perthousand	Contours detected: 9	Expected: 6or7
-
-	- Glyph name: s	Contours detected: 3	Expected: 1
-
-	- Glyph name: sacute	Contours detected: 4	Expected: 2
-
-	- Glyph name: scaron	Contours detected: 4	Expected: 2
-
-	- Glyph name: scircumflex	Contours detected: 4	Expected: 2
-
-	- Glyph name: thorn	Contours detected: 3	Expected: 2
-
-	- Glyph name: u	Contours detected: 2	Expected: 1
-
-	- Glyph name: uacute	Contours detected: 3	Expected: 2
-
-	- Glyph name: ubreve	Contours detected: 3	Expected: 2
-
-	- Glyph name: ucircumflex	Contours detected: 3	Expected: 2
-
-	- Glyph name: udieresis	Contours detected: 4	Expected: 3
-
-	- Glyph name: ugrave	Contours detected: 3	Expected: 2
-
-	- Glyph name: uhungarumlaut	Contours detected: 4	Expected: 3
-
-	- Glyph name: umacron	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-	- Glyph name: uni0146	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni0156	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni0218	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni0219	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni0232	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni0233	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni0259	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni0272	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni03A9	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni1E08	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E0C	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1E0D	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1E15	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E17	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E1D	Contours detected: 5	Expected: 3
-
-	- Glyph name: uni1E24	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E2A	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E43	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni1E45	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E47	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E4C	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E4D	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E4E	Contours detected: 6	Expected: 5
-
-	- Glyph name: uni1E4F	Contours detected: 6	Expected: 5
-
-	- Glyph name: uni1E50	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E51	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E52	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E53	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E5A	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1E60	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E61	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni1E62	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E63	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni1E64	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1E65	Contours detected: 5	Expected: 3
-
-	- Glyph name: uni1E66	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1E67	Contours detected: 5	Expected: 3
-
-	- Glyph name: uni1E68	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1E69	Contours detected: 5	Expected: 3
-
-	- Glyph name: uni1E78	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1E79	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1E7A	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E7B	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E8E	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E8F	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1EA0	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1EA1	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1EB9	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1EBD	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1ECC	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1ECD	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1EE4	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1EE5	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1EF8	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1EF9	Contours detected: 3	Expected: 2
-
-	- Glyph name: uogonek	Contours detected: 3	Expected: 1
-
-	- Glyph name: uring	Contours detected: 4	Expected: 3
-
-	- Glyph name: utilde	Contours detected: 3	Expected: 2
-
-	- Glyph name: w	Contours detected: 3	Expected: 1
-
-	- Glyph name: wacute	Contours detected: 4	Expected: 2
-
-	- Glyph name: wcircumflex	Contours detected: 4	Expected: 2
-
-	- Glyph name: wdieresis	Contours detected: 5	Expected: 3
-
-	- Glyph name: wgrave	Contours detected: 4	Expected: 2
-
-	- Glyph name: x	Contours detected: 2	Expected: 1
-
-	- Glyph name: y	Contours detected: 2	Expected: 1
-
-	- Glyph name: yacute	Contours detected: 3	Expected: 2
-
-	- Glyph name: ycircumflex	Contours detected: 3	Expected: 2
-
-	- Glyph name: ydieresis	Contours detected: 4	Expected: 3
-
-	- Glyph name: ygrave	Contours detected: 3	Expected: 2
- [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
-</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
-
-
-* ⚠ **WARN** The most common width is 563 among a set of 5 math glyphs.
-The following math glyphs have a different width, though:
-
-Width = 600:
-less, greater
-
-Width = 570:
-plusminus, notequal
-
-Width = 558:
-multiply
-
-Width = 569:
-approxequal
-
-Width = 595:
-lessequal
-
-Width = 588:
-greaterequal
- [code: width-outliers]
-</div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
-
-
-* ⚠ **WARN** OS/2 sTypoLineGap is not equal to 0. [code: OS/2]
-</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have colinear vectors:
-
-	* A (U+0041): L<<260.0,751.0>--<260.0,751.0>> -> L<<260.0,751.0>--<260.0,751.0>>
-
-	* AE (U+00C6): L<<421.0,747.0>--<458.0,747.0>> -> L<<458.0,747.0>--<458.0,747.0>>
-
-	* AEacute (U+01FC): L<<421.0,747.0>--<458.0,747.0>> -> L<<458.0,747.0>--<458.0,747.0>>
-
-	* Aacute (U+00C1): L<<260.0,751.0>--<260.0,751.0>> -> L<<260.0,751.0>--<260.0,751.0>>
-
-	* Abreve (U+0102): L<<260.0,751.0>--<260.0,751.0>> -> L<<260.0,751.0>--<260.0,751.0>>
-
-	* Acircumflex (U+00C2): L<<260.0,751.0>--<260.0,751.0>> -> L<<260.0,751.0>--<260.0,751.0>>
-
-	* Adieresis (U+00C4): L<<260.0,751.0>--<260.0,751.0>> -> L<<260.0,751.0>--<260.0,751.0>>
-
-	* Agrave (U+00C0): L<<260.0,751.0>--<260.0,751.0>> -> L<<260.0,751.0>--<260.0,751.0>>
-
-	* Amacron (U+0100): L<<260.0,751.0>--<260.0,751.0>> -> L<<260.0,751.0>--<260.0,751.0>>
-
-	* Aogonek (U+0104): L<<260.0,751.0>--<260.0,751.0>> -> L<<260.0,751.0>--<260.0,751.0>>
-
-	* Aring (U+00C5): L<<260.0,751.0>--<260.0,751.0>> -> L<<260.0,751.0>--<260.0,751.0>>
-
-	* Aringacute (U+01FA): L<<260.0,751.0>--<260.0,751.0>> -> L<<260.0,751.0>--<260.0,751.0>>
-
-	* Atilde (U+00C3): L<<260.0,751.0>--<260.0,751.0>> -> L<<260.0,751.0>--<260.0,751.0>>
-
-	* R (U+0052): L<<311.0,210.0>--<310.0,210.0>> -> L<<310.0,210.0>--<145.0,210.0>>
-
-	* Racute (U+0154): L<<311.0,210.0>--<310.0,210.0>> -> L<<310.0,210.0>--<145.0,210.0>>
-
-	* Rcaron (U+0158): L<<311.0,210.0>--<310.0,210.0>> -> L<<310.0,210.0>--<145.0,210.0>>
-
-	* Rmacronbelow (U+1E5E): L<<311.0,210.0>--<310.0,210.0>> -> L<<310.0,210.0>--<145.0,210.0>>
-
-	* Y (U+0059): L<<224.0,364.0>--<218.0,374.0>> -> L<<218.0,374.0>--<35.0,690.0>>
-
-	* Y (U+0059): L<<489.0,690.0>--<306.0,374.0>> -> L<<306.0,374.0>--<299.0,361.0>>
-
-	* Yacute (U+00DD): L<<224.0,364.0>--<218.0,374.0>> -> L<<218.0,374.0>--<35.0,690.0>>
-
-	* Yacute (U+00DD): L<<489.0,690.0>--<306.0,374.0>> -> L<<306.0,374.0>--<299.0,361.0>>
-
-	* Ycircumflex (U+0176): L<<224.0,364.0>--<218.0,374.0>> -> L<<218.0,374.0>--<35.0,690.0>>
-
-	* Ycircumflex (U+0176): L<<489.0,690.0>--<306.0,374.0>> -> L<<306.0,374.0>--<299.0,361.0>>
-
-	* Ydieresis (U+0178): L<<224.0,364.0>--<218.0,374.0>> -> L<<218.0,374.0>--<35.0,690.0>>
-
-	* Ydieresis (U+0178): L<<489.0,690.0>--<306.0,374.0>> -> L<<306.0,374.0>--<299.0,361.0>>
-
-	* Ygrave (U+1EF2): L<<224.0,364.0>--<218.0,374.0>> -> L<<218.0,374.0>--<35.0,690.0>>
-
-	* Ygrave (U+1EF2): L<<489.0,690.0>--<306.0,374.0>> -> L<<306.0,374.0>--<299.0,361.0>>
-
-	* comma (U+002C): L<<154.0,47.0>--<154.0,47.0>> -> L<<154.0,47.0>--<154.0,47.0>>
-
-	* d (U+0064): L<<274.0,69.0>--<288.0,69.0>> -> L<<288.0,69.0>--<288.0,69.0>>
-
-	* dcaron (U+010F): L<<274.0,69.0>--<288.0,69.0>> -> L<<288.0,69.0>--<288.0,69.0>>
-
-	* dcroat (U+0111): L<<274.0,69.0>--<288.0,69.0>> -> L<<288.0,69.0>--<288.0,69.0>>
-
-	* dmacronbelow (U+1E0F): L<<274.0,69.0>--<288.0,69.0>> -> L<<288.0,69.0>--<288.0,69.0>>
-
-	* eng (U+014B): L<<414.0,-144.0>--<414.0,43.0>> -> L<<414.0,43.0>--<414.0,310.0>>
-
-	* eng (U+014B): L<<489.0,49.0>--<489.0,43.0>> -> L<<489.0,43.0>--<489.0,37.0>>
-
-	* g (U+0067): L<<274.0,-132.0>--<288.0,-132.0>> -> L<<288.0,-132.0>--<288.0,-132.0>>
-
-	* gbreve (U+011F): L<<274.0,-132.0>--<288.0,-132.0>> -> L<<288.0,-132.0>--<288.0,-132.0>>
-
-	* gcaron (U+01E7): L<<274.0,-132.0>--<288.0,-132.0>> -> L<<288.0,-132.0>--<288.0,-132.0>>
-
-	* gcircumflex (U+011D): L<<274.0,-132.0>--<288.0,-132.0>> -> L<<288.0,-132.0>--<288.0,-132.0>>
-
-	* gdotaccent (U+0121): L<<274.0,-132.0>--<288.0,-132.0>> -> L<<288.0,-132.0>--<288.0,-132.0>>
-
-	* semicolon (U+003B): L<<154.0,47.0>--<154.0,47.0>> -> L<<154.0,47.0>--<154.0,47.0>>
-
-	* trademark (U+2122): L<<616.0,760.0>--<616.0,760.0>> -> L<<616.0,760.0>--<617.0,760.0>>
-
-	* trademark (U+2122): L<<616.0,760.0>--<617.0,760.0>> -> L<<617.0,760.0>--<617.0,760.0>>
-
-	* trademark (U+2122): L<<617.0,760.0>--<617.0,760.0>> -> L<<617.0,760.0>--<617.0,760.0>>
-
-	* uni00B5 (U+00B5): L<<60.0,-151.0>--<60.0,177.0>> -> L<<60.0,177.0>--<59.0,544.0>>
-
-	* uni0123 (U+0123): L<<274.0,-132.0>--<288.0,-132.0>> -> L<<288.0,-132.0>--<288.0,-132.0>>
-
-	* uni0156 (U+0156): L<<311.0,210.0>--<310.0,210.0>> -> L<<310.0,210.0>--<145.0,210.0>>
-
-	* uni0232 (U+0232): L<<224.0,364.0>--<218.0,374.0>> -> L<<218.0,374.0>--<35.0,690.0>>
-
-	* uni0232 (U+0232): L<<489.0,690.0>--<306.0,374.0>> -> L<<306.0,374.0>--<299.0,361.0>>
-
-	* uni03BC (U+03BC): L<<85.0,-151.0>--<85.0,177.0>> -> L<<85.0,177.0>--<84.0,544.0>>
-
-	* uni1E0D (U+1E0D): L<<274.0,69.0>--<288.0,69.0>> -> L<<288.0,69.0>--<288.0,69.0>>
-
-	* uni1E21 (U+1E21): L<<274.0,-132.0>--<288.0,-132.0>> -> L<<288.0,-132.0>--<288.0,-132.0>>
-
-	* uni1E5A (U+1E5A): L<<311.0,210.0>--<310.0,210.0>> -> L<<310.0,210.0>--<145.0,210.0>>
-
-	* uni1E8E (U+1E8E): L<<224.0,364.0>--<218.0,374.0>> -> L<<218.0,374.0>--<35.0,690.0>>
-
-	* uni1E8E (U+1E8E): L<<489.0,690.0>--<306.0,374.0>> -> L<<306.0,374.0>--<299.0,361.0>>
-
-	* uni1EA0 (U+1EA0): L<<260.0,751.0>--<260.0,751.0>> -> L<<260.0,751.0>--<260.0,751.0>>
-
-	* uni1EF8 (U+1EF8): L<<224.0,364.0>--<218.0,374.0>> -> L<<218.0,374.0>--<35.0,690.0>>
-
-	* uni1EF8 (U+1EF8): L<<489.0,690.0>--<306.0,374.0>> -> L<<306.0,374.0>--<299.0,361.0>> [code: found-colinear-vectors]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-
-	* eng (U+014B): B<<489.0,37.0>-<489.0,35.0>-<489.0,36.0>>/L<<489.0,36.0>--<488.0,-144.0>> = 0.3183066114507731
-
-	* logo (U+F0000): B<<1065.0,202.5>-<1062.0,185.0>-<1057.0,170.0>>/B<<1057.0,170.0>-<1083.0,213.0>-<1095.5,227.0>> = 12.724355685422335
-
-	* logo (U+F0000): B<<1150.5,90.5>-<1165.0,144.0>-<1187.0,205.0>>/B<<1187.0,205.0>-<1173.0,183.0>-<1160.5,167.0>> = 12.639062440630111
-
-	* perthousand (U+2030): B<<186.0,267.0>-<190.0,295.0>-<200.0,319.0>>/L<<200.0,319.0>--<61.0,127.0>> = 13.283107126159278
-
-	* perthousand (U+2030): B<<427.0,183.0>-<427.0,166.0>-<426.0,150.0>>/L<<426.0,150.0>--<485.0,354.0>> = 12.554364177115495 [code: found-jaggy-segments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
-
-	* eng (U+014B): L<<488.0,403.0>--<489.0,49.0>>
-
-	* eng (U+014B): L<<489.0,36.0>--<488.0,-144.0>>
-
-	* h (U+0068): L<<414.0,36.0>--<413.0,403.0>>
-
-	* h (U+0068): L<<487.0,403.0>--<488.0,36.0>>
-
-	* hbar (U+0127): L<<441.0,36.0>--<440.0,403.0>>
-
-	* hbar (U+0127): L<<515.0,403.0>--<516.0,36.0>>
-
-	* hcircumflex (U+0125): L<<414.0,36.0>--<413.0,403.0>>
-
-	* hcircumflex (U+0125): L<<487.0,403.0>--<488.0,36.0>>
-
-	* m (U+006D): L<<399.0,37.0>--<398.0,310.0>>
-
-	* m (U+006D): L<<812.0,403.0>--<813.0,37.0>>
-
-	* n (U+006E): L<<415.0,37.0>--<414.0,310.0>>
-
-	* n (U+006E): L<<488.0,403.0>--<489.0,37.0>>
-
-	* nacute (U+0144): L<<415.0,37.0>--<414.0,310.0>>
-
-	* nacute (U+0144): L<<488.0,403.0>--<489.0,37.0>>
-
-	* napostrophe (U+0149): L<<601.0,37.0>--<600.0,310.0>>
-
-	* napostrophe (U+0149): L<<674.0,403.0>--<675.0,37.0>>
-
-	* ncaron (U+0148): L<<415.0,37.0>--<414.0,310.0>>
-
-	* ncaron (U+0148): L<<488.0,403.0>--<489.0,37.0>>
-
-	* nmacronbelow (U+1E49): L<<415.0,37.0>--<414.0,310.0>>
-
-	* nmacronbelow (U+1E49): L<<488.0,403.0>--<489.0,37.0>>
-
-	* ntilde (U+00F1): L<<415.0,37.0>--<414.0,310.0>>
-
-	* ntilde (U+00F1): L<<488.0,403.0>--<489.0,37.0>>
-
-	* t (U+0074): L<<200.0,710.0>--<199.0,581.0>>
-
-	* tbar (U+0167): L<<200.0,710.0>--<199.0,581.0>>
-
-	* tcaron (U+0165): L<<200.0,710.0>--<199.0,581.0>>
-
-	* tmacronbelow (U+1E6F): L<<200.0,710.0>--<199.0,581.0>>
-
-	* u (U+0075): L<<135.0,544.0>--<136.0,245.0>>
-
-	* u (U+0075): L<<61.0,177.0>--<60.0,544.0>>
-
-	* uacute (U+00FA): L<<135.0,544.0>--<136.0,245.0>>
-
-	* uacute (U+00FA): L<<61.0,177.0>--<60.0,544.0>>
-
-	* ubreve (U+016D): L<<135.0,544.0>--<136.0,245.0>>
-
-	* ubreve (U+016D): L<<61.0,177.0>--<60.0,544.0>>
-
-	* ucircumflex (U+00FB): L<<135.0,544.0>--<136.0,245.0>>
-
-	* ucircumflex (U+00FB): L<<61.0,177.0>--<60.0,544.0>>
-
-	* udieresis (U+00FC): L<<135.0,544.0>--<136.0,245.0>>
-
-	* udieresis (U+00FC): L<<61.0,177.0>--<60.0,544.0>>
-
-	* ugrave (U+00F9): L<<135.0,544.0>--<136.0,245.0>>
-
-	* ugrave (U+00F9): L<<61.0,177.0>--<60.0,544.0>>
-
-	* uhungarumlaut (U+0171): L<<135.0,544.0>--<136.0,245.0>>
-
-	* uhungarumlaut (U+0171): L<<61.0,177.0>--<60.0,544.0>>
-
-	* umacron (U+016B): L<<135.0,544.0>--<136.0,245.0>>
-
-	* umacron (U+016B): L<<61.0,177.0>--<60.0,544.0>>
-
-	* uni00B5 (U+00B5): L<<134.0,544.0>--<135.0,177.0>>
-
-	* uni00B5 (U+00B5): L<<60.0,177.0>--<59.0,544.0>>
-
-	* uni0146 (U+0146): L<<415.0,37.0>--<414.0,310.0>>
-
-	* uni0146 (U+0146): L<<488.0,403.0>--<489.0,37.0>>
-
-	* uni0163 (U+0163): L<<200.0,710.0>--<199.0,581.0>>
-
-	* uni021B (U+021B): L<<200.0,710.0>--<199.0,581.0>>
-
-	* uni0233 (U+0233): L<<135.0,544.0>--<136.0,177.0>>
-
-	* uni0233 (U+0233): L<<61.0,177.0>--<60.0,544.0>>
-
-	* uni0272 (U+0272): L<<415.0,37.0>--<414.0,310.0>>
-
-	* uni0272 (U+0272): L<<488.0,403.0>--<489.0,37.0>>
-
-	* uni03BC (U+03BC): L<<159.0,544.0>--<160.0,177.0>>
-
-	* uni03BC (U+03BC): L<<85.0,177.0>--<84.0,544.0>>
-
-	* uni1E25 (U+1E25): L<<414.0,36.0>--<413.0,403.0>>
-
-	* uni1E25 (U+1E25): L<<487.0,403.0>--<488.0,36.0>>
-
-	* uni1E2B (U+1E2B): L<<414.0,36.0>--<413.0,403.0>>
-
-	* uni1E2B (U+1E2B): L<<487.0,403.0>--<488.0,36.0>>
-
-	* uni1E43 (U+1E43): L<<399.0,37.0>--<398.0,310.0>>
-
-	* uni1E43 (U+1E43): L<<812.0,403.0>--<813.0,37.0>>
-
-	* uni1E45 (U+1E45): L<<415.0,37.0>--<414.0,310.0>>
-
-	* uni1E45 (U+1E45): L<<488.0,403.0>--<489.0,37.0>>
-
-	* uni1E47 (U+1E47): L<<415.0,37.0>--<414.0,310.0>>
-
-	* uni1E47 (U+1E47): L<<488.0,403.0>--<489.0,37.0>>
-
-	* uni1E6D (U+1E6D): L<<200.0,710.0>--<199.0,581.0>>
-
-	* uni1E79 (U+1E79): L<<135.0,544.0>--<136.0,245.0>>
-
-	* uni1E79 (U+1E79): L<<61.0,177.0>--<60.0,544.0>>
-
-	* uni1E7B (U+1E7B): L<<135.0,544.0>--<136.0,245.0>>
-
-	* uni1E7B (U+1E7B): L<<61.0,177.0>--<60.0,544.0>>
-
-	* uni1E8F (U+1E8F): L<<135.0,544.0>--<136.0,177.0>>
-
-	* uni1E8F (U+1E8F): L<<61.0,177.0>--<60.0,544.0>>
-
-	* uni1E97 (U+1E97): L<<200.0,710.0>--<199.0,581.0>>
-
-	* uni1E9E (U+1E9E): L<<146.0,672.0>--<145.0,37.0>>
-
-	* uni1E9E (U+1E9E): L<<70.0,37.0>--<71.0,710.0>>
-
-	* uni1EE5 (U+1EE5): L<<135.0,544.0>--<136.0,245.0>>
-
-	* uni1EE5 (U+1EE5): L<<61.0,177.0>--<60.0,544.0>>
-
-	* uni1EF9 (U+1EF9): L<<135.0,544.0>--<136.0,177.0>>
-
-	* uni1EF9 (U+1EF9): L<<61.0,177.0>--<60.0,544.0>>
-
-	* uogonek (U+0173): L<<135.0,544.0>--<136.0,245.0>>
-
-	* uogonek (U+0173): L<<61.0,177.0>--<60.0,544.0>>
-
-	* uring (U+016F): L<<135.0,544.0>--<136.0,245.0>>
-
-	* uring (U+016F): L<<61.0,177.0>--<60.0,544.0>>
-
-	* utilde (U+0169): L<<135.0,544.0>--<136.0,245.0>>
-
-	* utilde (U+0169): L<<61.0,177.0>--<60.0,544.0>>
-
-	* y (U+0079): L<<135.0,544.0>--<136.0,177.0>>
-
-	* y (U+0079): L<<61.0,177.0>--<60.0,544.0>>
-
-	* yacute (U+00FD): L<<135.0,544.0>--<136.0,177.0>>
-
-	* yacute (U+00FD): L<<61.0,177.0>--<60.0,544.0>>
-
-	* ycircumflex (U+0177): L<<135.0,544.0>--<136.0,177.0>>
-
-	* ycircumflex (U+0177): L<<61.0,177.0>--<60.0,544.0>>
-
-	* ydieresis (U+00FF): L<<135.0,544.0>--<136.0,177.0>>
-
-	* ydieresis (U+00FF): L<<61.0,177.0>--<60.0,544.0>>
-
-	* ygrave (U+1EF3): L<<135.0,544.0>--<136.0,177.0>>
-
-	* ygrave (U+1EF3): L<<61.0,177.0>--<60.0,544.0>> [code: found-semi-vertical]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><br></div></details><details><summary><b>[20] LibertineSuper-Thin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.sTypoLineGap is "200" it should be 0 [code: bad-OS/2.sTypoLineGap]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1327, but got 1000 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 354, but got 200 instead [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2 sTypoLineGap (200) and hhea lineGap (0) must be equal. [code: lineGap]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
-
-
-* 🔥 **FAIL** name id 256 missing from name table
-</div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
-
-
-* ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
- [code: unknown]
+* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -8535,12 +8479,8 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 500:
-lessequal, plusminus, approxequal, notequal
+approxequal, lessequal, notequal, plusminus
  [code: width-outliers]
-</div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
-
-
-* ⚠ **WARN** OS/2 sTypoLineGap is not equal to 0. [code: OS/2]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -8943,8 +8883,8 @@ lessequal, plusminus, approxequal, notequal
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 7 | 38 | 102 | 842 | 43 | 616 | 0 |
-| 0% | 2% | 6% | 51% | 3% | 37% | 0% |
+| 7 | 17 | 95 | 835 | 43 | 651 | 0 |
+| 0% | 1% | 6% | 51% | 3% | 40% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
