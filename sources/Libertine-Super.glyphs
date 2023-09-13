@@ -23,6 +23,46 @@ value = (
 {
 name = "Use Typo Metrics";
 value = 1;
+},
+{
+name = "gasp Table";
+value = {
+9 = 10;
+21 = 7;
+65535 = 15;
+};
+},
+{
+name = panose;
+value = (
+2,
+11,
+3,
+4,
+4,
+4,
+2,
+0,
+2,
+3
+);
+},
+{
+name = unicodeRanges;
+value = (
+0,
+1
+);
+},
+{
+name = codePageRanges;
+value = (
+"1252"
+);
+},
+{
+name = "Use Extension Kerning";
+value = 1;
 }
 );
 date = "2023-08-25 10:34:15 +0000";
@@ -628,7 +668,7 @@ tag = ss01;
 fontMaster = (
 {
 axesValues = (
-10
+100
 );
 customParameters = (
 {
@@ -641,7 +681,7 @@ value = -200;
 },
 {
 name = typoLineGap;
-value = 200;
+value = 0;
 },
 {
 name = winAscent;
@@ -716,7 +756,7 @@ GSOffsetVertical = 10;
 },
 {
 axesValues = (
-220
+900
 );
 customParameters = (
 {
@@ -729,7 +769,7 @@ value = -200;
 },
 {
 name = typoLineGap;
-value = 200;
+value = 0;
 },
 {
 name = winAscent;
@@ -273420,77 +273460,214 @@ width = 585;
 instances = (
 {
 axesValues = (
-10
+0
+);
+customParameters = (
+{
+name = "Variable Font Origin";
+value = m01;
+}
+);
+instanceInterpolations = {
+m01 = 1;
+};
+name = Regular;
+properties = (
+{
+key = postscriptFontName;
+value = "LibertineSuper-VF";
+},
+{
+key = postscriptFullName;
+value = "Libertine Super VF";
+}
+);
+type = variable;
+},
+{
+axesValues = (
+100
+);
+customParameters = (
+{
+name = "Use Typo Metrics";
+value = 1;
+}
 );
 instanceInterpolations = {
 m01 = 1;
 };
 name = Thin;
+properties = (
+{
+key = postscriptFontName;
+value = "LibertineSuper-Thin";
+},
+{
+key = postscriptFullName;
+value = "Libertine Super Thin";
+}
+);
 weightClass = 100;
-widthClass = 3;
 },
 {
 axesValues = (
-55
+200
+);
+customParameters = (
+{
+name = "Use Typo Metrics";
+value = 1;
+}
 );
 instanceInterpolations = {
-m002 = 0.21429;
-m01 = 0.78571;
+m002 = 0.125;
+m01 = 0.875;
 };
 name = ExtraLight;
+properties = (
+{
+key = postscriptFontName;
+value = "LibertineSuper-ExtraLight";
+},
+{
+key = postscriptFullName;
+value = "Libertine Super ExtraLight";
+}
+);
 weightClass = 200;
 },
 {
 axesValues = (
-90
+300
+);
+customParameters = (
+{
+name = "Use Typo Metrics";
+value = 1;
+}
 );
 instanceInterpolations = {
-m002 = 0.38095;
-m01 = 0.61905;
+m002 = 0.25;
+m01 = 0.75;
 };
 name = Light;
+properties = (
+{
+key = postscriptFontName;
+value = "LibertineSuper-Light";
+},
+{
+key = postscriptFullName;
+value = "Libertine Super Light";
+}
+);
 weightClass = 300;
 },
 {
 axesValues = (
-125
+400
+);
+customParameters = (
+{
+name = "Use Typo Metrics";
+value = 1;
+}
 );
 instanceInterpolations = {
-m002 = 0.54762;
-m01 = 0.45238;
+m002 = 0.375;
+m01 = 0.625;
 };
 name = Regular;
+properties = (
+{
+key = postscriptFontName;
+value = "LibertineSuper-Regular";
+},
+{
+key = postscriptFullName;
+value = "Libertine Super Regular";
+}
+);
 },
 {
 axesValues = (
-160
+500
+);
+customParameters = (
+{
+name = "Use Typo Metrics";
+value = 1;
+}
 );
 instanceInterpolations = {
-m002 = 0.71429;
-m01 = 0.28571;
+m002 = 0.5;
+m01 = 0.5;
 };
 name = Medium;
+properties = (
+{
+key = postscriptFontName;
+value = "LibertineSuper-Medium";
+},
+{
+key = postscriptFullName;
+value = "Libertine Super Medium";
+}
+);
 weightClass = 500;
 },
 {
 axesValues = (
-195
+700
+);
+customParameters = (
+{
+name = "Use Typo Metrics";
+value = 1;
+}
 );
 instanceInterpolations = {
-m002 = 0.88095;
-m01 = 0.11905;
+m002 = 0.75;
+m01 = 0.25;
 };
 name = Bold;
+properties = (
+{
+key = postscriptFontName;
+value = "LibertineSuper-Bold";
+},
+{
+key = postscriptFullName;
+value = "Libertine Super Bold";
+}
+);
 weightClass = 700;
 },
 {
 axesValues = (
-220
+900
+);
+customParameters = (
+{
+name = "Use Typo Metrics";
+value = 1;
+}
 );
 instanceInterpolations = {
 m002 = 1;
 };
 name = Black;
+properties = (
+{
+key = postscriptFontName;
+value = "LibertineSuper-Black";
+},
+{
+key = postscriptFullName;
+value = "Libertine Super Black";
+}
+);
 weightClass = 900;
 }
 );
@@ -273973,6 +274150,19 @@ value = "https://noirblancrouge.com";
 {
 key = manufacturerURL;
 value = "https://noirblancrouge.com";
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+}
+);
+},
+{
+key = vendorID;
+value = NBR;
 }
 );
 settings = {
