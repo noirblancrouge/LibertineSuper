@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="eight.numr" format="2">
-  <advance width="344.2648"/>
-  <anchor x="170.9202" y="422.8806" name="bottom"/>
-  <anchor x="170.9202" y="819.27" name="top"/>
-  <outline>
-    <component base="eight.dnom" yOffset="395"/>
-  </outline>
-</glyph>

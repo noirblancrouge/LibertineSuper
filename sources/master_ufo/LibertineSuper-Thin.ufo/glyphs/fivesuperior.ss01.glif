@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="fivesuperior.ss01" format="2">
-  <advance width="275.1694"/>
-  <outline>
-    <component base="five.numr.ss01"/>
-  </outline>
-</glyph>

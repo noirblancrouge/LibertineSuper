@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="two.numr.ss01" format="2">
-  <advance width="258.1986"/>
-  <outline>
-    <component base="two.dnom.ss01" yOffset="395"/>
-  </outline>
-</glyph>

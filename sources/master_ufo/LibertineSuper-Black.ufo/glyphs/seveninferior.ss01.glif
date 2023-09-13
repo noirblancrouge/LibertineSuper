@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="seveninferior.ss01" format="2">
-  <advance width="340.1009"/>
-  <outline>
-    <component base="seven.dnom.ss01"/>
-  </outline>
-</glyph>
