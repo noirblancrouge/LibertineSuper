@@ -937,10 +937,10 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 665:
-greater, less
+less, greater
 
 Width = 612:
-notequal, plusminus
+plusminus, notequal
 
 Width = 598:
 multiply
@@ -2206,10 +2206,10 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 688:
-greater, less
+less, greater
 
 Width = 627:
-notequal, plusminus
+plusminus, notequal
 
 Width = 612:
 multiply
@@ -3429,10 +3429,10 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 632:
-greater, less
+less, greater
 
 Width = 591:
-notequal, plusminus
+plusminus, notequal
 
 Width = 578:
 multiply
@@ -4706,10 +4706,10 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 535:
-greater, less
+less, greater
 
 Width = 527:
-notequal, approxequal, plusminus
+plusminus, approxequal, notequal
 
 Width = 519:
 multiply
@@ -5952,10 +5952,10 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 567:
-greater, less
+less, greater
 
 Width = 548:
-notequal, approxequal, plusminus
+plusminus, approxequal, notequal
 
 Width = 538:
 multiply
@@ -7273,10 +7273,10 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 600:
-greater, less
+less, greater
 
 Width = 570:
-notequal, plusminus
+plusminus, notequal
 
 Width = 558:
 multiply
@@ -8535,7 +8535,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 500:
-notequal, lessequal, approxequal, plusminus
+lessequal, plusminus, approxequal, notequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
