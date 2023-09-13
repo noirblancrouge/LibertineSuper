@@ -2,49 +2,10 @@
 
 fontbakery version: 0.9.0
 
-<details><summary><b>[19] LibertineSuper-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+<details><summary><b>[13] LibertineSuper-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font names are incorrect:
-
-| nameID | current | expected |
-| :--- | :--- | :--- |
-| Family Name | Libertine Super Bold | Libertine Super |
-| Subfamily Name | Regular | Bold |
-| Full Name | Libertine Super Bold | Libertine Super Bold |
-| Poscript Name | LibertineSuper-Bold | LibertineSuper-Bold |
-| Typographic Family Name | Libertine Super | N/A |
-| Typographic Subfamily Name | Bold | N/A | [code: bad-names]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1327, but got 1000 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 354, but got 200 instead [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
-
-
-* 🔥 **FAIL** name id 256 missing from name table
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking head.macStyle value. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/mac_style">com.google.fonts/check/mac_style</a>)</summary><div>
-
-
-* 🔥 **FAIL** head macStyle BOLD bit should be set. [code: bad-BOLD]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 fsSelection value. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/fsselection">com.google.fonts/check/fsselection</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2 fsSelection REGULAR bit should be unset. [code: bad-REGULAR]
-* 🔥 **FAIL** OS/2 fsSelection BOLD bit should be set. [code: bad-BOLD]
-</div></details><details><summary>⚠ <b>WARN:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
-
-
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
-
-
-* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -53,6 +14,10 @@ fontbakery version: 0.9.0
 	- f + i
 
 	- i + l [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+
+
+* ⚠ **WARN** We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.683x (1683) [code: bad-hhea-range]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -1000,25 +965,25 @@ greaterequal
 
 	* Rmacronbelow (U+1E5E): L<<327.0,188.0>--<322.0,188.0>> -> L<<322.0,188.0>--<165.0,188.0>>
 
-	* Y (U+0059): L<<226.0,361.0>--<218.0,374.0>> -> L<<218.0,374.0>--<37.0,674.0>>
+	* Y (U+0059): L<<227.0,359.0>--<218.0,374.0>> -> L<<218.0,374.0>--<37.0,674.0>>
 
-	* Y (U+0059): L<<512.0,674.0>--<331.0,374.0>> -> L<<331.0,374.0>--<321.0,358.0>>
+	* Y (U+0059): L<<512.0,674.0>--<331.0,374.0>> -> L<<331.0,374.0>--<322.0,359.0>>
 
-	* Yacute (U+00DD): L<<226.0,361.0>--<218.0,374.0>> -> L<<218.0,374.0>--<37.0,674.0>>
+	* Yacute (U+00DD): L<<227.0,359.0>--<218.0,374.0>> -> L<<218.0,374.0>--<37.0,674.0>>
 
-	* Yacute (U+00DD): L<<512.0,674.0>--<331.0,374.0>> -> L<<331.0,374.0>--<321.0,358.0>>
+	* Yacute (U+00DD): L<<512.0,674.0>--<331.0,374.0>> -> L<<331.0,374.0>--<322.0,359.0>>
 
-	* Ycircumflex (U+0176): L<<226.0,361.0>--<218.0,374.0>> -> L<<218.0,374.0>--<37.0,674.0>>
+	* Ycircumflex (U+0176): L<<227.0,359.0>--<218.0,374.0>> -> L<<218.0,374.0>--<37.0,674.0>>
 
-	* Ycircumflex (U+0176): L<<512.0,674.0>--<331.0,374.0>> -> L<<331.0,374.0>--<321.0,358.0>>
+	* Ycircumflex (U+0176): L<<512.0,674.0>--<331.0,374.0>> -> L<<331.0,374.0>--<322.0,359.0>>
 
-	* Ydieresis (U+0178): L<<226.0,361.0>--<218.0,374.0>> -> L<<218.0,374.0>--<37.0,674.0>>
+	* Ydieresis (U+0178): L<<227.0,359.0>--<218.0,374.0>> -> L<<218.0,374.0>--<37.0,674.0>>
 
-	* Ydieresis (U+0178): L<<512.0,674.0>--<331.0,374.0>> -> L<<331.0,374.0>--<321.0,358.0>>
+	* Ydieresis (U+0178): L<<512.0,674.0>--<331.0,374.0>> -> L<<331.0,374.0>--<322.0,359.0>>
 
-	* Ygrave (U+1EF2): L<<226.0,361.0>--<218.0,374.0>> -> L<<218.0,374.0>--<37.0,674.0>>
+	* Ygrave (U+1EF2): L<<227.0,359.0>--<218.0,374.0>> -> L<<218.0,374.0>--<37.0,674.0>>
 
-	* Ygrave (U+1EF2): L<<512.0,674.0>--<331.0,374.0>> -> L<<331.0,374.0>--<321.0,358.0>>
+	* Ygrave (U+1EF2): L<<512.0,674.0>--<331.0,374.0>> -> L<<331.0,374.0>--<322.0,359.0>>
 
 	* comma (U+002C): L<<174.0,57.0>--<174.0,57.0>> -> L<<174.0,57.0>--<174.0,57.0>>
 
@@ -1048,9 +1013,9 @@ greaterequal
 
 	* uni0156 (U+0156): L<<327.0,188.0>--<322.0,188.0>> -> L<<322.0,188.0>--<165.0,188.0>>
 
-	* uni0232 (U+0232): L<<226.0,361.0>--<218.0,374.0>> -> L<<218.0,374.0>--<37.0,674.0>>
+	* uni0232 (U+0232): L<<227.0,359.0>--<218.0,374.0>> -> L<<218.0,374.0>--<37.0,674.0>>
 
-	* uni0232 (U+0232): L<<512.0,674.0>--<331.0,374.0>> -> L<<331.0,374.0>--<321.0,358.0>>
+	* uni0232 (U+0232): L<<512.0,674.0>--<331.0,374.0>> -> L<<331.0,374.0>--<322.0,359.0>>
 
 	* uni03BC (U+03BC): L<<94.0,-136.0>--<94.0,183.0>> -> L<<94.0,183.0>--<93.0,539.0>>
 
@@ -1064,17 +1029,17 @@ greaterequal
 
 	* uni1E7B (U+1E7B): L<<419.0,260.0>--<419.0,265.0>> -> L<<419.0,265.0>--<419.0,539.0>>
 
-	* uni1E8E (U+1E8E): L<<226.0,361.0>--<218.0,374.0>> -> L<<218.0,374.0>--<37.0,674.0>>
+	* uni1E8E (U+1E8E): L<<227.0,359.0>--<218.0,374.0>> -> L<<218.0,374.0>--<37.0,674.0>>
 
-	* uni1E8E (U+1E8E): L<<512.0,674.0>--<331.0,374.0>> -> L<<331.0,374.0>--<321.0,358.0>>
+	* uni1E8E (U+1E8E): L<<512.0,674.0>--<331.0,374.0>> -> L<<331.0,374.0>--<322.0,359.0>>
 
 	* uni1EA0 (U+1EA0): L<<273.0,751.0>--<273.0,751.0>> -> L<<273.0,751.0>--<273.0,751.0>>
 
 	* uni1EE5 (U+1EE5): L<<419.0,260.0>--<419.0,265.0>> -> L<<419.0,265.0>--<419.0,539.0>>
 
-	* uni1EF8 (U+1EF8): L<<226.0,361.0>--<218.0,374.0>> -> L<<218.0,374.0>--<37.0,674.0>>
+	* uni1EF8 (U+1EF8): L<<227.0,359.0>--<218.0,374.0>> -> L<<218.0,374.0>--<37.0,674.0>>
 
-	* uni1EF8 (U+1EF8): L<<512.0,674.0>--<331.0,374.0>> -> L<<331.0,374.0>--<321.0,358.0>>
+	* uni1EF8 (U+1EF8): L<<512.0,674.0>--<331.0,374.0>> -> L<<331.0,374.0>--<322.0,359.0>>
 
 	* uogonek (U+0173): L<<419.0,260.0>--<419.0,265.0>> -> L<<419.0,265.0>--<419.0,539.0>>
 
@@ -1313,27 +1278,10 @@ greaterequal
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><br></div></details><details><summary><b>[17] LibertineSuper-Black.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] LibertineSuper-Black.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1327, but got 1000 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 354, but got 200 instead [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
-
-
-* 🔥 **FAIL** name id 256 missing from name table
-</div></details><details><summary>⚠ <b>WARN:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
-
-
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
-
-
-* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -1349,6 +1297,10 @@ greaterequal
  FONT_FAMILY_NAME = 'Libertine Super Black' / SUBFAMILY_NAME = 'Regular'
 
 Please take a look at the conversation at https://github.com/fonttools/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+
+
+* ⚠ **WARN** We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.683x (1683) [code: bad-hhea-range]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -2242,25 +2194,25 @@ greaterequal
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* Y (U+0059): L<<229.0,358.0>--<219.0,374.0>> -> L<<219.0,374.0>--<39.0,655.0>>
+	* Y (U+0059): L<<230.0,356.0>--<219.0,374.0>> -> L<<219.0,374.0>--<39.0,655.0>>
 
-	* Y (U+0059): L<<541.0,655.0>--<361.0,374.0>> -> L<<361.0,374.0>--<349.0,353.0>>
+	* Y (U+0059): L<<541.0,655.0>--<361.0,374.0>> -> L<<361.0,374.0>--<350.0,356.0>>
 
-	* Yacute (U+00DD): L<<229.0,358.0>--<219.0,374.0>> -> L<<219.0,374.0>--<39.0,655.0>>
+	* Yacute (U+00DD): L<<230.0,356.0>--<219.0,374.0>> -> L<<219.0,374.0>--<39.0,655.0>>
 
-	* Yacute (U+00DD): L<<541.0,655.0>--<361.0,374.0>> -> L<<361.0,374.0>--<349.0,353.0>>
+	* Yacute (U+00DD): L<<541.0,655.0>--<361.0,374.0>> -> L<<361.0,374.0>--<350.0,356.0>>
 
-	* Ycircumflex (U+0176): L<<229.0,358.0>--<219.0,374.0>> -> L<<219.0,374.0>--<39.0,655.0>>
+	* Ycircumflex (U+0176): L<<230.0,356.0>--<219.0,374.0>> -> L<<219.0,374.0>--<39.0,655.0>>
 
-	* Ycircumflex (U+0176): L<<541.0,655.0>--<361.0,374.0>> -> L<<361.0,374.0>--<349.0,353.0>>
+	* Ycircumflex (U+0176): L<<541.0,655.0>--<361.0,374.0>> -> L<<361.0,374.0>--<350.0,356.0>>
 
-	* Ydieresis (U+0178): L<<229.0,358.0>--<219.0,374.0>> -> L<<219.0,374.0>--<39.0,655.0>>
+	* Ydieresis (U+0178): L<<230.0,356.0>--<219.0,374.0>> -> L<<219.0,374.0>--<39.0,655.0>>
 
-	* Ydieresis (U+0178): L<<541.0,655.0>--<361.0,374.0>> -> L<<361.0,374.0>--<349.0,353.0>>
+	* Ydieresis (U+0178): L<<541.0,655.0>--<361.0,374.0>> -> L<<361.0,374.0>--<350.0,356.0>>
 
-	* Ygrave (U+1EF2): L<<229.0,358.0>--<219.0,374.0>> -> L<<219.0,374.0>--<39.0,655.0>>
+	* Ygrave (U+1EF2): L<<230.0,356.0>--<219.0,374.0>> -> L<<219.0,374.0>--<39.0,655.0>>
 
-	* Ygrave (U+1EF2): L<<541.0,655.0>--<361.0,374.0>> -> L<<361.0,374.0>--<349.0,353.0>>
+	* Ygrave (U+1EF2): L<<541.0,655.0>--<361.0,374.0>> -> L<<361.0,374.0>--<350.0,356.0>>
 
 	* eng (U+014B): L<<423.0,-144.0>--<424.0,69.0>> -> L<<424.0,69.0>--<423.0,267.0>>
 
@@ -2288,9 +2240,9 @@ greaterequal
 
 	* uni0137 (U+0137): L<<375.0,592.0>--<376.0,592.0>> -> L<<376.0,592.0>--<376.0,592.0>>
 
-	* uni0232 (U+0232): L<<229.0,358.0>--<219.0,374.0>> -> L<<219.0,374.0>--<39.0,655.0>>
+	* uni0232 (U+0232): L<<230.0,356.0>--<219.0,374.0>> -> L<<219.0,374.0>--<39.0,655.0>>
 
-	* uni0232 (U+0232): L<<541.0,655.0>--<361.0,374.0>> -> L<<361.0,374.0>--<349.0,353.0>>
+	* uni0232 (U+0232): L<<541.0,655.0>--<361.0,374.0>> -> L<<361.0,374.0>--<350.0,356.0>>
 
 	* uni0272 (U+0272): L<<180.0,267.0>--<180.0,59.0>> -> L<<180.0,59.0>--<180.0,56.0>>
 
@@ -2302,13 +2254,13 @@ greaterequal
 
 	* uni03BC (U+03BC): L<<105.0,-117.0>--<105.0,190.0>> -> L<<105.0,190.0>--<104.0,532.0>>
 
-	* uni1E8E (U+1E8E): L<<229.0,358.0>--<219.0,374.0>> -> L<<219.0,374.0>--<39.0,655.0>>
+	* uni1E8E (U+1E8E): L<<230.0,356.0>--<219.0,374.0>> -> L<<219.0,374.0>--<39.0,655.0>>
 
-	* uni1E8E (U+1E8E): L<<541.0,655.0>--<361.0,374.0>> -> L<<361.0,374.0>--<349.0,353.0>>
+	* uni1E8E (U+1E8E): L<<541.0,655.0>--<361.0,374.0>> -> L<<361.0,374.0>--<350.0,356.0>>
 
-	* uni1EF8 (U+1EF8): L<<229.0,358.0>--<219.0,374.0>> -> L<<219.0,374.0>--<39.0,655.0>>
+	* uni1EF8 (U+1EF8): L<<230.0,356.0>--<219.0,374.0>> -> L<<219.0,374.0>--<39.0,655.0>>
 
-	* uni1EF8 (U+1EF8): L<<541.0,655.0>--<361.0,374.0>> -> L<<361.0,374.0>--<349.0,353.0>>
+	* uni1EF8 (U+1EF8): L<<541.0,655.0>--<361.0,374.0>> -> L<<361.0,374.0>--<350.0,356.0>>
 
 	* w (U+0077): L<<226.0,40.0>--<25.0,508.0>> -> L<<25.0,508.0>--<24.0,510.0>>
 
@@ -2519,27 +2471,10 @@ greaterequal
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><br></div></details><details><summary><b>[17] LibertineSuper-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] LibertineSuper-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1327, but got 1000 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 354, but got 200 instead [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
-
-
-* 🔥 **FAIL** name id 256 missing from name table
-</div></details><details><summary>⚠ <b>WARN:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
-
-
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
-
-
-* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -2555,6 +2490,10 @@ greaterequal
  FONT_FAMILY_NAME = 'Libertine Super Medium' / SUBFAMILY_NAME = 'Regular'
 
 Please take a look at the conversation at https://github.com/fonttools/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+
+
+* ⚠ **WARN** We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.683x (1683) [code: bad-hhea-range]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -3464,25 +3403,25 @@ greaterequal
 
 	* AEacute (U+01FC): L<<456.0,747.0>--<462.0,747.0>> -> L<<462.0,747.0>--<754.0,747.0>>
 
-	* Y (U+0059): L<<223.0,365.0>--<218.0,374.0>> -> L<<218.0,374.0>--<35.0,694.0>>
+	* Y (U+0059): L<<224.0,363.0>--<218.0,374.0>> -> L<<218.0,374.0>--<35.0,694.0>>
 
-	* Y (U+0059): L<<483.0,694.0>--<301.0,374.0>> -> L<<301.0,374.0>--<293.0,362.0>>
+	* Y (U+0059): L<<483.0,694.0>--<301.0,374.0>> -> L<<301.0,374.0>--<294.0,363.0>>
 
-	* Yacute (U+00DD): L<<223.0,365.0>--<218.0,374.0>> -> L<<218.0,374.0>--<35.0,694.0>>
+	* Yacute (U+00DD): L<<224.0,363.0>--<218.0,374.0>> -> L<<218.0,374.0>--<35.0,694.0>>
 
-	* Yacute (U+00DD): L<<483.0,694.0>--<301.0,374.0>> -> L<<301.0,374.0>--<293.0,362.0>>
+	* Yacute (U+00DD): L<<483.0,694.0>--<301.0,374.0>> -> L<<301.0,374.0>--<294.0,363.0>>
 
-	* Ycircumflex (U+0176): L<<223.0,365.0>--<218.0,374.0>> -> L<<218.0,374.0>--<35.0,694.0>>
+	* Ycircumflex (U+0176): L<<224.0,363.0>--<218.0,374.0>> -> L<<218.0,374.0>--<35.0,694.0>>
 
-	* Ycircumflex (U+0176): L<<483.0,694.0>--<301.0,374.0>> -> L<<301.0,374.0>--<293.0,362.0>>
+	* Ycircumflex (U+0176): L<<483.0,694.0>--<301.0,374.0>> -> L<<301.0,374.0>--<294.0,363.0>>
 
-	* Ydieresis (U+0178): L<<223.0,365.0>--<218.0,374.0>> -> L<<218.0,374.0>--<35.0,694.0>>
+	* Ydieresis (U+0178): L<<224.0,363.0>--<218.0,374.0>> -> L<<218.0,374.0>--<35.0,694.0>>
 
-	* Ydieresis (U+0178): L<<483.0,694.0>--<301.0,374.0>> -> L<<301.0,374.0>--<293.0,362.0>>
+	* Ydieresis (U+0178): L<<483.0,694.0>--<301.0,374.0>> -> L<<301.0,374.0>--<294.0,363.0>>
 
-	* Ygrave (U+1EF2): L<<223.0,365.0>--<218.0,374.0>> -> L<<218.0,374.0>--<35.0,694.0>>
+	* Ygrave (U+1EF2): L<<224.0,363.0>--<218.0,374.0>> -> L<<218.0,374.0>--<35.0,694.0>>
 
-	* Ygrave (U+1EF2): L<<483.0,694.0>--<301.0,374.0>> -> L<<301.0,374.0>--<293.0,362.0>>
+	* Ygrave (U+1EF2): L<<483.0,694.0>--<301.0,374.0>> -> L<<301.0,374.0>--<294.0,363.0>>
 
 	* eng (U+014B): L<<413.0,-144.0>--<413.0,40.0>> -> L<<413.0,40.0>--<413.0,315.0>>
 
@@ -3528,9 +3467,9 @@ greaterequal
 
 	* uni0137 (U+0137): L<<343.0,580.0>--<343.0,580.0>> -> L<<343.0,580.0>--<344.0,580.0>>
 
-	* uni0232 (U+0232): L<<223.0,365.0>--<218.0,374.0>> -> L<<218.0,374.0>--<35.0,694.0>>
+	* uni0232 (U+0232): L<<224.0,363.0>--<218.0,374.0>> -> L<<218.0,374.0>--<35.0,694.0>>
 
-	* uni0232 (U+0232): L<<483.0,694.0>--<301.0,374.0>> -> L<<301.0,374.0>--<293.0,362.0>>
+	* uni0232 (U+0232): L<<483.0,694.0>--<301.0,374.0>> -> L<<301.0,374.0>--<294.0,363.0>>
 
 	* uni0272 (U+0272): L<<130.0,315.0>--<130.0,35.0>> -> L<<130.0,35.0>--<130.0,32.0>>
 
@@ -3540,13 +3479,13 @@ greaterequal
 
 	* uni1E21 (U+1E21): L<<290.0,-5.0>--<285.0,-5.0>> -> L<<285.0,-5.0>--<272.0,-5.0>>
 
-	* uni1E8E (U+1E8E): L<<223.0,365.0>--<218.0,374.0>> -> L<<218.0,374.0>--<35.0,694.0>>
+	* uni1E8E (U+1E8E): L<<224.0,363.0>--<218.0,374.0>> -> L<<218.0,374.0>--<35.0,694.0>>
 
-	* uni1E8E (U+1E8E): L<<483.0,694.0>--<301.0,374.0>> -> L<<301.0,374.0>--<293.0,362.0>>
+	* uni1E8E (U+1E8E): L<<483.0,694.0>--<301.0,374.0>> -> L<<301.0,374.0>--<294.0,363.0>>
 
-	* uni1EF8 (U+1EF8): L<<223.0,365.0>--<218.0,374.0>> -> L<<218.0,374.0>--<35.0,694.0>>
+	* uni1EF8 (U+1EF8): L<<224.0,363.0>--<218.0,374.0>> -> L<<218.0,374.0>--<35.0,694.0>>
 
-	* uni1EF8 (U+1EF8): L<<483.0,694.0>--<301.0,374.0>> -> L<<301.0,374.0>--<293.0,362.0>>
+	* uni1EF8 (U+1EF8): L<<483.0,694.0>--<301.0,374.0>> -> L<<301.0,374.0>--<294.0,363.0>>
 
 	* uni2083 (U+2083): L<<250.0,137.0>--<250.0,138.0>> -> L<<250.0,138.0>--<250.0,139.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -3785,27 +3724,10 @@ greaterequal
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><br></div></details><details><summary><b>[17] LibertineSuper-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] LibertineSuper-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1327, but got 1000 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 354, but got 200 instead [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
-
-
-* 🔥 **FAIL** name id 256 missing from name table
-</div></details><details><summary>⚠ <b>WARN:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
-
-
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
-
-
-* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -3821,6 +3743,10 @@ greaterequal
  FONT_FAMILY_NAME = 'Libertine Super ExtraLight' / SUBFAMILY_NAME = 'Regular'
 
 Please take a look at the conversation at https://github.com/fonttools/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+
+
+* ⚠ **WARN** We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.683x (1683) [code: bad-hhea-range]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -4695,7 +4621,7 @@ Width = 517:
 greater, less
 
 Width = 516:
-approxequal, notequal, plusminus
+notequal, plusminus, approxequal
 
 Width = 508:
 multiply
@@ -4737,25 +4663,25 @@ greaterequal
 
 	* Atilde (U+00C3): L<<234.0,752.0>--<234.0,752.0>> -> L<<234.0,752.0>--<235.0,752.0>>
 
-	* Y (U+0059): L<<219.0,370.0>--<217.0,374.0>> -> L<<217.0,374.0>--<32.0,722.0>>
+	* Y (U+0059): L<<220.0,369.0>--<217.0,374.0>> -> L<<217.0,374.0>--<32.0,722.0>>
 
-	* Y (U+0059): L<<440.0,722.0>--<255.0,374.0>> -> L<<255.0,374.0>--<252.0,368.0>>
+	* Y (U+0059): L<<440.0,722.0>--<255.0,374.0>> -> L<<255.0,374.0>--<252.0,369.0>>
 
-	* Yacute (U+00DD): L<<219.0,370.0>--<217.0,374.0>> -> L<<217.0,374.0>--<32.0,722.0>>
+	* Yacute (U+00DD): L<<220.0,369.0>--<217.0,374.0>> -> L<<217.0,374.0>--<32.0,722.0>>
 
-	* Yacute (U+00DD): L<<440.0,722.0>--<255.0,374.0>> -> L<<255.0,374.0>--<252.0,368.0>>
+	* Yacute (U+00DD): L<<440.0,722.0>--<255.0,374.0>> -> L<<255.0,374.0>--<252.0,369.0>>
 
-	* Ycircumflex (U+0176): L<<219.0,370.0>--<217.0,374.0>> -> L<<217.0,374.0>--<32.0,722.0>>
+	* Ycircumflex (U+0176): L<<220.0,369.0>--<217.0,374.0>> -> L<<217.0,374.0>--<32.0,722.0>>
 
-	* Ycircumflex (U+0176): L<<440.0,722.0>--<255.0,374.0>> -> L<<255.0,374.0>--<252.0,368.0>>
+	* Ycircumflex (U+0176): L<<440.0,722.0>--<255.0,374.0>> -> L<<255.0,374.0>--<252.0,369.0>>
 
-	* Ydieresis (U+0178): L<<219.0,370.0>--<217.0,374.0>> -> L<<217.0,374.0>--<32.0,722.0>>
+	* Ydieresis (U+0178): L<<220.0,369.0>--<217.0,374.0>> -> L<<217.0,374.0>--<32.0,722.0>>
 
-	* Ydieresis (U+0178): L<<440.0,722.0>--<255.0,374.0>> -> L<<255.0,374.0>--<252.0,368.0>>
+	* Ydieresis (U+0178): L<<440.0,722.0>--<255.0,374.0>> -> L<<255.0,374.0>--<252.0,369.0>>
 
-	* Ygrave (U+1EF2): L<<219.0,370.0>--<217.0,374.0>> -> L<<217.0,374.0>--<32.0,722.0>>
+	* Ygrave (U+1EF2): L<<220.0,369.0>--<217.0,374.0>> -> L<<217.0,374.0>--<32.0,722.0>>
 
-	* Ygrave (U+1EF2): L<<440.0,722.0>--<255.0,374.0>> -> L<<255.0,374.0>--<252.0,368.0>>
+	* Ygrave (U+1EF2): L<<440.0,722.0>--<255.0,374.0>> -> L<<255.0,374.0>--<252.0,369.0>>
 
 	* eng (U+014B): L<<406.0,-144.0>--<406.0,18.0>> -> L<<406.0,18.0>--<405.0,351.0>>
 
@@ -4773,21 +4699,21 @@ greaterequal
 
 	* uni0137 (U+0137): L<<93.0,571.0>--<318.0,571.0>> -> L<<318.0,571.0>--<318.0,571.0>>
 
-	* uni0232 (U+0232): L<<219.0,370.0>--<217.0,374.0>> -> L<<217.0,374.0>--<32.0,722.0>>
+	* uni0232 (U+0232): L<<220.0,369.0>--<217.0,374.0>> -> L<<217.0,374.0>--<32.0,722.0>>
 
-	* uni0232 (U+0232): L<<440.0,722.0>--<255.0,374.0>> -> L<<255.0,374.0>--<252.0,368.0>>
+	* uni0232 (U+0232): L<<440.0,722.0>--<255.0,374.0>> -> L<<255.0,374.0>--<252.0,369.0>>
 
 	* uni03BC (U+03BC): L<<66.0,-183.0>--<66.0,166.0>> -> L<<66.0,166.0>--<65.0,555.0>>
 
-	* uni1E8E (U+1E8E): L<<219.0,370.0>--<217.0,374.0>> -> L<<217.0,374.0>--<32.0,722.0>>
+	* uni1E8E (U+1E8E): L<<220.0,369.0>--<217.0,374.0>> -> L<<217.0,374.0>--<32.0,722.0>>
 
-	* uni1E8E (U+1E8E): L<<440.0,722.0>--<255.0,374.0>> -> L<<255.0,374.0>--<252.0,368.0>>
+	* uni1E8E (U+1E8E): L<<440.0,722.0>--<255.0,374.0>> -> L<<255.0,374.0>--<252.0,369.0>>
 
 	* uni1EA0 (U+1EA0): L<<234.0,752.0>--<234.0,752.0>> -> L<<234.0,752.0>--<235.0,752.0>>
 
-	* uni1EF8 (U+1EF8): L<<219.0,370.0>--<217.0,374.0>> -> L<<217.0,374.0>--<32.0,722.0>>
+	* uni1EF8 (U+1EF8): L<<220.0,369.0>--<217.0,374.0>> -> L<<217.0,374.0>--<32.0,722.0>>
 
-	* uni1EF8 (U+1EF8): L<<440.0,722.0>--<255.0,374.0>> -> L<<255.0,374.0>--<252.0,368.0>> [code: found-colinear-vectors]
+	* uni1EF8 (U+1EF8): L<<440.0,722.0>--<255.0,374.0>> -> L<<255.0,374.0>--<252.0,369.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -4968,27 +4894,10 @@ greaterequal
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><br></div></details><details><summary><b>[17] LibertineSuper-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] LibertineSuper-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1327, but got 1000 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 354, but got 200 instead [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
-
-
-* 🔥 **FAIL** name id 256 missing from name table
-</div></details><details><summary>⚠ <b>WARN:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
-
-
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
-
-
-* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -5004,6 +4913,10 @@ greaterequal
  FONT_FAMILY_NAME = 'Libertine Super Light' / SUBFAMILY_NAME = 'Regular'
 
 Please take a look at the conversation at https://github.com/fonttools/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+
+
+* ⚠ **WARN** We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.683x (1683) [code: bad-hhea-range]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -5943,25 +5856,25 @@ greaterequal
 
 	* Atilde (U+00C3): L<<242.0,752.0>--<242.0,752.0>> -> L<<242.0,752.0>--<242.0,752.0>>
 
-	* Y (U+0059): L<<221.0,368.0>--<217.0,374.0>> -> L<<217.0,374.0>--<33.0,713.0>>
+	* Y (U+0059): L<<221.0,367.0>--<217.0,374.0>> -> L<<217.0,374.0>--<33.0,713.0>>
 
-	* Y (U+0059): L<<454.0,713.0>--<270.0,374.0>> -> L<<270.0,374.0>--<266.0,366.0>>
+	* Y (U+0059): L<<454.0,713.0>--<270.0,374.0>> -> L<<270.0,374.0>--<266.0,367.0>>
 
-	* Yacute (U+00DD): L<<221.0,368.0>--<217.0,374.0>> -> L<<217.0,374.0>--<33.0,713.0>>
+	* Yacute (U+00DD): L<<221.0,367.0>--<217.0,374.0>> -> L<<217.0,374.0>--<33.0,713.0>>
 
-	* Yacute (U+00DD): L<<454.0,713.0>--<270.0,374.0>> -> L<<270.0,374.0>--<266.0,366.0>>
+	* Yacute (U+00DD): L<<454.0,713.0>--<270.0,374.0>> -> L<<270.0,374.0>--<266.0,367.0>>
 
-	* Ycircumflex (U+0176): L<<221.0,368.0>--<217.0,374.0>> -> L<<217.0,374.0>--<33.0,713.0>>
+	* Ycircumflex (U+0176): L<<221.0,367.0>--<217.0,374.0>> -> L<<217.0,374.0>--<33.0,713.0>>
 
-	* Ycircumflex (U+0176): L<<454.0,713.0>--<270.0,374.0>> -> L<<270.0,374.0>--<266.0,366.0>>
+	* Ycircumflex (U+0176): L<<454.0,713.0>--<270.0,374.0>> -> L<<270.0,374.0>--<266.0,367.0>>
 
-	* Ydieresis (U+0178): L<<221.0,368.0>--<217.0,374.0>> -> L<<217.0,374.0>--<33.0,713.0>>
+	* Ydieresis (U+0178): L<<221.0,367.0>--<217.0,374.0>> -> L<<217.0,374.0>--<33.0,713.0>>
 
-	* Ydieresis (U+0178): L<<454.0,713.0>--<270.0,374.0>> -> L<<270.0,374.0>--<266.0,366.0>>
+	* Ydieresis (U+0178): L<<454.0,713.0>--<270.0,374.0>> -> L<<270.0,374.0>--<266.0,367.0>>
 
-	* Ygrave (U+1EF2): L<<221.0,368.0>--<217.0,374.0>> -> L<<217.0,374.0>--<33.0,713.0>>
+	* Ygrave (U+1EF2): L<<221.0,367.0>--<217.0,374.0>> -> L<<217.0,374.0>--<33.0,713.0>>
 
-	* Ygrave (U+1EF2): L<<454.0,713.0>--<270.0,374.0>> -> L<<270.0,374.0>--<266.0,366.0>>
+	* Ygrave (U+1EF2): L<<454.0,713.0>--<270.0,374.0>> -> L<<270.0,374.0>--<266.0,367.0>>
 
 	* ae (U+00E6): L<<584.0,534.0>--<580.0,534.0>> -> L<<580.0,534.0>--<570.0,534.0>>
 
@@ -6009,9 +5922,9 @@ greaterequal
 
 	* uni0137 (U+0137): L<<326.0,574.0>--<327.0,574.0>> -> L<<327.0,574.0>--<327.0,574.0>>
 
-	* uni0232 (U+0232): L<<221.0,368.0>--<217.0,374.0>> -> L<<217.0,374.0>--<33.0,713.0>>
+	* uni0232 (U+0232): L<<221.0,367.0>--<217.0,374.0>> -> L<<217.0,374.0>--<33.0,713.0>>
 
-	* uni0232 (U+0232): L<<454.0,713.0>--<270.0,374.0>> -> L<<270.0,374.0>--<266.0,366.0>>
+	* uni0232 (U+0232): L<<454.0,713.0>--<270.0,374.0>> -> L<<270.0,374.0>--<266.0,367.0>>
 
 	* uni0259 (U+0259): L<<228.0,36.0>--<231.0,36.0>> -> L<<231.0,36.0>--<242.0,36.0>>
 
@@ -6027,9 +5940,9 @@ greaterequal
 
 	* uni1E1D (U+1E1D): L<<272.0,534.0>--<268.0,534.0>> -> L<<268.0,534.0>--<258.0,534.0>>
 
-	* uni1E8E (U+1E8E): L<<221.0,368.0>--<217.0,374.0>> -> L<<217.0,374.0>--<33.0,713.0>>
+	* uni1E8E (U+1E8E): L<<221.0,367.0>--<217.0,374.0>> -> L<<217.0,374.0>--<33.0,713.0>>
 
-	* uni1E8E (U+1E8E): L<<454.0,713.0>--<270.0,374.0>> -> L<<270.0,374.0>--<266.0,366.0>>
+	* uni1E8E (U+1E8E): L<<454.0,713.0>--<270.0,374.0>> -> L<<270.0,374.0>--<266.0,367.0>>
 
 	* uni1E9E (U+1E9E): L<<220.0,411.0>--<222.0,414.0>> -> L<<222.0,414.0>--<450.0,702.0>>
 
@@ -6039,9 +5952,9 @@ greaterequal
 
 	* uni1EBD (U+1EBD): L<<272.0,534.0>--<268.0,534.0>> -> L<<268.0,534.0>--<258.0,534.0>>
 
-	* uni1EF8 (U+1EF8): L<<221.0,368.0>--<217.0,374.0>> -> L<<217.0,374.0>--<33.0,713.0>>
+	* uni1EF8 (U+1EF8): L<<221.0,367.0>--<217.0,374.0>> -> L<<217.0,374.0>--<33.0,713.0>>
 
-	* uni1EF8 (U+1EF8): L<<454.0,713.0>--<270.0,374.0>> -> L<<270.0,374.0>--<266.0,366.0>> [code: found-colinear-vectors]
+	* uni1EF8 (U+1EF8): L<<454.0,713.0>--<270.0,374.0>> -> L<<270.0,374.0>--<266.0,367.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -6264,27 +6177,10 @@ greaterequal
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><br></div></details><details><summary><b>[16] LibertineSuper-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] LibertineSuper-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1327, but got 1000 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 354, but got 200 instead [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
-
-
-* 🔥 **FAIL** name id 256 missing from name table
-</div></details><details><summary>⚠ <b>WARN:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
-
-
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
-
-
-* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -6293,6 +6189,10 @@ greaterequal
 	- f + i
 
 	- i + l [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+
+
+* ⚠ **WARN** We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.683x (1683) [code: bad-hhea-range]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -7238,25 +7138,25 @@ greaterequal
 
 	* Atilde (U+00C3): L<<250.0,752.0>--<250.0,752.0>> -> L<<250.0,752.0>--<250.0,752.0>>
 
-	* Y (U+0059): L<<222.0,366.0>--<218.0,374.0>> -> L<<218.0,374.0>--<34.0,703.0>>
+	* Y (U+0059): L<<223.0,365.0>--<218.0,374.0>> -> L<<218.0,374.0>--<34.0,703.0>>
 
-	* Y (U+0059): L<<469.0,703.0>--<285.0,374.0>> -> L<<285.0,374.0>--<279.0,364.0>>
+	* Y (U+0059): L<<469.0,703.0>--<285.0,374.0>> -> L<<285.0,374.0>--<280.0,365.0>>
 
-	* Yacute (U+00DD): L<<222.0,366.0>--<218.0,374.0>> -> L<<218.0,374.0>--<34.0,703.0>>
+	* Yacute (U+00DD): L<<223.0,365.0>--<218.0,374.0>> -> L<<218.0,374.0>--<34.0,703.0>>
 
-	* Yacute (U+00DD): L<<469.0,703.0>--<285.0,374.0>> -> L<<285.0,374.0>--<279.0,364.0>>
+	* Yacute (U+00DD): L<<469.0,703.0>--<285.0,374.0>> -> L<<285.0,374.0>--<280.0,365.0>>
 
-	* Ycircumflex (U+0176): L<<222.0,366.0>--<218.0,374.0>> -> L<<218.0,374.0>--<34.0,703.0>>
+	* Ycircumflex (U+0176): L<<223.0,365.0>--<218.0,374.0>> -> L<<218.0,374.0>--<34.0,703.0>>
 
-	* Ycircumflex (U+0176): L<<469.0,703.0>--<285.0,374.0>> -> L<<285.0,374.0>--<279.0,364.0>>
+	* Ycircumflex (U+0176): L<<469.0,703.0>--<285.0,374.0>> -> L<<285.0,374.0>--<280.0,365.0>>
 
-	* Ydieresis (U+0178): L<<222.0,366.0>--<218.0,374.0>> -> L<<218.0,374.0>--<34.0,703.0>>
+	* Ydieresis (U+0178): L<<223.0,365.0>--<218.0,374.0>> -> L<<218.0,374.0>--<34.0,703.0>>
 
-	* Ydieresis (U+0178): L<<469.0,703.0>--<285.0,374.0>> -> L<<285.0,374.0>--<279.0,364.0>>
+	* Ydieresis (U+0178): L<<469.0,703.0>--<285.0,374.0>> -> L<<285.0,374.0>--<280.0,365.0>>
 
-	* Ygrave (U+1EF2): L<<222.0,366.0>--<218.0,374.0>> -> L<<218.0,374.0>--<34.0,703.0>>
+	* Ygrave (U+1EF2): L<<223.0,365.0>--<218.0,374.0>> -> L<<218.0,374.0>--<34.0,703.0>>
 
-	* Ygrave (U+1EF2): L<<469.0,703.0>--<285.0,374.0>> -> L<<285.0,374.0>--<279.0,364.0>>
+	* Ygrave (U+1EF2): L<<469.0,703.0>--<285.0,374.0>> -> L<<285.0,374.0>--<280.0,365.0>>
 
 	* comma (U+002C): L<<137.0,38.0>--<137.0,38.0>> -> L<<137.0,38.0>--<137.0,38.0>>
 
@@ -7292,9 +7192,9 @@ greaterequal
 
 	* uni0219 (U+0219): L<<373.0,479.0>--<370.0,475.0>> -> L<<370.0,475.0>--<254.0,311.0>>
 
-	* uni0232 (U+0232): L<<222.0,366.0>--<218.0,374.0>> -> L<<218.0,374.0>--<34.0,703.0>>
+	* uni0232 (U+0232): L<<223.0,365.0>--<218.0,374.0>> -> L<<218.0,374.0>--<34.0,703.0>>
 
-	* uni0232 (U+0232): L<<469.0,703.0>--<285.0,374.0>> -> L<<285.0,374.0>--<279.0,364.0>>
+	* uni0232 (U+0232): L<<469.0,703.0>--<285.0,374.0>> -> L<<285.0,374.0>--<280.0,365.0>>
 
 	* uni0272 (U+0272): L<<60.0,-144.0>--<60.0,33.0>> -> L<<60.0,33.0>--<60.0,34.0>>
 
@@ -7314,17 +7214,17 @@ greaterequal
 
 	* uni1E69 (U+1E69): L<<373.0,479.0>--<370.0,475.0>> -> L<<370.0,475.0>--<254.0,311.0>>
 
-	* uni1E8E (U+1E8E): L<<222.0,366.0>--<218.0,374.0>> -> L<<218.0,374.0>--<34.0,703.0>>
+	* uni1E8E (U+1E8E): L<<223.0,365.0>--<218.0,374.0>> -> L<<218.0,374.0>--<34.0,703.0>>
 
-	* uni1E8E (U+1E8E): L<<469.0,703.0>--<285.0,374.0>> -> L<<285.0,374.0>--<279.0,364.0>>
+	* uni1E8E (U+1E8E): L<<469.0,703.0>--<285.0,374.0>> -> L<<285.0,374.0>--<280.0,365.0>>
 
 	* uni1EA0 (U+1EA0): L<<249.0,752.0>--<250.0,752.0>> -> L<<250.0,752.0>--<250.0,752.0>>
 
 	* uni1EA0 (U+1EA0): L<<250.0,752.0>--<250.0,752.0>> -> L<<250.0,752.0>--<250.0,752.0>>
 
-	* uni1EF8 (U+1EF8): L<<222.0,366.0>--<218.0,374.0>> -> L<<218.0,374.0>--<34.0,703.0>>
+	* uni1EF8 (U+1EF8): L<<223.0,365.0>--<218.0,374.0>> -> L<<218.0,374.0>--<34.0,703.0>>
 
-	* uni1EF8 (U+1EF8): L<<469.0,703.0>--<285.0,374.0>> -> L<<285.0,374.0>--<279.0,364.0>> [code: found-colinear-vectors]
+	* uni1EF8 (U+1EF8): L<<469.0,703.0>--<285.0,374.0>> -> L<<285.0,374.0>--<280.0,365.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -7579,27 +7479,10 @@ greaterequal
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><br></div></details><details><summary><b>[16] LibertineSuper-Thin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] LibertineSuper-Thin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1327, but got 1000 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 354, but got 200 instead [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
-
-
-* 🔥 **FAIL** name id 256 missing from name table
-</div></details><details><summary>⚠ <b>WARN:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
-
-
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
-
-
-* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -7608,6 +7491,10 @@ greaterequal
 	- f + i
 
 	- i + l [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+
+
+* ⚠ **WARN** We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.683x (1683) [code: bad-hhea-range]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -8479,7 +8366,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 500:
-approxequal, lessequal, notequal, plusminus
+notequal, lessequal, plusminus, approxequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
@@ -8530,26 +8417,6 @@ approxequal, lessequal, notequal, plusminus
 
 	* Utilde (U+0168): L<<70.0,187.0>--<70.0,192.0>> -> L<<70.0,192.0>--<70.0,737.0>>
 
-	* Y (U+0059): L<<218.0,372.0>--<217.0,374.0>> -> L<<217.0,374.0>--<31.0,732.0>>
-
-	* Y (U+0059): L<<425.0,732.0>--<240.0,374.0>> -> L<<240.0,374.0>--<238.0,370.0>>
-
-	* Yacute (U+00DD): L<<218.0,372.0>--<217.0,374.0>> -> L<<217.0,374.0>--<31.0,732.0>>
-
-	* Yacute (U+00DD): L<<425.0,732.0>--<240.0,374.0>> -> L<<240.0,374.0>--<238.0,370.0>>
-
-	* Ycircumflex (U+0176): L<<218.0,372.0>--<217.0,374.0>> -> L<<217.0,374.0>--<31.0,732.0>>
-
-	* Ycircumflex (U+0176): L<<425.0,732.0>--<240.0,374.0>> -> L<<240.0,374.0>--<238.0,370.0>>
-
-	* Ydieresis (U+0178): L<<218.0,372.0>--<217.0,374.0>> -> L<<217.0,374.0>--<31.0,732.0>>
-
-	* Ydieresis (U+0178): L<<425.0,732.0>--<240.0,374.0>> -> L<<240.0,374.0>--<238.0,370.0>>
-
-	* Ygrave (U+1EF2): L<<218.0,372.0>--<217.0,374.0>> -> L<<217.0,374.0>--<31.0,732.0>>
-
-	* Ygrave (U+1EF2): L<<425.0,732.0>--<240.0,374.0>> -> L<<240.0,374.0>--<238.0,370.0>>
-
 	* comma (U+002C): L<<99.0,20.0>--<99.0,20.0>> -> L<<99.0,20.0>--<99.0,20.0>>
 
 	* eng (U+014B): L<<403.0,-144.0>--<403.0,10.0>> -> L<<403.0,10.0>--<402.0,363.0>>
@@ -8566,27 +8433,15 @@ approxequal, lessequal, notequal, plusminus
 
 	* uni0137 (U+0137): L<<80.0,568.0>--<310.0,568.0>> -> L<<310.0,568.0>--<311.0,568.0>>
 
-	* uni0232 (U+0232): L<<218.0,372.0>--<217.0,374.0>> -> L<<217.0,374.0>--<31.0,732.0>>
-
-	* uni0232 (U+0232): L<<425.0,732.0>--<240.0,374.0>> -> L<<240.0,374.0>--<238.0,370.0>>
-
 	* uni03BC (U+03BC): L<<60.0,-192.0>--<60.0,162.0>> -> L<<60.0,162.0>--<59.0,558.0>>
 
 	* uni1E78 (U+1E78): L<<70.0,187.0>--<70.0,192.0>> -> L<<70.0,192.0>--<70.0,737.0>>
 
 	* uni1E7A (U+1E7A): L<<70.0,187.0>--<70.0,192.0>> -> L<<70.0,192.0>--<70.0,737.0>>
 
-	* uni1E8E (U+1E8E): L<<218.0,372.0>--<217.0,374.0>> -> L<<217.0,374.0>--<31.0,732.0>>
-
-	* uni1E8E (U+1E8E): L<<425.0,732.0>--<240.0,374.0>> -> L<<240.0,374.0>--<238.0,370.0>>
-
 	* uni1EA0 (U+1EA0): L<<226.0,752.0>--<227.0,752.0>> -> L<<227.0,752.0>--<227.0,752.0>>
 
-	* uni1EE4 (U+1EE4): L<<70.0,187.0>--<70.0,192.0>> -> L<<70.0,192.0>--<70.0,737.0>>
-
-	* uni1EF8 (U+1EF8): L<<218.0,372.0>--<217.0,374.0>> -> L<<217.0,374.0>--<31.0,732.0>>
-
-	* uni1EF8 (U+1EF8): L<<425.0,732.0>--<240.0,374.0>> -> L<<240.0,374.0>--<238.0,370.0>> [code: found-colinear-vectors]
+	* uni1EE4 (U+1EE4): L<<70.0,187.0>--<70.0,192.0>> -> L<<70.0,192.0>--<70.0,737.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -8883,8 +8738,8 @@ approxequal, lessequal, notequal, plusminus
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 7 | 17 | 95 | 835 | 43 | 651 | 0 |
-| 0% | 1% | 6% | 51% | 3% | 40% | 0% |
+| 7 | 0 | 88 | 835 | 43 | 675 | 0 |
+| 0% | 0% | 5% | 51% | 3% | 41% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
