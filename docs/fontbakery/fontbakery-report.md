@@ -2,11 +2,7 @@
 
 fontbakery version: 0.9.0
 
-<details><summary><b>[14] LibertineSuper-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+<details><summary><b>[9] LibertineSuper-Medium.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
 * ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
@@ -33,19 +29,6 @@ Please take a look at the conversation at https://github.com/fonttools/fontbaker
 
 
 * ⚠ **WARN** Uppercase glyphs are not vertically centered in the em box. [code: vertical-metrics-not-centered]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- IJacute
-
-	- logo_full
-
-	- logo_ls
-
-	- uni00690307
- [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -112,8 +95,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: x	Contours detected: 2	Expected: 1
 
 	- Glyph name: y	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 	- Glyph name: Agrave	Contours detected: 4	Expected: 3
 
@@ -745,8 +726,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: umacron	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
 	- Glyph name: uni0146	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni0156	Contours detected: 4	Expected: 3
@@ -889,34 +868,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: ygrave	Contours detected: 3	Expected: 2
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
-</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
-
-
-* ⚠ **WARN** The most common width is 557 among a set of 5 math glyphs.
-The following math glyphs have a different width, though:
-
-Width = 591:
-less, greater
-
-Width = 564:
-notequal, plusminus
-
-Width = 553:
-multiply
-
-Width = 563:
-approxequal
-
-Width = 587:
-lessequal
-
-Width = 580:
-greaterequal
- [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -990,7 +941,7 @@ greaterequal
 
 	* uni00B3 (U+00B3): L<<250.0,532.0>--<250.0,533.0>> -> L<<250.0,533.0>--<250.0,534.0>>
 
-	* uni00B5 (U+00B5): L<<60.0,-154.0>--<60.0,176.0>> -> L<<60.0,176.0>--<59.0,545.0>>
+	* uni00B5 (U+00B5): L<<70.0,-154.0>--<70.0,176.0>> -> L<<70.0,176.0>--<69.0,545.0>>
 
 	* uni0123 (U+0123): L<<290.0,-5.0>--<285.0,-5.0>> -> L<<285.0,-5.0>--<272.0,-5.0>>
 
@@ -1006,7 +957,7 @@ greaterequal
 
 	* uni0272 (U+0272): L<<130.0,35.0>--<130.0,32.0>> -> L<<130.0,32.0>--<130.0,-144.0>>
 
-	* uni03BC (U+03BC): L<<83.0,-154.0>--<83.0,176.0>> -> L<<83.0,176.0>--<82.0,545.0>>
+	* uni03BC (U+03BC): L<<93.0,-154.0>--<93.0,176.0>> -> L<<93.0,176.0>--<92.0,545.0>>
 
 	* uni1E21 (U+1E21): L<<290.0,-5.0>--<285.0,-5.0>> -> L<<285.0,-5.0>--<272.0,-5.0>>
 
@@ -1028,15 +979,17 @@ greaterequal
 
 	* logo (U+F0000): B<<1150.5,90.5>-<1165.0,144.0>-<1187.0,205.0>>/B<<1187.0,205.0>-<1173.0,183.0>-<1160.5,167.0>> = 12.639062440630111
 
-	* perthousand (U+2030): B<<187.5,276.0>-<193.0,308.0>-<206.0,334.0>>/L<<206.0,334.0>--<57.0,128.0>> = 9.313201082726328
+	* logo_full (U+F0001): B<<1065.0,202.5>-<1062.0,185.0>-<1057.0,170.0>>/B<<1057.0,170.0>-<1083.0,213.0>-<1095.5,227.0>> = 12.724355685422335
 
-	* perthousand (U+2030): B<<334.0,211.0>-<334.0,240.0>-<339.0,266.0>>/L<<339.0,266.0>--<274.0,41.0>> = 5.227891178430557
+	* logo_full (U+F0001): B<<1150.5,90.5>-<1165.0,144.0>-<1187.0,205.0>>/B<<1187.0,205.0>-<1173.0,183.0>-<1160.5,167.0>> = 12.639062440630111
 
-	* perthousand (U+2030): B<<424.0,183.0>-<424.0,173.0>-<423.0,164.0>>/L<<423.0,164.0>--<479.0,356.0>> = 9.920012962402067
+	* perthousand (U+2030): B<<182.0,276.0>-<188.0,308.0>-<201.0,334.0>>/L<<201.0,334.0>--<52.0,128.0>> = 9.313201082726328
 
-	* perthousand (U+2030): L<<358.0,333.0>--<356.0,328.0>>/B<<356.0,328.0>-<357.0,330.0>-<358.0,332.0>> = 4.763641690726066
+	* perthousand (U+2030): B<<329.0,211.0>-<329.0,240.0>-<333.0,266.0>>/L<<333.0,266.0>--<268.0,41.0>> = 7.367255970534075
 
-	* perthousand (U+2030): L<<487.0,721.0>--<231.0,368.0>>/B<<231.0,368.0>-<245.0,381.0>-<262.5,388.5>> = 11.1710060933524 [code: found-jaggy-segments]
+	* perthousand (U+2030): B<<419.0,183.0>-<419.0,173.0>-<418.0,164.0>>/L<<418.0,164.0>--<473.0,356.0>> = 9.644609774324655
+
+	* perthousand (U+2030): L<<482.0,721.0>--<226.0,368.0>>/B<<226.0,368.0>-<239.0,381.0>-<257.0,388.5>> = 9.04990969669101 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -1134,9 +1087,9 @@ greaterequal
 
 	* umacron (U+016B): L<<61.0,176.0>--<60.0,545.0>>
 
-	* uni00B5 (U+00B5): L<<129.0,545.0>--<130.0,176.0>>
+	* uni00B5 (U+00B5): L<<139.0,545.0>--<140.0,176.0>>
 
-	* uni00B5 (U+00B5): L<<60.0,176.0>--<59.0,545.0>>
+	* uni00B5 (U+00B5): L<<70.0,176.0>--<69.0,545.0>>
 
 	* uni0146 (U+0146): L<<414.0,35.0>--<413.0,315.0>>
 
@@ -1160,9 +1113,9 @@ greaterequal
 
 	* uni0272 (U+0272): L<<482.0,403.0>--<483.0,35.0>>
 
-	* uni03BC (U+03BC): L<<152.0,545.0>--<153.0,176.0>>
+	* uni03BC (U+03BC): L<<162.0,545.0>--<163.0,176.0>>
 
-	* uni03BC (U+03BC): L<<83.0,176.0>--<82.0,545.0>>
+	* uni03BC (U+03BC): L<<93.0,176.0>--<92.0,545.0>>
 
 	* uni1E25 (U+1E25): L<<413.0,34.0>--<412.0,403.0>>
 
@@ -1251,15 +1204,7 @@ greaterequal
 	* ygrave (U+1EF3): L<<130.0,545.0>--<131.0,176.0>>
 
 	* ygrave (U+1EF3): L<<61.0,176.0>--<60.0,545.0>> [code: found-semi-vertical]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><br></div></details><details><summary><b>[13] LibertineSuper-Thin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] LibertineSuper-Thin.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
 * ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
@@ -1279,19 +1224,6 @@ greaterequal
 
 
 * ⚠ **WARN** Uppercase glyphs are not vertically centered in the em box. [code: vertical-metrics-not-centered]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- IJacute
-
-	- logo_full
-
-	- logo_ls
-
-	- uni00690307
- [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -1358,8 +1290,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: x	Contours detected: 2	Expected: 1
 
 	- Glyph name: y	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 	- Glyph name: Agrave	Contours detected: 4	Expected: 3
 
@@ -1989,8 +1919,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: umacron	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
 	- Glyph name: uni0146	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni0156	Contours detected: 4	Expected: 3
@@ -2131,19 +2059,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: ygrave	Contours detected: 3	Expected: 2
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
-</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
-
-
-* ⚠ **WARN** The most common width is 493 among a set of 9 math glyphs.
-The following math glyphs have a different width, though:
-
-Width = 500:
-lessequal, notequal, approxequal, plusminus
- [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -2203,13 +2118,13 @@ lessequal, notequal, approxequal, plusminus
 
 	* semicolon (U+003B): L<<99.0,20.0>--<99.0,20.0>> -> L<<99.0,20.0>--<99.0,20.0>>
 
-	* uni00B5 (U+00B5): L<<60.0,-192.0>--<60.0,162.0>> -> L<<60.0,162.0>--<59.0,558.0>>
+	* uni00B5 (U+00B5): L<<70.0,-192.0>--<70.0,162.0>> -> L<<70.0,162.0>--<69.0,558.0>>
 
 	* uni0137 (U+0137): L<<310.0,568.0>--<311.0,568.0>> -> L<<311.0,568.0>--<311.0,568.0>>
 
 	* uni0137 (U+0137): L<<80.0,568.0>--<310.0,568.0>> -> L<<310.0,568.0>--<311.0,568.0>>
 
-	* uni03BC (U+03BC): L<<60.0,-192.0>--<60.0,162.0>> -> L<<60.0,162.0>--<59.0,558.0>>
+	* uni03BC (U+03BC): L<<70.0,-192.0>--<70.0,162.0>> -> L<<70.0,162.0>--<69.0,558.0>>
 
 	* uni1E78 (U+1E78): L<<70.0,187.0>--<70.0,192.0>> -> L<<70.0,192.0>--<70.0,737.0>>
 
@@ -2226,6 +2141,10 @@ lessequal, notequal, approxequal, plusminus
 	* logo (U+F0000): B<<1065.0,202.5>-<1062.0,185.0>-<1057.0,170.0>>/B<<1057.0,170.0>-<1083.0,213.0>-<1095.5,227.0>> = 12.724355685422335
 
 	* logo (U+F0000): B<<1150.5,90.5>-<1165.0,144.0>-<1187.0,205.0>>/B<<1187.0,205.0>-<1173.0,183.0>-<1160.5,167.0>> = 12.639062440630111
+
+	* logo_full (U+F0001): B<<1065.0,202.5>-<1062.0,185.0>-<1057.0,170.0>>/B<<1057.0,170.0>-<1083.0,213.0>-<1095.5,227.0>> = 12.724355685422335
+
+	* logo_full (U+F0001): B<<1150.5,90.5>-<1165.0,144.0>-<1187.0,205.0>>/B<<1187.0,205.0>-<1173.0,183.0>-<1160.5,167.0>> = 12.639062440630111
 
 	* o (U+006F): B<<299.5,474.0>-<265.0,538.0>-<200.0,548.0>>/L<<200.0,548.0>--<200.0,548.0>> = 8.746162262555211
 
@@ -2391,9 +2310,9 @@ lessequal, notequal, approxequal, plusminus
 
 	* umacron (U+016B): L<<80.0,558.0>--<81.0,204.0>>
 
-	* uni00B5 (U+00B5): L<<60.0,162.0>--<59.0,558.0>>
+	* uni00B5 (U+00B5): L<<70.0,162.0>--<69.0,558.0>>
 
-	* uni00B5 (U+00B5): L<<79.0,558.0>--<80.0,162.0>>
+	* uni00B5 (U+00B5): L<<89.0,558.0>--<90.0,162.0>>
 
 	* uni0146 (U+0146): L<<403.0,10.0>--<402.0,363.0>>
 
@@ -2415,9 +2334,9 @@ lessequal, notequal, approxequal, plusminus
 
 	* uni0272 (U+0272): L<<421.0,406.0>--<422.0,10.0>>
 
-	* uni03BC (U+03BC): L<<60.0,162.0>--<59.0,558.0>>
+	* uni03BC (U+03BC): L<<70.0,162.0>--<69.0,558.0>>
 
-	* uni03BC (U+03BC): L<<79.0,558.0>--<80.0,162.0>>
+	* uni03BC (U+03BC): L<<89.0,558.0>--<90.0,162.0>>
 
 	* uni1E25 (U+1E25): L<<402.0,9.0>--<401.0,406.0>>
 
@@ -2504,15 +2423,7 @@ lessequal, notequal, approxequal, plusminus
 	* ygrave (U+1EF3): L<<61.0,162.0>--<60.0,558.0>>
 
 	* ygrave (U+1EF3): L<<80.0,558.0>--<81.0,162.0>> [code: found-semi-vertical]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><br></div></details><details><summary><b>[14] LibertineSuper-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] LibertineSuper-ExtraLight.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
 * ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
@@ -2539,19 +2450,6 @@ Please take a look at the conversation at https://github.com/fonttools/fontbaker
 
 
 * ⚠ **WARN** Uppercase glyphs are not vertically centered in the em box. [code: vertical-metrics-not-centered]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- IJacute
-
-	- logo_full
-
-	- logo_ls
-
-	- uni00690307
- [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -2618,8 +2516,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: x	Contours detected: 2	Expected: 1
 
 	- Glyph name: y	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 	- Glyph name: Agrave	Contours detected: 4	Expected: 3
 
@@ -3249,8 +3145,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: umacron	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
 	- Glyph name: uni0146	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni0156	Contours detected: 4	Expected: 3
@@ -3391,31 +3285,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: ygrave	Contours detected: 3	Expected: 2
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
-</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
-
-
-* ⚠ **WARN** The most common width is 509 among a set of 5 math glyphs.
-The following math glyphs have a different width, though:
-
-Width = 517:
-less, greater
-
-Width = 516:
-notequal, approxequal, plusminus
-
-Width = 508:
-multiply
-
-Width = 522:
-lessequal
-
-Width = 515:
-greaterequal
- [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -3477,7 +3346,7 @@ greaterequal
 
 	* trademark (U+2122): L<<538.0,762.0>--<538.0,762.0>> -> L<<538.0,762.0>--<538.0,762.0>>
 
-	* uni00B5 (U+00B5): L<<60.0,-183.0>--<60.0,166.0>> -> L<<60.0,166.0>--<59.0,555.0>>
+	* uni00B5 (U+00B5): L<<70.0,-183.0>--<70.0,166.0>> -> L<<70.0,166.0>--<69.0,555.0>>
 
 	* uni0137 (U+0137): L<<318.0,571.0>--<318.0,571.0>> -> L<<318.0,571.0>--<319.0,571.0>>
 
@@ -3487,7 +3356,7 @@ greaterequal
 
 	* uni0232 (U+0232): L<<440.0,722.0>--<255.0,374.0>> -> L<<255.0,374.0>--<252.0,369.0>>
 
-	* uni03BC (U+03BC): L<<66.0,-183.0>--<66.0,166.0>> -> L<<66.0,166.0>--<65.0,555.0>>
+	* uni03BC (U+03BC): L<<76.0,-183.0>--<76.0,166.0>> -> L<<76.0,166.0>--<75.0,555.0>>
 
 	* uni1E8E (U+1E8E): L<<220.0,369.0>--<217.0,374.0>> -> L<<217.0,374.0>--<32.0,722.0>>
 
@@ -3506,6 +3375,10 @@ greaterequal
 	* logo (U+F0000): B<<1065.0,202.5>-<1062.0,185.0>-<1057.0,170.0>>/B<<1057.0,170.0>-<1083.0,213.0>-<1095.5,227.0>> = 12.724355685422335
 
 	* logo (U+F0000): B<<1150.5,90.5>-<1165.0,144.0>-<1187.0,205.0>>/B<<1187.0,205.0>-<1173.0,183.0>-<1160.5,167.0>> = 12.639062440630111
+
+	* logo_full (U+F0001): B<<1065.0,202.5>-<1062.0,185.0>-<1057.0,170.0>>/B<<1057.0,170.0>-<1083.0,213.0>-<1095.5,227.0>> = 12.724355685422335
+
+	* logo_full (U+F0001): B<<1150.5,90.5>-<1165.0,144.0>-<1187.0,205.0>>/B<<1187.0,205.0>-<1173.0,183.0>-<1160.5,167.0>> = 12.639062440630111
 
 	* uni03A9 (U+03A9): B<<272.0,27.0>-<273.0,27.0>-<270.0,26.0>>/L<<270.0,26.0>--<272.0,27.0>> = 8.13010235415587 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -3583,9 +3456,9 @@ greaterequal
 
 	* umacron (U+016B): L<<61.0,166.0>--<60.0,555.0>>
 
-	* uni00B5 (U+00B5): L<<60.0,166.0>--<59.0,555.0>>
+	* uni00B5 (U+00B5): L<<101.0,555.0>--<102.0,166.0>>
 
-	* uni00B5 (U+00B5): L<<92.0,555.0>--<93.0,166.0>>
+	* uni00B5 (U+00B5): L<<70.0,166.0>--<69.0,555.0>>
 
 	* uni0146 (U+0146): L<<406.0,16.0>--<405.0,351.0>>
 
@@ -3603,9 +3476,9 @@ greaterequal
 
 	* uni0272 (U+0272): L<<436.0,405.0>--<437.0,16.0>>
 
-	* uni03BC (U+03BC): L<<66.0,166.0>--<65.0,555.0>>
+	* uni03BC (U+03BC): L<<107.0,555.0>--<108.0,166.0>>
 
-	* uni03BC (U+03BC): L<<98.0,555.0>--<99.0,166.0>>
+	* uni03BC (U+03BC): L<<76.0,166.0>--<75.0,555.0>>
 
 	* uni1E25 (U+1E25): L<<405.0,15.0>--<404.0,405.0>>
 
@@ -3674,15 +3547,7 @@ greaterequal
 	* ygrave (U+1EF3): L<<61.0,166.0>--<60.0,555.0>>
 
 	* ygrave (U+1EF3): L<<93.0,555.0>--<94.0,166.0>> [code: found-semi-vertical]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><br></div></details><details><summary><b>[14] LibertineSuper-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] LibertineSuper-Light.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
 * ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
@@ -3709,19 +3574,6 @@ Please take a look at the conversation at https://github.com/fonttools/fontbaker
 
 
 * ⚠ **WARN** Uppercase glyphs are not vertically centered in the em box. [code: vertical-metrics-not-centered]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- IJacute
-
-	- logo_full
-
-	- logo_ls
-
-	- uni00690307
- [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -3788,8 +3640,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: x	Contours detected: 2	Expected: 1
 
 	- Glyph name: y	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 	- Glyph name: Agrave	Contours detected: 4	Expected: 3
 
@@ -4419,8 +4269,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: umacron	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
 	- Glyph name: uni0146	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni0156	Contours detected: 4	Expected: 3
@@ -4561,34 +4409,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: ygrave	Contours detected: 3	Expected: 2
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
-</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
-
-
-* ⚠ **WARN** The most common width is 525 among a set of 5 math glyphs.
-The following math glyphs have a different width, though:
-
-Width = 542:
-less, greater
-
-Width = 532:
-notequal, plusminus
-
-Width = 523:
-multiply
-
-Width = 531:
-approxequal
-
-Width = 543:
-lessequal
-
-Width = 536:
-greaterequal
- [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -4700,7 +4520,7 @@ greaterequal
 
 	* trademark (U+2122): L<<562.0,761.0>--<562.0,761.0>> -> L<<562.0,761.0>--<562.0,761.0>>
 
-	* uni00B5 (U+00B5): L<<60.0,-173.0>--<60.0,169.0>> -> L<<60.0,169.0>--<59.0,552.0>>
+	* uni00B5 (U+00B5): L<<70.0,-173.0>--<70.0,169.0>> -> L<<70.0,169.0>--<69.0,552.0>>
 
 	* uni0137 (U+0137): L<<105.0,574.0>--<326.0,574.0>> -> L<<326.0,574.0>--<327.0,574.0>>
 
@@ -4716,7 +4536,7 @@ greaterequal
 
 	* uni0272 (U+0272): L<<60.0,27.0>--<60.0,28.0>> -> L<<60.0,28.0>--<60.0,552.0>>
 
-	* uni03BC (U+03BC): L<<71.0,-173.0>--<71.0,169.0>> -> L<<71.0,169.0>--<70.0,552.0>>
+	* uni03BC (U+03BC): L<<81.0,-173.0>--<81.0,169.0>> -> L<<81.0,169.0>--<80.0,552.0>>
 
 	* uni1E15 (U+1E15): L<<272.0,534.0>--<268.0,534.0>> -> L<<268.0,534.0>--<258.0,534.0>>
 
@@ -4746,7 +4566,11 @@ greaterequal
 
 	* logo (U+F0000): B<<1065.0,202.5>-<1062.0,185.0>-<1057.0,170.0>>/B<<1057.0,170.0>-<1083.0,213.0>-<1095.5,227.0>> = 12.724355685422335
 
-	* logo (U+F0000): B<<1150.5,90.5>-<1165.0,144.0>-<1187.0,205.0>>/B<<1187.0,205.0>-<1173.0,183.0>-<1160.5,167.0>> = 12.639062440630111 [code: found-jaggy-segments]
+	* logo (U+F0000): B<<1150.5,90.5>-<1165.0,144.0>-<1187.0,205.0>>/B<<1187.0,205.0>-<1173.0,183.0>-<1160.5,167.0>> = 12.639062440630111
+
+	* logo_full (U+F0001): B<<1065.0,202.5>-<1062.0,185.0>-<1057.0,170.0>>/B<<1057.0,170.0>-<1083.0,213.0>-<1095.5,227.0>> = 12.724355685422335
+
+	* logo_full (U+F0001): B<<1150.5,90.5>-<1165.0,144.0>-<1187.0,205.0>>/B<<1187.0,205.0>-<1173.0,183.0>-<1160.5,167.0>> = 12.639062440630111 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -4844,9 +4668,9 @@ greaterequal
 
 	* umacron (U+016B): L<<61.0,169.0>--<60.0,552.0>>
 
-	* uni00B5 (U+00B5): L<<104.0,552.0>--<105.0,169.0>>
+	* uni00B5 (U+00B5): L<<114.0,552.0>--<115.0,169.0>>
 
-	* uni00B5 (U+00B5): L<<60.0,169.0>--<59.0,552.0>>
+	* uni00B5 (U+00B5): L<<70.0,169.0>--<69.0,552.0>>
 
 	* uni0146 (U+0146): L<<408.0,22.0>--<407.0,339.0>>
 
@@ -4868,9 +4692,9 @@ greaterequal
 
 	* uni0272 (U+0272): L<<452.0,405.0>--<453.0,22.0>>
 
-	* uni03BC (U+03BC): L<<115.0,552.0>--<116.0,169.0>>
+	* uni03BC (U+03BC): L<<125.0,552.0>--<126.0,169.0>>
 
-	* uni03BC (U+03BC): L<<71.0,169.0>--<70.0,552.0>>
+	* uni03BC (U+03BC): L<<81.0,169.0>--<80.0,552.0>>
 
 	* uni1E25 (U+1E25): L<<408.0,21.0>--<407.0,405.0>>
 
@@ -4957,15 +4781,7 @@ greaterequal
 	* ygrave (U+1EF3): L<<105.0,552.0>--<106.0,169.0>>
 
 	* ygrave (U+1EF3): L<<61.0,169.0>--<60.0,552.0>> [code: found-semi-vertical]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><br></div></details><details><summary><b>[14] LibertineSuper-Black.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] LibertineSuper-Black.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
 * ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
@@ -4992,19 +4808,6 @@ Please take a look at the conversation at https://github.com/fonttools/fontbaker
 
 
 * ⚠ **WARN** Uppercase glyphs are not vertically centered in the em box. [code: vertical-metrics-not-centered]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- IJacute
-
-	- logo_full
-
-	- logo_ls
-
-	- uni00690307
- [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -5071,8 +4874,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: x	Contours detected: 2	Expected: 1
 
 	- Glyph name: y	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 	- Glyph name: Agrave	Contours detected: 4	Expected: 3
 
@@ -5700,8 +5501,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: umacron	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
 	- Glyph name: uni0146	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni0156	Contours detected: 4	Expected: 3
@@ -5844,34 +5643,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: ygrave	Contours detected: 3	Expected: 2
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
-</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
-
-
-* ⚠ **WARN** The most common width is 620 among a set of 5 math glyphs.
-The following math glyphs have a different width, though:
-
-Width = 688:
-less, greater
-
-Width = 627:
-notequal, plusminus
-
-Width = 612:
-multiply
-
-Width = 626:
-approxequal
-
-Width = 673:
-lessequal
-
-Width = 666:
-greaterequal
- [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -5917,7 +5688,7 @@ greaterequal
 
 	* trademark (U+2122): L<<700.0,759.0>--<700.0,759.0>> -> L<<700.0,759.0>--<701.0,759.0>>
 
-	* uni00B5 (U+00B5): L<<60.0,-117.0>--<60.0,190.0>> -> L<<60.0,190.0>--<59.0,532.0>>
+	* uni00B5 (U+00B5): L<<69.0,-117.0>--<69.0,190.0>> -> L<<69.0,190.0>--<68.0,532.0>>
 
 	* uni0137 (U+0137): L<<180.0,592.0>--<375.0,592.0>> -> L<<375.0,592.0>--<376.0,592.0>>
 
@@ -5935,7 +5706,7 @@ greaterequal
 
 	* uni0272 (U+0272): L<<60.0,61.0>--<60.0,64.0>> -> L<<60.0,64.0>--<60.0,532.0>>
 
-	* uni03BC (U+03BC): L<<105.0,-117.0>--<105.0,190.0>> -> L<<105.0,190.0>--<104.0,532.0>>
+	* uni03BC (U+03BC): L<<114.0,-117.0>--<114.0,190.0>> -> L<<114.0,190.0>--<113.0,532.0>>
 
 	* uni1E8E (U+1E8E): L<<230.0,356.0>--<219.0,374.0>> -> L<<219.0,374.0>--<39.0,655.0>>
 
@@ -5964,6 +5735,10 @@ greaterequal
 	* logo (U+F0000): B<<1065.0,202.5>-<1062.0,185.0>-<1057.0,170.0>>/B<<1057.0,170.0>-<1083.0,213.0>-<1095.5,227.0>> = 12.724355685422335
 
 	* logo (U+F0000): B<<1150.5,90.5>-<1165.0,144.0>-<1187.0,205.0>>/B<<1187.0,205.0>-<1173.0,183.0>-<1160.5,167.0>> = 12.639062440630111
+
+	* logo_full (U+F0001): B<<1065.0,202.5>-<1062.0,185.0>-<1057.0,170.0>>/B<<1057.0,170.0>-<1083.0,213.0>-<1095.5,227.0>> = 12.724355685422335
+
+	* logo_full (U+F0001): B<<1150.5,90.5>-<1165.0,144.0>-<1187.0,205.0>>/B<<1187.0,205.0>-<1173.0,183.0>-<1160.5,167.0>> = 12.639062440630111
 
 	* semicolon (U+003B): B<<199.0,69.0>-<199.0,67.0>-<199.0,68.0>>/L<<199.0,68.0>--<198.0,24.0>> = 1.3019526725787232 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -6053,9 +5828,9 @@ greaterequal
 
 	* umacron (U+016B): L<<61.0,190.0>--<60.0,532.0>>
 
-	* uni00B5 (U+00B5): L<<179.0,532.0>--<180.0,190.0>>
+	* uni00B5 (U+00B5): L<<188.0,532.0>--<189.0,190.0>>
 
-	* uni00B5 (U+00B5): L<<60.0,190.0>--<59.0,532.0>>
+	* uni00B5 (U+00B5): L<<69.0,190.0>--<68.0,532.0>>
 
 	* uni0146 (U+0146): L<<424.0,59.0>--<423.0,267.0>>
 
@@ -6069,9 +5844,9 @@ greaterequal
 
 	* uni0272 (U+0272): L<<543.0,400.0>--<544.0,59.0>>
 
-	* uni03BC (U+03BC): L<<105.0,190.0>--<104.0,532.0>>
+	* uni03BC (U+03BC): L<<114.0,190.0>--<113.0,532.0>>
 
-	* uni03BC (U+03BC): L<<224.0,532.0>--<225.0,190.0>>
+	* uni03BC (U+03BC): L<<233.0,532.0>--<234.0,190.0>>
 
 	* uni1E25 (U+1E25): L<<424.0,58.0>--<423.0,400.0>>
 
@@ -6150,15 +5925,7 @@ greaterequal
 	* ygrave (U+1EF3): L<<180.0,532.0>--<181.0,190.0>>
 
 	* ygrave (U+1EF3): L<<61.0,190.0>--<60.0,532.0>> [code: found-semi-vertical]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><br></div></details><details><summary><b>[13] LibertineSuper-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] LibertineSuper-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
 * ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
@@ -6178,19 +5945,6 @@ greaterequal
 
 
 * ⚠ **WARN** Uppercase glyphs are not vertically centered in the em box. [code: vertical-metrics-not-centered]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- IJacute
-
-	- logo_full
-
-	- logo_ls
-
-	- uni00690307
- [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -6257,8 +6011,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: x	Contours detected: 2	Expected: 1
 
 	- Glyph name: y	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 	- Glyph name: Agrave	Contours detected: 4	Expected: 3
 
@@ -6890,8 +6642,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: umacron	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
 	- Glyph name: uni0146	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni0156	Contours detected: 4	Expected: 3
@@ -7034,34 +6784,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: ygrave	Contours detected: 3	Expected: 2
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
-</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
-
-
-* ⚠ **WARN** The most common width is 541 among a set of 5 math glyphs.
-The following math glyphs have a different width, though:
-
-Width = 566:
-less, greater
-
-Width = 548:
-notequal, plusminus
-
-Width = 538:
-multiply
-
-Width = 547:
-approxequal
-
-Width = 565:
-lessequal
-
-Width = 558:
-greaterequal
- [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -7161,7 +6883,7 @@ greaterequal
 
 	* trademark (U+2122): L<<585.0,761.0>--<585.0,761.0>> -> L<<585.0,761.0>--<585.0,761.0>>
 
-	* uni00B5 (U+00B5): L<<60.0,-164.0>--<60.0,173.0>> -> L<<60.0,173.0>--<59.0,548.0>>
+	* uni00B5 (U+00B5): L<<70.0,-164.0>--<70.0,173.0>> -> L<<70.0,173.0>--<69.0,548.0>>
 
 	* uni0137 (U+0137): L<<118.0,577.0>--<334.0,577.0>> -> L<<334.0,577.0>--<335.0,577.0>>
 
@@ -7179,7 +6901,7 @@ greaterequal
 
 	* uni03A9 (U+03A9): L<<293.0,-5.0>--<292.0,-5.0>> -> L<<292.0,-5.0>--<291.0,-5.0>>
 
-	* uni03BC (U+03BC): L<<77.0,-164.0>--<77.0,173.0>> -> L<<77.0,173.0>--<76.0,548.0>>
+	* uni03BC (U+03BC): L<<87.0,-164.0>--<87.0,173.0>> -> L<<87.0,173.0>--<86.0,548.0>>
 
 	* uni1E61 (U+1E61): L<<373.0,479.0>--<370.0,475.0>> -> L<<370.0,475.0>--<254.0,311.0>>
 
@@ -7231,7 +6953,13 @@ greaterequal
 
 	* logo (U+F0000): B<<1150.5,90.5>-<1165.0,144.0>-<1187.0,205.0>>/B<<1187.0,205.0>-<1173.0,183.0>-<1160.5,167.0>> = 12.639062440630111
 
+	* logo_full (U+F0001): B<<1065.0,202.5>-<1062.0,185.0>-<1057.0,170.0>>/B<<1057.0,170.0>-<1083.0,213.0>-<1095.5,227.0>> = 12.724355685422335
+
+	* logo_full (U+F0001): B<<1150.5,90.5>-<1165.0,144.0>-<1187.0,205.0>>/B<<1187.0,205.0>-<1173.0,183.0>-<1160.5,167.0>> = 12.639062440630111
+
 	* ncaron (U+0148): B<<289.0,649.0>-<287.0,645.0>-<285.0,642.0>>/B<<285.0,642.0>-<286.0,644.0>-<286.0,643.5>> = 7.125016348901757
+
+	* perthousand (U+2030): B<<316.0,212.0>-<316.0,217.0>-<317.0,223.0>>/L<<317.0,223.0>--<264.0,36.0>> = 6.361598723995848
 
 	* rcaron (U+0159): B<<232.0,649.0>-<230.0,645.0>-<228.0,642.0>>/B<<228.0,642.0>-<229.0,644.0>-<229.0,643.5>> = 7.125016348901757
 
@@ -7343,9 +7071,9 @@ greaterequal
 
 	* umacron (U+016B): L<<61.0,173.0>--<60.0,548.0>>
 
-	* uni00B5 (U+00B5): L<<117.0,548.0>--<118.0,173.0>>
+	* uni00B5 (U+00B5): L<<126.0,548.0>--<127.0,173.0>>
 
-	* uni00B5 (U+00B5): L<<60.0,173.0>--<59.0,548.0>>
+	* uni00B5 (U+00B5): L<<70.0,173.0>--<69.0,548.0>>
 
 	* uni0146 (U+0146): L<<411.0,28.0>--<410.0,327.0>>
 
@@ -7369,9 +7097,9 @@ greaterequal
 
 	* uni0272 (U+0272): L<<467.0,404.0>--<468.0,28.0>>
 
-	* uni03BC (U+03BC): L<<134.0,548.0>--<135.0,173.0>>
+	* uni03BC (U+03BC): L<<143.0,548.0>--<144.0,173.0>>
 
-	* uni03BC (U+03BC): L<<77.0,173.0>--<76.0,548.0>>
+	* uni03BC (U+03BC): L<<87.0,173.0>--<86.0,548.0>>
 
 	* uni1E25 (U+1E25): L<<410.0,27.0>--<409.0,404.0>>
 
@@ -7452,15 +7180,7 @@ greaterequal
 	* ygrave (U+1EF3): L<<118.0,548.0>--<119.0,173.0>>
 
 	* ygrave (U+1EF3): L<<61.0,173.0>--<60.0,548.0>> [code: found-semi-vertical]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><br></div></details><details><summary><b>[13] LibertineSuper-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] LibertineSuper-Bold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
 * ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
@@ -7480,19 +7200,6 @@ greaterequal
 
 
 * ⚠ **WARN** Uppercase glyphs are not vertically centered in the em box. [code: vertical-metrics-not-centered]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- IJacute
-
-	- logo_full
-
-	- logo_ls
-
-	- uni00690307
- [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -7559,8 +7266,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: x	Contours detected: 2	Expected: 1
 
 	- Glyph name: y	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 	- Glyph name: Agrave	Contours detected: 4	Expected: 3
 
@@ -8188,8 +7893,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: umacron	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
 	- Glyph name: uni0146	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni0156	Contours detected: 4	Expected: 3
@@ -8332,34 +8035,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: ygrave	Contours detected: 3	Expected: 2
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
-</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
-
-
-* ⚠ **WARN** The most common width is 588 among a set of 5 math glyphs.
-The following math glyphs have a different width, though:
-
-Width = 639:
-less, greater
-
-Width = 595:
-notequal, plusminus
-
-Width = 582:
-multiply
-
-Width = 594:
-approxequal
-
-Width = 630:
-lessequal
-
-Width = 623:
-greaterequal
- [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -8463,7 +8138,7 @@ greaterequal
 
 	* umacron (U+016B): L<<419.0,260.0>--<419.0,265.0>> -> L<<419.0,265.0>--<419.0,539.0>>
 
-	* uni00B5 (U+00B5): L<<60.0,-136.0>--<60.0,183.0>> -> L<<60.0,183.0>--<59.0,539.0>>
+	* uni00B5 (U+00B5): L<<69.0,-136.0>--<69.0,183.0>> -> L<<69.0,183.0>--<68.0,539.0>>
 
 	* uni0156 (U+0156): L<<327.0,188.0>--<322.0,188.0>> -> L<<322.0,188.0>--<165.0,188.0>>
 
@@ -8471,7 +8146,7 @@ greaterequal
 
 	* uni0232 (U+0232): L<<512.0,674.0>--<331.0,374.0>> -> L<<331.0,374.0>--<322.0,359.0>>
 
-	* uni03BC (U+03BC): L<<94.0,-136.0>--<94.0,183.0>> -> L<<94.0,183.0>--<93.0,539.0>>
+	* uni03BC (U+03BC): L<<103.0,-136.0>--<103.0,183.0>> -> L<<103.0,183.0>--<102.0,539.0>>
 
 	* uni1E08 (U+1E08): L<<309.0,90.0>--<314.0,90.0>> -> L<<314.0,90.0>--<328.0,90.0>>
 
@@ -8510,6 +8185,10 @@ greaterequal
 	* logo (U+F0000): B<<1065.0,202.5>-<1062.0,185.0>-<1057.0,170.0>>/B<<1057.0,170.0>-<1083.0,213.0>-<1095.5,227.0>> = 12.724355685422335
 
 	* logo (U+F0000): B<<1150.5,90.5>-<1165.0,144.0>-<1187.0,205.0>>/B<<1187.0,205.0>-<1173.0,183.0>-<1160.5,167.0>> = 12.639062440630111
+
+	* logo_full (U+F0001): B<<1065.0,202.5>-<1062.0,185.0>-<1057.0,170.0>>/B<<1057.0,170.0>-<1083.0,213.0>-<1095.5,227.0>> = 12.724355685422335
+
+	* logo_full (U+F0001): B<<1150.5,90.5>-<1165.0,144.0>-<1187.0,205.0>>/B<<1187.0,205.0>-<1173.0,183.0>-<1160.5,167.0>> = 12.639062440630111
 
 	* w (U+0077): B<<63.0,585.5>-<64.0,586.0>-<62.0,585.0>>/B<<62.0,585.0>-<65.0,586.0>-<68.0,586.0>> = 8.13010235415587
 
@@ -8615,9 +8294,9 @@ greaterequal
 
 	* umacron (U+016B): L<<61.0,183.0>--<60.0,539.0>>
 
-	* uni00B5 (U+00B5): L<<154.0,539.0>--<155.0,183.0>>
+	* uni00B5 (U+00B5): L<<163.0,539.0>--<164.0,183.0>>
 
-	* uni00B5 (U+00B5): L<<60.0,183.0>--<59.0,539.0>>
+	* uni00B5 (U+00B5): L<<69.0,183.0>--<68.0,539.0>>
 
 	* uni0146 (U+0146): L<<419.0,47.0>--<418.0,291.0>>
 
@@ -8639,9 +8318,9 @@ greaterequal
 
 	* uni0272 (U+0272): L<<513.0,402.0>--<514.0,47.0>>
 
-	* uni03BC (U+03BC): L<<188.0,539.0>--<189.0,183.0>>
+	* uni03BC (U+03BC): L<<103.0,183.0>--<102.0,539.0>>
 
-	* uni03BC (U+03BC): L<<94.0,183.0>--<93.0,539.0>>
+	* uni03BC (U+03BC): L<<197.0,539.0>--<198.0,183.0>>
 
 	* uni1E25 (U+1E25): L<<419.0,46.0>--<418.0,402.0>>
 
@@ -8728,18 +8407,14 @@ greaterequal
 	* ygrave (U+1EF3): L<<155.0,539.0>--<156.0,183.0>>
 
 	* ygrave (U+1EF3): L<<61.0,183.0>--<60.0,539.0>> [code: found-semi-vertical]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 7 | 0 | 88 | 835 | 43 | 675 | 0 |
-| 0% | 0% | 5% | 51% | 3% | 41% | 0% |
+| 0 | 0 | 60 | 835 | 43 | 710 | 0 |
+| 0% | 0% | 4% | 51% | 3% | 43% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
