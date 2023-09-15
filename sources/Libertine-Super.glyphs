@@ -1,6 +1,9 @@
 {
 .appVersion = "3218";
 .formatVersion = 3;
+DisplayStrings = (
+"fif lil "
+);
 axes = (
 {
 name = Weight;
@@ -100080,7 +100083,7 @@ unicode = 601;
 glyphname = f;
 kernLeft = f;
 kernRight = f;
-lastChange = "2023-09-15 04:00:40 +0000";
+lastChange = "2023-09-15 10:49:03 +0000";
 layers = (
 {
 anchors = (
@@ -105010,7 +105013,7 @@ unicode = 7717;
 glyphname = i;
 kernLeft = i;
 kernRight = i;
-lastChange = "2023-09-15 09:04:01 +0000";
+lastChange = "2023-09-15 10:48:53 +0000";
 layers = (
 {
 anchors = (
@@ -145083,7 +145086,7 @@ width = 469;
 glyphname = f.ss01;
 kernLeft = f;
 kernRight = f;
-lastChange = "2023-08-25 13:37:12 +0000";
+lastChange = "2023-09-15 10:48:14 +0000";
 layers = (
 {
 anchors = (
@@ -152926,7 +152929,7 @@ width = 382;
 glyphname = l.ss01;
 kernLeft = l;
 kernRight = l;
-lastChange = "2023-09-15 08:49:30 +0000";
+lastChange = "2023-09-15 10:48:29 +0000";
 layers = (
 {
 anchors = (
@@ -269153,8 +269156,9 @@ fraction = -120;
 };
 "@MMK_L_f" = {
 "@MMK_R_h" = 30;
-"@MMK_R_i" = 10;
+"@MMK_R_i" = -10;
 "@MMK_R_l" = 40;
+i = 10;
 };
 "@MMK_L_five.numr" = {
 fraction = -110;
@@ -269166,10 +269170,15 @@ fraction = -90;
 "@MMK_R_o" = -20;
 };
 "@MMK_L_i" = {
+"@MMK_R_f" = 10;
 "@MMK_R_h" = 10;
+"@MMK_R_l" = 10;
 };
 "@MMK_L_k" = {
 "@MMK_R_o" = -30;
+};
+"@MMK_L_l" = {
+"@MMK_R_i" = -10;
 };
 "@MMK_L_n" = {
 "@MMK_R_l" = -50;
@@ -269224,6 +269233,11 @@ fraction = -140;
 d = {
 "@MMK_R_o" = -10;
 };
+f = {
+f = -70;
+j = -50;
+l = -36;
+};
 fraction = {
 "@MMK_R_eight.dnom" = -90;
 "@MMK_R_five.dnom" = -80;
@@ -269241,12 +269255,6 @@ nine = {
 };
 seven = {
 "@MMK_R_period" = -100;
-};
-f = {
-f = -70;
-i = -50;
-j = -50;
-l = -36;
 };
 };
 m002 = {
@@ -269368,8 +269376,9 @@ fraction = -190;
 };
 "@MMK_L_f" = {
 "@MMK_R_h" = 30;
-"@MMK_R_i" = 10;
+"@MMK_R_i" = -20;
 "@MMK_R_l" = 40;
+i = 10;
 };
 "@MMK_L_five.numr" = {
 fraction = -200;
@@ -269381,10 +269390,15 @@ fraction = -180;
 "@MMK_R_o" = -20;
 };
 "@MMK_L_i" = {
+"@MMK_R_f" = 10;
 "@MMK_R_h" = 10;
+"@MMK_R_l" = 10;
 };
 "@MMK_L_k" = {
 "@MMK_R_o" = -30;
+};
+"@MMK_L_l" = {
+"@MMK_R_i" = -20;
 };
 "@MMK_L_n" = {
 "@MMK_R_l" = -50;
@@ -269441,6 +269455,11 @@ fraction = -200;
 d = {
 "@MMK_R_o" = -10;
 };
+f = {
+f = -70;
+j = -50;
+l = -36;
+};
 fraction = {
 "@MMK_R_eight.dnom" = -150;
 "@MMK_R_five.dnom" = -170;
@@ -269458,12 +269477,6 @@ nine = {
 };
 seven = {
 "@MMK_R_period" = -100;
-};
-f = {
-f = -70;
-i = -50;
-j = -50;
-l = -36;
 };
 };
 };
