@@ -268517,7 +268517,7 @@ tag = slng;
 );
 }
 );
-name = Regular;
+name = Variable;
 properties = (
 {
 key = postscriptFontName;
@@ -268528,29 +268528,11 @@ key = postscriptFullName;
 value = "Libertine Super VF";
 },
 {
-key = familyNames;
-values = (
-{
-language = dflt;
-value = LibertineSuper;
-}
-);
-},
-{
-key = preferredFamilyNames;
-values = (
-{
-language = dflt;
-value = LibertineSuper;
-}
-);
-},
-{
 key = preferredSubfamilyNames;
 values = (
 {
 language = dflt;
-value = Var;
+value = Variable;
 }
 );
 }
@@ -268578,6 +268560,14 @@ data = Latn;
 tag = slng;
 }
 );
+},
+{
+name = WWSFamilyName;
+value = "Libertine Super Thn";
+},
+{
+name = WWSSubfamilyName;
+value = Reg;
 }
 );
 instanceInterpolations = {
@@ -268588,37 +268578,6 @@ properties = (
 {
 key = postscriptFontName;
 value = "LibertineSuper-Thin";
-},
-{
-key = postscriptFullName;
-value = "Libertine Super Thin";
-},
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = LibertineSuper;
-}
-);
-},
-{
-key = preferredFamilyNames;
-values = (
-{
-language = dflt;
-value = LibertineSuper;
-}
-);
-},
-{
-key = preferredSubfamilyNames;
-values = (
-{
-language = dflt;
-value = Thin;
-}
-);
 }
 );
 weightClass = 100;
@@ -268644,6 +268603,14 @@ data = Latn;
 tag = slng;
 }
 );
+},
+{
+name = WWSFamilyName;
+value = "Libertine Super Extr";
+},
+{
+name = WWSSubfamilyName;
+value = Reg;
 }
 );
 instanceInterpolations = {
@@ -268655,37 +268622,6 @@ properties = (
 {
 key = postscriptFontName;
 value = "LibertineSuper-ExtraLight";
-},
-{
-key = postscriptFullName;
-value = "Libertine Super ExtraLight";
-},
-{
-key = preferredSubfamilyNames;
-values = (
-{
-language = dflt;
-value = ExtraLight;
-}
-);
-},
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = LibertineSuper;
-}
-);
-},
-{
-key = preferredFamilyNames;
-values = (
-{
-language = dflt;
-value = LibertineSuper;
-}
-);
 }
 );
 weightClass = 200;
@@ -268711,6 +268647,14 @@ data = Latn;
 tag = slng;
 }
 );
+},
+{
+name = WWSFamilyName;
+value = "Libertine Super Lght";
+},
+{
+name = WWSSubfamilyName;
+value = Reg;
 }
 );
 instanceInterpolations = {
@@ -268722,37 +268666,6 @@ properties = (
 {
 key = postscriptFontName;
 value = "LibertineSuper-Light";
-},
-{
-key = postscriptFullName;
-value = "Libertine Super Light";
-},
-{
-key = preferredSubfamilyNames;
-values = (
-{
-language = dflt;
-value = Light;
-}
-);
-},
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = LibertineSuper;
-}
-);
-},
-{
-key = preferredFamilyNames;
-values = (
-{
-language = dflt;
-value = LibertineSuper;
-}
-);
 }
 );
 weightClass = 300;
@@ -268789,37 +268702,6 @@ properties = (
 {
 key = postscriptFontName;
 value = "LibertineSuper-Regular";
-},
-{
-key = postscriptFullName;
-value = "Libertine Super Regular";
-},
-{
-key = preferredSubfamilyNames;
-values = (
-{
-language = dflt;
-value = Regular;
-}
-);
-},
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = LibertineSuper;
-}
-);
-},
-{
-key = preferredFamilyNames;
-values = (
-{
-language = dflt;
-value = LibertineSuper;
-}
-);
 }
 );
 },
@@ -268844,6 +268726,14 @@ data = Latn;
 tag = slng;
 }
 );
+},
+{
+name = WWSFamilyName;
+value = "Libertine Super Med";
+},
+{
+name = WWSSubfamilyName;
+value = Reg;
 }
 );
 instanceInterpolations = {
@@ -268855,37 +268745,6 @@ properties = (
 {
 key = postscriptFontName;
 value = "LibertineSuper-Medium";
-},
-{
-key = postscriptFullName;
-value = "Libertine Super Medium";
-},
-{
-key = preferredSubfamilyNames;
-values = (
-{
-language = dflt;
-value = Medium;
-}
-);
-},
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = LibertineSuper;
-}
-);
-},
-{
-key = preferredFamilyNames;
-values = (
-{
-language = dflt;
-value = LibertineSuper;
-}
-);
 }
 );
 weightClass = 500;
@@ -268924,37 +268783,6 @@ properties = (
 {
 key = postscriptFontName;
 value = "LibertineSuper-Bold";
-},
-{
-key = postscriptFullName;
-value = "Libertine Super Bold";
-},
-{
-key = preferredSubfamilyNames;
-values = (
-{
-language = dflt;
-value = Bold;
-}
-);
-},
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = LibertineSuper;
-}
-);
-},
-{
-key = preferredFamilyNames;
-values = (
-{
-language = dflt;
-value = LibertineSuper;
-}
-);
 }
 );
 weightClass = 700;
@@ -268980,6 +268808,14 @@ data = Latn;
 tag = slng;
 }
 );
+},
+{
+name = WWSFamilyName;
+value = "Libertine Super Black";
+},
+{
+name = WWSSubfamilyName;
+value = Reg;
 }
 );
 instanceInterpolations = {
@@ -268990,37 +268826,6 @@ properties = (
 {
 key = postscriptFontName;
 value = "LibertineSuper-Black";
-},
-{
-key = postscriptFullName;
-value = "Libertine Super Black";
-},
-{
-key = preferredSubfamilyNames;
-values = (
-{
-language = dflt;
-value = Black;
-}
-);
-},
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = LibertineSuper;
-}
-);
-},
-{
-key = preferredFamilyNames;
-values = (
-{
-language = dflt;
-value = LibertineSuper;
-}
-);
 }
 );
 weightClass = 900;
