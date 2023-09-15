@@ -268563,7 +268563,7 @@ tag = slng;
 },
 {
 name = WWSFamilyName;
-value = "Libertine Super Thin";
+value = "LibertineSuper Thin";
 }
 );
 instanceInterpolations = {
@@ -268573,7 +268573,7 @@ name = Thin;
 properties = (
 {
 key = postscriptFontName;
-value = "LibertineSuper-Thin";
+value = LibertineSuper;
 }
 );
 weightClass = 100;
@@ -268602,7 +268602,7 @@ tag = slng;
 },
 {
 name = WWSFamilyName;
-value = "Libertine Super ExtraLight";
+value = "LibertineSuper ExtraLight";
 }
 );
 instanceInterpolations = {
@@ -268613,7 +268613,7 @@ name = ExtraLight;
 properties = (
 {
 key = postscriptFontName;
-value = "LibertineSuper-ExtraLight";
+value = LibertineSuper;
 }
 );
 weightClass = 200;
@@ -268642,7 +268642,7 @@ tag = slng;
 },
 {
 name = WWSFamilyName;
-value = "Libertine Super Light";
+value = "LibertineSuper Light";
 }
 );
 instanceInterpolations = {
@@ -268653,7 +268653,7 @@ name = Light;
 properties = (
 {
 key = postscriptFontName;
-value = "LibertineSuper-Light";
+value = LibertineSuper;
 }
 );
 weightClass = 300;
@@ -268689,7 +268689,7 @@ name = Regular;
 properties = (
 {
 key = postscriptFontName;
-value = "LibertineSuper-Regular";
+value = LibertineSuper;
 }
 );
 },
@@ -268717,7 +268717,7 @@ tag = slng;
 },
 {
 name = WWSFamilyName;
-value = "Libertine Super Medium";
+value = "LibertineSuper Medium";
 }
 );
 instanceInterpolations = {
@@ -268728,7 +268728,7 @@ name = Medium;
 properties = (
 {
 key = postscriptFontName;
-value = "LibertineSuper-Medium";
+value = LibertineSuper;
 }
 );
 weightClass = 500;
@@ -268766,7 +268766,7 @@ name = Bold;
 properties = (
 {
 key = postscriptFontName;
-value = "LibertineSuper-Bold";
+value = LibertineSuper;
 }
 );
 weightClass = 700;
@@ -268795,7 +268795,7 @@ tag = slng;
 },
 {
 name = WWSFamilyName;
-value = "Libertine Super Black";
+value = "LibertineSuper Black";
 }
 );
 instanceInterpolations = {
@@ -268805,7 +268805,7 @@ name = Black;
 properties = (
 {
 key = postscriptFontName;
-value = "LibertineSuper-Black";
+value = LibertineSuper;
 }
 );
 weightClass = 900;
