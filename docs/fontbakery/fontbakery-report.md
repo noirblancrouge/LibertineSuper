@@ -2,10 +2,11 @@
 
 fontbakery version: 0.9.0
 
-<details><summary><b>[8] LibertineSup-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
+<details><summary><b>[6] LibertineSup-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** "LibertineSup" is a CamelCased name. To solve this, simply use spaces instead in the font name. [code: camelcase]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1327, but got 1110 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 354, but got 250 instead [code: descent]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -14,14 +15,6 @@ fontbakery version: 0.9.0
 	- f + i
 
 	- i + l [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* ⚠ **WARN** We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.683x (1683) [code: bad-hhea-range]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if uppercase glyphs are vertically centered. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/caps_vertically_centered">com.google.fonts/check/caps_vertically_centered</a>)</summary><div>
-
-
-* ⚠ **WARN** Uppercase glyphs are not vertically centered in the em box. [code: vertical-metrics-not-centered]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -862,25 +855,25 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* Y (U+0059): L<<230.0,356.0>--<219.0,374.0>> -> L<<219.0,374.0>--<39.0,655.0>>
+	* Y (U+0059): L<<230.0,357.0>--<219.0,374.0>> -> L<<219.0,374.0>--<39.0,655.0>>
 
-	* Y (U+0059): L<<541.0,655.0>--<361.0,374.0>> -> L<<361.0,374.0>--<350.0,356.0>>
+	* Y (U+0059): L<<541.0,655.0>--<361.0,374.0>> -> L<<361.0,374.0>--<350.0,357.0>>
 
-	* Yacute (U+00DD): L<<230.0,356.0>--<219.0,374.0>> -> L<<219.0,374.0>--<39.0,655.0>>
+	* Yacute (U+00DD): L<<230.0,357.0>--<219.0,374.0>> -> L<<219.0,374.0>--<39.0,655.0>>
 
-	* Yacute (U+00DD): L<<541.0,655.0>--<361.0,374.0>> -> L<<361.0,374.0>--<350.0,356.0>>
+	* Yacute (U+00DD): L<<541.0,655.0>--<361.0,374.0>> -> L<<361.0,374.0>--<350.0,357.0>>
 
-	* Ycircumflex (U+0176): L<<230.0,356.0>--<219.0,374.0>> -> L<<219.0,374.0>--<39.0,655.0>>
+	* Ycircumflex (U+0176): L<<230.0,357.0>--<219.0,374.0>> -> L<<219.0,374.0>--<39.0,655.0>>
 
-	* Ycircumflex (U+0176): L<<541.0,655.0>--<361.0,374.0>> -> L<<361.0,374.0>--<350.0,356.0>>
+	* Ycircumflex (U+0176): L<<541.0,655.0>--<361.0,374.0>> -> L<<361.0,374.0>--<350.0,357.0>>
 
-	* Ydieresis (U+0178): L<<230.0,356.0>--<219.0,374.0>> -> L<<219.0,374.0>--<39.0,655.0>>
+	* Ydieresis (U+0178): L<<230.0,357.0>--<219.0,374.0>> -> L<<219.0,374.0>--<39.0,655.0>>
 
-	* Ydieresis (U+0178): L<<541.0,655.0>--<361.0,374.0>> -> L<<361.0,374.0>--<350.0,356.0>>
+	* Ydieresis (U+0178): L<<541.0,655.0>--<361.0,374.0>> -> L<<361.0,374.0>--<350.0,357.0>>
 
-	* Ygrave (U+1EF2): L<<230.0,356.0>--<219.0,374.0>> -> L<<219.0,374.0>--<39.0,655.0>>
+	* Ygrave (U+1EF2): L<<230.0,357.0>--<219.0,374.0>> -> L<<219.0,374.0>--<39.0,655.0>>
 
-	* Ygrave (U+1EF2): L<<541.0,655.0>--<361.0,374.0>> -> L<<361.0,374.0>--<350.0,356.0>>
+	* Ygrave (U+1EF2): L<<541.0,655.0>--<361.0,374.0>> -> L<<361.0,374.0>--<350.0,357.0>>
 
 	* eng (U+014B): L<<423.0,-144.0>--<424.0,69.0>> -> L<<424.0,69.0>--<423.0,267.0>>
 
@@ -898,53 +891,39 @@ The following glyphs do not have the recommended number of contours:
 
 	* k (U+006B): L<<375.0,592.0>--<376.0,592.0>> -> L<<376.0,592.0>--<376.0,592.0>>
 
-	* trademark (U+2122): L<<700.0,759.0>--<700.0,759.0>> -> L<<700.0,759.0>--<700.0,759.0>>
-
-	* trademark (U+2122): L<<700.0,759.0>--<700.0,759.0>> -> L<<700.0,759.0>--<701.0,759.0>>
-
 	* uni00B5 (U+00B5): L<<69.0,-117.0>--<69.0,190.0>> -> L<<69.0,190.0>--<68.0,532.0>>
 
 	* uni0137 (U+0137): L<<180.0,592.0>--<375.0,592.0>> -> L<<375.0,592.0>--<376.0,592.0>>
 
 	* uni0137 (U+0137): L<<375.0,592.0>--<376.0,592.0>> -> L<<376.0,592.0>--<376.0,592.0>>
 
-	* uni0232 (U+0232): L<<230.0,356.0>--<219.0,374.0>> -> L<<219.0,374.0>--<39.0,655.0>>
+	* uni0232 (U+0232): L<<230.0,357.0>--<219.0,374.0>> -> L<<219.0,374.0>--<39.0,655.0>>
 
-	* uni0232 (U+0232): L<<541.0,655.0>--<361.0,374.0>> -> L<<361.0,374.0>--<350.0,356.0>>
-
-	* uni0272 (U+0272): L<<180.0,267.0>--<180.0,59.0>> -> L<<180.0,59.0>--<180.0,56.0>>
-
-	* uni0272 (U+0272): L<<180.0,59.0>--<180.0,56.0>> -> L<<180.0,56.0>--<180.0,-144.0>>
-
-	* uni0272 (U+0272): L<<60.0,-144.0>--<60.0,61.0>> -> L<<60.0,61.0>--<60.0,64.0>>
-
-	* uni0272 (U+0272): L<<60.0,61.0>--<60.0,64.0>> -> L<<60.0,64.0>--<60.0,532.0>>
+	* uni0232 (U+0232): L<<541.0,655.0>--<361.0,374.0>> -> L<<361.0,374.0>--<350.0,357.0>>
 
 	* uni03BC (U+03BC): L<<114.0,-117.0>--<114.0,190.0>> -> L<<114.0,190.0>--<113.0,532.0>>
 
-	* uni1E8E (U+1E8E): L<<230.0,356.0>--<219.0,374.0>> -> L<<219.0,374.0>--<39.0,655.0>>
+	* uni1E8E (U+1E8E): L<<230.0,357.0>--<219.0,374.0>> -> L<<219.0,374.0>--<39.0,655.0>>
 
-	* uni1E8E (U+1E8E): L<<541.0,655.0>--<361.0,374.0>> -> L<<361.0,374.0>--<350.0,356.0>>
+	* uni1E8E (U+1E8E): L<<541.0,655.0>--<361.0,374.0>> -> L<<361.0,374.0>--<350.0,357.0>>
 
-	* uni1EF8 (U+1EF8): L<<230.0,356.0>--<219.0,374.0>> -> L<<219.0,374.0>--<39.0,655.0>>
+	* uni1EF8 (U+1EF8): L<<230.0,357.0>--<219.0,374.0>> -> L<<219.0,374.0>--<39.0,655.0>>
 
-	* uni1EF8 (U+1EF8): L<<541.0,655.0>--<361.0,374.0>> -> L<<361.0,374.0>--<350.0,356.0>>
+	* uni1EF8 (U+1EF8): L<<541.0,655.0>--<361.0,374.0>> -> L<<361.0,374.0>--<350.0,357.0>>
 
-	* w (U+0077): L<<226.0,40.0>--<25.0,508.0>> -> L<<25.0,508.0>--<24.0,510.0>>
+	* w (U+0077): L<<752.0,511.0>--<751.0,508.0>> -> L<<751.0,508.0>--<550.0,40.0>>
 
-	* wacute (U+1E83): L<<226.0,40.0>--<25.0,508.0>> -> L<<25.0,508.0>--<24.0,510.0>>
+	* wacute (U+1E83): L<<752.0,511.0>--<751.0,508.0>> -> L<<751.0,508.0>--<550.0,40.0>>
 
-	* wcircumflex (U+0175): L<<226.0,40.0>--<25.0,508.0>> -> L<<25.0,508.0>--<24.0,510.0>>
+	* wcircumflex (U+0175): L<<752.0,511.0>--<751.0,508.0>> -> L<<751.0,508.0>--<550.0,40.0>>
 
-	* wdieresis (U+1E85): L<<226.0,40.0>--<25.0,508.0>> -> L<<25.0,508.0>--<24.0,510.0>>
+	* wdieresis (U+1E85): L<<752.0,511.0>--<751.0,508.0>> -> L<<751.0,508.0>--<550.0,40.0>>
 
-	* wgrave (U+1E81): L<<226.0,40.0>--<25.0,508.0>> -> L<<25.0,508.0>--<24.0,510.0>> [code: found-colinear-vectors]
+	* wgrave (U+1E81): L<<752.0,511.0>--<751.0,508.0>> -> L<<751.0,508.0>--<550.0,40.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
-
-	* comma (U+002C): B<<199.0,69.0>-<199.0,67.0>-<199.0,68.0>>/L<<199.0,68.0>--<198.0,24.0>> = 1.3019526725787232
 
 	* logo (U+F0000): B<<1065.0,202.5>-<1062.0,185.0>-<1057.0,170.0>>/B<<1057.0,170.0>-<1083.0,213.0>-<1095.5,227.0>> = 12.724355685422335
 
@@ -952,9 +931,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* logo_full (U+F0001): B<<1065.0,202.5>-<1062.0,185.0>-<1057.0,170.0>>/B<<1057.0,170.0>-<1083.0,213.0>-<1095.5,227.0>> = 12.724355685422335
 
-	* logo_full (U+F0001): B<<1150.5,90.5>-<1165.0,144.0>-<1187.0,205.0>>/B<<1187.0,205.0>-<1173.0,183.0>-<1160.5,167.0>> = 12.639062440630111
-
-	* semicolon (U+003B): B<<199.0,69.0>-<199.0,67.0>-<199.0,68.0>>/L<<199.0,68.0>--<198.0,24.0>> = 1.3019526725787232 [code: found-jaggy-segments]
+	* logo_full (U+F0001): B<<1150.5,90.5>-<1165.0,144.0>-<1187.0,205.0>>/B<<1187.0,205.0>-<1173.0,183.0>-<1160.5,167.0>> = 12.639062440630111 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -1139,10 +1116,11 @@ The following glyphs do not have the recommended number of contours:
 	* ygrave (U+1EF3): L<<180.0,532.0>--<181.0,190.0>>
 
 	* ygrave (U+1EF3): L<<61.0,190.0>--<60.0,532.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[8] LibertineSup-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[6] LibertineSup-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** "LibertineSup" is a CamelCased name. To solve this, simply use spaces instead in the font name. [code: camelcase]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1327, but got 1110 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 354, but got 250 instead [code: descent]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -1151,14 +1129,6 @@ The following glyphs do not have the recommended number of contours:
 	- f + i
 
 	- i + l [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* ⚠ **WARN** We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.683x (1683) [code: bad-hhea-range]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if uppercase glyphs are vertically centered. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/caps_vertically_centered">com.google.fonts/check/caps_vertically_centered</a>)</summary><div>
-
-
-* ⚠ **WARN** Uppercase glyphs are not vertically centered in the em box. [code: vertical-metrics-not-centered]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -1999,28 +1969,6 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* A (U+0041): L<<273.0,751.0>--<273.0,751.0>> -> L<<273.0,751.0>--<273.0,751.0>>
-
-	* Aacute (U+00C1): L<<273.0,751.0>--<273.0,751.0>> -> L<<273.0,751.0>--<273.0,751.0>>
-
-	* Abreve (U+0102): L<<273.0,751.0>--<273.0,751.0>> -> L<<273.0,751.0>--<273.0,751.0>>
-
-	* Acircumflex (U+00C2): L<<273.0,751.0>--<273.0,751.0>> -> L<<273.0,751.0>--<273.0,751.0>>
-
-	* Adieresis (U+00C4): L<<273.0,751.0>--<273.0,751.0>> -> L<<273.0,751.0>--<273.0,751.0>>
-
-	* Agrave (U+00C0): L<<273.0,751.0>--<273.0,751.0>> -> L<<273.0,751.0>--<273.0,751.0>>
-
-	* Amacron (U+0100): L<<273.0,751.0>--<273.0,751.0>> -> L<<273.0,751.0>--<273.0,751.0>>
-
-	* Aogonek (U+0104): L<<273.0,751.0>--<273.0,751.0>> -> L<<273.0,751.0>--<273.0,751.0>>
-
-	* Aring (U+00C5): L<<273.0,751.0>--<273.0,751.0>> -> L<<273.0,751.0>--<273.0,751.0>>
-
-	* Aringacute (U+01FA): L<<273.0,751.0>--<273.0,751.0>> -> L<<273.0,751.0>--<273.0,751.0>>
-
-	* Atilde (U+00C3): L<<273.0,751.0>--<273.0,751.0>> -> L<<273.0,751.0>--<273.0,751.0>>
-
 	* C (U+0043): L<<309.0,90.0>--<314.0,90.0>> -> L<<314.0,90.0>--<328.0,90.0>>
 
 	* C (U+0043): L<<328.0,657.0>--<314.0,657.0>> -> L<<314.0,657.0>--<309.0,657.0>>
@@ -2053,33 +2001,27 @@ The following glyphs do not have the recommended number of contours:
 
 	* Rmacronbelow (U+1E5E): L<<327.0,188.0>--<322.0,188.0>> -> L<<322.0,188.0>--<165.0,188.0>>
 
-	* Y (U+0059): L<<227.0,359.0>--<218.0,374.0>> -> L<<218.0,374.0>--<37.0,674.0>>
+	* Y (U+0059): L<<227.0,360.0>--<219.0,374.0>> -> L<<219.0,374.0>--<37.0,674.0>>
 
-	* Y (U+0059): L<<512.0,674.0>--<331.0,374.0>> -> L<<331.0,374.0>--<322.0,359.0>>
+	* Y (U+0059): L<<512.0,674.0>--<331.0,374.0>> -> L<<331.0,374.0>--<322.0,360.0>>
 
-	* Yacute (U+00DD): L<<227.0,359.0>--<218.0,374.0>> -> L<<218.0,374.0>--<37.0,674.0>>
+	* Yacute (U+00DD): L<<227.0,360.0>--<219.0,374.0>> -> L<<219.0,374.0>--<37.0,674.0>>
 
-	* Yacute (U+00DD): L<<512.0,674.0>--<331.0,374.0>> -> L<<331.0,374.0>--<322.0,359.0>>
+	* Yacute (U+00DD): L<<512.0,674.0>--<331.0,374.0>> -> L<<331.0,374.0>--<322.0,360.0>>
 
-	* Ycircumflex (U+0176): L<<227.0,359.0>--<218.0,374.0>> -> L<<218.0,374.0>--<37.0,674.0>>
+	* Ycircumflex (U+0176): L<<227.0,360.0>--<219.0,374.0>> -> L<<219.0,374.0>--<37.0,674.0>>
 
-	* Ycircumflex (U+0176): L<<512.0,674.0>--<331.0,374.0>> -> L<<331.0,374.0>--<322.0,359.0>>
+	* Ycircumflex (U+0176): L<<512.0,674.0>--<331.0,374.0>> -> L<<331.0,374.0>--<322.0,360.0>>
 
-	* Ydieresis (U+0178): L<<227.0,359.0>--<218.0,374.0>> -> L<<218.0,374.0>--<37.0,674.0>>
+	* Ydieresis (U+0178): L<<227.0,360.0>--<219.0,374.0>> -> L<<219.0,374.0>--<37.0,674.0>>
 
-	* Ydieresis (U+0178): L<<512.0,674.0>--<331.0,374.0>> -> L<<331.0,374.0>--<322.0,359.0>>
+	* Ydieresis (U+0178): L<<512.0,674.0>--<331.0,374.0>> -> L<<331.0,374.0>--<322.0,360.0>>
 
-	* Ygrave (U+1EF2): L<<227.0,359.0>--<218.0,374.0>> -> L<<218.0,374.0>--<37.0,674.0>>
+	* Ygrave (U+1EF2): L<<227.0,360.0>--<219.0,374.0>> -> L<<219.0,374.0>--<37.0,674.0>>
 
-	* Ygrave (U+1EF2): L<<512.0,674.0>--<331.0,374.0>> -> L<<331.0,374.0>--<322.0,359.0>>
-
-	* comma (U+002C): L<<174.0,57.0>--<174.0,57.0>> -> L<<174.0,57.0>--<174.0,57.0>>
+	* Ygrave (U+1EF2): L<<512.0,674.0>--<331.0,374.0>> -> L<<331.0,374.0>--<322.0,360.0>>
 
 	* eng (U+014B): L<<418.0,-144.0>--<419.0,55.0>> -> L<<419.0,55.0>--<418.0,291.0>>
-
-	* semicolon (U+003B): L<<174.0,57.0>--<174.0,57.0>> -> L<<174.0,57.0>--<174.0,57.0>>
-
-	* trademark (U+2122): L<<654.0,760.0>--<654.0,760.0>> -> L<<654.0,760.0>--<654.0,760.0>>
 
 	* u (U+0075): L<<419.0,260.0>--<419.0,265.0>> -> L<<419.0,265.0>--<419.0,539.0>>
 
@@ -2101,9 +2043,9 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0156 (U+0156): L<<327.0,188.0>--<322.0,188.0>> -> L<<322.0,188.0>--<165.0,188.0>>
 
-	* uni0232 (U+0232): L<<227.0,359.0>--<218.0,374.0>> -> L<<218.0,374.0>--<37.0,674.0>>
+	* uni0232 (U+0232): L<<227.0,360.0>--<219.0,374.0>> -> L<<219.0,374.0>--<37.0,674.0>>
 
-	* uni0232 (U+0232): L<<512.0,674.0>--<331.0,374.0>> -> L<<331.0,374.0>--<322.0,359.0>>
+	* uni0232 (U+0232): L<<512.0,674.0>--<331.0,374.0>> -> L<<331.0,374.0>--<322.0,360.0>>
 
 	* uni03BC (U+03BC): L<<103.0,-136.0>--<103.0,183.0>> -> L<<103.0,183.0>--<102.0,539.0>>
 
@@ -2117,17 +2059,15 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni1E7B (U+1E7B): L<<419.0,260.0>--<419.0,265.0>> -> L<<419.0,265.0>--<419.0,539.0>>
 
-	* uni1E8E (U+1E8E): L<<227.0,359.0>--<218.0,374.0>> -> L<<218.0,374.0>--<37.0,674.0>>
+	* uni1E8E (U+1E8E): L<<227.0,360.0>--<219.0,374.0>> -> L<<219.0,374.0>--<37.0,674.0>>
 
-	* uni1E8E (U+1E8E): L<<512.0,674.0>--<331.0,374.0>> -> L<<331.0,374.0>--<322.0,359.0>>
-
-	* uni1EA0 (U+1EA0): L<<273.0,751.0>--<273.0,751.0>> -> L<<273.0,751.0>--<273.0,751.0>>
+	* uni1E8E (U+1E8E): L<<512.0,674.0>--<331.0,374.0>> -> L<<331.0,374.0>--<322.0,360.0>>
 
 	* uni1EE5 (U+1EE5): L<<419.0,260.0>--<419.0,265.0>> -> L<<419.0,265.0>--<419.0,539.0>>
 
-	* uni1EF8 (U+1EF8): L<<227.0,359.0>--<218.0,374.0>> -> L<<218.0,374.0>--<37.0,674.0>>
+	* uni1EF8 (U+1EF8): L<<227.0,360.0>--<219.0,374.0>> -> L<<219.0,374.0>--<37.0,674.0>>
 
-	* uni1EF8 (U+1EF8): L<<512.0,674.0>--<331.0,374.0>> -> L<<331.0,374.0>--<322.0,359.0>>
+	* uni1EF8 (U+1EF8): L<<512.0,674.0>--<331.0,374.0>> -> L<<331.0,374.0>--<322.0,360.0>>
 
 	* uogonek (U+0173): L<<419.0,260.0>--<419.0,265.0>> -> L<<419.0,265.0>--<419.0,539.0>>
 
@@ -2139,29 +2079,21 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* V (U+0056): B<<223.5,29.0>-<223.0,30.0>-<224.0,28.0>>/B<<224.0,28.0>-<222.0,31.0>-<222.0,34.0>> = 7.125016348901757
-
 	* logo (U+F0000): B<<1065.0,202.5>-<1062.0,185.0>-<1057.0,170.0>>/B<<1057.0,170.0>-<1083.0,213.0>-<1095.5,227.0>> = 12.724355685422335
 
 	* logo (U+F0000): B<<1150.5,90.5>-<1165.0,144.0>-<1187.0,205.0>>/B<<1187.0,205.0>-<1173.0,183.0>-<1160.5,167.0>> = 12.639062440630111
 
 	* logo_full (U+F0001): B<<1065.0,202.5>-<1062.0,185.0>-<1057.0,170.0>>/B<<1057.0,170.0>-<1083.0,213.0>-<1095.5,227.0>> = 12.724355685422335
 
-	* logo_full (U+F0001): B<<1150.5,90.5>-<1165.0,144.0>-<1187.0,205.0>>/B<<1187.0,205.0>-<1173.0,183.0>-<1160.5,167.0>> = 12.639062440630111
-
-	* w (U+0077): B<<63.0,585.5>-<64.0,586.0>-<62.0,585.0>>/B<<62.0,585.0>-<65.0,586.0>-<68.0,586.0>> = 8.13010235415587
-
-	* wacute (U+1E83): B<<63.0,585.5>-<64.0,586.0>-<62.0,585.0>>/B<<62.0,585.0>-<65.0,586.0>-<68.0,586.0>> = 8.13010235415587
-
-	* wcircumflex (U+0175): B<<63.0,585.5>-<64.0,586.0>-<62.0,585.0>>/B<<62.0,585.0>-<65.0,586.0>-<68.0,586.0>> = 8.13010235415587
-
-	* wdieresis (U+1E85): B<<63.0,585.5>-<64.0,586.0>-<62.0,585.0>>/B<<62.0,585.0>-<65.0,586.0>-<68.0,586.0>> = 8.13010235415587
-
-	* wgrave (U+1E81): B<<63.0,585.5>-<64.0,586.0>-<62.0,585.0>>/B<<62.0,585.0>-<65.0,586.0>-<68.0,586.0>> = 8.13010235415587 [code: found-jaggy-segments]
+	* logo_full (U+F0001): B<<1150.5,90.5>-<1165.0,144.0>-<1187.0,205.0>>/B<<1187.0,205.0>-<1173.0,183.0>-<1160.5,167.0>> = 12.639062440630111 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+
+	* Oslash (U+00D8): L<<488.0,279.0>--<487.0,468.0>>
+
+	* Oslashacute (U+01FE): L<<488.0,279.0>--<487.0,468.0>>
 
 	* eng (U+014B): L<<418.0,-144.0>--<419.0,55.0>>
 
@@ -2366,10 +2298,11 @@ The following glyphs do not have the recommended number of contours:
 	* ygrave (U+1EF3): L<<155.0,539.0>--<156.0,183.0>>
 
 	* ygrave (U+1EF3): L<<61.0,183.0>--<60.0,539.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[8] LibertineSup-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[6] LibertineSup-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** "LibertineSup" is a CamelCased name. To solve this, simply use spaces instead in the font name. [code: camelcase]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1327, but got 1110 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 354, but got 250 instead [code: descent]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -2378,14 +2311,6 @@ The following glyphs do not have the recommended number of contours:
 	- f + i
 
 	- i + l [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* ⚠ **WARN** We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.683x (1683) [code: bad-hhea-range]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if uppercase glyphs are vertically centered. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/caps_vertically_centered">com.google.fonts/check/caps_vertically_centered</a>)</summary><div>
-
-
-* ⚠ **WARN** Uppercase glyphs are not vertically centered in the em box. [code: vertical-metrics-not-centered]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -3278,27 +3203,25 @@ The following glyphs do not have the recommended number of contours:
 
 	* Atilde (U+00C3): L<<250.0,752.0>--<250.0,752.0>> -> L<<250.0,752.0>--<250.0,752.0>>
 
-	* Y (U+0059): L<<223.0,365.0>--<218.0,374.0>> -> L<<218.0,374.0>--<34.0,703.0>>
+	* Y (U+0059): L<<223.0,366.0>--<218.0,374.0>> -> L<<218.0,374.0>--<34.0,703.0>>
 
 	* Y (U+0059): L<<469.0,703.0>--<285.0,374.0>> -> L<<285.0,374.0>--<280.0,365.0>>
 
-	* Yacute (U+00DD): L<<223.0,365.0>--<218.0,374.0>> -> L<<218.0,374.0>--<34.0,703.0>>
+	* Yacute (U+00DD): L<<223.0,366.0>--<218.0,374.0>> -> L<<218.0,374.0>--<34.0,703.0>>
 
 	* Yacute (U+00DD): L<<469.0,703.0>--<285.0,374.0>> -> L<<285.0,374.0>--<280.0,365.0>>
 
-	* Ycircumflex (U+0176): L<<223.0,365.0>--<218.0,374.0>> -> L<<218.0,374.0>--<34.0,703.0>>
+	* Ycircumflex (U+0176): L<<223.0,366.0>--<218.0,374.0>> -> L<<218.0,374.0>--<34.0,703.0>>
 
 	* Ycircumflex (U+0176): L<<469.0,703.0>--<285.0,374.0>> -> L<<285.0,374.0>--<280.0,365.0>>
 
-	* Ydieresis (U+0178): L<<223.0,365.0>--<218.0,374.0>> -> L<<218.0,374.0>--<34.0,703.0>>
+	* Ydieresis (U+0178): L<<223.0,366.0>--<218.0,374.0>> -> L<<218.0,374.0>--<34.0,703.0>>
 
 	* Ydieresis (U+0178): L<<469.0,703.0>--<285.0,374.0>> -> L<<285.0,374.0>--<280.0,365.0>>
 
-	* Ygrave (U+1EF2): L<<223.0,365.0>--<218.0,374.0>> -> L<<218.0,374.0>--<34.0,703.0>>
+	* Ygrave (U+1EF2): L<<223.0,366.0>--<218.0,374.0>> -> L<<218.0,374.0>--<34.0,703.0>>
 
 	* Ygrave (U+1EF2): L<<469.0,703.0>--<285.0,374.0>> -> L<<285.0,374.0>--<280.0,365.0>>
-
-	* comma (U+002C): L<<137.0,38.0>--<137.0,38.0>> -> L<<137.0,38.0>--<137.0,38.0>>
 
 	* eng (U+014B): L<<411.0,-144.0>--<411.0,33.0>> -> L<<411.0,33.0>--<410.0,327.0>>
 
@@ -3308,21 +3231,17 @@ The following glyphs do not have the recommended number of contours:
 
 	* k (U+006B): L<<334.0,577.0>--<335.0,577.0>> -> L<<335.0,577.0>--<335.0,577.0>>
 
-	* s (U+0073): L<<373.0,479.0>--<370.0,475.0>> -> L<<370.0,475.0>--<254.0,311.0>>
+	* s (U+0073): L<<372.0,478.0>--<370.0,475.0>> -> L<<370.0,475.0>--<254.0,311.0>>
 
-	* sacute (U+015B): L<<373.0,479.0>--<370.0,475.0>> -> L<<370.0,475.0>--<254.0,311.0>>
+	* sacute (U+015B): L<<372.0,478.0>--<370.0,475.0>> -> L<<370.0,475.0>--<254.0,311.0>>
 
-	* scaron (U+0161): L<<373.0,479.0>--<370.0,475.0>> -> L<<370.0,475.0>--<254.0,311.0>>
+	* scaron (U+0161): L<<372.0,478.0>--<370.0,475.0>> -> L<<370.0,475.0>--<254.0,311.0>>
 
-	* scedilla (U+015F): L<<373.0,479.0>--<370.0,475.0>> -> L<<370.0,475.0>--<254.0,311.0>>
+	* scedilla (U+015F): L<<372.0,478.0>--<370.0,475.0>> -> L<<370.0,475.0>--<254.0,311.0>>
 
-	* scircumflex (U+015D): L<<373.0,479.0>--<370.0,475.0>> -> L<<370.0,475.0>--<254.0,311.0>>
-
-	* semicolon (U+003B): L<<137.0,38.0>--<137.0,38.0>> -> L<<137.0,38.0>--<137.0,38.0>>
+	* scircumflex (U+015D): L<<372.0,478.0>--<370.0,475.0>> -> L<<370.0,475.0>--<254.0,311.0>>
 
 	* thorn (U+00FE): L<<269.0,52.0>--<274.0,52.0>> -> L<<274.0,52.0>--<287.0,52.0>>
-
-	* trademark (U+2122): L<<585.0,761.0>--<585.0,761.0>> -> L<<585.0,761.0>--<585.0,761.0>>
 
 	* uni00B5 (U+00B5): L<<70.0,-164.0>--<70.0,173.0>> -> L<<70.0,173.0>--<69.0,548.0>>
 
@@ -3330,31 +3249,27 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0137 (U+0137): L<<334.0,577.0>--<335.0,577.0>> -> L<<335.0,577.0>--<335.0,577.0>>
 
-	* uni0219 (U+0219): L<<373.0,479.0>--<370.0,475.0>> -> L<<370.0,475.0>--<254.0,311.0>>
+	* uni0219 (U+0219): L<<372.0,478.0>--<370.0,475.0>> -> L<<370.0,475.0>--<254.0,311.0>>
 
-	* uni0232 (U+0232): L<<223.0,365.0>--<218.0,374.0>> -> L<<218.0,374.0>--<34.0,703.0>>
+	* uni0232 (U+0232): L<<223.0,366.0>--<218.0,374.0>> -> L<<218.0,374.0>--<34.0,703.0>>
 
 	* uni0232 (U+0232): L<<469.0,703.0>--<285.0,374.0>> -> L<<285.0,374.0>--<280.0,365.0>>
-
-	* uni0272 (U+0272): L<<60.0,-144.0>--<60.0,33.0>> -> L<<60.0,33.0>--<60.0,34.0>>
-
-	* uni0272 (U+0272): L<<60.0,33.0>--<60.0,34.0>> -> L<<60.0,34.0>--<60.0,548.0>>
 
 	* uni03A9 (U+03A9): L<<293.0,-5.0>--<292.0,-5.0>> -> L<<292.0,-5.0>--<291.0,-5.0>>
 
 	* uni03BC (U+03BC): L<<87.0,-164.0>--<87.0,173.0>> -> L<<87.0,173.0>--<86.0,548.0>>
 
-	* uni1E61 (U+1E61): L<<373.0,479.0>--<370.0,475.0>> -> L<<370.0,475.0>--<254.0,311.0>>
+	* uni1E61 (U+1E61): L<<372.0,478.0>--<370.0,475.0>> -> L<<370.0,475.0>--<254.0,311.0>>
 
-	* uni1E63 (U+1E63): L<<373.0,479.0>--<370.0,475.0>> -> L<<370.0,475.0>--<254.0,311.0>>
+	* uni1E63 (U+1E63): L<<372.0,478.0>--<370.0,475.0>> -> L<<370.0,475.0>--<254.0,311.0>>
 
-	* uni1E65 (U+1E65): L<<373.0,479.0>--<370.0,475.0>> -> L<<370.0,475.0>--<254.0,311.0>>
+	* uni1E65 (U+1E65): L<<372.0,478.0>--<370.0,475.0>> -> L<<370.0,475.0>--<254.0,311.0>>
 
-	* uni1E67 (U+1E67): L<<373.0,479.0>--<370.0,475.0>> -> L<<370.0,475.0>--<254.0,311.0>>
+	* uni1E67 (U+1E67): L<<372.0,478.0>--<370.0,475.0>> -> L<<370.0,475.0>--<254.0,311.0>>
 
-	* uni1E69 (U+1E69): L<<373.0,479.0>--<370.0,475.0>> -> L<<370.0,475.0>--<254.0,311.0>>
+	* uni1E69 (U+1E69): L<<372.0,478.0>--<370.0,475.0>> -> L<<370.0,475.0>--<254.0,311.0>>
 
-	* uni1E8E (U+1E8E): L<<223.0,365.0>--<218.0,374.0>> -> L<<218.0,374.0>--<34.0,703.0>>
+	* uni1E8E (U+1E8E): L<<223.0,366.0>--<218.0,374.0>> -> L<<218.0,374.0>--<34.0,703.0>>
 
 	* uni1E8E (U+1E8E): L<<469.0,703.0>--<285.0,374.0>> -> L<<285.0,374.0>--<280.0,365.0>>
 
@@ -3362,7 +3277,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni1EA0 (U+1EA0): L<<250.0,752.0>--<250.0,752.0>> -> L<<250.0,752.0>--<250.0,752.0>>
 
-	* uni1EF8 (U+1EF8): L<<223.0,365.0>--<218.0,374.0>> -> L<<218.0,374.0>--<34.0,703.0>>
+	* uni1EF8 (U+1EF8): L<<223.0,366.0>--<218.0,374.0>> -> L<<218.0,374.0>--<34.0,703.0>>
 
 	* uni1EF8 (U+1EF8): L<<469.0,703.0>--<285.0,374.0>> -> L<<285.0,374.0>--<280.0,365.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -3370,47 +3285,29 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* Ccaron (U+010C): B<<297.0,828.0>-<295.0,824.0>-<293.0,821.0>>/B<<293.0,821.0>-<294.0,823.0>-<294.0,822.5>> = 7.125016348901757
-
-	* Ecaron (U+011A): B<<265.0,828.0>-<263.0,824.0>-<261.0,821.0>>/B<<261.0,821.0>-<262.0,823.0>-<261.5,822.5>> = 7.125016348901757
-
-	* Gcaron (U+01E6): B<<309.0,828.0>-<308.0,824.0>-<306.0,821.0>>/B<<306.0,821.0>-<307.0,823.0>-<306.5,822.5>> = 7.125016348901757
-
-	* Ncaron (U+0147): B<<271.0,828.0>-<270.0,824.0>-<268.0,821.0>>/B<<268.0,821.0>-<269.0,823.0>-<268.5,822.5>> = 7.125016348901757
-
-	* Rcaron (U+0158): B<<271.0,828.0>-<269.0,824.0>-<267.0,821.0>>/B<<267.0,821.0>-<268.0,823.0>-<267.5,822.5>> = 7.125016348901757
-
-	* Zcaron (U+017D): B<<282.0,828.0>-<281.0,824.0>-<279.0,821.0>>/B<<279.0,821.0>-<280.0,823.0>-<279.5,822.5>> = 7.125016348901757
-
-	* caron (U+02C7): B<<356.0,594.0>-<354.0,591.0>-<352.0,588.0>>/B<<352.0,588.0>-<353.0,590.0>-<352.5,589.0>> = 7.125016348901757
-
-	* ccaron (U+010D): B<<271.0,649.0>-<270.0,645.0>-<268.0,642.0>>/B<<268.0,642.0>-<269.0,644.0>-<268.5,643.5>> = 7.125016348901757
-
-	* ecaron (U+011B): B<<289.0,649.0>-<287.0,645.0>-<285.0,642.0>>/B<<285.0,642.0>-<286.0,644.0>-<285.5,643.5>> = 7.125016348901757
-
-	* gcaron (U+01E7): B<<300.0,649.0>-<299.0,645.0>-<297.0,642.0>>/B<<297.0,642.0>-<298.0,644.0>-<297.5,643.5>> = 7.125016348901757
-
 	* logo (U+F0000): B<<1065.0,202.5>-<1062.0,185.0>-<1057.0,170.0>>/B<<1057.0,170.0>-<1083.0,213.0>-<1095.5,227.0>> = 12.724355685422335
 
 	* logo (U+F0000): B<<1150.5,90.5>-<1165.0,144.0>-<1187.0,205.0>>/B<<1187.0,205.0>-<1173.0,183.0>-<1160.5,167.0>> = 12.639062440630111
 
 	* logo_full (U+F0001): B<<1065.0,202.5>-<1062.0,185.0>-<1057.0,170.0>>/B<<1057.0,170.0>-<1083.0,213.0>-<1095.5,227.0>> = 12.724355685422335
 
-	* logo_full (U+F0001): B<<1150.5,90.5>-<1165.0,144.0>-<1187.0,205.0>>/B<<1187.0,205.0>-<1173.0,183.0>-<1160.5,167.0>> = 12.639062440630111
-
-	* ncaron (U+0148): B<<289.0,649.0>-<287.0,645.0>-<285.0,642.0>>/B<<285.0,642.0>-<286.0,644.0>-<286.0,643.5>> = 7.125016348901757
-
-	* perthousand (U+2030): B<<316.0,212.0>-<316.0,217.0>-<317.0,223.0>>/L<<317.0,223.0>--<264.0,36.0>> = 6.361598723995848
-
-	* rcaron (U+0159): B<<232.0,649.0>-<230.0,645.0>-<228.0,642.0>>/B<<228.0,642.0>-<229.0,644.0>-<229.0,643.5>> = 7.125016348901757
-
-	* uni030C (U+030C): B<<356.0,594.0>-<354.0,591.0>-<352.0,588.0>>/B<<352.0,588.0>-<353.0,590.0>-<352.5,589.0>> = 7.125016348901757
-
-	* zcaron (U+017E): B<<271.0,649.0>-<269.0,645.0>-<267.0,642.0>>/B<<267.0,642.0>-<268.0,644.0>-<267.5,643.5>> = 7.125016348901757 [code: found-jaggy-segments]
+	* logo_full (U+F0001): B<<1150.5,90.5>-<1165.0,144.0>-<1187.0,205.0>>/B<<1187.0,205.0>-<1173.0,183.0>-<1160.5,167.0>> = 12.639062440630111 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+
+	* C (U+0043): L<<118.0,473.0>--<117.0,274.0>>
+
+	* Cacute (U+0106): L<<118.0,473.0>--<117.0,274.0>>
+
+	* Ccaron (U+010C): L<<118.0,473.0>--<117.0,274.0>>
+
+	* Ccedilla (U+00C7): L<<118.0,473.0>--<117.0,274.0>>
+
+	* Ccircumflex (U+0108): L<<118.0,473.0>--<117.0,274.0>>
+
+	* Cdotaccent (U+010A): L<<118.0,473.0>--<117.0,274.0>>
 
 	* O (U+004F): L<<118.0,473.0>--<117.0,273.0>>
 
@@ -3542,6 +3439,8 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni03BC (U+03BC): L<<87.0,173.0>--<86.0,548.0>>
 
+	* uni1E08 (U+1E08): L<<118.0,473.0>--<117.0,274.0>>
+
 	* uni1E25 (U+1E25): L<<410.0,27.0>--<409.0,404.0>>
 
 	* uni1E25 (U+1E25): L<<466.0,404.0>--<467.0,27.0>>
@@ -3621,10 +3520,11 @@ The following glyphs do not have the recommended number of contours:
 	* ygrave (U+1EF3): L<<118.0,548.0>--<119.0,173.0>>
 
 	* ygrave (U+1EF3): L<<61.0,173.0>--<60.0,548.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[8] LibertineSup-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[6] LibertineSup-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** "LibertineSup" is a CamelCased name. To solve this, simply use spaces instead in the font name. [code: camelcase]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1327, but got 1110 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 354, but got 250 instead [code: descent]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -3633,14 +3533,6 @@ The following glyphs do not have the recommended number of contours:
 	- f + i
 
 	- i + l [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* ⚠ **WARN** We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.683x (1683) [code: bad-hhea-range]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if uppercase glyphs are vertically centered. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/caps_vertically_centered">com.google.fonts/check/caps_vertically_centered</a>)</summary><div>
-
-
-* ⚠ **WARN** Uppercase glyphs are not vertically centered in the em box. [code: vertical-metrics-not-centered]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -4527,31 +4419,29 @@ The following glyphs do not have the recommended number of contours:
 
 	* Atilde (U+00C3): L<<242.0,752.0>--<242.0,752.0>> -> L<<242.0,752.0>--<242.0,752.0>>
 
-	* Y (U+0059): L<<221.0,367.0>--<217.0,374.0>> -> L<<217.0,374.0>--<33.0,713.0>>
+	* Y (U+0059): L<<221.0,368.0>--<218.0,374.0>> -> L<<218.0,374.0>--<33.0,713.0>>
 
 	* Y (U+0059): L<<454.0,713.0>--<270.0,374.0>> -> L<<270.0,374.0>--<266.0,367.0>>
 
-	* Yacute (U+00DD): L<<221.0,367.0>--<217.0,374.0>> -> L<<217.0,374.0>--<33.0,713.0>>
+	* Yacute (U+00DD): L<<221.0,368.0>--<218.0,374.0>> -> L<<218.0,374.0>--<33.0,713.0>>
 
 	* Yacute (U+00DD): L<<454.0,713.0>--<270.0,374.0>> -> L<<270.0,374.0>--<266.0,367.0>>
 
-	* Ycircumflex (U+0176): L<<221.0,367.0>--<217.0,374.0>> -> L<<217.0,374.0>--<33.0,713.0>>
+	* Ycircumflex (U+0176): L<<221.0,368.0>--<218.0,374.0>> -> L<<218.0,374.0>--<33.0,713.0>>
 
 	* Ycircumflex (U+0176): L<<454.0,713.0>--<270.0,374.0>> -> L<<270.0,374.0>--<266.0,367.0>>
 
-	* Ydieresis (U+0178): L<<221.0,367.0>--<217.0,374.0>> -> L<<217.0,374.0>--<33.0,713.0>>
+	* Ydieresis (U+0178): L<<221.0,368.0>--<218.0,374.0>> -> L<<218.0,374.0>--<33.0,713.0>>
 
 	* Ydieresis (U+0178): L<<454.0,713.0>--<270.0,374.0>> -> L<<270.0,374.0>--<266.0,367.0>>
 
-	* Ygrave (U+1EF2): L<<221.0,367.0>--<217.0,374.0>> -> L<<217.0,374.0>--<33.0,713.0>>
+	* Ygrave (U+1EF2): L<<221.0,368.0>--<218.0,374.0>> -> L<<218.0,374.0>--<33.0,713.0>>
 
 	* Ygrave (U+1EF2): L<<454.0,713.0>--<270.0,374.0>> -> L<<270.0,374.0>--<266.0,367.0>>
 
-	* ae (U+00E6): L<<584.0,534.0>--<580.0,534.0>> -> L<<580.0,534.0>--<570.0,534.0>>
+	* ae (U+00E6): L<<590.0,534.0>--<586.0,534.0>> -> L<<586.0,534.0>--<576.0,534.0>>
 
-	* aeacute (U+01FD): L<<584.0,534.0>--<580.0,534.0>> -> L<<580.0,534.0>--<570.0,534.0>>
-
-	* comma (U+002C): L<<124.0,32.0>--<124.0,32.0>> -> L<<124.0,32.0>--<124.0,32.0>>
+	* aeacute (U+01FD): L<<590.0,534.0>--<586.0,534.0>> -> L<<586.0,534.0>--<576.0,534.0>>
 
 	* e (U+0065): L<<272.0,534.0>--<268.0,534.0>> -> L<<268.0,534.0>--<258.0,534.0>>
 
@@ -4581,27 +4471,17 @@ The following glyphs do not have the recommended number of contours:
 
 	* oe (U+0153): L<<652.0,534.0>--<648.0,534.0>> -> L<<648.0,534.0>--<638.0,534.0>>
 
-	* semicolon (U+003B): L<<124.0,32.0>--<124.0,32.0>> -> L<<124.0,32.0>--<124.0,32.0>>
-
-	* trademark (U+2122): L<<561.0,761.0>--<562.0,761.0>> -> L<<562.0,761.0>--<562.0,761.0>>
-
-	* trademark (U+2122): L<<562.0,761.0>--<562.0,761.0>> -> L<<562.0,761.0>--<562.0,761.0>>
-
 	* uni00B5 (U+00B5): L<<70.0,-173.0>--<70.0,169.0>> -> L<<70.0,169.0>--<69.0,552.0>>
 
 	* uni0137 (U+0137): L<<105.0,574.0>--<326.0,574.0>> -> L<<326.0,574.0>--<327.0,574.0>>
 
 	* uni0137 (U+0137): L<<326.0,574.0>--<327.0,574.0>> -> L<<327.0,574.0>--<327.0,574.0>>
 
-	* uni0232 (U+0232): L<<221.0,367.0>--<217.0,374.0>> -> L<<217.0,374.0>--<33.0,713.0>>
+	* uni0232 (U+0232): L<<221.0,368.0>--<218.0,374.0>> -> L<<218.0,374.0>--<33.0,713.0>>
 
 	* uni0232 (U+0232): L<<454.0,713.0>--<270.0,374.0>> -> L<<270.0,374.0>--<266.0,367.0>>
 
 	* uni0259 (U+0259): L<<228.0,36.0>--<231.0,36.0>> -> L<<231.0,36.0>--<242.0,36.0>>
-
-	* uni0272 (U+0272): L<<60.0,-144.0>--<60.0,27.0>> -> L<<60.0,27.0>--<60.0,28.0>>
-
-	* uni0272 (U+0272): L<<60.0,27.0>--<60.0,28.0>> -> L<<60.0,28.0>--<60.0,552.0>>
 
 	* uni03BC (U+03BC): L<<81.0,-173.0>--<81.0,169.0>> -> L<<81.0,169.0>--<80.0,552.0>>
 
@@ -4611,11 +4491,9 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni1E1D (U+1E1D): L<<272.0,534.0>--<268.0,534.0>> -> L<<268.0,534.0>--<258.0,534.0>>
 
-	* uni1E8E (U+1E8E): L<<221.0,367.0>--<217.0,374.0>> -> L<<217.0,374.0>--<33.0,713.0>>
+	* uni1E8E (U+1E8E): L<<221.0,368.0>--<218.0,374.0>> -> L<<218.0,374.0>--<33.0,713.0>>
 
 	* uni1E8E (U+1E8E): L<<454.0,713.0>--<270.0,374.0>> -> L<<270.0,374.0>--<266.0,367.0>>
-
-	* uni1E9E (U+1E9E): L<<220.0,411.0>--<222.0,414.0>> -> L<<222.0,414.0>--<450.0,702.0>>
 
 	* uni1EA0 (U+1EA0): L<<242.0,752.0>--<242.0,752.0>> -> L<<242.0,752.0>--<242.0,752.0>>
 
@@ -4623,7 +4501,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni1EBD (U+1EBD): L<<272.0,534.0>--<268.0,534.0>> -> L<<268.0,534.0>--<258.0,534.0>>
 
-	* uni1EF8 (U+1EF8): L<<221.0,367.0>--<217.0,374.0>> -> L<<217.0,374.0>--<33.0,713.0>>
+	* uni1EF8 (U+1EF8): L<<221.0,368.0>--<218.0,374.0>> -> L<<218.0,374.0>--<33.0,713.0>>
 
 	* uni1EF8 (U+1EF8): L<<454.0,713.0>--<270.0,374.0>> -> L<<270.0,374.0>--<266.0,367.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -4642,6 +4520,30 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+
+	* O (U+004F): L<<409.0,475.0>--<408.0,272.0>>
+
+	* OE (U+0152): L<<409.0,475.0>--<408.0,272.0>>
+
+	* Oacute (U+00D3): L<<409.0,475.0>--<408.0,272.0>>
+
+	* Obreve (U+014E): L<<409.0,475.0>--<408.0,272.0>>
+
+	* Ocircumflex (U+00D4): L<<409.0,475.0>--<408.0,272.0>>
+
+	* Odieresis (U+00D6): L<<409.0,475.0>--<408.0,272.0>>
+
+	* Ograve (U+00D2): L<<409.0,475.0>--<408.0,272.0>>
+
+	* Ohungarumlaut (U+0150): L<<409.0,475.0>--<408.0,272.0>>
+
+	* Omacron (U+014C): L<<409.0,475.0>--<408.0,272.0>>
+
+	* Oslash (U+00D8): L<<475.0,272.0>--<474.0,475.0>>
+
+	* Oslashacute (U+01FE): L<<475.0,272.0>--<474.0,475.0>>
+
+	* Otilde (U+00D5): L<<409.0,475.0>--<408.0,272.0>>
 
 	* eng (U+014B): L<<408.0,25.0>--<407.0,339.0>>
 
@@ -4747,6 +4649,8 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0163 (U+0163): L<<168.0,725.0>--<167.0,574.0>>
 
+	* uni01EA (U+01EA): L<<409.0,475.0>--<408.0,272.0>>
+
 	* uni021B (U+021B): L<<122.0,574.0>--<123.0,725.0>>
 
 	* uni021B (U+021B): L<<168.0,725.0>--<167.0,574.0>>
@@ -4785,6 +4689,14 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni1E47 (U+1E47): L<<452.0,405.0>--<453.0,22.0>>
 
+	* uni1E4C (U+1E4C): L<<409.0,475.0>--<408.0,272.0>>
+
+	* uni1E4E (U+1E4E): L<<409.0,475.0>--<408.0,272.0>>
+
+	* uni1E50 (U+1E50): L<<409.0,475.0>--<408.0,272.0>>
+
+	* uni1E52 (U+1E52): L<<409.0,475.0>--<408.0,272.0>>
+
 	* uni1E6D (U+1E6D): L<<122.0,574.0>--<123.0,725.0>>
 
 	* uni1E6D (U+1E6D): L<<168.0,725.0>--<167.0,574.0>>
@@ -4808,6 +4720,8 @@ The following glyphs do not have the recommended number of contours:
 	* uni1E9E (U+1E9E): L<<116.0,702.0>--<115.0,23.0>>
 
 	* uni1E9E (U+1E9E): L<<70.0,23.0>--<71.0,725.0>>
+
+	* uni1ECC (U+1ECC): L<<409.0,475.0>--<408.0,272.0>>
 
 	* uni1EE5 (U+1EE5): L<<105.0,552.0>--<106.0,223.0>>
 
@@ -4848,10 +4762,11 @@ The following glyphs do not have the recommended number of contours:
 	* ygrave (U+1EF3): L<<105.0,552.0>--<106.0,169.0>>
 
 	* ygrave (U+1EF3): L<<61.0,169.0>--<60.0,552.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[8] LibertineSup-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[6] LibertineSup-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** "LibertineSup" is a CamelCased name. To solve this, simply use spaces instead in the font name. [code: camelcase]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1327, but got 1110 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 354, but got 250 instead [code: descent]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -4860,14 +4775,6 @@ The following glyphs do not have the recommended number of contours:
 	- f + i
 
 	- i + l [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* ⚠ **WARN** We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.683x (1683) [code: bad-hhea-range]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if uppercase glyphs are vertically centered. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/caps_vertically_centered">com.google.fonts/check/caps_vertically_centered</a>)</summary><div>
-
-
-* ⚠ **WARN** Uppercase glyphs are not vertically centered in the em box. [code: vertical-metrics-not-centered]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -5752,7 +5659,25 @@ The following glyphs do not have the recommended number of contours:
 
 	* Utilde (U+0168): L<<70.0,187.0>--<70.0,192.0>> -> L<<70.0,192.0>--<70.0,737.0>>
 
-	* comma (U+002C): L<<99.0,20.0>--<99.0,20.0>> -> L<<99.0,20.0>--<99.0,20.0>>
+	* Y (U+0059): L<<218.0,372.0>--<217.0,374.0>> -> L<<217.0,374.0>--<31.0,732.0>>
+
+	* Y (U+0059): L<<425.0,732.0>--<240.0,374.0>> -> L<<240.0,374.0>--<238.0,370.0>>
+
+	* Yacute (U+00DD): L<<218.0,372.0>--<217.0,374.0>> -> L<<217.0,374.0>--<31.0,732.0>>
+
+	* Yacute (U+00DD): L<<425.0,732.0>--<240.0,374.0>> -> L<<240.0,374.0>--<238.0,370.0>>
+
+	* Ycircumflex (U+0176): L<<218.0,372.0>--<217.0,374.0>> -> L<<217.0,374.0>--<31.0,732.0>>
+
+	* Ycircumflex (U+0176): L<<425.0,732.0>--<240.0,374.0>> -> L<<240.0,374.0>--<238.0,370.0>>
+
+	* Ydieresis (U+0178): L<<218.0,372.0>--<217.0,374.0>> -> L<<217.0,374.0>--<31.0,732.0>>
+
+	* Ydieresis (U+0178): L<<425.0,732.0>--<240.0,374.0>> -> L<<240.0,374.0>--<238.0,370.0>>
+
+	* Ygrave (U+1EF2): L<<218.0,372.0>--<217.0,374.0>> -> L<<217.0,374.0>--<31.0,732.0>>
+
+	* Ygrave (U+1EF2): L<<425.0,732.0>--<240.0,374.0>> -> L<<240.0,374.0>--<238.0,370.0>>
 
 	* eng (U+014B): L<<403.0,-144.0>--<403.0,10.0>> -> L<<403.0,10.0>--<402.0,363.0>>
 
@@ -5760,13 +5685,15 @@ The following glyphs do not have the recommended number of contours:
 
 	* k (U+006B): L<<80.0,568.0>--<310.0,568.0>> -> L<<310.0,568.0>--<311.0,568.0>>
 
-	* semicolon (U+003B): L<<99.0,20.0>--<99.0,20.0>> -> L<<99.0,20.0>--<99.0,20.0>>
-
 	* uni00B5 (U+00B5): L<<70.0,-192.0>--<70.0,162.0>> -> L<<70.0,162.0>--<69.0,558.0>>
 
 	* uni0137 (U+0137): L<<310.0,568.0>--<311.0,568.0>> -> L<<311.0,568.0>--<311.0,568.0>>
 
 	* uni0137 (U+0137): L<<80.0,568.0>--<310.0,568.0>> -> L<<310.0,568.0>--<311.0,568.0>>
+
+	* uni0232 (U+0232): L<<218.0,372.0>--<217.0,374.0>> -> L<<217.0,374.0>--<31.0,732.0>>
+
+	* uni0232 (U+0232): L<<425.0,732.0>--<240.0,374.0>> -> L<<240.0,374.0>--<238.0,370.0>>
 
 	* uni03BC (U+03BC): L<<70.0,-192.0>--<70.0,162.0>> -> L<<70.0,162.0>--<69.0,558.0>>
 
@@ -5774,9 +5701,17 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni1E7A (U+1E7A): L<<70.0,187.0>--<70.0,192.0>> -> L<<70.0,192.0>--<70.0,737.0>>
 
+	* uni1E8E (U+1E8E): L<<218.0,372.0>--<217.0,374.0>> -> L<<217.0,374.0>--<31.0,732.0>>
+
+	* uni1E8E (U+1E8E): L<<425.0,732.0>--<240.0,374.0>> -> L<<240.0,374.0>--<238.0,370.0>>
+
 	* uni1EA0 (U+1EA0): L<<226.0,752.0>--<227.0,752.0>> -> L<<227.0,752.0>--<227.0,752.0>>
 
-	* uni1EE4 (U+1EE4): L<<70.0,187.0>--<70.0,192.0>> -> L<<70.0,192.0>--<70.0,737.0>> [code: found-colinear-vectors]
+	* uni1EE4 (U+1EE4): L<<70.0,187.0>--<70.0,192.0>> -> L<<70.0,192.0>--<70.0,737.0>>
+
+	* uni1EF8 (U+1EF8): L<<218.0,372.0>--<217.0,374.0>> -> L<<217.0,374.0>--<31.0,732.0>>
+
+	* uni1EF8 (U+1EF8): L<<425.0,732.0>--<240.0,374.0>> -> L<<240.0,374.0>--<238.0,370.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -6067,10 +6002,11 @@ The following glyphs do not have the recommended number of contours:
 	* ygrave (U+1EF3): L<<61.0,162.0>--<60.0,558.0>>
 
 	* ygrave (U+1EF3): L<<80.0,558.0>--<81.0,162.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[8] LibertineSup-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[6] LibertineSup-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** "LibertineSup" is a CamelCased name. To solve this, simply use spaces instead in the font name. [code: camelcase]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1327, but got 1110 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 354, but got 250 instead [code: descent]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -6079,14 +6015,6 @@ The following glyphs do not have the recommended number of contours:
 	- f + i
 
 	- i + l [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* ⚠ **WARN** We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.683x (1683) [code: bad-hhea-range]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if uppercase glyphs are vertically centered. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/caps_vertically_centered">com.google.fonts/check/caps_vertically_centered</a>)</summary><div>
-
-
-* ⚠ **WARN** Uppercase glyphs are not vertically centered in the em box. [code: vertical-metrics-not-centered]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -6943,25 +6871,25 @@ The following glyphs do not have the recommended number of contours:
 
 	* AEacute (U+01FC): L<<456.0,747.0>--<462.0,747.0>> -> L<<462.0,747.0>--<754.0,747.0>>
 
-	* Y (U+0059): L<<224.0,363.0>--<218.0,374.0>> -> L<<218.0,374.0>--<35.0,694.0>>
+	* Y (U+0059): L<<224.0,364.0>--<218.0,374.0>> -> L<<218.0,374.0>--<35.0,694.0>>
 
-	* Y (U+0059): L<<483.0,694.0>--<301.0,374.0>> -> L<<301.0,374.0>--<294.0,363.0>>
+	* Y (U+0059): L<<483.0,694.0>--<301.0,374.0>> -> L<<301.0,374.0>--<294.0,364.0>>
 
-	* Yacute (U+00DD): L<<224.0,363.0>--<218.0,374.0>> -> L<<218.0,374.0>--<35.0,694.0>>
+	* Yacute (U+00DD): L<<224.0,364.0>--<218.0,374.0>> -> L<<218.0,374.0>--<35.0,694.0>>
 
-	* Yacute (U+00DD): L<<483.0,694.0>--<301.0,374.0>> -> L<<301.0,374.0>--<294.0,363.0>>
+	* Yacute (U+00DD): L<<483.0,694.0>--<301.0,374.0>> -> L<<301.0,374.0>--<294.0,364.0>>
 
-	* Ycircumflex (U+0176): L<<224.0,363.0>--<218.0,374.0>> -> L<<218.0,374.0>--<35.0,694.0>>
+	* Ycircumflex (U+0176): L<<224.0,364.0>--<218.0,374.0>> -> L<<218.0,374.0>--<35.0,694.0>>
 
-	* Ycircumflex (U+0176): L<<483.0,694.0>--<301.0,374.0>> -> L<<301.0,374.0>--<294.0,363.0>>
+	* Ycircumflex (U+0176): L<<483.0,694.0>--<301.0,374.0>> -> L<<301.0,374.0>--<294.0,364.0>>
 
-	* Ydieresis (U+0178): L<<224.0,363.0>--<218.0,374.0>> -> L<<218.0,374.0>--<35.0,694.0>>
+	* Ydieresis (U+0178): L<<224.0,364.0>--<218.0,374.0>> -> L<<218.0,374.0>--<35.0,694.0>>
 
-	* Ydieresis (U+0178): L<<483.0,694.0>--<301.0,374.0>> -> L<<301.0,374.0>--<294.0,363.0>>
+	* Ydieresis (U+0178): L<<483.0,694.0>--<301.0,374.0>> -> L<<301.0,374.0>--<294.0,364.0>>
 
-	* Ygrave (U+1EF2): L<<224.0,363.0>--<218.0,374.0>> -> L<<218.0,374.0>--<35.0,694.0>>
+	* Ygrave (U+1EF2): L<<224.0,364.0>--<218.0,374.0>> -> L<<218.0,374.0>--<35.0,694.0>>
 
-	* Ygrave (U+1EF2): L<<483.0,694.0>--<301.0,374.0>> -> L<<301.0,374.0>--<294.0,363.0>>
+	* Ygrave (U+1EF2): L<<483.0,694.0>--<301.0,374.0>> -> L<<301.0,374.0>--<294.0,364.0>>
 
 	* eng (U+014B): L<<413.0,-144.0>--<413.0,40.0>> -> L<<413.0,40.0>--<413.0,315.0>>
 
@@ -6991,11 +6919,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* three (U+0033): L<<413.0,226.0>--<413.0,227.0>> -> L<<413.0,227.0>--<413.0,230.0>>
 
-	* threequarters (U+00BE): L<<256.0,532.0>--<256.0,533.0>> -> L<<256.0,533.0>--<256.0,534.0>>
-
-	* trademark (U+2122): L<<608.0,760.0>--<608.0,760.0>> -> L<<608.0,760.0>--<608.0,760.0>>
-
-	* trademark (U+2122): L<<608.0,760.0>--<608.0,760.0>> -> L<<608.0,760.0>--<609.0,760.0>>
+	* threequarters (U+00BE): L<<255.0,532.0>--<255.0,533.0>> -> L<<255.0,533.0>--<255.0,534.0>>
 
 	* uni00B3 (U+00B3): L<<250.0,532.0>--<250.0,533.0>> -> L<<250.0,533.0>--<250.0,534.0>>
 
@@ -7007,25 +6931,21 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0137 (U+0137): L<<343.0,580.0>--<343.0,580.0>> -> L<<343.0,580.0>--<344.0,580.0>>
 
-	* uni0232 (U+0232): L<<224.0,363.0>--<218.0,374.0>> -> L<<218.0,374.0>--<35.0,694.0>>
+	* uni0232 (U+0232): L<<224.0,364.0>--<218.0,374.0>> -> L<<218.0,374.0>--<35.0,694.0>>
 
-	* uni0232 (U+0232): L<<483.0,694.0>--<301.0,374.0>> -> L<<301.0,374.0>--<294.0,363.0>>
-
-	* uni0272 (U+0272): L<<130.0,315.0>--<130.0,35.0>> -> L<<130.0,35.0>--<130.0,32.0>>
-
-	* uni0272 (U+0272): L<<130.0,35.0>--<130.0,32.0>> -> L<<130.0,32.0>--<130.0,-144.0>>
+	* uni0232 (U+0232): L<<483.0,694.0>--<301.0,374.0>> -> L<<301.0,374.0>--<294.0,364.0>>
 
 	* uni03BC (U+03BC): L<<93.0,-154.0>--<93.0,176.0>> -> L<<93.0,176.0>--<92.0,545.0>>
 
 	* uni1E21 (U+1E21): L<<290.0,-5.0>--<285.0,-5.0>> -> L<<285.0,-5.0>--<272.0,-5.0>>
 
-	* uni1E8E (U+1E8E): L<<224.0,363.0>--<218.0,374.0>> -> L<<218.0,374.0>--<35.0,694.0>>
+	* uni1E8E (U+1E8E): L<<224.0,364.0>--<218.0,374.0>> -> L<<218.0,374.0>--<35.0,694.0>>
 
-	* uni1E8E (U+1E8E): L<<483.0,694.0>--<301.0,374.0>> -> L<<301.0,374.0>--<294.0,363.0>>
+	* uni1E8E (U+1E8E): L<<483.0,694.0>--<301.0,374.0>> -> L<<301.0,374.0>--<294.0,364.0>>
 
-	* uni1EF8 (U+1EF8): L<<224.0,363.0>--<218.0,374.0>> -> L<<218.0,374.0>--<35.0,694.0>>
+	* uni1EF8 (U+1EF8): L<<224.0,364.0>--<218.0,374.0>> -> L<<218.0,374.0>--<35.0,694.0>>
 
-	* uni1EF8 (U+1EF8): L<<483.0,694.0>--<301.0,374.0>> -> L<<301.0,374.0>--<294.0,363.0>>
+	* uni1EF8 (U+1EF8): L<<483.0,694.0>--<301.0,374.0>> -> L<<301.0,374.0>--<294.0,364.0>>
 
 	* uni2083 (U+2083): L<<250.0,137.0>--<250.0,138.0>> -> L<<250.0,138.0>--<250.0,139.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -7041,17 +6961,39 @@ The following glyphs do not have the recommended number of contours:
 
 	* logo_full (U+F0001): B<<1150.5,90.5>-<1165.0,144.0>-<1187.0,205.0>>/B<<1187.0,205.0>-<1173.0,183.0>-<1160.5,167.0>> = 12.639062440630111
 
-	* perthousand (U+2030): B<<182.0,276.0>-<188.0,308.0>-<201.0,334.0>>/L<<201.0,334.0>--<52.0,128.0>> = 9.313201082726328
+	* perthousand (U+2030): B<<181.5,275.0>-<187.0,307.0>-<200.0,333.0>>/L<<200.0,333.0>--<52.0,128.0>> = 9.262395902795747
 
-	* perthousand (U+2030): B<<329.0,211.0>-<329.0,240.0>-<333.0,266.0>>/L<<333.0,266.0>--<268.0,41.0>> = 7.367255970534075
+	* perthousand (U+2030): B<<329.0,211.0>-<329.0,239.0>-<333.0,265.0>>/L<<333.0,265.0>--<268.0,41.0>> = 7.435433982627346
 
-	* perthousand (U+2030): B<<419.0,183.0>-<419.0,173.0>-<418.0,164.0>>/L<<418.0,164.0>--<473.0,356.0>> = 9.644609774324655
+	* perthousand (U+2030): L<<352.0,333.0>--<351.0,329.0>>/L<<351.0,329.0>--<353.0,333.0>> = 12.528807709151522
 
-	* perthousand (U+2030): L<<482.0,721.0>--<226.0,368.0>>/B<<226.0,368.0>-<239.0,381.0>-<257.0,388.5>> = 9.04990969669101 [code: found-jaggy-segments]
+	* perthousand (U+2030): L<<482.0,721.0>--<226.0,369.0>>/B<<226.0,369.0>-<240.0,381.0>-<257.5,388.5>> = 13.371331969891953 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+
+	* O (U+004F): L<<482.0,275.0>--<481.0,472.0>>
+
+	* OE (U+0152): L<<482.0,275.0>--<481.0,472.0>>
+
+	* Oacute (U+00D3): L<<482.0,275.0>--<481.0,472.0>>
+
+	* Obreve (U+014E): L<<482.0,275.0>--<481.0,472.0>>
+
+	* Ocircumflex (U+00D4): L<<482.0,275.0>--<481.0,472.0>>
+
+	* Odieresis (U+00D6): L<<482.0,275.0>--<481.0,472.0>>
+
+	* Ograve (U+00D2): L<<482.0,275.0>--<481.0,472.0>>
+
+	* Ohungarumlaut (U+0150): L<<482.0,275.0>--<481.0,472.0>>
+
+	* Omacron (U+014C): L<<482.0,275.0>--<481.0,472.0>>
+
+	* Otilde (U+00D5): L<<482.0,275.0>--<481.0,472.0>>
+
+	* Q (U+0051): L<<482.0,275.0>--<481.0,472.0>>
 
 	* eng (U+014B): L<<482.0,403.0>--<483.0,46.0>>
 
@@ -7081,9 +7023,9 @@ The following glyphs do not have the recommended number of contours:
 
 	* nacute (U+0144): L<<482.0,403.0>--<483.0,35.0>>
 
-	* napostrophe (U+0149): L<<595.0,35.0>--<594.0,315.0>>
+	* napostrophe (U+0149): L<<596.0,35.0>--<595.0,315.0>>
 
-	* napostrophe (U+0149): L<<663.0,403.0>--<664.0,35.0>>
+	* napostrophe (U+0149): L<<664.0,403.0>--<665.0,35.0>>
 
 	* ncaron (U+0148): L<<414.0,35.0>--<413.0,315.0>>
 
@@ -7157,7 +7099,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0163 (U+0163): L<<195.0,712.0>--<194.0,580.0>>
 
-	* uni019D (U+019D): L<<92.0,-144.0>--<91.0,46.0>>
+	* uni01EA (U+01EA): L<<482.0,275.0>--<481.0,472.0>>
 
 	* uni021B (U+021B): L<<124.0,580.0>--<125.0,712.0>>
 
@@ -7197,6 +7139,14 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni1E47 (U+1E47): L<<482.0,403.0>--<483.0,35.0>>
 
+	* uni1E4C (U+1E4C): L<<482.0,275.0>--<481.0,472.0>>
+
+	* uni1E4E (U+1E4E): L<<482.0,275.0>--<481.0,472.0>>
+
+	* uni1E50 (U+1E50): L<<482.0,275.0>--<481.0,472.0>>
+
+	* uni1E52 (U+1E52): L<<482.0,275.0>--<481.0,472.0>>
+
 	* uni1E6D (U+1E6D): L<<124.0,580.0>--<125.0,712.0>>
 
 	* uni1E6D (U+1E6D): L<<195.0,712.0>--<194.0,580.0>>
@@ -7220,6 +7170,8 @@ The following glyphs do not have the recommended number of contours:
 	* uni1E9E (U+1E9E): L<<141.0,677.0>--<140.0,35.0>>
 
 	* uni1E9E (U+1E9E): L<<70.0,35.0>--<71.0,712.0>>
+
+	* uni1ECC (U+1ECC): L<<482.0,275.0>--<481.0,472.0>>
 
 	* uni1EE5 (U+1EE5): L<<130.0,545.0>--<131.0,241.0>>
 
@@ -7268,8 +7220,8 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 6 | 42 | 716 | 43 | 608 | 0 |
-| 0% | 0% | 3% | 51% | 3% | 43% | 0% |
+| 0 | 6 | 30 | 716 | 43 | 620 | 0 |
+| 0% | 0% | 2% | 51% | 3% | 44% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
