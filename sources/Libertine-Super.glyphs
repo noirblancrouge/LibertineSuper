@@ -268563,11 +268563,7 @@ tag = slng;
 },
 {
 name = WWSFamilyName;
-value = "Libertine Super Thn";
-},
-{
-name = WWSSubfamilyName;
-value = Reg;
+value = "Libertine Super Thin";
 }
 );
 instanceInterpolations = {
@@ -268606,11 +268602,7 @@ tag = slng;
 },
 {
 name = WWSFamilyName;
-value = "Libertine Super Extr";
-},
-{
-name = WWSSubfamilyName;
-value = Reg;
+value = "Libertine Super ExtraLight";
 }
 );
 instanceInterpolations = {
@@ -268650,11 +268642,7 @@ tag = slng;
 },
 {
 name = WWSFamilyName;
-value = "Libertine Super Lght";
-},
-{
-name = WWSSubfamilyName;
-value = Reg;
+value = "Libertine Super Light";
 }
 );
 instanceInterpolations = {
@@ -268729,11 +268717,7 @@ tag = slng;
 },
 {
 name = WWSFamilyName;
-value = "Libertine Super Med";
-},
-{
-name = WWSSubfamilyName;
-value = Reg;
+value = "Libertine Super Medium";
 }
 );
 instanceInterpolations = {
@@ -268812,10 +268796,6 @@ tag = slng;
 {
 name = WWSFamilyName;
 value = "Libertine Super Black";
-},
-{
-name = WWSSubfamilyName;
-value = Reg;
 }
 );
 instanceInterpolations = {
