@@ -268525,7 +268525,7 @@ value = "LibertineSuper-VF";
 },
 {
 key = postscriptFullName;
-value = "LibertineSuper VF";
+value = LibertineSuperVF;
 }
 );
 type = variable;
@@ -268564,50 +268564,10 @@ value = "LibertineSuper-Thin";
 },
 {
 key = postscriptFullName;
-value = "LibertineSuper Thin";
+value = LibertineSuperThin;
 }
 );
 weightClass = 100;
-},
-{
-axesValues = (
-200
-);
-customParameters = (
-{
-name = "Use Typo Metrics";
-value = 1;
-},
-{
-name = "meta Table";
-value = (
-{
-data = Latn;
-tag = dlng;
-},
-{
-data = Latn;
-tag = slng;
-}
-);
-}
-);
-instanceInterpolations = {
-m002 = 0.125;
-m01 = 0.875;
-};
-name = Extra;
-properties = (
-{
-key = postscriptFontName;
-value = "LibertineSuper-Extra";
-},
-{
-key = postscriptFullName;
-value = "LibertineSuper Extra";
-}
-);
-weightClass = 200;
 },
 {
 axesValues = (
@@ -268644,7 +268604,7 @@ value = "LibertineSuper-Light";
 },
 {
 key = postscriptFullName;
-value = "LibertineSuper Light";
+value = LibertineSuperLight;
 }
 );
 weightClass = 300;
@@ -268684,7 +268644,7 @@ value = "LibertineSuper-Regular";
 },
 {
 key = postscriptFullName;
-value = "LibertineSuper Regular";
+value = LibertineSuperRegular;
 }
 );
 },
@@ -268723,7 +268683,7 @@ value = "LibertineSuper-Medium";
 },
 {
 key = postscriptFullName;
-value = "LibertineSuper Medium";
+value = LibertineSuperMedium;
 }
 );
 weightClass = 500;
@@ -268765,7 +268725,7 @@ value = "LibertineSuper-Bold";
 },
 {
 key = postscriptFullName;
-value = "LibertineSuper Bold";
+value = LibertineSuperBold;
 }
 );
 weightClass = 700;
@@ -268804,7 +268764,7 @@ value = "LibertineSuper-Black";
 },
 {
 key = postscriptFullName;
-value = "LibertineSuper Black";
+value = LibertineSuperBlack;
 }
 );
 weightClass = 900;
