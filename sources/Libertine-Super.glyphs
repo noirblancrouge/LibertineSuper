@@ -1,10 +1,6 @@
 {
 .appVersion = "3218";
 .formatVersion = 3;
-DisplayStrings = (
-"fi
-fl"
-);
 axes = (
 {
 name = Weight;
@@ -869,7 +865,7 @@ glyphs = (
 glyphname = A;
 kernLeft = A;
 kernRight = A;
-lastChange = "2023-09-15 10:02:18 +0000";
+lastChange = "2023-09-15 12:30:28 +0000";
 layers = (
 {
 anchors = (
@@ -23986,7 +23982,7 @@ unicode = 330;
 glyphname = O;
 kernLeft = O;
 kernRight = O;
-lastChange = "2023-09-15 08:49:30 +0000";
+lastChange = "2023-09-15 12:30:31 +0000";
 layers = (
 {
 anchors = (
@@ -68089,7 +68085,7 @@ width = 453;
 glyphname = O.ss01;
 kernLeft = O;
 kernRight = O;
-lastChange = "2023-09-15 08:49:30 +0000";
+lastChange = "2023-09-15 12:30:06 +0000";
 layers = (
 {
 anchors = (
@@ -100076,7 +100072,7 @@ unicode = 601;
 glyphname = f;
 kernLeft = f;
 kernRight = f;
-lastChange = "2023-09-15 12:09:45 +0000";
+lastChange = "2023-09-15 12:28:05 +0000";
 layers = (
 {
 anchors = (
@@ -113892,7 +113888,7 @@ unicode = 331;
 glyphname = o;
 kernLeft = o;
 kernRight = o;
-lastChange = "2023-09-15 08:49:30 +0000";
+lastChange = "2023-09-15 12:31:21 +0000";
 layers = (
 {
 anchors = (
@@ -129212,7 +129208,7 @@ unicode = 118;
 glyphname = w;
 kernLeft = v;
 kernRight = v;
-lastChange = "2023-09-15 10:00:50 +0000";
+lastChange = "2023-09-15 12:31:21 +0000";
 layers = (
 {
 anchors = (
@@ -269031,7 +269027,7 @@ m01 = {
 "@MMK_L_A" = {
 "@MMK_R_H" = -20;
 "@MMK_R_S" = -10;
-"@MMK_R_T" = -70;
+"@MMK_R_T" = -50;
 "@MMK_R_V" = -80;
 "@MMK_R_W" = -40;
 "@MMK_R_Y" = -80;
@@ -269077,7 +269073,7 @@ periodcentered.loclCAT = -200;
 periodcentered.loclCAT.case = -260;
 };
 "@MMK_L_O" = {
-"@MMK_R_H" = -30;
+"@MMK_R_H" = -20;
 "@MMK_R_o" = -20;
 "@MMK_R_period" = -40;
 };
@@ -269146,11 +269142,11 @@ periodcentered.loclCAT.case = -260;
 fraction = -120;
 };
 "@MMK_L_f" = {
+"@MMK_R_f" = -70;
 "@MMK_R_h" = 30;
 "@MMK_R_i" = 20;
-"@MMK_R_l" = 60;
-"@MMK_R_f" = -70;
 "@MMK_R_j" = -50;
+"@MMK_R_l" = 60;
 };
 "@MMK_L_five.numr" = {
 fraction = -110;
@@ -269180,10 +269176,11 @@ fraction = -160;
 };
 "@MMK_L_o" = {
 "@MMK_R_a" = -20;
-"@MMK_R_l" = -40;
+"@MMK_R_l" = -60;
 "@MMK_R_n" = -10;
 "@MMK_R_o" = -20;
 "@MMK_R_p" = -10;
+"@MMK_R_v" = -20;
 "@MMK_R_x" = -20;
 };
 "@MMK_L_one.numr" = {
@@ -269214,7 +269211,7 @@ fraction = -110;
 fraction = -70;
 };
 "@MMK_L_v" = {
-"@MMK_R_o" = -30;
+"@MMK_R_o" = -20;
 };
 "@MMK_L_x" = {
 "@MMK_R_o" = -20;
@@ -269224,6 +269221,12 @@ fraction = -140;
 };
 d = {
 "@MMK_R_o" = -10;
+};
+f = {
+f = 10;
+i = 20;
+j = -50;
+l = 40;
 };
 fraction = {
 "@MMK_R_eight.dnom" = -90;
@@ -269248,7 +269251,7 @@ m002 = {
 "@MMK_L_A" = {
 "@MMK_R_H" = -20;
 "@MMK_R_S" = -10;
-"@MMK_R_T" = -70;
+"@MMK_R_T" = -50;
 "@MMK_R_V" = -80;
 "@MMK_R_W" = -40;
 "@MMK_R_Y" = -80;
@@ -269296,7 +269299,7 @@ periodcentered.loclCAT = -200;
 periodcentered.loclCAT.case = -260;
 };
 "@MMK_L_O" = {
-"@MMK_R_H" = -30;
+"@MMK_R_H" = -20;
 "@MMK_R_o" = -20;
 "@MMK_R_period" = -40;
 };
@@ -269364,9 +269367,6 @@ fraction = -190;
 "@MMK_L_f" = {
 "@MMK_R_f" = 0;
 "@MMK_R_h" = 30;
-"@MMK_R_i" = 10;
-"@MMK_R_j" = -50;
-"@MMK_R_l" = 40;
 };
 "@MMK_L_five.numr" = {
 fraction = -200;
@@ -269396,10 +269396,11 @@ fraction = -240;
 };
 "@MMK_L_o" = {
 "@MMK_R_a" = -20;
-"@MMK_R_l" = -40;
+"@MMK_R_l" = -60;
 "@MMK_R_n" = -10;
 "@MMK_R_o" = -20;
 "@MMK_R_p" = -20;
+"@MMK_R_v" = -30;
 "@MMK_R_x" = -20;
 };
 "@MMK_L_one.dnom" = {
@@ -269442,6 +269443,12 @@ fraction = -200;
 };
 d = {
 "@MMK_R_o" = -10;
+};
+f = {
+f = 10;
+i = 10;
+j = -50;
+l = 40;
 };
 fraction = {
 "@MMK_R_eight.dnom" = -150;
