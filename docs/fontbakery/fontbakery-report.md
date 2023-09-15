@@ -2,7 +2,7 @@
 
 fontbakery version: 0.9.0
 
-<details><summary><b>[10] LibertineSuper-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+<details><summary><b>[11] LibertineSuper-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Expected "LibertineSuperMedium-Medium.ttf. Got LibertineSuper-Medium.ttf. [code: bad-filename]
@@ -13,12 +13,16 @@ fontbakery version: 0.9.0
 
 | nameID | current | expected |
 | :--- | :--- | :--- |
-| Family Name | Libertine Super Medium | Libertine Super Medium |
+| Family Name | Libertine Super Medium | LibertineSuper Medium |
 | Subfamily Name | Regular | Regular |
-| Full Name | Libertine Super Medium | Libertine Super Medium Medium |
-| Poscript Name | LibertineSuper-Medium | LibertineSuperMedium-Medium |
-| Typographic Family Name | Libertine Super | Libertine Super Medium |
+| Full Name | Libertine Super Medium | LibertineSuper Medium Medium |
+| Poscript Name | LibertineSuper | LibertineSuperMedium-Medium |
+| Typographic Family Name | Libertine Super | LibertineSuper Medium |
 | Typographic Subfamily Name | Medium | Medium | [code: bad-names]
+</div></details><details><summary>🔥 <b>FAIL:</b> Does full font name begin with the font family name? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/name/match_familyname_fullfont">com.google.fonts/check/name/match_familyname_fullfont</a>)</summary><div>
+
+
+* 🔥 **FAIL** On the 'name' table, the full font name 'Libertine Super Medium' does not begin with the font family name 'LibertineSuper Medium' in platformID 3, encodingID 1, languageID 1033(0409), and nameID 21. [code: mismatch-font-names]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -1217,7 +1221,7 @@ The following glyphs do not have the recommended number of contours:
 	* ygrave (U+1EF3): L<<130.0,545.0>--<131.0,176.0>>
 
 	* ygrave (U+1EF3): L<<61.0,176.0>--<60.0,545.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[9] LibertineSuper-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] LibertineSuper-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Expected "LibertineSuperThin-Thin.ttf. Got LibertineSuper-Thin.ttf. [code: bad-filename]
@@ -1228,12 +1232,16 @@ The following glyphs do not have the recommended number of contours:
 
 | nameID | current | expected |
 | :--- | :--- | :--- |
-| Family Name | Libertine Super Thin | Libertine Super Thin |
+| Family Name | Libertine Super Thin | LibertineSuper Thin |
 | Subfamily Name | Regular | Regular |
-| Full Name | Libertine Super Thin | Libertine Super Thin Thin |
-| Poscript Name | LibertineSuper-Thin | LibertineSuperThin-Thin |
-| Typographic Family Name | Libertine Super | Libertine Super Thin |
+| Full Name | Libertine Super Thin | LibertineSuper Thin Thin |
+| Poscript Name | LibertineSuper | LibertineSuperThin-Thin |
+| Typographic Family Name | Libertine Super | LibertineSuper Thin |
 | Typographic Subfamily Name | Thin | Thin | [code: bad-names]
+</div></details><details><summary>🔥 <b>FAIL:</b> Does full font name begin with the font family name? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/name/match_familyname_fullfont">com.google.fonts/check/name/match_familyname_fullfont</a>)</summary><div>
+
+
+* 🔥 **FAIL** On the 'name' table, the full font name 'Libertine Super Thin' does not begin with the font family name 'LibertineSuper Thin' in platformID 3, encodingID 1, languageID 1033(0409), and nameID 21. [code: mismatch-font-names]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -2449,7 +2457,7 @@ The following glyphs do not have the recommended number of contours:
 	* ygrave (U+1EF3): L<<61.0,162.0>--<60.0,558.0>>
 
 	* ygrave (U+1EF3): L<<80.0,558.0>--<81.0,162.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[10] LibertineSuper-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] LibertineSuper-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Expected "LibertineSuperExtraLight-ExtraLight.ttf. Got LibertineSuper-ExtraLight.ttf. [code: bad-filename]
@@ -2460,12 +2468,16 @@ The following glyphs do not have the recommended number of contours:
 
 | nameID | current | expected |
 | :--- | :--- | :--- |
-| Family Name | Libertine Super ExtraLight | Libertine Super ExtraLight |
+| Family Name | Libertine Super ExtraLight | LibertineSuper ExtraLight |
 | Subfamily Name | Regular | Regular |
-| Full Name | Libertine Super ExtraLight | Libertine Super ExtraLight ExtraLight |
-| Poscript Name | LibertineSuper-ExtraLight | LibertineSuperExtraLight-ExtraLight |
-| Typographic Family Name | Libertine Super | Libertine Super ExtraLight |
+| Full Name | Libertine Super ExtraLight | LibertineSuper ExtraLight ExtraLight |
+| Poscript Name | LibertineSuper | LibertineSuperExtraLight-ExtraLight |
+| Typographic Family Name | Libertine Super | LibertineSuper ExtraLight |
 | Typographic Subfamily Name | ExtraLight | ExtraLight | [code: bad-names]
+</div></details><details><summary>🔥 <b>FAIL:</b> Does full font name begin with the font family name? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/name/match_familyname_fullfont">com.google.fonts/check/name/match_familyname_fullfont</a>)</summary><div>
+
+
+* 🔥 **FAIL** On the 'name' table, the full font name 'Libertine Super ExtraLight' does not begin with the font family name 'LibertineSuper ExtraLight' in platformID 3, encodingID 1, languageID 1033(0409), and nameID 21. [code: mismatch-font-names]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -3586,7 +3598,7 @@ The following glyphs do not have the recommended number of contours:
 	* ygrave (U+1EF3): L<<61.0,166.0>--<60.0,555.0>>
 
 	* ygrave (U+1EF3): L<<93.0,555.0>--<94.0,166.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[10] LibertineSuper-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] LibertineSuper-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Expected "LibertineSuperLight-Light.ttf. Got LibertineSuper-Light.ttf. [code: bad-filename]
@@ -3597,12 +3609,16 @@ The following glyphs do not have the recommended number of contours:
 
 | nameID | current | expected |
 | :--- | :--- | :--- |
-| Family Name | Libertine Super Light | Libertine Super Light |
+| Family Name | Libertine Super Light | LibertineSuper Light |
 | Subfamily Name | Regular | Regular |
-| Full Name | Libertine Super Light | Libertine Super Light Light |
-| Poscript Name | LibertineSuper-Light | LibertineSuperLight-Light |
-| Typographic Family Name | Libertine Super | Libertine Super Light |
+| Full Name | Libertine Super Light | LibertineSuper Light Light |
+| Poscript Name | LibertineSuper | LibertineSuperLight-Light |
+| Typographic Family Name | Libertine Super | LibertineSuper Light |
 | Typographic Subfamily Name | Light | Light | [code: bad-names]
+</div></details><details><summary>🔥 <b>FAIL:</b> Does full font name begin with the font family name? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/name/match_familyname_fullfont">com.google.fonts/check/name/match_familyname_fullfont</a>)</summary><div>
+
+
+* 🔥 **FAIL** On the 'name' table, the full font name 'Libertine Super Light' does not begin with the font family name 'LibertineSuper Light' in platformID 3, encodingID 1, languageID 1033(0409), and nameID 21. [code: mismatch-font-names]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -4833,7 +4849,7 @@ The following glyphs do not have the recommended number of contours:
 	* ygrave (U+1EF3): L<<105.0,552.0>--<106.0,169.0>>
 
 	* ygrave (U+1EF3): L<<61.0,169.0>--<60.0,552.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[10] LibertineSuper-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] LibertineSuper-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Expected "LibertineSuperBlack-Black.ttf. Got LibertineSuper-Black.ttf. [code: bad-filename]
@@ -4844,12 +4860,16 @@ The following glyphs do not have the recommended number of contours:
 
 | nameID | current | expected |
 | :--- | :--- | :--- |
-| Family Name | Libertine Super Black | Libertine Super Black |
+| Family Name | Libertine Super Black | LibertineSuper Black |
 | Subfamily Name | Regular | Regular |
-| Full Name | Libertine Super Black | Libertine Super Black Black |
-| Poscript Name | LibertineSuper-Black | LibertineSuperBlack-Black |
-| Typographic Family Name | Libertine Super | Libertine Super Black |
+| Full Name | Libertine Super Black | LibertineSuper Black Black |
+| Poscript Name | LibertineSuper | LibertineSuperBlack-Black |
+| Typographic Family Name | Libertine Super | LibertineSuper Black |
 | Typographic Subfamily Name | Black | Black | [code: bad-names]
+</div></details><details><summary>🔥 <b>FAIL:</b> Does full font name begin with the font family name? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/name/match_familyname_fullfont">com.google.fonts/check/name/match_familyname_fullfont</a>)</summary><div>
+
+
+* 🔥 **FAIL** On the 'name' table, the full font name 'Libertine Super Black' does not begin with the font family name 'LibertineSuper Black' in platformID 3, encodingID 1, languageID 1033(0409), and nameID 21. [code: mismatch-font-names]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -5990,7 +6010,18 @@ The following glyphs do not have the recommended number of contours:
 	* ygrave (U+1EF3): L<<180.0,532.0>--<181.0,190.0>>
 
 	* ygrave (U+1EF3): L<<61.0,190.0>--<60.0,532.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[7] LibertineSuper-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] LibertineSuper-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
+
+
+* 🔥 **FAIL** Font names are incorrect:
+
+| nameID | current | expected |
+| :--- | :--- | :--- |
+| Family Name | Libertine Super | Libertine Super |
+| Subfamily Name | Regular | Regular |
+| Full Name | Libertine Super Regular | Libertine Super Regular |
+| Poscript Name | LibertineSuper | LibertineSuper-Regular | [code: bad-names]
+</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
 * ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
@@ -7241,7 +7272,18 @@ The following glyphs do not have the recommended number of contours:
 	* ygrave (U+1EF3): L<<118.0,548.0>--<119.0,173.0>>
 
 	* ygrave (U+1EF3): L<<61.0,173.0>--<60.0,548.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[7] LibertineSuper-Bold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] LibertineSuper-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
+
+
+* 🔥 **FAIL** Font names are incorrect:
+
+| nameID | current | expected |
+| :--- | :--- | :--- |
+| Family Name | Libertine Super | Libertine Super |
+| Subfamily Name | Bold | Bold |
+| Full Name | Libertine Super Bold | Libertine Super Bold |
+| Poscript Name | LibertineSuper | LibertineSuper-Bold | [code: bad-names]
+</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
 * ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
@@ -8470,7 +8512,7 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 10 | 53 | 835 | 50 | 700 | 0 |
+| 0 | 17 | 53 | 835 | 50 | 693 | 0 |
 | 0% | 1% | 3% | 51% | 3% | 42% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
