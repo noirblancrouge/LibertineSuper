@@ -268532,7 +268532,7 @@ key = familyNames;
 values = (
 {
 language = dflt;
-value = "LibertineSuper-Var";
+value = LibertineSuper;
 }
 );
 },
@@ -268541,7 +268541,7 @@ key = preferredFamilyNames;
 values = (
 {
 language = dflt;
-value = "LibertineSuper-Var";
+value = LibertineSuper;
 }
 );
 },
@@ -268550,7 +268550,7 @@ key = preferredSubfamilyNames;
 values = (
 {
 language = dflt;
-value = "LibertineSuper-Var";
+value = Var;
 }
 );
 }
@@ -268598,7 +268598,7 @@ key = familyNames;
 values = (
 {
 language = dflt;
-value = "LibertineSuper-Thin";
+value = LibertineSuper;
 }
 );
 },
@@ -268607,7 +268607,7 @@ key = preferredFamilyNames;
 values = (
 {
 language = dflt;
-value = "LibertineSuper-Thin";
+value = LibertineSuper;
 }
 );
 },
@@ -268616,7 +268616,7 @@ key = preferredSubfamilyNames;
 values = (
 {
 language = dflt;
-value = "LibertineSuper-Thin";
+value = Thin;
 }
 );
 }
@@ -268661,11 +268661,20 @@ key = postscriptFullName;
 value = "Libertine Super ExtraLight";
 },
 {
+key = preferredSubfamilyNames;
+values = (
+{
+language = dflt;
+value = ExtraLight;
+}
+);
+},
+{
 key = familyNames;
 values = (
 {
 language = dflt;
-value = "LibertineSuper-ExtraLight";
+value = LibertineSuper;
 }
 );
 },
@@ -268674,16 +268683,7 @@ key = preferredFamilyNames;
 values = (
 {
 language = dflt;
-value = "LibertineSuper-ExtraLight";
-}
-);
-},
-{
-key = preferredSubfamilyNames;
-values = (
-{
-language = dflt;
-value = "LibertineSuper-ExtraLight";
+value = LibertineSuper;
 }
 );
 }
@@ -268728,11 +268728,20 @@ key = postscriptFullName;
 value = "Libertine Super Light";
 },
 {
+key = preferredSubfamilyNames;
+values = (
+{
+language = dflt;
+value = Light;
+}
+);
+},
+{
 key = familyNames;
 values = (
 {
 language = dflt;
-value = "LibertineSuper-Light";
+value = LibertineSuper;
 }
 );
 },
@@ -268741,16 +268750,7 @@ key = preferredFamilyNames;
 values = (
 {
 language = dflt;
-value = "LibertineSuper-Light";
-}
-);
-},
-{
-key = preferredSubfamilyNames;
-values = (
-{
-language = dflt;
-value = "LibertineSuper-Light";
+value = LibertineSuper;
 }
 );
 }
@@ -268795,11 +268795,20 @@ key = postscriptFullName;
 value = "Libertine Super Regular";
 },
 {
+key = preferredSubfamilyNames;
+values = (
+{
+language = dflt;
+value = Regular;
+}
+);
+},
+{
 key = familyNames;
 values = (
 {
 language = dflt;
-value = "LibertineSuper-Regular";
+value = LibertineSuper;
 }
 );
 },
@@ -268808,16 +268817,7 @@ key = preferredFamilyNames;
 values = (
 {
 language = dflt;
-value = "LibertineSuper-Regular";
-}
-);
-},
-{
-key = preferredSubfamilyNames;
-values = (
-{
-language = dflt;
-value = "LibertineSuper-Regular";
+value = LibertineSuper;
 }
 );
 }
@@ -268861,11 +268861,20 @@ key = postscriptFullName;
 value = "Libertine Super Medium";
 },
 {
+key = preferredSubfamilyNames;
+values = (
+{
+language = dflt;
+value = Medium;
+}
+);
+},
+{
 key = familyNames;
 values = (
 {
 language = dflt;
-value = "LibertineSuper-Medium";
+value = LibertineSuper;
 }
 );
 },
@@ -268874,16 +268883,7 @@ key = preferredFamilyNames;
 values = (
 {
 language = dflt;
-value = "LibertineSuper-Medium";
-}
-);
-},
-{
-key = preferredSubfamilyNames;
-values = (
-{
-language = dflt;
-value = "LibertineSuper-Medium";
+value = LibertineSuper;
 }
 );
 }
@@ -268930,11 +268930,20 @@ key = postscriptFullName;
 value = "Libertine Super Bold";
 },
 {
+key = preferredSubfamilyNames;
+values = (
+{
+language = dflt;
+value = Bold;
+}
+);
+},
+{
 key = familyNames;
 values = (
 {
 language = dflt;
-value = "LibertineSuper-Bold";
+value = LibertineSuper;
 }
 );
 },
@@ -268943,16 +268952,7 @@ key = preferredFamilyNames;
 values = (
 {
 language = dflt;
-value = "LibertineSuper-Bold";
-}
-);
-},
-{
-key = preferredSubfamilyNames;
-values = (
-{
-language = dflt;
-value = "LibertineSuper-Bold";
+value = LibertineSuper;
 }
 );
 }
@@ -268996,11 +268996,20 @@ key = postscriptFullName;
 value = "Libertine Super Black";
 },
 {
+key = preferredSubfamilyNames;
+values = (
+{
+language = dflt;
+value = Black;
+}
+);
+},
+{
 key = familyNames;
 values = (
 {
 language = dflt;
-value = "LibertineSuper-Black";
+value = LibertineSuper;
 }
 );
 },
@@ -269009,16 +269018,7 @@ key = preferredFamilyNames;
 values = (
 {
 language = dflt;
-value = "LibertineSuper-Black";
-}
-);
-},
-{
-key = preferredSubfamilyNames;
-values = (
-{
-language = dflt;
-value = "LibertineSuper-Black";
+value = LibertineSuper;
 }
 );
 }
