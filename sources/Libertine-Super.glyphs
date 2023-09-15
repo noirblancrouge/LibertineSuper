@@ -268526,6 +268526,33 @@ value = "LibertineSuper-VF";
 {
 key = postscriptFullName;
 value = "Libertine Super VF";
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "LibertineSuper-Var";
+}
+);
+},
+{
+key = preferredFamilyNames;
+values = (
+{
+language = dflt;
+value = "LibertineSuper-Var";
+}
+);
+},
+{
+key = preferredSubfamilyNames;
+values = (
+{
+language = dflt;
+value = "LibertineSuper-Var";
+}
+);
 }
 );
 type = variable;
@@ -268538,6 +268565,19 @@ customParameters = (
 {
 name = "Use Typo Metrics";
 value = 1;
+},
+{
+name = "meta Table";
+value = (
+{
+data = Latn;
+tag = dlng;
+},
+{
+data = Latn;
+tag = slng;
+}
+);
 }
 );
 instanceInterpolations = {
@@ -268552,6 +268592,33 @@ value = "LibertineSuper-Thin";
 {
 key = postscriptFullName;
 value = "Libertine Super Thin";
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "LibertineSuper-Thin";
+}
+);
+},
+{
+key = preferredFamilyNames;
+values = (
+{
+language = dflt;
+value = "LibertineSuper-Thin";
+}
+);
+},
+{
+key = preferredSubfamilyNames;
+values = (
+{
+language = dflt;
+value = "LibertineSuper-Thin";
+}
+);
 }
 );
 weightClass = 100;
@@ -268564,6 +268631,19 @@ customParameters = (
 {
 name = "Use Typo Metrics";
 value = 1;
+},
+{
+name = "meta Table";
+value = (
+{
+data = Latn;
+tag = dlng;
+},
+{
+data = Latn;
+tag = slng;
+}
+);
 }
 );
 instanceInterpolations = {
@@ -268579,6 +268659,33 @@ value = "LibertineSuper-ExtraLight";
 {
 key = postscriptFullName;
 value = "Libertine Super ExtraLight";
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "LibertineSuper-ExtraLight";
+}
+);
+},
+{
+key = preferredFamilyNames;
+values = (
+{
+language = dflt;
+value = "LibertineSuper-ExtraLight";
+}
+);
+},
+{
+key = preferredSubfamilyNames;
+values = (
+{
+language = dflt;
+value = "LibertineSuper-ExtraLight";
+}
+);
 }
 );
 weightClass = 200;
@@ -268591,6 +268698,19 @@ customParameters = (
 {
 name = "Use Typo Metrics";
 value = 1;
+},
+{
+name = "meta Table";
+value = (
+{
+data = Latn;
+tag = dlng;
+},
+{
+data = Latn;
+tag = slng;
+}
+);
 }
 );
 instanceInterpolations = {
@@ -268606,6 +268726,33 @@ value = "LibertineSuper-Light";
 {
 key = postscriptFullName;
 value = "Libertine Super Light";
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "LibertineSuper-Light";
+}
+);
+},
+{
+key = preferredFamilyNames;
+values = (
+{
+language = dflt;
+value = "LibertineSuper-Light";
+}
+);
+},
+{
+key = preferredSubfamilyNames;
+values = (
+{
+language = dflt;
+value = "LibertineSuper-Light";
+}
+);
 }
 );
 weightClass = 300;
@@ -268618,6 +268765,19 @@ customParameters = (
 {
 name = "Use Typo Metrics";
 value = 1;
+},
+{
+name = "meta Table";
+value = (
+{
+data = Latn;
+tag = dlng;
+},
+{
+data = Latn;
+tag = slng;
+}
+);
 }
 );
 instanceInterpolations = {
@@ -268633,6 +268793,33 @@ value = "LibertineSuper-Regular";
 {
 key = postscriptFullName;
 value = "Libertine Super Regular";
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "LibertineSuper-Regular";
+}
+);
+},
+{
+key = preferredFamilyNames;
+values = (
+{
+language = dflt;
+value = "LibertineSuper-Regular";
+}
+);
+},
+{
+key = preferredSubfamilyNames;
+values = (
+{
+language = dflt;
+value = "LibertineSuper-Regular";
+}
+);
 }
 );
 },
@@ -268644,6 +268831,19 @@ customParameters = (
 {
 name = "Use Typo Metrics";
 value = 1;
+},
+{
+name = "meta Table";
+value = (
+{
+data = Latn;
+tag = dlng;
+},
+{
+data = Latn;
+tag = slng;
+}
+);
 }
 );
 instanceInterpolations = {
@@ -268659,6 +268859,33 @@ value = "LibertineSuper-Medium";
 {
 key = postscriptFullName;
 value = "Libertine Super Medium";
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "LibertineSuper-Medium";
+}
+);
+},
+{
+key = preferredFamilyNames;
+values = (
+{
+language = dflt;
+value = "LibertineSuper-Medium";
+}
+);
+},
+{
+key = preferredSubfamilyNames;
+values = (
+{
+language = dflt;
+value = "LibertineSuper-Medium";
+}
+);
 }
 );
 weightClass = 500;
@@ -268671,6 +268898,19 @@ customParameters = (
 {
 name = "Use Typo Metrics";
 value = 1;
+},
+{
+name = "meta Table";
+value = (
+{
+data = Latn;
+tag = dlng;
+},
+{
+data = Latn;
+tag = slng;
+}
+);
 }
 );
 instanceInterpolations = {
@@ -268688,6 +268928,33 @@ value = "LibertineSuper-Bold";
 {
 key = postscriptFullName;
 value = "Libertine Super Bold";
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "LibertineSuper-Bold";
+}
+);
+},
+{
+key = preferredFamilyNames;
+values = (
+{
+language = dflt;
+value = "LibertineSuper-Bold";
+}
+);
+},
+{
+key = preferredSubfamilyNames;
+values = (
+{
+language = dflt;
+value = "LibertineSuper-Bold";
+}
+);
 }
 );
 weightClass = 700;
@@ -268700,6 +268967,19 @@ customParameters = (
 {
 name = "Use Typo Metrics";
 value = 1;
+},
+{
+name = "meta Table";
+value = (
+{
+data = Latn;
+tag = dlng;
+},
+{
+data = Latn;
+tag = slng;
+}
+);
 }
 );
 instanceInterpolations = {
@@ -268714,6 +268994,33 @@ value = "LibertineSuper-Black";
 {
 key = postscriptFullName;
 value = "Libertine Super Black";
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "LibertineSuper-Black";
+}
+);
+},
+{
+key = preferredFamilyNames;
+values = (
+{
+language = dflt;
+value = "LibertineSuper-Black";
+}
+);
+},
+{
+key = preferredSubfamilyNames;
+values = (
+{
+language = dflt;
+value = "LibertineSuper-Black";
+}
+);
 }
 );
 weightClass = 900;
