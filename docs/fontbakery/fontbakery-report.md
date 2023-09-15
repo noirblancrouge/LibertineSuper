@@ -2,14 +2,10 @@
 
 fontbakery version: 0.9.0
 
-<details><summary><b>[11] LibertineSuper-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+<details><summary><b>[10] LibertineSuper-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 🔥 **FAIL** Expected "LibertineSuperMed-Reg.ttf. Got LibertineSuper-Medium.ttf. [code: bad-filename]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
-
-
-* 🔥 **FAIL** Best SubFamily name is 'Reg'. Expected OS/2 usWeightClass is 400, got 500. [code: bad-value]
+* 🔥 **FAIL** Expected "LibertineSuperMedium-Medium.ttf. Got LibertineSuper-Medium.ttf. [code: bad-filename]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
@@ -17,12 +13,12 @@ fontbakery version: 0.9.0
 
 | nameID | current | expected |
 | :--- | :--- | :--- |
-| Family Name | Libertine Super Medium | Libertine Super Med Reg |
+| Family Name | Libertine Super Medium | Libertine Super Medium |
 | Subfamily Name | Regular | Regular |
-| Full Name | Libertine Super Medium | Libertine Super Med Reg Regular |
-| Poscript Name | LibertineSuper-Medium | LibertineSuperMedReg-Regular |
-| Typographic Family Name | Libertine Super | N/A |
-| Typographic Subfamily Name | Medium | N/A | [code: bad-names]
+| Full Name | Libertine Super Medium | Libertine Super Medium Medium |
+| Poscript Name | LibertineSuper-Medium | LibertineSuperMedium-Medium |
+| Typographic Family Name | Libertine Super | Libertine Super Medium |
+| Typographic Subfamily Name | Medium | Medium | [code: bad-names]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -1221,14 +1217,10 @@ The following glyphs do not have the recommended number of contours:
 	* ygrave (U+1EF3): L<<130.0,545.0>--<131.0,176.0>>
 
 	* ygrave (U+1EF3): L<<61.0,176.0>--<60.0,545.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] LibertineSuper-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] LibertineSuper-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 🔥 **FAIL** Expected "LibertineSuperThn-Reg.ttf. Got LibertineSuper-Thin.ttf. [code: bad-filename]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
-
-
-* 🔥 **FAIL** Best SubFamily name is 'Reg'. Expected OS/2 usWeightClass is 400, got 100. [code: bad-value]
+* 🔥 **FAIL** Expected "LibertineSuperThin-Thin.ttf. Got LibertineSuper-Thin.ttf. [code: bad-filename]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
@@ -1236,16 +1228,12 @@ The following glyphs do not have the recommended number of contours:
 
 | nameID | current | expected |
 | :--- | :--- | :--- |
-| Family Name | Libertine Super Thin | Libertine Super Thn Reg |
+| Family Name | Libertine Super Thin | Libertine Super Thin |
 | Subfamily Name | Regular | Regular |
-| Full Name | Libertine Super Thin | Libertine Super Thn Reg Regular |
-| Poscript Name | LibertineSuper-Thin | LibertineSuperThnReg-Regular |
-| Typographic Family Name | Libertine Super | N/A |
-| Typographic Subfamily Name | Thin | N/A | [code: bad-names]
-</div></details><details><summary>🔥 <b>FAIL:</b> Does full font name begin with the font family name? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/name/match_familyname_fullfont">com.google.fonts/check/name/match_familyname_fullfont</a>)</summary><div>
-
-
-* 🔥 **FAIL** On the 'name' table, the full font name 'Libertine Super Thin' does not begin with the font family name 'Libertine Super Thn' in platformID 3, encodingID 1, languageID 1033(0409), and nameID 21. [code: mismatch-font-names]
+| Full Name | Libertine Super Thin | Libertine Super Thin Thin |
+| Poscript Name | LibertineSuper-Thin | LibertineSuperThin-Thin |
+| Typographic Family Name | Libertine Super | Libertine Super Thin |
+| Typographic Subfamily Name | Thin | Thin | [code: bad-names]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -2461,14 +2449,10 @@ The following glyphs do not have the recommended number of contours:
 	* ygrave (U+1EF3): L<<61.0,162.0>--<60.0,558.0>>
 
 	* ygrave (U+1EF3): L<<80.0,558.0>--<81.0,162.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] LibertineSuper-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] LibertineSuper-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 🔥 **FAIL** Expected "LibertineSuperExtr-Reg.ttf. Got LibertineSuper-ExtraLight.ttf. [code: bad-filename]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
-
-
-* 🔥 **FAIL** Best SubFamily name is 'Reg'. Expected OS/2 usWeightClass is 400, got 200. [code: bad-value]
+* 🔥 **FAIL** Expected "LibertineSuperExtraLight-ExtraLight.ttf. Got LibertineSuper-ExtraLight.ttf. [code: bad-filename]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
@@ -2476,12 +2460,12 @@ The following glyphs do not have the recommended number of contours:
 
 | nameID | current | expected |
 | :--- | :--- | :--- |
-| Family Name | Libertine Super ExtraLight | Libertine Super Extr Reg |
+| Family Name | Libertine Super ExtraLight | Libertine Super ExtraLight |
 | Subfamily Name | Regular | Regular |
-| Full Name | Libertine Super ExtraLight | Libertine Super Extr Reg Regular |
-| Poscript Name | LibertineSuper-ExtraLight | LibertineSuperExtrReg-Regular |
-| Typographic Family Name | Libertine Super | N/A |
-| Typographic Subfamily Name | ExtraLight | N/A | [code: bad-names]
+| Full Name | Libertine Super ExtraLight | Libertine Super ExtraLight ExtraLight |
+| Poscript Name | LibertineSuper-ExtraLight | LibertineSuperExtraLight-ExtraLight |
+| Typographic Family Name | Libertine Super | Libertine Super ExtraLight |
+| Typographic Subfamily Name | ExtraLight | ExtraLight | [code: bad-names]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -3602,14 +3586,10 @@ The following glyphs do not have the recommended number of contours:
 	* ygrave (U+1EF3): L<<61.0,166.0>--<60.0,555.0>>
 
 	* ygrave (U+1EF3): L<<93.0,555.0>--<94.0,166.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] LibertineSuper-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] LibertineSuper-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 🔥 **FAIL** Expected "LibertineSuperLght-Reg.ttf. Got LibertineSuper-Light.ttf. [code: bad-filename]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
-
-
-* 🔥 **FAIL** Best SubFamily name is 'Reg'. Expected OS/2 usWeightClass is 400, got 300. [code: bad-value]
+* 🔥 **FAIL** Expected "LibertineSuperLight-Light.ttf. Got LibertineSuper-Light.ttf. [code: bad-filename]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
@@ -3617,16 +3597,12 @@ The following glyphs do not have the recommended number of contours:
 
 | nameID | current | expected |
 | :--- | :--- | :--- |
-| Family Name | Libertine Super Light | Libertine Super Lght Reg |
+| Family Name | Libertine Super Light | Libertine Super Light |
 | Subfamily Name | Regular | Regular |
-| Full Name | Libertine Super Light | Libertine Super Lght Reg Regular |
-| Poscript Name | LibertineSuper-Light | LibertineSuperLghtReg-Regular |
-| Typographic Family Name | Libertine Super | N/A |
-| Typographic Subfamily Name | Light | N/A | [code: bad-names]
-</div></details><details><summary>🔥 <b>FAIL:</b> Does full font name begin with the font family name? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/name/match_familyname_fullfont">com.google.fonts/check/name/match_familyname_fullfont</a>)</summary><div>
-
-
-* 🔥 **FAIL** On the 'name' table, the full font name 'Libertine Super Light' does not begin with the font family name 'Libertine Super Lght' in platformID 3, encodingID 1, languageID 1033(0409), and nameID 21. [code: mismatch-font-names]
+| Full Name | Libertine Super Light | Libertine Super Light Light |
+| Poscript Name | LibertineSuper-Light | LibertineSuperLight-Light |
+| Typographic Family Name | Libertine Super | Libertine Super Light |
+| Typographic Subfamily Name | Light | Light | [code: bad-names]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -4857,14 +4833,10 @@ The following glyphs do not have the recommended number of contours:
 	* ygrave (U+1EF3): L<<105.0,552.0>--<106.0,169.0>>
 
 	* ygrave (U+1EF3): L<<61.0,169.0>--<60.0,552.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] LibertineSuper-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] LibertineSuper-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 🔥 **FAIL** Expected "LibertineSuperBlack-Reg.ttf. Got LibertineSuper-Black.ttf. [code: bad-filename]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
-
-
-* 🔥 **FAIL** Best SubFamily name is 'Reg'. Expected OS/2 usWeightClass is 400, got 900. [code: bad-value]
+* 🔥 **FAIL** Expected "LibertineSuperBlack-Black.ttf. Got LibertineSuper-Black.ttf. [code: bad-filename]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
@@ -4872,12 +4844,12 @@ The following glyphs do not have the recommended number of contours:
 
 | nameID | current | expected |
 | :--- | :--- | :--- |
-| Family Name | Libertine Super Black | Libertine Super Black Reg |
+| Family Name | Libertine Super Black | Libertine Super Black |
 | Subfamily Name | Regular | Regular |
-| Full Name | Libertine Super Black | Libertine Super Black Reg Regular |
-| Poscript Name | LibertineSuper-Black | LibertineSuperBlackReg-Regular |
-| Typographic Family Name | Libertine Super | N/A |
-| Typographic Subfamily Name | Black | N/A | [code: bad-names]
+| Full Name | Libertine Super Black | Libertine Super Black Black |
+| Poscript Name | LibertineSuper-Black | LibertineSuperBlack-Black |
+| Typographic Family Name | Libertine Super | Libertine Super Black |
+| Typographic Subfamily Name | Black | Black | [code: bad-names]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -8498,7 +8470,7 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 17 | 53 | 835 | 50 | 693 | 0 |
+| 0 | 10 | 53 | 835 | 50 | 700 | 0 |
 | 0% | 1% | 3% | 51% | 3% | 42% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
