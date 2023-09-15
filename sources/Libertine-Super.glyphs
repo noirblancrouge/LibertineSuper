@@ -70,7 +70,7 @@ value = 1;
 }
 );
 date = "2023-08-25 10:34:15 +0000";
-familyName = LibertineSuper;
+familyName = LibertineSup;
 featurePrefixes = (
 {
 automatic = 1;
@@ -268521,11 +268521,11 @@ name = Variable;
 properties = (
 {
 key = postscriptFontName;
-value = "LibertineSuper-VF";
+value = "LibertineSup-VF";
 },
 {
 key = postscriptFullName;
-value = LibertineSuperVF;
+value = LibertineSupVF;
 }
 );
 type = variable;
@@ -268560,11 +268560,11 @@ name = Thin;
 properties = (
 {
 key = postscriptFontName;
-value = "LibertineSuper-Thin";
+value = "LibertineSup-Thin";
 },
 {
 key = postscriptFullName;
-value = LibertineSuperThin;
+value = LibertineSupThin;
 }
 );
 weightClass = 100;
@@ -268600,11 +268600,11 @@ name = Light;
 properties = (
 {
 key = postscriptFontName;
-value = "LibertineSuper-Light";
+value = "LibertineSup-Light";
 },
 {
 key = postscriptFullName;
-value = LibertineSuperLight;
+value = LibertineSupLight;
 }
 );
 weightClass = 300;
@@ -268640,11 +268640,11 @@ name = Regular;
 properties = (
 {
 key = postscriptFontName;
-value = "LibertineSuper-Regular";
+value = "LibertineSup-Regular";
 },
 {
 key = postscriptFullName;
-value = LibertineSuperRegular;
+value = LibertineSupRegular;
 }
 );
 },
@@ -268679,11 +268679,11 @@ name = Medium;
 properties = (
 {
 key = postscriptFontName;
-value = "LibertineSuper-Medium";
+value = "LibertineSup-Medium";
 },
 {
 key = postscriptFullName;
-value = LibertineSuperMedium;
+value = LibertineSupMedium;
 }
 );
 weightClass = 500;
@@ -268721,11 +268721,11 @@ name = Bold;
 properties = (
 {
 key = postscriptFontName;
-value = "LibertineSuper-Bold";
+value = "LibertineSup-Bold";
 },
 {
 key = postscriptFullName;
-value = LibertineSuperBold;
+value = LibertineSupBold;
 }
 );
 weightClass = 700;
@@ -268760,11 +268760,11 @@ name = Black;
 properties = (
 {
 key = postscriptFontName;
-value = "LibertineSuper-Black";
+value = "LibertineSup-Black";
 },
 {
 key = postscriptFullName;
-value = LibertineSuperBlack;
+value = LibertineSupBlack;
 }
 );
 weightClass = 900;
