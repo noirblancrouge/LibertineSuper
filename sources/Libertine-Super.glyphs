@@ -47650,7 +47650,7 @@ note = A;
 glyphname = Aacute.ss01;
 kernLeft = A;
 kernRight = A;
-lastChange = "2023-09-15 10:29:09 +0000";
+lastChange = "2023-09-15 10:39:43 +0000";
 layers = (
 {
 layerId = m01;
@@ -47687,7 +47687,7 @@ shapes = (
 ref = A.ss01;
 },
 {
-pos = (-30,209);
+pos = (-29.5,209);
 ref = acutecomb;
 }
 );
@@ -47699,7 +47699,7 @@ width = 453.29;
 glyphname = Abreve.ss01;
 kernLeft = A;
 kernRight = A;
-lastChange = "2023-09-15 10:28:57 +0000";
+lastChange = "2023-09-15 10:39:43 +0000";
 layers = (
 {
 layerId = m01;
@@ -47721,7 +47721,7 @@ shapes = (
 ref = A.ss01;
 },
 {
-pos = (-66,292);
+pos = (-67,292);
 ref = brevecomb;
 }
 );
@@ -47736,7 +47736,7 @@ shapes = (
 ref = A.ss01;
 },
 {
-pos = (-71,210);
+pos = (-70.5,210);
 ref = brevecomb;
 }
 );
@@ -47748,7 +47748,7 @@ width = 453.29;
 glyphname = Acircumflex.ss01;
 kernLeft = A;
 kernRight = A;
-lastChange = "2023-09-15 10:28:57 +0000";
+lastChange = "2023-09-15 10:39:43 +0000";
 layers = (
 {
 layerId = m01;
@@ -47770,7 +47770,7 @@ shapes = (
 ref = A.ss01;
 },
 {
-pos = (-98,292);
+pos = (-99,292);
 ref = circumflexcomb;
 }
 );
@@ -47785,7 +47785,7 @@ shapes = (
 ref = A.ss01;
 },
 {
-pos = (-101,210);
+pos = (-100.5,210);
 ref = circumflexcomb;
 }
 );
@@ -47797,7 +47797,7 @@ width = 453.29;
 glyphname = Adieresis.ss01;
 kernLeft = A;
 kernRight = A;
-lastChange = "2023-09-15 10:29:09 +0000";
+lastChange = "2023-09-15 10:39:43 +0000";
 layers = (
 {
 layerId = m01;
@@ -47834,7 +47834,7 @@ shapes = (
 ref = A.ss01;
 },
 {
-pos = (-210,183);
+pos = (-209.5,183);
 ref = dieresiscomb;
 }
 );
@@ -47895,7 +47895,7 @@ width = 453.29;
 glyphname = Agrave.ss01;
 kernLeft = A;
 kernRight = A;
-lastChange = "2023-09-15 10:28:57 +0000";
+lastChange = "2023-09-15 10:39:43 +0000";
 layers = (
 {
 layerId = m01;
@@ -47917,7 +47917,7 @@ shapes = (
 ref = A.ss01;
 },
 {
-pos = (-42,291);
+pos = (-43,291);
 ref = gravecomb;
 }
 );
@@ -47932,7 +47932,7 @@ shapes = (
 ref = A.ss01;
 },
 {
-pos = (-27,212);
+pos = (-26.5,212);
 ref = gravecomb;
 }
 );
@@ -47944,7 +47944,7 @@ width = 453.29;
 glyphname = Amacron.ss01;
 kernLeft = A;
 kernRight = A;
-lastChange = "2023-09-15 10:28:57 +0000";
+lastChange = "2023-09-15 10:39:43 +0000";
 layers = (
 {
 layerId = m01;
@@ -47966,7 +47966,7 @@ shapes = (
 ref = A.ss01;
 },
 {
-pos = (-120,292);
+pos = (-121,292);
 ref = macroncomb;
 }
 );
@@ -47981,7 +47981,7 @@ shapes = (
 ref = A.ss01;
 },
 {
-pos = (-124,210);
+pos = (-123.5,210);
 ref = macroncomb;
 }
 );
@@ -48044,7 +48044,7 @@ width = 453.29;
 glyphname = Aring.ss01;
 kernLeft = A;
 kernRight = A;
-lastChange = "2023-09-15 10:28:57 +0000";
+lastChange = "2023-09-15 10:39:43 +0000";
 layers = (
 {
 layerId = m01;
@@ -48066,7 +48066,7 @@ shapes = (
 ref = A.ss01;
 },
 {
-pos = (-94,292);
+pos = (-95,292);
 ref = ringcomb;
 }
 );
@@ -48081,7 +48081,7 @@ shapes = (
 ref = A.ss01;
 },
 {
-pos = (-101,210);
+pos = (-100.5,210);
 ref = ringcomb;
 }
 );
@@ -48093,7 +48093,7 @@ width = 453.29;
 glyphname = Aringacute.ss01;
 kernLeft = A;
 kernRight = A;
-lastChange = "2023-09-15 10:29:09 +0000";
+lastChange = "2023-09-15 10:39:43 +0000";
 layers = (
 {
 layerId = m01;
@@ -48138,11 +48138,11 @@ shapes = (
 ref = A.ss01;
 },
 {
-pos = (-101,210);
+pos = (-100.5,210);
 ref = ringcomb;
 },
 {
-pos = (-30,472);
+pos = (-29.5,472);
 ref = acutecomb;
 }
 );
@@ -48154,7 +48154,7 @@ width = 453.29;
 glyphname = Atilde.ss01;
 kernLeft = A;
 kernRight = A;
-lastChange = "2023-09-15 10:29:09 +0000";
+lastChange = "2023-09-15 10:39:43 +0000";
 layers = (
 {
 layerId = m01;
@@ -48191,7 +48191,7 @@ shapes = (
 ref = A.ss01;
 },
 {
-pos = (-98,210);
+pos = (-97.5,210);
 ref = tildecomb;
 }
 );
@@ -269242,6 +269242,12 @@ nine = {
 seven = {
 "@MMK_R_period" = -100;
 };
+f = {
+f = -70;
+i = -50;
+j = -50;
+l = -36;
+};
 };
 m002 = {
 "@MMK_L_A" = {
@@ -269452,6 +269458,12 @@ nine = {
 };
 seven = {
 "@MMK_R_period" = -100;
+};
+f = {
+f = -70;
+i = -50;
+j = -50;
+l = -36;
 };
 };
 };
