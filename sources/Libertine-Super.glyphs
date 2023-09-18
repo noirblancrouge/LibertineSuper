@@ -69,7 +69,7 @@ name = "Use Extension Kerning";
 value = 1;
 }
 );
-date = "2023-08-25 10:34:15 +0000";
+date = "2023-08-16 10:34:15 +0000";
 familyName = "Libertine Sup";
 featurePrefixes = (
 {
@@ -2765,7 +2765,7 @@ unicode = 506;
 glyphname = Atilde;
 kernLeft = A;
 kernRight = A;
-lastChange = "2023-09-15 10:15:54 +0000";
+lastChange = "2023-08-16 13:12:39 +0000";
 layers = (
 {
 layerId = m01;
@@ -9268,7 +9268,7 @@ unicode = 68;
 glyphname = Dcaron;
 kernLeft = H;
 kernRight = O;
-lastChange = "2023-09-15 08:50:18 +0000";
+lastChange = "2023-03-30 09:35:03 +0000";
 layers = (
 {
 layerId = m01;
@@ -9318,7 +9318,7 @@ unicode = 270;
 glyphname = Dcroat;
 kernLeft = H;
 kernRight = O;
-lastChange = "2023-08-25 13:37:12 +0000";
+lastChange = "2023-03-25 13:35:03 +0000";
 layers = (
 {
 layerId = m01;
@@ -18532,7 +18532,7 @@ unicode = 74;
 glyphname = Jcircumflex;
 kernLeft = J;
 kernRight = J;
-lastChange = "2023-09-15 08:49:30 +0000";
+lastChange = "2023-08-30 11:45:46 +0000";
 layers = (
 {
 layerId = m01;
@@ -23878,7 +23878,7 @@ unicode = 209;
 glyphname = Eng;
 kernLeft = H;
 kernRight = H;
-lastChange = "2023-09-15 08:49:30 +0000";
+lastChange = "2023-03-30 09:35:03 +0000";
 layers = (
 {
 layerId = m01;
@@ -28817,7 +28817,7 @@ unicode = 80;
 glyphname = Thorn;
 kernLeft = T;
 kernRight = T;
-lastChange = "2023-08-25 13:37:12 +0000";
+lastChange = "2023-03-30 09:40:38 +0000";
 layers = (
 {
 anchors = (
@@ -32940,7 +32940,7 @@ unicode = 7770;
 glyphname = Rmacronbelow;
 kernLeft = H;
 kernRight = R;
-lastChange = "2023-08-25 13:37:12 +0000";
+lastChange = "2023-08-16 13:22:45 +0000";
 layers = (
 {
 layerId = m01;
@@ -260968,6 +260968,30 @@ width = 592;
 );
 note = ogonek;
 unicode = 731;
+},
+{
+glyphname = apostrophemod;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = quoteright;
+}
+);
+width = 244;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = quoteright;
+}
+);
+width = 348;
+}
+);
+unicode = 700;
 },
 {
 glyphname = IJacute;
