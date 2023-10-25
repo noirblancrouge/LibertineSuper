@@ -705,19 +705,19 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1100;
+value = 1250;
 },
 {
 name = winDescent;
-value = 250;
+value = 200;
 },
 {
 name = hheaAscender;
-value = 1100;
+value = 790;
 },
 {
 name = hheaDescender;
-value = -250;
+value = -210;
 },
 {
 name = strikeoutPosition;
@@ -783,6 +783,19 @@ axesValues = (
 );
 customParameters = (
 {
+name = "Alignment Zones";
+value = (
+{
+pos = -220;
+size = 10;
+}
+);
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
 name = typoAscender;
 value = 790;
 },
@@ -796,19 +809,19 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1100;
+value = 1250;
 },
 {
 name = winDescent;
-value = 250;
+value = 200;
 },
 {
 name = hheaAscender;
-value = 1100;
+value = 790;
 },
 {
 name = hheaDescender;
-value = -250;
+value = -210;
 },
 {
 name = strikeoutPosition;
@@ -821,19 +834,6 @@ value = 47;
 {
 name = underlinePosition;
 value = -140;
-},
-{
-name = "Alignment Zones";
-value = (
-{
-pos = -220;
-size = 10;
-}
-);
-},
-{
-name = hheaLineGap;
-value = 0;
 }
 );
 id = m002;
@@ -105011,13 +105011,13 @@ unicode = 7717;
 glyphname = i;
 kernLeft = i;
 kernRight = i;
-lastChange = "2023-10-25 14:38:20 +0000";
+lastChange = "2023-10-25 15:11:36 +0000";
 layers = (
 {
 anchors = (
 {
 name = ogonek;
-pos = (189.274,9.37);
+pos = (202,10);
 }
 );
 layerId = m01;
@@ -105051,7 +105051,7 @@ width = 240.809;
 anchors = (
 {
 name = ogonek;
-pos = (239.872,48.724);
+pos = (256,52);
 }
 );
 layerId = m002;
@@ -268754,6 +268754,19 @@ tag = slng;
 );
 },
 {
+name = "Alignment Zones";
+value = (
+{
+pos = -220;
+size = 10;
+}
+);
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
 name = typoAscender;
 value = 790;
 },
@@ -268767,19 +268780,19 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1100;
+value = 1250;
 },
 {
 name = winDescent;
-value = 250;
+value = 200;
 },
 {
 name = hheaAscender;
-value = 1100;
+value = 790;
 },
 {
 name = hheaDescender;
-value = -250;
+value = -210;
 },
 {
 name = strikeoutPosition;
@@ -268792,19 +268805,6 @@ value = 47;
 {
 name = underlinePosition;
 value = -140;
-},
-{
-name = "Alignment Zones";
-value = (
-{
-pos = -220;
-size = 10;
-}
-);
-},
-{
-name = hheaLineGap;
-value = 0;
 }
 );
 name = Variable;
