@@ -693,11 +693,11 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 1250;
+value = 790;
 },
 {
 name = typoDescender;
-value = -340;
+value = -210;
 },
 {
 name = typoLineGap;
@@ -705,23 +705,23 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1250;
+value = 1100;
 },
 {
 name = winDescent;
-value = 340;
+value = 250;
 },
 {
 name = hheaAscender;
-value = 1250;
+value = 1100;
 },
 {
 name = hheaDescender;
-value = -340;
+value = -250;
 },
 {
 name = strikeoutPosition;
-value = 320;
+value = 300;
 },
 {
 name = strikeoutSize;
@@ -729,7 +729,7 @@ value = 47;
 },
 {
 name = underlinePosition;
-value = -141;
+value = -140;
 },
 {
 name = "Alignment Zones";
@@ -784,11 +784,11 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 1250;
+value = 790;
 },
 {
 name = typoDescender;
-value = -340;
+value = -210;
 },
 {
 name = typoLineGap;
@@ -796,23 +796,23 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1250;
+value = 1100;
 },
 {
 name = winDescent;
-value = 340;
+value = 250;
 },
 {
 name = hheaAscender;
-value = 1250;
+value = 1100;
 },
 {
 name = hheaDescender;
-value = -340;
+value = -250;
 },
 {
 name = strikeoutPosition;
-value = 320;
+value = 300;
 },
 {
 name = strikeoutSize;
@@ -820,7 +820,7 @@ value = 47;
 },
 {
 name = underlinePosition;
-value = -141;
+value = -140;
 },
 {
 name = "Alignment Zones";
@@ -268754,21 +268754,12 @@ tag = slng;
 );
 },
 {
-name = "Alignment Zones";
-value = (
-{
-pos = -220;
-size = 10;
-}
-);
-},
-{
 name = typoAscender;
-value = 1250;
+value = 790;
 },
 {
 name = typoDescender;
-value = -340;
+value = -210;
 },
 {
 name = typoLineGap;
@@ -268776,23 +268767,23 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1250;
+value = 1100;
 },
 {
 name = winDescent;
-value = 340;
+value = 250;
 },
 {
 name = hheaAscender;
-value = 1250;
+value = 1100;
 },
 {
 name = hheaDescender;
-value = -340;
+value = -250;
 },
 {
 name = strikeoutPosition;
-value = 320;
+value = 300;
 },
 {
 name = strikeoutSize;
@@ -268800,7 +268791,16 @@ value = 47;
 },
 {
 name = underlinePosition;
-value = -141;
+value = -140;
+},
+{
+name = "Alignment Zones";
+value = (
+{
+pos = -220;
+size = 10;
+}
+);
 },
 {
 name = hheaLineGap;
