@@ -722,7 +722,7 @@ value = 1500;
 },
 {
 name = winDescent;
-value = 240;
+value = 400;
 },
 {
 name = hheaAscender;
@@ -813,7 +813,7 @@ value = 1500;
 },
 {
 name = winDescent;
-value = 240;
+value = 400;
 },
 {
 name = hheaAscender;
@@ -268784,7 +268784,7 @@ value = 1500;
 },
 {
 name = winDescent;
-value = 240;
+value = 400;
 },
 {
 name = hheaAscender;
