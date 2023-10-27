@@ -2,7 +2,7 @@
 .appVersion = "3223";
 .formatVersion = 3;
 DisplayStrings = (
-A
+"ǺĻ"
 );
 axes = (
 {
@@ -701,16 +701,12 @@ size = 10;
 );
 },
 {
-name = hheaLineGap;
-value = 0;
-},
-{
 name = typoAscender;
 value = 930;
 },
 {
 name = typoDescender;
-value = -245;
+value = -275;
 },
 {
 name = typoLineGap;
@@ -730,7 +726,7 @@ value = 930;
 },
 {
 name = hheaDescender;
-value = -245;
+value = -275;
 },
 {
 name = strikeoutPosition;
@@ -762,7 +758,7 @@ pos = 500;
 over = -5;
 },
 {
-pos = -245;
+pos = -275;
 },
 {
 }
@@ -801,7 +797,7 @@ value = 930;
 },
 {
 name = typoDescender;
-value = -245;
+value = -275;
 },
 {
 name = typoLineGap;
@@ -821,7 +817,7 @@ value = 930;
 },
 {
 name = hheaDescender;
-value = -245;
+value = -275;
 },
 {
 name = strikeoutPosition;
@@ -853,7 +849,7 @@ pos = 500;
 over = -5;
 },
 {
-pos = -245;
+pos = -275;
 },
 {
 }
@@ -93127,16 +93123,12 @@ size = 10;
 );
 },
 {
-name = hheaLineGap;
-value = 0;
-},
-{
 name = typoAscender;
 value = 930;
 },
 {
 name = typoDescender;
-value = -245;
+value = -275;
 },
 {
 name = typoLineGap;
@@ -93156,7 +93148,7 @@ value = 930;
 },
 {
 name = hheaDescender;
-value = -245;
+value = -275;
 },
 {
 name = strikeoutPosition;
